@@ -1,0 +1,1058 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.26)  26 SEP 2024 16:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/hafiz/OneDrive - Microsoft 365/My Files/Kuliah/Semester 7/Tugas Akhir/Template Laporan TA Prodi SI UIN SUSKA Riau - 29 Maret 2019/tugasakhir.tex"
+(c:/Users/hafiz/OneDrive - Microsoft 365/My Files/Kuliah/Semester 7/Tugas Akhir/Template Laporan TA Prodi SI UIN SUSKA Riau - 29 Maret 2019/tugasakhir.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+(C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (kontrol/uinsuskatugasakhir.sty (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count269
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count270
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count273
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `final' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count274
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen143
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count275
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip51
+)
+
+Package hyperref Warning: Option `a4paper' is no longer used.
+
+Package hyperref Info: Option `colorlinks' set `false' on input line 30.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 30.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 30.
+(C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count281
+\multirow@dima=\skip53
+\bigstrutjot=\dimen146
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen157
+\captionmargin=\dimen158
+\caption@leftmargin=\dimen159
+\caption@rightmargin=\dimen160
+\caption@width=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count285
+\c@continuedfloat=\count286
+Package caption Info: hyperref package is loaded.
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen165
+)) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count287
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count288
+\leftroot@=\count289
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count290
+\DOTSCASE@=\count291
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count292
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count293
+\dotsspace@=\muskip18
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
+\tag@help=\toks20
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
+\andhelp@=\toks21
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks22
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/pslatex\pslatex.sty
+Package: pslatex 2021/01/13 v1.3 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 66.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 67.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 68.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 69.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 69.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 69.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 75.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 76.
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count299
+\calc@Bcount=\count300
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count301
+\calc@Cskip=\skip68
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen176
+\ESO@tempdimb=\dimen177
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+))
+\AM@pagewidth=\dimen178
+\AM@pageheight=\dimen179
+\AM@fboxrule=\dimen180
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count302
+\AM@pagebox=\box54
+\AM@global@opts=\toks24
+\AM@pagecnt=\count303
+\AM@toc@title=\toks25
+\AM@lof@heading=\toks26
+\c@AM@survey=\count304
+\AM@templatesizebox=\box55
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen181
+\ar@mcellbox=\box56
+\extrarowheight=\dimen182
+\NC@list=\toks27
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box57
+)
+\everycr=\toks28
+\minrowclearance=\skip71
+\rownum=\count305
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count306
+\float@exts=\toks29
+\float@box=\box58
+\@float@everytoks=\toks30
+\@floatcapt=\box59
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count307
+\bibleftmargin=\skip72
+\bibindent=\skip73
+\bibparsep=\skip74
+\bibitemsep=\skip75
+\biblabelsep=\skip76
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen183
+\ttl@minus=\dimen184
+\ttl@toksa=\toks31
+\titlewidth=\dimen185
+\titlewidthlast=\dimen186
+\titlewidthfirst=\dimen187
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-08-30 L3 programming layer (loader) 
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box61
+))
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count309
+\l__lipsum_a_int=\count310
+\l__lipsum_b_int=\count311
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip79
+\enit@outerparindent=\dimen188
+\enit@toks=\toks32
+\enit@inbox=\box62
+\enit@count@id=\count312
+\enitdp@description=\count313
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count314
+\c@@ppsavesec=\count315
+\c@@ppsaveapp=\count316
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen189
+\WF@size=\dimen190
+\c@WF@wrappedlines=\count317
+\WF@box=\box63
+\WF@everypar=\toks33
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip80
+\LTright=\skip81
+\LTpre=\skip82
+\LTpost=\skip83
+\LTchunksize=\count318
+\LTcapwidth=\dimen191
+\LT@head=\box64
+\LT@firsthead=\box65
+\LT@foot=\box66
+\LT@lastfoot=\box67
+\LT@gbox=\box68
+\LT@cols=\count319
+\LT@rows=\count320
+\c@LT@tables=\count321
+\c@LT@chunks=\count322
+\LT@p@ftn=\toks34
+)) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (kontrol/laporan_setting.tex) (konfigurasi/datatugasakhir.tex)
+
+LaTeX Warning: \include should only be used after \begin{document} on input line 21.
+
+(konfigurasi/hype.indonesia.tex) (konfigurasi/istilah.tex) (tugasakhir.aux (kontrol/cover.aux) (kontrol/lembarPersetujuan.aux) (kontrol/lembarPengesahan.aux) (kontrol/lembarHKI.aux) (kontrol/lembarPernyataan.aux) (halamandepan/lembarPersembahan.aux) (halamandepan/kataPengantar.aux) (halamandepan/abstrak.aux) (halamandepan/abstrakInggris.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux) (konten/bab3.aux) (konten/bab4.aux) (konten/bab5.aux) (konten/bab6.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
+\openout1 = `tugasakhir.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 24.
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 24.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+Package hyperref Info: Link coloring OFF on input line 24.
+ (tugasakhir.out) (tugasakhir.out)
+\@outlinefile=\write3
+\openout3 = `tugasakhir.out'.
+
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count323
+\scratchdimen=\dimen192
+\scratchbox=\box69
+\nofMPsegments=\count324
+\nofMParguments=\count325
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count326
+\MPscratchDim=\dimen193
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
+\everyMPtoPDFconversion=\toks36
+) (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 645.87756pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.33858pt
+* \textheight=645.87747pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-19.91684pt
+* \headheight=0.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=56.9055pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\c@maskedRefs=\count329
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+\openout2 = `kontrol/cover.aux'.
+
+ (kontrol/cover.tex
+LaTeX Font Info:    Calculating math sizes for size <13.5> on input line 30.
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 30.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 30.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 30.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.44995> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.75> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+ (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<kontrol/gambar/logouin.png, id=187, 289.08pt x 291.0875pt>
+File: kontrol/gambar/logouin.png Graphic file (type png)
+<use kontrol/gambar/logouin.png>
+Package pdftex.def Info: kontrol/gambar/logouin.png  used on input line 35.
+(pdftex.def)             Requested size: 147.95375pt x 147.95518pt.
+
+
+[1
+
+
+{C:/Users/hafiz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./kontrol/gambar/logouin.png>])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 71.
+
+\openout2 = `kontrol/lembarPersetujuan.aux'.
+
+(kontrol/lembarPersetujuan.tex
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.79996> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+)
+
+[2
+
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 71.
+
+\openout2 = `kontrol/lembarPengesahan.aux'.
+
+(kontrol/lembarPengesahan.tex
+Overfull \hbox (19.99124pt too wide) in paragraph at lines 38--62
+ [][] 
+ []
+
+)
+
+[3
+
+
+
+
+]
+\openout2 = `kontrol/lembarHKI.aux'.
+
+ (kontrol/lembarHKI.tex)
+
+[4
+
+
+
+
+]
+\openout2 = `kontrol/lembarPernyataan.aux'.
+
+ (kontrol/lembarPernyataan.tex)
+Overfull \hbox (20.4425pt too wide) in paragraph at lines 19--71
+[] 
+ []
+
+
+
+[5
+
+
+
+
+]
+\openout2 = `halamandepan/lembarPersembahan.aux'.
+
+ (halamandepan/lembarPersembahan.tex)
+
+[6
+
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 71.
+
+\openout2 = `halamandepan/kataPengantar.aux'.
+
+(halamandepan/kataPengantar.tex)
+
+[7
+
+
+
+
+]
+\openout2 = `halamandepan/abstrak.aux'.
+
+ (halamandepan/abstrak.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 38--71
+
+ []
+
+
+
+[8
+
+
+
+
+]
+\openout2 = `halamandepan/abstrakInggris.aux'.
+
+ (halamandepan/abstrakInggris.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 38--71
+
+ []
+
+
+
+[9
+
+
+
+
+] (tugasakhir.toc
+
+[10
+
+
+
+])
+\tf@toc=\write4
+\openout4 = `tugasakhir.toc'.
+
+
+
+[11] (tugasakhir.lof)
+\tf@lof=\write5
+\openout5 = `tugasakhir.lof'.
+
+
+
+[12
+
+
+] (tugasakhir.lot)
+\tf@lot=\write6
+\openout6 = `tugasakhir.lot'.
+
+
+
+[13
+
+
+]
+\openout2 = `halamandepan/daftarSingkatan.aux'.
+
+ (halamandepan/daftarSingkatan.tex)
+
+[14
+
+
+
+]
+\openout2 = `konten/bab1.aux'.
+
+ (konten/bab1.tex
+BAB 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 14.
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 35--36
+[]\OT1/ptm/m/n/12 Pakar-pakar pada peneli-tian ini meliputi pakar pe-ter-nakan, ke-se-hatan
+ []
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 	\item T
+             ujuan 1. [1
+
+
+
+
+])
+
+[2]
+\openout2 = `konten/bab2.aux'.
+
+ (konten/bab2.tex
+BAB 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 36.
+(C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<konten/gambar/contohGambar.png, id=416, 612.03656pt x 118.19156pt>
+File: konten/gambar/contohGambar.png Graphic file (type png)
+<use konten/gambar/contohGambar.png>
+Package pdftex.def Info: konten/gambar/contohGambar.png  used on input line 47.
+(pdftex.def)             Requested size: 298.75185pt x 85.35934pt.
+<konten/gambar/latex.png, id=418, 401.5pt x 321.2pt>
+File: konten/gambar/latex.png Graphic file (type png)
+<use konten/gambar/latex.png>
+Package pdftex.def Info: konten/gambar/latex.png  used on input line 54.
+(pdftex.def)             Requested size: 142.26698pt x 142.26454pt.
+
+
+[3
+
+
+
+
+ <./konten/gambar/contohGambar.png>]
+Overfull \hbox (55.40244pt too wide) in alignment at lines 99--104
+ [] [] [] 
+ []
+
+
+Overfull \hbox (55.40244pt too wide) in alignment at lines 104--110
+ [] [] [] 
+ []
+
+
+Overfull \hbox (55.40244pt too wide) in alignment at lines 110--121
+ [] [] [] 
+ []
+
+
+
+[4 <./konten/gambar/latex.png>]
+Overfull \hbox (3.43759pt too wide) in paragraph at lines 128--128
+[]|\OT1/ptm/b/n/12 No.| 
+ []
+
+
+Overfull \hbox (3.43759pt too wide) in paragraph at lines 134--134
+[]|\OT1/ptm/b/n/12 No.| 
+ []
+
+[5]
+
+[6]
+
+[7
+
+])
+\openout2 = `konten/bab3.aux'.
+
+ (konten/bab3.tex
+BAB 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 15.
+
+)
+
+[8
+
+
+
+
+
+]
+\openout2 = `konten/bab4.aux'.
+
+ (konten/bab4.tex
+BAB 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 15.
+
+)
+
+[9
+
+
+
+
+]
+\openout2 = `konten/bab5.aux'.
+
+ (konten/bab5.tex
+BAB 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 14.
+
+)
+
+[10
+
+
+
+
+]
+\openout2 = `konten/bab6.aux'.
+
+ (konten/bab6.tex
+BAB 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 15.
+
+)
+
+[11
+
+
+
+
+] (tugasakhir.bbl) (halamanbelakang/lampiranSemua.tex
+
+[1
+
+
+
+]
+\openout2 = `halamanbelakang/lampiranA.aux'.
+
+ (halamanbelakang/lampiranA.tex
+LAMPIRAN A.
+)
+
+[2
+
+
+]
+\openout2 = `halamanbelakang/lampiranB.aux'.
+
+ (halamanbelakang/lampiranB.tex
+LAMPIRAN B.
+)
+
+[1
+
+
+
+
+]
+\openout2 = `halamanbelakang/lampiranC.aux'.
+
+ (halamanbelakang/lampiranC.tex
+LAMPIRAN C.
+)
+
+[1
+
+
+
+
+]
+\openout2 = `halamanbelakang/lampiranD.aux'.
+
+ (halamanbelakang/lampiranD.tex
+LAMPIRAN D.
+)
+
+[1
+
+
+
+
+])
+\openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
+
+ (halamanbelakang/daftarRiwayatHidup.tex
+<konten/gambar/fotoprofil.jpg, id=519, 359.3425pt x 250.9375pt>
+File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
+<use konten/gambar/fotoprofil.jpg>
+Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
+(pdftex.def)             Requested size: 85.35568pt x 113.81297pt.
+)
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.147 \include{halamanbelakang/daftarRiwayatHidup}
+                                                   [2
+
+
+
+
+ <./konten/gambar/fotoprofil.jpg>] (tugasakhir.aux (kontrol/cover.aux) (kontrol/lembarPersetujuan.aux) (kontrol/lembarPengesahan.aux) (kontrol/lembarHKI.aux) (kontrol/lembarPernyataan.aux) (halamandepan/lembarPersembahan.aux) (halamandepan/kataPengantar.aux) (halamandepan/abstrak.aux) (halamandepan/abstrakInggris.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux) (konten/bab3.aux) (konten/bab4.aux) (konten/bab5.aux) (konten/bab6.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+ ***********
+Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
+(rerunfilecheck)             Checksum: 5D61AB624ED2CF517D0BB0D8BD97512C;7931.
+ ) 
+Here is how much of TeX's memory you used:
+ 16571 strings out of 473899
+ 287750 string characters out of 5726500
+ 776748 words of memory out of 5000000
+ 38787 multiletter control sequences out of 15000+600000
+ 612155 words of font info for 142 fonts, out of 8000000 for 9000
+ 1212 hyphenation exceptions out of 8191
+ 94i,17n,107p,845b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tugasakhir.pdf (31 pages, 292436 bytes).
+PDF statistics:
+ 594 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+

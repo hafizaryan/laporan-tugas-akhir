@@ -1,0 +1,85 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Arfajsyah%
+, Permana%
+\BCBL {}\ \BBA {} Salisah%
+}{%
+Arfajsyah%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+arfajsyah2018sistem}
+\APACinsertmetastar {%
+arfajsyah2018sistem}%
+\begin{APACrefauthors}%
+Arfajsyah, H\BPBI S.%
+, Permana, I.%
+\BCBL {}\ \BBA {} Salisah, F\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sistem Pakar Berbasis Android Untuk Diagnosa Penyakit
+  Gigi Dan Mulut} {Sistem pakar berbasis android untuk diagnosa penyakit gigi
+  dan mulut}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Jurnal Ilmiah Rekayasa dan Manajemen Sistem
+  Informasi}{4}{2}{110--117}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Purnamasari%
+}{%
+Purnamasari%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+purnamasari2015aspects}
+\APACinsertmetastar {%
+purnamasari2015aspects}%
+\begin{APACrefauthors}%
+Purnamasari, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Aspects of Qurban Ritual in Pekanbaru} {Aspects of
+  qurban ritual in pekanbaru}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{AKADEMIKA: Jurnal Pemikiran Islam}{20}{2}{337--358}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sari%
+, Permana%
+\BCBL {}\ \BBA {} Salisah%
+}{%
+Sari%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+sari2017sistem}
+\APACinsertmetastar {%
+sari2017sistem}%
+\begin{APACrefauthors}%
+Sari, U\BPBI I.%
+, Permana, I.%
+\BCBL {}\ \BBA {} Salisah, F\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sistem Pendukung Keputusan Berbasis Rule Untuk Pemilihan
+  Model Hijab} {Sistem pendukung keputusan berbasis rule untuk pemilihan model
+  hijab}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Seminar Nasional Teknologi Informasi Komunikasi dan
+  Industri} {Seminar nasional teknologi informasi komunikasi dan industri}\
+  (\BPGS\ 138--143).
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

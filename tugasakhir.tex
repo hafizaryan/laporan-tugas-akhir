@@ -1,0 +1,149 @@
+%-----------------------------------------------------------------------------------------------%
+%
+% Maret 2019
+% Template Latex untuk Tugas Akhir Program Studi Sistem informasi ini
+% dikembangkan oleh Inggih Permana (inggihjava@gmail.com)
+%
+% Template ini dikembangkan dari template yang dibuat oleh Andreas Febrian (Fasilkom UI 2003).
+%
+% Orang yang cerdas adalah orang yang paling banyak mengingat kematian.
+%
+%-----------------------------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------------------------%
+% Dilarang mengedit file ini, karena dapat merubah format penulisan
+%-----------------------------------------------------------------------------------------------%
+
+\documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
+\usepackage{kontrol/uinsuskatugasakhir}
+\input{kontrol/laporan_setting}
+\input{konfigurasi/datatugasakhir}
+\include{konfigurasi/hype.indonesia} 
+\input{konfigurasi/istilah}
+
+\begin{document}
+\renewcommand{\BBAB}{dan}
+\renewcommand{\BBAA}{dan}
+\renewcommand{\BOthers}[1]{dkk.\hbox{}}
+\renewcommand{\BOthersPeriod}[1]{dkk.\hbox{}}
+\renewcommand{\BIn}{Dalam}
+\renewcommand{\BPG}{hal.\hbox{}}
+\renewcommand{\BPGS}{hal.\hbox{}} 
+
+\include{kontrol/cover}
+
+\pagenumbering{roman}
+
+\setcounter{page}{2}
+\ifthenelse{\equal{\tipeta}{TUGAS AKHIR}}{
+  \ifthenelse{\equal{\jumlahpembimbing}{SATU}}{
+    \addChapter{\lembarPersetujuan}
+    \include{kontrol/lembarPersetujuan}
+
+    \addChapter{\lembarPengesahan}
+    \include{kontrol/lembarPengesahan}
+  }
+  {
+    \addChapter{\lembarPersetujuan}
+    \include{kontrol/lembarPersetujuan2P}
+
+    \addChapter{\lembarPengesahan}
+    \include{kontrol/lembarPengesahan2P}
+  }
+
+\addChapter{LEMBAR HAK ATAS KEKAYAAN INTELEKTUAL}
+\include{kontrol/lembarHKI}
+
+\addChapter{LEMBAR PERNYATAAN}
+\include{kontrol/lembarPernyataan}
+
+\addChapter{LEMBAR PERSEMBAHAN}
+\include{halamandepan/lembarPersembahan}
+
+\addChapter{\kataPengantar}
+\include{halamandepan/kataPengantar}
+ 
+\addChapter{ABSTRAK}
+\include{halamandepan/abstrak}
+
+\addChapter{\emph{ABSTRACT}}
+\include{halamandepan/abstrakInggris}
+}{}
+
+\fontsize{12pt}{14.4pt}\selectfont
+
+\phantomsection
+\tableofcontents
+\clearpage
+\phantomsection
+\listoffigures
+\clearpage
+\phantomsection
+\listoftables
+\clearpage
+
+\addChapter{DAFTAR SINGKATAN}
+\include{halamandepan/daftarSingkatan}
+\renewcommand{\headrulewidth}{0.0pt}
+  \fancyhf{} 
+  \fancyhead[L]{} 
+  \fancyhead[C]{} 
+  \fancyhead[R]{}
+  \fancyfoot[C]{}
+  \fancyfoot[R]{\thepage} 
+  \renewcommand{\headrulewidth}{0.0pt}  
+  \renewcommand{\footrulewidth}{0.0pt} 
+\pagestyle{fancy}
+
+\makeatletter
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \thispagestyle{empty}%
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter}
+\makeatother
+
+\fontsize{12pt}{14.4pt}\selectfont
+
+\pagenumbering{arabic}
+\include{konten/bab1}
+\include{konten/bab2}
+\include{konten/bab3}
+
+\ifthenelse{\equal{\bidangta}{DUA}}{
+  \renewcommand{\babEmpat}{ANALISIS DAN HASIL}
+  \renewcommand{\babLima}{PENUTUP}  
+}{}
+
+\ifthenelse{\equal{\tipeta}{PROPOSAL TUGAS AKHIR}}{
+  \renewcommand{\babEmpat}{JANGKAAN HASIL}
+}{}
+
+\include{konten/bab4}
+
+\ifthenelse{\equal{\tipeta}{TUGAS AKHIR}}{
+  \include{konten/bab5}
+  \ifthenelse{\equal{\bidangta}{SATU}}{
+    \include{konten/bab6}
+  }{}
+}{}
+
+
+\bibliographystyle{apacite} 
+\renewcommand{\thepage}{}
+\renewcommand{\bibname}{DAFTAR PUSTAKA}
+\bibliography{konfigurasi/daftarpustaka}
+
+
+\begin{appendix}
+
+\begin{appendices}	
+\renewcommand{\appendixname}{LAMPIRAN}
+\renewcommand{\chaptername}{LAMPIRAN}
+  \input{halamanbelakang/lampiranSemua}
+\end{appendices}
+\end{appendix}
+
+\include{halamanbelakang/daftarRiwayatHidup}
+
+\end{document}

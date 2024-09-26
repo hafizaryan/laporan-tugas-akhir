@@ -1,0 +1,219 @@
+%-----------------------------------------------------------------------------------------------%
+%
+% Maret 2019
+% Template Latex untuk Tugas Akhir Program Studi Sistem informasi ini
+% dikembangkan oleh Inggih Permana (inggihjava@gmail.com)
+%
+% Template ini dikembangkan dari template yang dibuat oleh Andreas Febrian (Fasilkom UI 2003).
+%
+% Orang yang cerdas adalah orang yang paling banyak mengingat kematian.
+%
+%-----------------------------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------------------------%
+% Dilarang mengedit file ini, karena dapat merubah format penulisan
+%-----------------------------------------------------------------------------------------------%
+
+\usepackage{tocbibind}
+
+\usepackage{hyperref}
+  \hypersetup{
+  	a4paper, 
+  	colorlinks=false,
+  	pdfborder=0 0 0,
+  	linkcolor=blue,
+  	citecolor=black,
+  	bookmarksopen=false,
+  	bookmarksnumbered=true,
+  	pdfstartview=FitH,
+  	pdfview=FitH
+	}
+
+\usepackage{url}
+  \urlstyle{same}
+ 
+\usepackage{multirow}
+ 
+\usepackage{graphicx}
+ 
+\usepackage{setspace}
+  \onehalfspacing
+ 
+\usepackage[paper=a4paper,headheight=0pt,left=4cm,top=3cm,right=3cm,bottom=4cm]{geometry}
+ 
+\usepackage[font=footnotesize,format=plain,labelfont=bf,up,textfont=up]{caption}
+ 
+\usepackage{amsmath}
+ 
+\usepackage{pslatex}
+
+\usepackage{fancyhdr}
+
+\usepackage{pdfpages}
+
+\usepackage{colortbl}
+ 
+\usepackage{float}
+  \floatplacement{figure}{H}
+  \floatplacement{table}{H}
+
+\sloppy
+
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+   \pdffalse 
+\else
+   \pdfoutput=1
+   \pdftrue
+\fi
+
+\makeatletter
+\def\contentsline#1#2#3#4{
+  \ifx\\#4\\
+    \csname l@#1\endcsname{#2}{#3}
+  \else
+    \csname l@#1\endcsname{
+      \hyper@linkstart{link}{#4}{#2}\hyper@linkend
+    }{
+      \hyper@linkstart{link}{#4}{#3}\hyper@linkend
+    }
+  \fi
+}
+\renewcommand\section{\@startsection {section}{1}{\z@}
+                                  {-3.5ex \@plus -1ex \@minus -.2ex}
+                                  {2.3ex \@plus.2ex}
+                                  {\large\bfseries}}
+\makeatother
+
+\setcounter{secnumdepth}{3}
+
+\setcounter{tocdepth}{3}
+
+\renewcommand{\headrulewidth}{0.0pt}
+  \fancyhf{} 
+  \fancyhead[L]{} 
+  \fancyhead[C]{} 
+  \fancyhead[R]{}
+  \fancyfoot[C]{\thepage} 
+  \renewcommand{\headrulewidth}{0.0pt}  
+  \renewcommand{\footrulewidth}{0.0pt} 
+\pagestyle{fancy}
+
+
+%-----------------------------------------------------------------------------%
+% Perintah Baru
+%-----------------------------------------------------------------------------%
+
+\newcommand{\f}[1]{\textit{#1}} 
+\newcommand{\bi}[1]{\textbf{\textit{#1}}}
+\newcommand{\bo}[1]{\textbf{#1}}
+\newcommand{\m}[1]{\boldmath{ \( #1 \)}}
+\newcommand{\mc}[1]{\boldmath{ \[ #1 \]}}
+\newcommand{\code}[1]{{\ttfamily #1}}
+\newcommand{\prefikLampiran}[1]{\renewcommand{\thepage}{#1 - \arabic{page}}}
+ 
+\newcommand{\todo}[1]{
+    \begin{tabular}{| p{13.5cm} |}
+		\rowcolor[rgb]{.9,.6,.6}
+		\bo{@todo} \\
+		\rowcolor[gray]{1.}
+		 #1 \\
+		 \\
+		\hline
+	\end{tabular}
+    }
+ 
+\newcommand{\todoCite}{
+	\begin{tabular}{| l |}
+		\rowcolor[rgb]{.6,.9,.6}
+		\bo{@todo} \\
+		\rowcolor[gray]{1.} 
+		 Referensi \\
+		 \\
+		\hline
+	\end{tabular}
+    }
+ 
+\newcommand{\inpdf}[1]{
+	\includepdf[pages=-,pagecommand={\thispagestyle{fancy}}]{#1.pdf}}
+ 
+\newcommand{\putpdf}[1]{\includepdf[pages=-]{#1.pdf}}
+\newcommand{\var}[2]{\newcommand{#1}{#2}}
+\newcommand{\Var}[2]{\newcommand{#1}{\uppercase{#2}}}
+\newcommand{\addChapter}[1]{\phantomsection \addcontentsline{toc}{chapter}{#1}}
+\newcommand{\latex}{\LaTeX}
+\usepackage{apacite}
+
+%-----------------------------------------------------------------------------%
+% Ubah Istilah Penulisan
+%-----------------------------------------------------------------------------%
+\renewcommand{\bibname}{DAFTAR PUSTAKA}
+\renewcommand{\contentsname}{DAFTAR ISI}
+\renewcommand{\listfigurename}{DAFTAR GAMBAR}
+\renewcommand{\listtablename}{DAFTAR TABEL}
+\renewcommand{\chaptername}{BAB}
+\renewcommand{\figurename}{\bo{Gambar}}
+\renewcommand{\tablename}{\bo{Tabel}}
+\newcommand{\pic}{Gambar}
+\newcommand{\tab}{Tabel}
+\newcommand{\equ}{Persamaan}
+
+\setlength{\parindent}{1.27cm}
+
+%\setlength{\oddsidemargin}{1cm}
+%\setlength{\evensidemargin}{3cm}
+\setlength{\textwidth}{14cm}
+\setlength{\topmargin}{-0.7cm}
+\setlength{\textheight}{22.7cm}
+\setlength{\footskip}{2cm}
+
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\fontsize{12pt}{12pt}\bfseries}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{12pt}{12pt}\bfseries}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{12pt}{12pt}\bfseries}{\thesubsubsection}{1em}{}
+
+\titleformat{\subsubsubsection}
+  {\normalfont\fontsize{12pt}{12pt}\bfseries}{\thesubsubsubsection}{1em}{}
+
+ \titleformat{\chapter}[display]
+ {\normalfont\fontsize{14}{14}\bfseries\centering}{\chaptername\ \thechapter}{1ex}{}
+
+\titlespacing{\chapter}
+ {0pt}{-17pt}{12pt}
+
+ \titlespacing{\section}
+ {0pt}{12pt}{0pt}
+
+ \titlespacing{\subsection}
+ {0pt}{12pt}{0pt}
+
+ \titlespacing{\subsubsection}
+ {0pt}{12pt}{0pt}
+
+ \titlespacing{\subsubsubsection}
+ {0pt}{12pt}{0pt}
+
+\usepackage{lipsum}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=0mm, parsep=0pt, topsep=0pt, labelsep= 13pt, leftmargin=!}
+
+\usepackage[titletoc]{appendix}
+\usepackage[labelsep=period]{caption}
+
+\usepackage{wrapfig}
+
+\usepackage{longtable}
+
+\var\namaTabel{Tabel tanpa nama}
+
+\DeclareCaptionFont{mysize}{\fontsize{12pt}{12pt}\selectfont}
+\captionsetup{font=mysize}
+\usepackage{ifthen}
+\usepackage{lscape}
