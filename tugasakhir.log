@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.26)  26 SEP 2024 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.26)  30 SEP 2024 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/hafiz/OneDrive - Microsoft 365/My Files/Kuliah/Semester 7/Tugas Akhir/Template Laporan TA Prodi SI UIN SUSKA Riau - 29 Maret 2019/tugasakhir.tex"
-(c:/Users/hafiz/OneDrive - Microsoft 365/My Files/Kuliah/Semester 7/Tugas Akhir/Template Laporan TA Prodi SI UIN SUSKA Riau - 29 Maret 2019/tugasakhir.tex
+**"c:/Users/hafiz/OneDrive - Microsoft 365/My Files/Kuliah/Semester 7/Tugas Akhir/Proposal LaTex/tugasakhir.tex"
+(c:/Users/hafiz/OneDrive - Microsoft 365/My Files/Kuliah/Semester 7/Tugas Akhir/Proposal LaTex/tugasakhir.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -474,7 +474,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 
 LaTeX Warning: \include should only be used after \begin{document} on input line 21.
 
-(konfigurasi/hype.indonesia.tex) (konfigurasi/istilah.tex) (tugasakhir.aux (kontrol/cover.aux) (kontrol/lembarPersetujuan.aux) (kontrol/lembarPengesahan.aux) (kontrol/lembarHKI.aux) (kontrol/lembarPernyataan.aux) (halamandepan/lembarPersembahan.aux) (halamandepan/kataPengantar.aux) (halamandepan/abstrak.aux) (halamandepan/abstrakInggris.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux) (konten/bab3.aux) (konten/bab4.aux) (konten/bab5.aux) (konten/bab6.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
+(konfigurasi/hype.indonesia.tex) (konfigurasi/istilah.tex) (tugasakhir.aux (kontrol/cover.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux) (konten/bab3.aux) (konten/bab4.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
 \openout1 = `tugasakhir.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -607,7 +607,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<kontrol/gambar/logouin.png, id=187, 289.08pt x 291.0875pt>
+<kontrol/gambar/logouin.png, id=131, 289.08pt x 291.0875pt>
 File: kontrol/gambar/logouin.png Graphic file (type png)
 <use kontrol/gambar/logouin.png>
 Package pdftex.def Info: kontrol/gambar/logouin.png  used on input line 35.
@@ -617,133 +617,16 @@ Package pdftex.def Info: kontrol/gambar/logouin.png  used on input line 35.
 [1
 
 
-{C:/Users/hafiz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./kontrol/gambar/logouin.png>])
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 71.
-
-\openout2 = `kontrol/lembarPersetujuan.aux'.
-
-(kontrol/lembarPersetujuan.tex
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 27.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.79996> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+{C:/Users/hafiz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./kontrol/gambar/logouin.png>]) (tugasakhir.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
-)
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+
 
 [2
-
-
-
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 71.
-
-\openout2 = `kontrol/lembarPengesahan.aux'.
-
-(kontrol/lembarPengesahan.tex
-Overfull \hbox (19.99124pt too wide) in paragraph at lines 38--62
- [][] 
- []
-
-)
-
-[3
-
-
-
-
-]
-\openout2 = `kontrol/lembarHKI.aux'.
-
- (kontrol/lembarHKI.tex)
-
-[4
-
-
-
-
-]
-\openout2 = `kontrol/lembarPernyataan.aux'.
-
- (kontrol/lembarPernyataan.tex)
-Overfull \hbox (20.4425pt too wide) in paragraph at lines 19--71
-[] 
- []
-
-
-
-[5
-
-
-
-
-]
-\openout2 = `halamandepan/lembarPersembahan.aux'.
-
- (halamandepan/lembarPersembahan.tex)
-
-[6
-
-
-
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 71.
-
-\openout2 = `halamandepan/kataPengantar.aux'.
-
-(halamandepan/kataPengantar.tex)
-
-[7
-
-
-
-
-]
-\openout2 = `halamandepan/abstrak.aux'.
-
- (halamandepan/abstrak.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 38--71
-
- []
-
-
-
-[8
-
-
-
-
-]
-\openout2 = `halamandepan/abstrakInggris.aux'.
-
- (halamandepan/abstrakInggris.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 38--71
-
- []
-
-
-
-[9
-
-
-
-
-] (tugasakhir.toc
-
-[10
 
 
 
@@ -753,13 +636,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--71
 
 
 
-[11] (tugasakhir.lof)
+[3] (tugasakhir.lof)
 \tf@lof=\write5
 \openout5 = `tugasakhir.lof'.
 
 
 
-[12
+[4
 
 
 ] (tugasakhir.lot)
@@ -768,7 +651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--71
 
 
 
-[13
+[5
 
 
 ]
@@ -776,7 +659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--71
 
  (halamandepan/daftarSingkatan.tex)
 
-[14
+[6
 
 
 
@@ -790,8 +673,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 14.
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 35--36
-[]\OT1/ptm/m/n/12 Pakar-pakar pada peneli-tian ini meliputi pakar pe-ter-nakan, ke-se-hatan
+Underfull \hbox (badness 4713) in paragraph at lines 22--23
+[]\OT1/ptm/m/n/12 Laboratorium meru-pakan tem-pat yang di-gu-nakan ma-ha-siswa un-tuk
  []
 
 
@@ -800,15 +683,22 @@ Underfull \hbox (badness 1354) in paragraph at lines 35--36
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 	\item T
-             ujuan 1. [1
+l.25 
+      [1
 
 
 
 
-])
+]
+Underfull \hbox (badness 1354) in paragraph at lines 37--38
+[]\OT1/ptm/m/n/12 Pakar-pakar pada peneli-tian ini meliputi pakar pe-ter-nakan, ke-se-hatan
+ []
 
-[2]
+
+
+[2])
+
+[3]
 \openout2 = `konten/bab2.aux'.
 
  (konten/bab2.tex
@@ -845,19 +735,19 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 36
 (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<konten/gambar/contohGambar.png, id=416, 612.03656pt x 118.19156pt>
+<konten/gambar/contohGambar.png, id=282, 612.03656pt x 118.19156pt>
 File: konten/gambar/contohGambar.png Graphic file (type png)
 <use konten/gambar/contohGambar.png>
 Package pdftex.def Info: konten/gambar/contohGambar.png  used on input line 47.
 (pdftex.def)             Requested size: 298.75185pt x 85.35934pt.
-<konten/gambar/latex.png, id=418, 401.5pt x 321.2pt>
+<konten/gambar/latex.png, id=284, 401.5pt x 321.2pt>
 File: konten/gambar/latex.png Graphic file (type png)
 <use konten/gambar/latex.png>
 Package pdftex.def Info: konten/gambar/latex.png  used on input line 54.
 (pdftex.def)             Requested size: 142.26698pt x 142.26454pt.
 
 
-[3
+[4
 
 
 
@@ -879,7 +769,7 @@ Overfull \hbox (55.40244pt too wide) in alignment at lines 110--121
 
 
 
-[4 <./konten/gambar/latex.png>]
+[5 <./konten/gambar/latex.png>]
 Overfull \hbox (3.43759pt too wide) in paragraph at lines 128--128
 []|\OT1/ptm/b/n/12 No.| 
  []
@@ -889,11 +779,11 @@ Overfull \hbox (3.43759pt too wide) in paragraph at lines 134--134
 []|\OT1/ptm/b/n/12 No.| 
  []
 
-[5]
-
 [6]
 
-[7
+[7]
+
+[8
 
 ])
 \openout2 = `konten/bab3.aux'.
@@ -906,7 +796,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 )
 
-[8
+[9
 
 
 
@@ -917,45 +807,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (konten/bab4.tex
 BAB 4.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 15.
-
-)
-
-[9
-
-
-
-
-]
-\openout2 = `konten/bab5.aux'.
-
- (konten/bab5.tex
-BAB 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 14.
-
 )
 
 [10
-
-
-
-
-]
-\openout2 = `konten/bab6.aux'.
-
- (konten/bab6.tex
-BAB 6.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 15.
-
-)
-
-[11
 
 
 
@@ -1016,7 +870,7 @@ LAMPIRAN D.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=519, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=371, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -1033,26 +887,26 @@ l.147 \include{halamanbelakang/daftarRiwayatHidup}
 
 
 
- <./konten/gambar/fotoprofil.jpg>] (tugasakhir.aux (kontrol/cover.aux) (kontrol/lembarPersetujuan.aux) (kontrol/lembarPengesahan.aux) (kontrol/lembarHKI.aux) (kontrol/lembarPernyataan.aux) (halamandepan/lembarPersembahan.aux) (halamandepan/kataPengantar.aux) (halamandepan/abstrak.aux) (halamandepan/abstrakInggris.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux) (konten/bab3.aux) (konten/bab4.aux) (konten/bab5.aux) (konten/bab6.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
+ <./konten/gambar/fotoprofil.jpg>] (tugasakhir.aux (kontrol/cover.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux) (konten/bab3.aux) (konten/bab4.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
-(rerunfilecheck)             Checksum: 5D61AB624ED2CF517D0BB0D8BD97512C;7931.
+(rerunfilecheck)             Checksum: AFF1A4C000522D307E1D3715A1388915;5981.
  ) 
 Here is how much of TeX's memory you used:
- 16571 strings out of 473899
- 287750 string characters out of 5726500
- 776748 words of memory out of 5000000
- 38787 multiletter control sequences out of 15000+600000
- 612155 words of font info for 142 fonts, out of 8000000 for 9000
+ 16231 strings out of 473899
+ 270966 string characters out of 5726500
+ 771423 words of memory out of 5000000
+ 38564 multiletter control sequences out of 15000+600000
+ 597279 words of font info for 116 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
- 94i,17n,107p,845b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,107p,1666b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (31 pages, 292436 bytes).
+Output written on tugasakhir.pdf (22 pages, 257828 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 

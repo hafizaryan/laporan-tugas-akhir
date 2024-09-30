@@ -30,29 +30,6 @@ Arfajsyah, H\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Purnamasari%
-}{%
-Purnamasari%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-purnamasari2015aspects}
-\APACinsertmetastar {%
-purnamasari2015aspects}%
-\begin{APACrefauthors}%
-Purnamasari, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Aspects of Qurban Ritual in Pekanbaru} {Aspects of
-  qurban ritual in pekanbaru}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{AKADEMIKA: Jurnal Pemikiran Islam}{20}{2}{337--358}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Sari%
 , Permana%
 \BCBL {}\ \BBA {} Salisah%
