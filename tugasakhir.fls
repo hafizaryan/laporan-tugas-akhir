@@ -1,6 +1,6 @@
-PWD c:\Users\hafiz\OneDrive - Microsoft 365\My Files\Kuliah\Semester 7\Tugas Akhir\Proposal LaTex
+PWD c:\xampp\htdocs\myProject\proposalLaTex
 INPUT C:\Users\hafiz\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\hafiz\OneDrive - Microsoft 365\My Files\Kuliah\Semester 7\Tugas Akhir\Proposal LaTex\tugasakhir.tex
+INPUT c:\xampp\htdocs\myProject\proposalLaTex\tugasakhir.tex
 OUTPUT tugasakhir.log
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
