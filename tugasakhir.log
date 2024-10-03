@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  2 OCT 2024 11:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  3 OCT 2024 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -474,7 +474,11 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 
 LaTeX Warning: \include should only be used after \begin{document} on input line 21.
 
-(konfigurasi/hype.indonesia.tex) (konfigurasi/istilah.tex) (tugasakhir.aux (kontrol/cover.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux) (konten/bab3.aux) (konten/bab4.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
+(konfigurasi/hype.indonesia.tex) (konfigurasi/istilah.tex) (tugasakhir.aux (kontrol/cover.aux) (halamandepan/daftarSingkatan.aux) (konten/bab1.aux) (konten/bab2.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+) (konten/bab3.aux) (konten/bab4.aux) (halamanbelakang/lampiranA.aux) (halamanbelakang/lampiranB.aux) (halamanbelakang/lampiranC.aux) (halamanbelakang/lampiranD.aux) (halamanbelakang/daftarRiwayatHidup.aux))
 \openout1 = `tugasakhir.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -607,7 +611,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<kontrol/gambar/logouin.png, id=131, 289.08pt x 291.0875pt>
+<kontrol/gambar/logouin.png, id=219, 289.08pt x 291.0875pt>
 File: kontrol/gambar/logouin.png Graphic file (type png)
 <use kontrol/gambar/logouin.png>
 Package pdftex.def Info: kontrol/gambar/logouin.png  used on input line 35.
@@ -690,11 +694,6 @@ l.25
 
 
 ]
-Underfull \hbox (badness 1354) in paragraph at lines 37--38
-[]\OT1/ptm/m/n/12 Pakar-pakar pada peneli-tian ini meliputi pakar pe-ter-nakan, ke-se-hatan
- []
-
-
 
 [2])
 
@@ -708,84 +707,86 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 14.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 31.
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 36.
-(C:\Users\hafiz\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<konten/gambar/contohGambar.png, id=282, 612.03656pt x 118.19156pt>
-File: konten/gambar/contohGambar.png Graphic file (type png)
-<use konten/gambar/contohGambar.png>
-Package pdftex.def Info: konten/gambar/contohGambar.png  used on input line 47.
-(pdftex.def)             Requested size: 298.75185pt x 85.35934pt.
-<konten/gambar/latex.png, id=284, 401.5pt x 321.2pt>
-File: konten/gambar/latex.png Graphic file (type png)
-<use konten/gambar/latex.png>
-Package pdftex.def Info: konten/gambar/latex.png  used on input line 54.
-(pdftex.def)             Requested size: 142.26698pt x 142.26454pt.
-
 
 [4
 
 
 
 
- <./konten/gambar/contohGambar.png>]
-Overfull \hbox (55.40244pt too wide) in alignment at lines 99--104
- [] [] [] 
+]
+Underfull \hbox (badness 1478) in paragraph at lines 46--47
+[]\OT1/ptm/m/n/12 Untuk men-ca-pai Visi Lab-o-ra-to-rium Pro-gram Studi Sis-tem In-for-masi,
  []
 
 
-Overfull \hbox (55.40244pt too wide) in alignment at lines 104--110
- [] [] [] 
+Underfull \hbox (badness 2486) in paragraph at lines 51--52
+[]\OT1/ptm/m/n/12 Mendukung pelak-sanaan kegiatan peneli-tian yang berba-sis teknologi
  []
 
 
-Overfull \hbox (55.40244pt too wide) in alignment at lines 110--121
- [] [] [] 
+Underfull \hbox (badness 4726) in paragraph at lines 52--53
+[]\OT1/ptm/m/n/12 Mendukung kegiatan pengab-dian kepada masyarakat yang berba-sis
  []
 
 
 
-[5 <./konten/gambar/latex.png>]
-Overfull \hbox (3.43759pt too wide) in paragraph at lines 128--128
-[]|\OT1/ptm/b/n/12 No.| 
- []
+[5]
+<konten//gambar/Struktur Organisasi.png, id=400, 406.01688pt x 305.14pt>
+File: konten//gambar/Struktur Organisasi.png Graphic file (type png)
+<use konten//gambar/Struktur Organisasi.png>
+Package pdftex.def Info: konten//gambar/Struktur Organisasi.png  used on input line 64.
+(pdftex.def)             Requested size: 326.64055pt x 245.49051pt.
 
 
-Overfull \hbox (3.43759pt too wide) in paragraph at lines 134--134
-[]|\OT1/ptm/b/n/12 No.| 
- []
-
-[6]
+[6 <./konten//gambar/Struktur Organisasi.png>]
 
 [7]
 
-[8
+[8]
 
-])
+[9]
+Underfull \hbox (badness 1694) in paragraph at lines 108--109
+[]\OT1/ptm/m/it/12 Product Re-vi-sion\OT1/ptm/m/n/12 , men-gukurke-mam-puan-perangkatlu-nakun-tuk-ber-adap-tasi
+ []
+
+
+
+[10]
+<konten//gambar/Metode McCall.png, id=446, 339.51843pt x 264.23718pt>
+File: konten//gambar/Metode McCall.png Graphic file (type png)
+<use konten//gambar/Metode McCall.png>
+Package pdftex.def Info: konten//gambar/Metode McCall.png  used on input line 116.
+(pdftex.def)             Requested size: 326.64055pt x 254.22523pt.
+
+
+[11 <./konten//gambar/Metode McCall.png>]
+Underfull \hbox (badness 1448) in paragraph at lines 130--131
+[]\OT1/ptm/m/n/12 Traceability: Ke-mu-da-han pela-cakan meru-juk pada se-ber-apa mu
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 130--131
+\OT1/ptm/m/n/12 dah peng-guna da-pat mela-cak atau mengikuti im-ple-men-tasi atau
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 141--142
+[]\OT1/ptm/m/n/12 Execution Ef-fi-ciency: Efisiensi ek-sekusi men-gukur se-jauh mana
+ []
+
+
+
+[12]
+
+[13]
+
+[14]
+
+[15])
+
+[16]
+
+[17]
 \openout2 = `konten/bab3.aux'.
 
  (konten/bab3.tex
@@ -796,8 +797,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 )
 
-[9
-
+[18
 
 
 
@@ -809,12 +809,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 BAB 4.
 )
 
-[10
+[19
 
 
 
 
-] (tugasakhir.bbl) (halamanbelakang/lampiranSemua.tex
+] (tugasakhir.bbl
+Underfull \hbox (badness 1527) in paragraph at lines 123--137
+[]\OT1/ptm/m/n/12 Yanti, Y., dan Hi-dayat, M.  (2021).  Sis-tem in-for-masi in-ven-taris barang
+ []
+
+) (halamanbelakang/lampiranSemua.tex
 
 [1
 
@@ -870,7 +875,7 @@ LAMPIRAN D.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=371, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=534, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -892,21 +897,25 @@ l.147 \include{halamanbelakang/daftarRiwayatHidup}
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
-(rerunfilecheck)             Checksum: AFF1A4C000522D307E1D3715A1388915;5981.
+(rerunfilecheck)             Checksum: 4BB743280CAC5FDD6CBBA35D730D5C11;9262.
  ) 
 Here is how much of TeX's memory you used:
- 16231 strings out of 473899
- 267872 string characters out of 5726500
- 771423 words of memory out of 5000000
- 38564 multiletter control sequences out of 15000+600000
- 597279 words of font info for 116 fonts, out of 8000000 for 9000
+ 16271 strings out of 473899
+ 268512 string characters out of 5726500
+ 753891 words of memory out of 5000000
+ 38560 multiletter control sequences out of 15000+600000
+ 599117 words of font info for 119 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
- 94i,11n,107p,1610b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (22 pages, 257828 bytes).
+ 94i,11n,107p,2117b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tugasakhir.pdf (31 pages, 285933 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 

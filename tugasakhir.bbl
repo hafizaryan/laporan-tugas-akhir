@@ -1,62 +1,138 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Arfajsyah%
-, Permana%
-\BCBL {}\ \BBA {} Salisah%
+{Ahsyar}%
 }{%
-Arfajsyah%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2018}}%
+{Ahsyar}%
+}{%
+{\protect \APACyear {2023}}%
 }]{%
-arfajsyah2018sistem}
+lab-si-website}
 \APACinsertmetastar {%
-arfajsyah2018sistem}%
+lab-si-website}%
 \begin{APACrefauthors}%
-Arfajsyah, H\BPBI S.%
-, Permana, I.%
-\BCBL {}\ \BBA {} Salisah, F\BPBI N.%
+{Ahsyar}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2018}{}{}.
+\APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Sistem Pakar Berbasis Android Untuk Diagnosa Penyakit
-  Gigi Dan Mulut} {Sistem pakar berbasis android untuk diagnosa penyakit gigi
-  dan mulut}.{\BBCQ}
+\APACrefbtitle {Laboratorium Sistem Informasi UIN Suska Riau.} {Laboratorium
+  sistem informasi uin suska riau.}
 \newblock
-\APACjournalVolNumPages{Jurnal Ilmiah Rekayasa dan Manajemen Sistem
-  Informasi}{4}{2}{110--117}.
+\begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 14 Oktober 2023}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Sari%
-, Permana%
-\BCBL {}\ \BBA {} Salisah%
-}{%
-Sari%
+Laila%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2017}}%
+Laila%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
 }]{%
-sari2017sistem}
+laila2011sistem}
 \APACinsertmetastar {%
-sari2017sistem}%
+laila2011sistem}%
 \begin{APACrefauthors}%
-Sari, U\BPBI I.%
-, Permana, I.%
-\BCBL {}\ \BBA {} Salisah, F\BPBI N.%
+Laila, N.%
+\BCBT {}\ \BOthersPeriod {.}
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2017}{}{}.
+\APACrefYearMonthDay{2011}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Sistem Pendukung Keputusan Berbasis Rule Untuk Pemilihan
-  Model Hijab} {Sistem pendukung keputusan berbasis rule untuk pemilihan model
-  hijab}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Sistem informasi pengolahan data inventory pada toko
+  buku studi CV. Aneka Ilmu semarang} {Sistem informasi pengolahan data
+  inventory pada toko buku studi cv. aneka ilmu semarang}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Seminar Nasional Teknologi Informasi Komunikasi dan
-  Industri} {Seminar nasional teknologi informasi komunikasi dan industri}\
-  (\BPGS\ 138--143).
+\APACjournalVolNumPages{Jurnal Teknik Elektro}{3}{1}{16}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Novendri%
+, Saputra%
+\BCBL {}\ \BBA {} Firman%
+}{%
+Novendri%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+novendri2019aplikasi}
+\APACinsertmetastar {%
+novendri2019aplikasi}%
+\begin{APACrefauthors}%
+Novendri, M\BPBI S.%
+, Saputra, A.%
+\BCBL {}\ \BBA {} Firman, C\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Aplikasi Inventaris Barang Pada Mts Nurul Islam Dumai
+  Menggunakan Php Dan Mysql} {Aplikasi inventaris barang pada mts nurul islam
+  dumai menggunakan php dan mysql}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{lentera dumai}{10}{2}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sweden%
+\ \protect \BOthers {.}}{%
+Sweden%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+sweden2022rancang}
+\APACinsertmetastar {%
+sweden2022rancang}%
+\begin{APACrefauthors}%
+Sweden, I\BPBI N.%
+, Pemayun, A\BPBI A\BPBI G\BPBI M.%
+, Wibawa, K\BPBI S.%
+, Prayoga, I\BPBI K\BPBI D\BPBI Y.%
+, Putra, I\BPBI D\BPBI M\BPBI L.%
+\BCBL {}\ \BBA {} Frangginie, N\BPBI L\BPBI G\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Rancang Bangun Sistem Informasi Manajemen Layanan
+  Laboratorium Berdasarkan Standar ISO 9126} {Rancang bangun sistem informasi
+  manajemen layanan laboratorium berdasarkan standar iso 9126}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{TEMATIK}{9}{2}{108--118}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yanti%
+\ \BBA {} Hidayat%
+}{%
+Yanti%
+\ \BBA {} Hidayat%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+Yanti2021SISTEMII}
+\APACinsertmetastar {%
+Yanti2021SISTEMII}%
+\begin{APACrefauthors}%
+Yanti, Y.%
+\BCBT {}\ \BBA {} Hidayat, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SISTEM INFORMASI INVENTARIS BARANG DI FAKULTAS TEKNIK
+  DAN ILMU KOMPUTER} {Sistem informasi inventaris barang di fakultas teknik dan
+  ilmu komputer}.{\BBCQ}.
+\newblock
+\begin{APACrefURL} \url{https://api.semanticscholar.org/CorpusID:236409760}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
