@@ -260,7 +260,6 @@ INPUT .\kontrol\cover.tex
 INPUT kontrol\cover.tex
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
@@ -315,8 +314,6 @@ INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.v
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\hafiz\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
@@ -395,13 +392,22 @@ INPUT .\konten\\gambar\Struktur Organisasi.png
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT .\konten\\gambar\Metode McCall.png
-INPUT .\konten\\gambar\Metode McCall.png
-INPUT .\konten\\gambar\Metode McCall.png
-INPUT .\konten\\gambar\Metode McCall.png
-INPUT .\konten\\gambar\Metode McCall.png
-INPUT .\konten\\gambar\Metode McCall.png
-INPUT .\konten\\gambar\Metode McCall.png
+INPUT .\konten\\gambar\Model-Iso.png
+INPUT .\konten\\gambar\Model-Iso.png
+INPUT .\konten\\gambar\Model-Iso.png
+INPUT .\konten\\gambar\Model-Iso.png
+INPUT .\konten\\gambar\Model-Iso.png
+INPUT .\konten\\gambar\Model-Iso.png
+INPUT .\konten\\gambar\Model-Iso.png
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmrm.vf
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmr.vf
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmr.vf
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT .\konten\bab3.tex
 INPUT .\konten\bab3.tex
 OUTPUT konten\bab3.aux
@@ -412,21 +418,12 @@ INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zpsycmrv
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmrm.vf
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmrm.vf
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmr.vf
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zpzccmry.vf
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfchan\pzcmi8r.tfm
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmr.vf
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT .\konten\bab4.tex
 INPUT .\konten\bab4.tex
 OUTPUT konten\bab4.aux
@@ -437,6 +434,8 @@ INPUT .\tugasakhir.bbl
 INPUT .\tugasakhir.bbl
 INPUT tugasakhir.bbl
 INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
+INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranSemua.tex
@@ -444,8 +443,6 @@ INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranA.tex
 INPUT .\halamanbelakang\lampiranA.tex
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
-INPUT C:\Users\hafiz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 OUTPUT halamanbelakang\lampiranA.aux
 INPUT .\halamanbelakang\lampiranA.tex
 INPUT .\halamanbelakang\lampiranA.tex

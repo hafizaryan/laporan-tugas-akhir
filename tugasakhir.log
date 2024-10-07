@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  3 OCT 2024 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  7 OCT 2024 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -694,10 +694,27 @@ l.25
 
 
 ]
+Underfull \hbox (badness 1132) in paragraph at lines 26--27
+\OT1/ptm/m/n/12 si-bil-i-tas model ISO 9126 dalam eval-u-asi sis-tem in-for-masi di berba-gai kon-
+ []
 
-[2])
 
-[3]
+Underfull \hbox (badness 1281) in paragraph at lines 26--27
+\OT1/ptm/m/n/12 bagaimana model ini da-pat dit-er-ap-kan un-tuk mengeval-u-asi sis-tem in-for-masi
+ []
+
+
+
+[2]
+Underfull \hbox (badness 1917) in paragraph at lines 35--37
+[]\OT1/ptm/m/n/12 Berdasarkan latar be-lakang yang telah di-u-raikan, diper-oleh ru-mu-san
+ []
+
+
+
+[3])
+
+[4]
 \openout2 = `konten/bab2.aux'.
 
  (konten/bab2.tex
@@ -707,84 +724,101 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 14.
 
 
+Overfull \hbox (16.27014pt too wide) in alignment at lines 24--26
+ [] [] [] 
+ []
 
-[4
+
+Overfull \hbox (16.27014pt too wide) in alignment at lines 26--31
+ [] [] [] 
+ []
+
+
+Overfull \hbox (16.27014pt too wide) in alignment at lines 31--49
+ [] [] [] 
+ []
+
+
+
+[5
 
 
 
 
 ]
-Underfull \hbox (badness 1478) in paragraph at lines 46--47
+Underfull \hbox (badness 1478) in paragraph at lines 61--62
 []\OT1/ptm/m/n/12 Untuk men-ca-pai Visi Lab-o-ra-to-rium Pro-gram Studi Sis-tem In-for-masi,
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 51--52
+Underfull \hbox (badness 2486) in paragraph at lines 66--67
 []\OT1/ptm/m/n/12 Mendukung pelak-sanaan kegiatan peneli-tian yang berba-sis teknologi
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 52--53
+Underfull \hbox (badness 4726) in paragraph at lines 67--68
 []\OT1/ptm/m/n/12 Mendukung kegiatan pengab-dian kepada masyarakat yang berba-sis
  []
 
-
-
-[5]
-<konten//gambar/Struktur Organisasi.png, id=400, 406.01688pt x 305.14pt>
+<konten//gambar/Struktur Organisasi.png, id=411, 406.01688pt x 305.14pt>
 File: konten//gambar/Struktur Organisasi.png Graphic file (type png)
 <use konten//gambar/Struktur Organisasi.png>
-Package pdftex.def Info: konten//gambar/Struktur Organisasi.png  used on input line 64.
+Package pdftex.def Info: konten//gambar/Struktur Organisasi.png  used on input line 79.
 (pdftex.def)             Requested size: 326.64055pt x 245.49051pt.
 
 
-[6 <./konten//gambar/Struktur Organisasi.png>]
+[6]
 
-[7]
+[7 <./konten//gambar/Struktur Organisasi.png>]
 
 [8]
 
 [9]
-Underfull \hbox (badness 1694) in paragraph at lines 108--109
-[]\OT1/ptm/m/it/12 Product Re-vi-sion\OT1/ptm/m/n/12 , men-gukurke-mam-puan-perangkatlu-nakun-tuk-ber-adap-tasi
- []
-
+<konten//gambar/Model-Iso.png, id=466, 603.75563pt x 292.09125pt>
+File: konten//gambar/Model-Iso.png Graphic file (type png)
+<use konten//gambar/Model-Iso.png>
+Package pdftex.def Info: konten//gambar/Model-Iso.png  used on input line 135.
+(pdftex.def)             Requested size: 326.64055pt x 158.02553pt.
 
 
 [10]
-<konten//gambar/Metode McCall.png, id=446, 339.51843pt x 264.23718pt>
-File: konten//gambar/Metode McCall.png Graphic file (type png)
-<use konten//gambar/Metode McCall.png>
-Package pdftex.def Info: konten//gambar/Metode McCall.png  used on input line 116.
-(pdftex.def)             Requested size: 326.64055pt x 254.22523pt.
 
-
-[11 <./konten//gambar/Metode McCall.png>]
-Underfull \hbox (badness 1448) in paragraph at lines 130--131
-[]\OT1/ptm/m/n/12 Traceability: Ke-mu-da-han pela-cakan meru-juk pada se-ber-apa mu
+[11 <./konten//gambar/Model-Iso.png>]
+Underfull \hbox (badness 1168) in paragraph at lines 180--182
+\OT1/ptm/m/n/12 erja ketika ter-jadi kega-galan sis-tem, ter-ma-suk data dan koneksi
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 130--131
-\OT1/ptm/m/n/12 dah peng-guna da-pat mela-cak atau mengikuti im-ple-men-tasi atau
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 141--142
-[]\OT1/ptm/m/n/12 Execution Ef-fi-ciency: Efisiensi ek-sekusi men-gukur se-jauh mana
+Underfull \hbox (badness 2221) in paragraph at lines 187--188
+[]\OT1/ptm/m/n/12 Usabilitas atau kegu-naan adalah seperangkat atribut yang men-gukur
  []
 
 
 
 [12]
+Underfull \hbox (badness 2653) in paragraph at lines 262--264
+[]\OT1/ptm/m/n/12 Kemampuan perangkat lu-nak un-tuk di-mod-i-fikasi dan di-val-i-dasi
+ []
+
+
 
 [13]
 
 [14]
 
-[15])
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
-[16]
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 309--310
+[]\OT1/ptm/m/it/12 Sampling \OT1/ptm/m/n/12 acak berstrata (strat-i-fied ran-dom \OT1/ptm/m/it/12 sam-pling\OT1/ptm/m/n/12 ) \OT1/ptm/m/it/12 Sam-pling \OT1/ptm/m/n/12 acak
+ []
+
+
+
+[16])
 
 [17]
 \openout2 = `konten/bab3.aux'.
@@ -815,17 +849,24 @@ BAB 4.
 
 
 ] (tugasakhir.bbl
-Underfull \hbox (badness 1527) in paragraph at lines 123--137
+
+[20
+
+
+
+]
+Underfull \hbox (badness 1527) in paragraph at lines 440--454
 []\OT1/ptm/m/n/12 Yanti, Y., dan Hi-dayat, M.  (2021).  Sis-tem in-for-masi in-ven-taris barang
  []
 
 ) (halamanbelakang/lampiranSemua.tex
 
-[1
 
-
-
-]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \include{halamanbelakang/lampiranA}
+                                        [1]
 \openout2 = `halamanbelakang/lampiranA.aux'.
 
  (halamanbelakang/lampiranA.tex
@@ -875,7 +916,7 @@ LAMPIRAN D.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=534, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=609, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -902,20 +943,20 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
-(rerunfilecheck)             Checksum: 4BB743280CAC5FDD6CBBA35D730D5C11;9262.
+(rerunfilecheck)             Checksum: E12CB15087E1B37DE892D58C0427C2E5;9270.
  ) 
 Here is how much of TeX's memory you used:
- 16271 strings out of 473899
- 268512 string characters out of 5726500
- 753891 words of memory out of 5000000
- 38560 multiletter control sequences out of 15000+600000
- 599117 words of font info for 119 fonts, out of 8000000 for 9000
+ 16353 strings out of 473899
+ 269869 string characters out of 5726500
+ 755208 words of memory out of 5000000
+ 38600 multiletter control sequences out of 15000+600000
+ 597488 words of font info for 117 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
- 94i,11n,107p,2117b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,107p,1857b,751s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (31 pages, 285933 bytes).
+Output written on tugasakhir.pdf (32 pages, 408764 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
  453 words of extra memory for PDF output out of 10000 (max. 10000000)
 

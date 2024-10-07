@@ -37,48 +37,49 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: konfigurasi/daftarpustaka.bib
 Warning--entry type for "lab-si-website" isn't style-file defined
---line 483 of file konfigurasi/daftarpustaka.bib
+--line 703 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 5 entries,
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 17 entries,
             6951 wiz_defined-function locations,
-            1309 strings with 11883 characters,
-and the built_in function-call counts, 11166 in all, are:
-= -- 1472
-> -- 84
-< -- 531
-+ -- 623
-- -- 14
-* -- 685
-:= -- 2029
-add.period$ -- 19
-call.type$ -- 5
-change.case$ -- 85
+            1372 strings with 14165 characters,
+and the built_in function-call counts, 35287 in all, are:
+= -- 4399
+> -- 243
+< -- 1908
++ -- 1966
+- -- 40
+* -- 2352
+:= -- 6994
+add.period$ -- 66
+call.type$ -- 17
+change.case$ -- 289
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 281
-empty$ -- 377
-format.name$ -- 148
-if$ -- 2099
+cite$ -- 34
+duplicate$ -- 797
+empty$ -- 1233
+format.name$ -- 400
+if$ -- 6447
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 51
 missing$ -- 0
-newline$ -- 128
-num.names$ -- 40
-pop$ -- 167
+newline$ -- 411
+num.names$ -- 136
+pop$ -- 496
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 68
 quote$ -- 0
-skip$ -- 747
+skip$ -- 2201
 stack$ -- 0
-substring$ -- 685
-swap$ -- 144
-text.length$ -- 12
+substring$ -- 2106
+swap$ -- 462
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 536
-warning$ -- 1
-while$ -- 48
+type$ -- 1496
+warning$ -- 2
+while$ -- 135
 width$ -- 0
-write$ -- 159
-(There were 2 warnings)
+write$ -- 499
+(There were 3 warnings)
