@@ -18,7 +18,16 @@
 \section{Penelitian Terdahulu}
 %-----------------------------------------------------------------------------%
 
+Penggunaan standar ISO 9126 dalam evaluasi sistem inventaris dan aplikasi berbasis web telah menjadi fokus beberapa penelitian di berbagai institusi pendidikan di Indonesia. Salah satu studi penting dilakukan di ISB Atma Luhur, di mana peneliti mengevaluasi sistem inventaris laboratorium menggunakan empat aspek utama ISO 9126: functionality, usability, reliability, dan efficiency. Metodologi penelitian ini melibatkan penggunaan kuesioner yang didistribusikan kepada para pengguna sistem untuk menilai seberapa baik fungsi sistem berjalan. Data yang diperoleh kemudian dianalisis menggunakan metode perhitungan nilai untuk menentukan persentase keberhasilan, terutama pada aspek functionality \cite{alkodri2023pengaplikasian}.
 
+Melanjutkan perkembangan ini, sebuah studi di Universitas Negeri Yogyakarta memperluas cakupan evaluasi dengan fokus pada aplikasi berbasis web. Penelitian ini menggali lebih dalam aspek functionality dan reliability. Untuk menguji functionality, para peneliti menggunakan pendekatan inovatif dengan pernyataan "ya-tidak" untuk menentukan apakah setiap fungsi utama sistem berfungsi dengan baik. Sementara itu, aspek reliability diuji menggunakan alat LoadImpact, yang memungkinkan pengukuran performa aplikasi di bawah beban tinggi, memberikan wawasan berharga tentang ketahanan sistem dalam situasi yang menantang \cite{dewi2017quality}
+
+Kontribusi signifikan lainnya datang dari penelitian yang dilakukan di Institut Teknologi Nasional Malang. Studi ini menambahkan dimensi baru dalam evaluasi sistem informasi inventaris dengan menggabungkan pengujian functionality, reliability, dan maintainability. Khusus untuk aspek functionality, penelitian ini berfokus pada pengukuran apakah semua fitur berjalan sesuai yang diharapkan. Yang menarik, untuk evaluasi reliability, peneliti menggunakan metode stress testing dengan WAPT v10.1, memberikan gambaran yang lebih komprehensif tentang kinerja sistem dalam kondisi ekstrim \cite{kumalasari2024analisis}.
+
+Seiring dengan perkembangan teknologi mobile, sebuah studi inovatif mengaplikasikan standar ISO 9126 pada sistem inventaris laboratorium berbasis Android. Penelitian ini tidak hanya mengevaluasi aspek functionality dan portability, tetapi juga memberikan perhatian khusus pada usability dengan menggunakan kuesioner SUPR-Q. Fitur unik dari sistem ini adalah integrasi pemantauan melalui CCTV, yang menambah nilai dengan menciptakan transparansi dan keamanan tambahan. Pendekatan ini menunjukkan bagaimana standar ISO 9126 dapat diadaptasi untuk teknologi modern dan kebutuhan pengguna yang berkembang.
+Akhirnya, penelitian terbaru dalam bidang inventory management yang melibatkan penggunaan Android Studio semakin memperluas pemahaman kita tentang fleksibilitas ISO 9126 dalam menilai aplikasi lintas platform. Fokus utama diberikan pada aspek portability, di mana peneliti menguji kemampuan aplikasi untuk diakses dari berbagai perangkat, baik desktop maupun mobile. Studi ini menekankan pentingnya fleksibilitas akses dalam pengembangan sistem modern, terutama dalam konteks di mana pengguna perlu mengakses informasi inventaris dari berbagai lingkungan dan perangkat \cite{alkodri2023pengaplikasian}.
+
+Secara keseluruhan, rangkaian penelitian ini menunjukkan evolusi penggunaan ISO 9126 dalam evaluasi sistem inventaris, dari aplikasi berbasis web tradisional hingga solusi mobile modern. Masing-masing studi memberikan perspektif unik dan memperkaya pemahaman kita tentang bagaimana standar ini dapat diterapkan secara efektif dalam berbagai konteks teknologi dan kebutuhan institusional. Keragaman pendekatan dan fokus dalam penelitian-penelitian ini juga menegaskan fleksibilitas dan relevansi berkelanjutan dari ISO 9126 sebagai kerangka kerja untuk evaluasi kualitas perangkat lunak.
 %-----------------------------------------------------------------------------%
 \section{Profil Instansi}
 \begin{longtable}{lll}
@@ -100,6 +109,559 @@ Laboratorium Internet atau yang disingkat dengan nama Laboratorium INT merupakan
 Laboratorium ke tiga yang dimiliki oleh Program Studi Sistem Informasi adalah Laboratorium \textit{Software Engineering} atau yang disingkat dengan nama Laboratorium SE. Laboratorium ini merupakan laboratorium terbaru milik yang dikelola oleh Program Studi dari usulan pengadaan barang tahun anggaran 2021 di bawah naungan Fakultas Sains dan Teknologi UIN Suska Riau. Adapun laboratorium SE sebagai pendukung dalam pelaksanaan kegiatan perkuliahan praktikum bagi mahasiswa Program Studi Sistem Informasi yang terkait dengan bidang keilmuan seperti Praktikum Basis Data, Pemrograman Beorientasi Objek (PBO), dan matakuliah wajib praktikum lainnya \cite{lab-si-website}.
 
 \section{SITARIS SI}
+
+Sistem Informasi Inventaris Laboratorium adalah sebuah platform yang dibuat dengan menggunakan Framework CodeIgniter4 dan bahasa pemrograman PHP yang dimaksudkan untuk membantu mengelola dan memantau inventaris barang dan peralatan laboratorium. Sistem ini memiliki potensi untuk meningkatkan efisiensi dan produktivitas dalam operasional laboratorium berkat berbagai fitur utama yang ditawarkannya.
+
+Dengan adanya sistem ini, diharapkan pengelolaan inventaris laboratorium menjadi lebih mudah dan efisien, sehingga staf laboratorium dapat fokus pada tugas yang lebih penting. Selain itu, laporan yang dihasilkan oleh sistem dapat membantu dalam pengambilan keputusan yang lebih baik tentang persediaan barang dan peralatan laboratorium \cite{sitaris-lab-si-website}. SITARIS SI dapat diakses di alamat https://sitaris.lab-si.uin-suska.ac.id. Terdapat beberapa menu yang ada pada SITARIS SI, yaitu:
+
+\begin{enumerate}
+  \item Halaman \textit{login} \\ Halaman \textit{login} merupakan tampilan awal sistem ketika diakses. Terdapat formulir \textit{username} dan \textit{password} dan dilindungi oleh anti spam dari google reCAPTCHA yang digunakan untuk masuk ke dalam sistem informasi inventaris seperti pada Gambar 2.2.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/Login Page.png}
+          \caption{Halaman \textit{Login}}
+          \label{fig:enter-label}
+        \end{figure}
+        % Jika \textit{login} tidak berhasil maka akan menampilkan pesan seperti pada Gambar 4.66.
+
+        % \begin{figure}
+        %   \centering
+        %   \includegraphics[width=0.82\linewidth]{konten//gambar/login gagal.png}
+        %   \caption{Tampilan \textit{Login} gagal}
+        %   \label{fig:enter-label}
+        % \end{figure}
+
+  \item Halaman Beranda \\ Halaman beranda merupakan tampilan awal yang ditampilkan kepada \textit{user} jika \textit{user} berhasil \textit{login} seperti pada Gambar 2.3.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/login berhasil.png}
+          \caption{Halaman Beranda}
+          \label{fig:enter-label}
+        \end{figure}
+
+        % Halaman beranda setiap pengguna berbeda-beda sesuai dengan hak akses yang diberikan, tampilan halaman beranda berdasarkan hak akses seperti pada Gambar 4.68. sampai Gambar 4.72.
+
+        % \begin{figure}
+        %   \centering
+        %   \includegraphics[width=0.82\linewidth]{konten//gambar/admin.png}
+        %   \caption{Halaman Beranda Admin}
+        %   \label{fig:enter-label}
+        % \end{figure}
+
+        % \begin{figure}
+        %   \centering
+        %   \includegraphics[width=0.82\linewidth]{konten//gambar/kalab.png}
+        %   \caption{Halaman Beranda Kalab}
+        %   \label{fig:enter-label}
+        % \end{figure}
+
+        % \begin{figure}
+        %   \centering
+        %   \includegraphics[width=0.82\linewidth]{konten//gambar/kaprodi.png}
+        %   \caption{Halaman Beranda Kaprodi}
+        %   \label{fig:enter-label}
+        % \end{figure}
+
+        % \begin{figure}
+        %   \centering
+        %   \includegraphics[width=0.82\linewidth]{konten//gambar/sekprodi.png}
+        %   \caption{Halaman Beranda Sekprodi}
+        %   \label{fig:enter-label}
+        % \end{figure}
+
+        % \begin{figure}
+        %   \centering
+        %   \includegraphics[width=0.82\linewidth]{konten//gambar/aslab.png}
+        %   \caption{Halaman Beranda Aslab}
+        %   \label{fig:enter-label}
+        % \end{figure}
+
+  \item Halaman Pendanaan \\ Halaman pendanaan merupakan tampilan untuk melihat dan mengelola data pendanaan, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data pendanaan, dan tombol pensil digunakan untuk mengedit data pendanaan dan tombol \textit{trash} untuk menghapus data pendanaan seperti pada Gambar 2.4. sampai Gambar 2.6.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pendanaan.png}
+          \caption{Halaman Pendanaan \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pendanaan tambah.png}
+          \caption{Halaman Tambah Pendanaan}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pendanaan edit.png}
+          \caption{Halaman Edit Pendanaan}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Barang \\ Halaman barang merupakan tampilan untuk melihat dan mengelola data barang, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data barang, dan tombol pensil digunakan untuk mengedit data barang dan tombol \textit{trash} untuk menghapus data barang, lalu terdapat juga tombol berwarna biru toska yang dibedakan menjadi beberapa tombol yang bertujuan untuk mencetak dokumen laporan berdasarkan pendanaan, ruangan, kategori, tahun, dan QR seperti pada Gambar 2.7. sampai Gambar 2.19.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang.png}
+          \caption{Halaman Barang \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang tambah.png}
+          \caption{Halaman Tambah Barang}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang edit.png}
+          \caption{Halaman Edit Barang}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang detail.png}
+          \caption{Tampilan Detail Barang}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak pendanaan.png}
+          \caption{Tampilan Tombol Cetak Pendanaan}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak ruangan.png}
+          \caption{Tampilan Tombol Cetak Ruangan}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak kategori.png}
+          \caption{Tampilan Tombol Cetak Kategori}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak tahun.png}
+          \caption{Tampilan Tombol Cetak Tahun}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak qr.png}
+          \caption{Halaman Cetak QR}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak ruangan pdf.png}
+          \caption{Halaman Cetak Ruangan}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak pendanaan pdf.png}
+          \caption{Halaman Cetak Pendanaan}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak tahun pdf.png}
+          \caption{Halaman Cetak Tahun}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/barang cetak kategori pdf.png}
+          \caption{Halaman Cetak Kategori}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Posisi Barang \\ Halaman posisi barang merupakan tampilan untuk melihat dan mengelola data barang berdasarkan posisi barang, terdapat tombol berwarna biru toska yang dibedakan menjadi beberapa tombol yang bertujuan untuk mencetak dokumen laporan berdasarkan data ruangan yang sedang ditampilkan, pendanaan, kategori, tahun, dan QR seperti pada Gambar 2.20. sampai Gambar 2.22.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/rsi.png}
+          \caption{Halaman Posisi Barang Labor RSI}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/se.png}
+          \caption{Halaman Posisi Barang Labor SE}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/int.png}
+          \caption{Halaman Posisi Barang Labor INT}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Peminjaman Barang \\ Halaman peminjaman barang merupakan tampilan untuk melihat dan mengelola data peminjaman barang, tombol \textit{trash} untuk menghapus data peminjaman barang. Lalu ada beberapa tahap yang dilakukan oleh peminjam untuk melakukan peminjaman barang seperti mengisi data peminjaman berdasarkan asal peminjam internal atau eksternal seperti pada Gambar 2.24. sampai Gambar 2.30.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang index hasil.png}
+          \caption{Halaman Peminjaman Barang \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        %   \begin{figure}
+        %       \centering
+        %       \includegraphics[width=0.82\linewidth]{konten//gambar/tambah biaya peminjaman ruangan.png}
+        %       \caption{Halaman Tambah Biaya Peminjaman Ruangan}
+        %       \label{fig:enter-label}
+        %   \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang pinjam hasil.png}
+          \caption{Halaman Peminjaman Barang Bagi Peminjam}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang tambah internal 1 hasil.png}
+          \caption{Halaman Peminjaman Barang Bagi Peminjam Internal Tahap 1}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang tambah internal 2 hasil.png}
+          \caption{Halaman Peminjaman Barang Bagi Peminjam Internal Tahap 2}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang tambah internal 3 hasil.png}
+          \caption{Halaman Peminjaman Barang Bagi Peminjam Internal Tahap 3}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang tambah eksternal 1 hasil.png}
+          \caption{Halaman Peminjaman Barang Bagi Peminjam Eksternal Tahap 1}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang tambah eksternal 2 hasil.png}
+          \caption{Halaman Peminjaman Barang Bagi Peminjam Eksternal Tahap 2}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman barang tambah eksternal 3 hasil.png}
+          \caption{Halaman Peminjaman Barang Bagi Peminjam Eksternal Tahap 3}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Peminjaman Ruangan \\ Halaman peminjaman ruangan merupakan tampilan untuk melihat dan mengelola data peminjaman ruangan, tombol \textit{trash} untuk menghapus data peminjaman ruangan. Lalu ada beberapa tahap yang dilakukan oleh peminjam untuk melakukan peminjaman ruangan seperti mengisi data peminjaman berdasarkan asal peminjam internal atau eksternal seperti pada Gambar 2.31. sampai Gambar 2.35.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman ruangan index.png}
+          \caption{Halaman Peminjaman Ruangan \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/tambah biaya peminjaman ruangan.png}
+          \caption{Halaman Tambah Biaya Peminjaman Ruangan}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman ruangan peminjam.png}
+          \caption{Halaman Peminjaman Ruangan Bagi Peminjam}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman ruangan tambah internal.png}
+          \caption{Halaman Peminjaman Ruangan Bagi Peminjam Internal}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/peminjaman ruangan tambah eksternal.png}
+          \caption{Halaman Peminjaman Ruangan Bagi Peminjam Eksternal}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Dokumentasi \\ Halaman dokumentasi merupakan tampilan untuk melihat dan mengelola data dokumentasi, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data dokumentasi, dan tombol pensil digunakan untuk mengedit data dokumentasi dan tombol \textit{trash} untuk menghapus data dokumentasi seperti pada Gambar 2.36. sampai Gambar 2.40.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/dokumentasi index.png}
+          \caption{Halaman Dokumentasi \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/dokumentasi detail.png}
+          \caption{Tampilan Detail Dokumentasi}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/dokumentasi tambah.png}
+          \caption{Halaman Tambah Dokumentasi}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/dokumentasi edit.png}
+          \caption{Halaman Edit Dokumentasi}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/dokumentasi download.png}
+          \caption{Halaman Download Dokumentasi}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman \textit{Maintenance} \\ Halaman \textit{maintenance} merupakan tampilan untuk melihat dan mengelola data \textit{maintenance}, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data \textit{maintenance}, dan tombol pensil digunakan untuk mengedit data \textit{maintenance} dan tombol \textit{trash} untuk menghapus data \textit{maintenance} seperti pada Gambar 2.41. sampai Gambar 2.44.
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/maintenance index.png}
+          \caption{Halaman \textit{Maintenance} \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/maintenance detail.png}
+          \caption{Tampilan Detail \textit{Maintenance}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/maintenance tambah.png}
+          \caption{Halaman Tambah \textit{Maintenance}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/maintenance edit.png}
+          \caption{Halaman Edit \textit{Maintenance}}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Pemusnahan Barang \\ Halaman pemusnahan barang merupakan tampilan untuk melihat dan mengelola data pemusnahan barang, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data pemusnahan barang, dan tombol pensil digunakan untuk mengedit data pemusnahan barang dan tombol \textit{trash} untuk menghapus data pemusnahan barang seperti pada Gambar 2.45. sampai Gambar 2.48.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pemusnahan barang index.png}
+          \caption{Halaman Pemusnahan Barang \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pemusnahan barangdtl.png}
+          \caption{Tampilan Detail Pemusnahan Barang}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pemusnahan barangtbh.png}
+          \caption{Halaman Tambah Pemusnahan Barang}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pemusnahan barang edit.png}
+          \caption{Halaman Edit Pemusnahan Barang}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Fakultas \\ Halaman fakultas merupakan tampilan untuk melihat dan mengelola data fakultas, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data fakultas, dan tombol pensil digunakan untuk mengedit data fakultas dan tombol \textit{trash} untuk menghapus data fakultas seperti pada Gambar 2.49. sampai Gambar 2.51.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/fakultas index.png}
+          \caption{Halaman Fakultas \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/fakultas tambah.png}
+          \caption{Halaman Tambah Fakultas}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/fakultas edit.png}
+          \caption{Halaman Edit Fakultas}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Prodi \\ Halaman prodi merupakan tampilan untuk melihat dan mengelola data prodi, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data prodi, dan tombol pensil digunakan untuk mengedit data prodi dan tombol \textit{trash} untuk menghapus data prodi seperti pada Gambar 2.52. sampai Gambar 2.54.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/prodi index.png}
+          \caption{Halaman Prodi Index}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/prodi tambah.png}
+          \caption{Halaman Tambah Prodi}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/prodi edit.png}
+          \caption{Halaman Edit Prodi}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Gedung \\ Halaman gedung merupakan tampilan untuk melihat dan mengelola data gedung, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data gedung, dan tombol pensil digunakan untuk mengedit data gedung dan tombol \textit{trash} untuk menghapus data gedung seperti pada Gambar 2.55. sampai Gambar 2.57.
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/gedung index.png}
+          \caption{Halaman Gedung \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/gedung tambah.png}
+          \caption{Halaman Tambah Gedung}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/gedung edit.png}
+          \caption{Halaman Edit Gedung}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Ruangan \\ Halaman ruangan merupakan tampilan untuk melihat dan mengelola data ruangan, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data ruangan, dan tombol pensil digunakan untuk mengedit data ruangan dan tombol \textit{trash} untuk menghapus data ruangan seperti pada Gambar 2.58. sampai Gambar 2.60.
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/ruangan index.png}
+          \caption{Halaman Ruangan \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/ruangan tambah.png}
+          \caption{Halaman Tambah Ruangan}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/ruangan edit.png}
+          \caption{Halaman Edit Ruangan}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Pengguna \\ Halaman pengguna merupakan tampilan untuk melihat dan mengelola data pengguna, tombol tambah data merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah data pengguna, dan tombol pensil digunakan untuk mengedit data pengguna dan tombol \textit{trash} untuk menghapus data pengguna seperti pada Gambar 2.61. sampai Gambar 2.64.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/user index.png}
+          \caption{Halaman Pengguna \textit{Index}}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/user detail.png}
+          \caption{Tampilan Detail Pengguna}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/user tambah.png}
+          \caption{Halaman Tambah Pengguna}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/user edit.png}
+          \caption{Halaman Edit Pengguna}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Profil \\ Halaman profil merupakan tampilan untuk melihat dan mengelola data profil, tombol edit profil merupakan tombol yang dapat digunakan untuk beralih ke halaman tambah edit profil seperti pada Gambar 2.65. sampai Gambar 2.66.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/profil.png}
+          \caption{Halaman Profil Pengguna}
+          \label{fig:enter-label}
+        \end{figure}
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/profil edit.png}
+          \caption{Halaman Edit Profil Pengguna}
+          \label{fig:enter-label}
+        \end{figure}
+
+  \item Halaman Pengembang \\ Halaman pengembang merupakan tampilan untuk melihat data pengembang seperti pada Gambar 2.67.
+
+        \begin{figure}
+          \centering
+          \includegraphics[width=0.82\linewidth]{konten//gambar/pengembang.png}
+          \caption{Halaman Pengembang}
+          \label{fig:enter-label}
+        \end{figure}
+
+\end{enumerate}
+
 
 \section{Evaluasi}
 Salah satu komponen penting dari penilaian organisasi adalah evaluasi, yang didefinisikan sebagai proses menilai seberapa efektif startegi yang digunakan untuk mencapai tujuan organisasi \cite{al2018evaluasi}. Adapun tujuan dan fungsi dari evaluasi yaitu, untuk mengetahui apakah tujuan-tujuan yang telah ditetapkan telah tercapai dalam kegiatan, untuk memberikan objektivitas pengamatan terhadap perilaku hasil, un tuk mengetahui kemampuan dan menentukan kelayakan, dan untuk memberikan umpan balik bagi kegiatan yang dilakukan. Evaluasi dilakukan sebagai uji coba untuk melihat sejauh apa sebuah software dapat dikatakan berkualitas dan sebagai acuan untuk melakukan pengembangan software. Perlunya dilakukan evaluasi agar dapat men gukur fungsionalitas dari portal akademik. Hasil dari evaluasi dapat menyimpulkan 20 fungsi/proses apa yang sudah berjalan dengan baik dan yang belum/tidak berjalan dengan baik \cite{terttiaavini2014analisa}.

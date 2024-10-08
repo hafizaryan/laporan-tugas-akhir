@@ -1,7 +1,7 @@
 \contentsline {chapter}{DAFTAR ISI}{ii}{chapter*.2}%
-\contentsline {chapter}{DAFTAR GAMBAR}{iv}{chapter*.4}%
-\contentsline {chapter}{DAFTAR TABEL}{v}{chapter*.6}%
-\contentsline {chapter}{DAFTAR SINGKATAN}{vi}{section*.7}%
+\contentsline {chapter}{DAFTAR GAMBAR}{v}{chapter*.4}%
+\contentsline {chapter}{DAFTAR TABEL}{vii}{chapter*.6}%
+\contentsline {chapter}{DAFTAR SINGKATAN}{viii}{section*.7}%
 \contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Perumusan Masalah}{3}{section.1.2}%
@@ -11,43 +11,57 @@
 \contentsline {section}{\numberline {1.6}Sistematika Penulisan}{4}{section.1.6}%
 \contentsline {chapter}{\numberline {2}\uppercase {Landasan Teori}}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Penelitian Terdahulu}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Profil Instansi}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Sejarah}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Visi}{6}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Misi}{6}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Struktur Organisasi}{6}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Sistem Informasi Inventaris}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Laboratorium}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Laboratorium Rekayasa Sistem Informasi (RSI)}{8}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Laboratorium Internet (INT)}{8}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Laboratorium \textit {Software Engineering} (SE)}{8}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}SITARIS SI}{8}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Evaluasi}{8}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Prosedur Evaluasi}{9}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Standar Evaluasi}{10}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}Kualitas Sistem}{10}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Model ISO 9126}{11}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Skala Likert}{14}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Observasi}{14}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Kuesioner}{14}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Populasi dan Sampel}{15}{section.2.12}%
-\contentsline {subsection}{\numberline {2.12.1}Populasi}{15}{subsection.2.12.1}%
-\contentsline {subsection}{\numberline {2.12.2}Sampel}{15}{subsection.2.12.2}%
-\contentsline {subsection}{\numberline {2.12.3}Prosedur Probabilitas \textit {Sampling}}{16}{subsection.2.12.3}%
-\contentsline {subsection}{\numberline {2.12.4}Prosedur Probabilitas \textit {Non Sampling}}{17}{subsection.2.12.4}%
-\contentsline {section}{\numberline {2.13}SPSS}{17}{section.2.13}%
-\contentsline {chapter}{\numberline {3}\uppercase {Metodologi Penelitian}}{18}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Cara Normalisasi Data dengan Min-Max \textit {Normalization}}{18}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Euclidean \textit {Distance}}{18}{section.3.2}%
-\contentsline {chapter}{\numberline {4}JANGKAAN HASIL}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Analisa}{19}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Analisa Kebutuhan Fungsional Sistem}{19}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Analisa Kebutuhan Non-Fungsional Sistem}{19}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Perancangan}{19}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Perancangan Struktur Menu}{19}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Perancangan Basis Data}{19}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Perancangan Antar-Muka}{19}{subsection.4.2.3}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.11}%
+\contentsline {section}{\numberline {2.2}Profil Instansi}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sejarah}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Visi}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Misi}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Struktur Organisasi}{8}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Sistem Informasi Inventaris}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Laboratorium}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Laboratorium Rekayasa Sistem Informasi (RSI)}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Laboratorium Internet (INT)}{9}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Laboratorium \textit {Software Engineering} (SE)}{9}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}SITARIS SI}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Evaluasi}{38}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Prosedur Evaluasi}{39}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Standar Evaluasi}{39}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Kualitas Sistem}{40}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Model ISO 9126}{40}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Skala Likert}{43}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Observasi}{44}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Kuesioner}{44}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Populasi dan Sampel}{44}{section.2.12}%
+\contentsline {subsection}{\numberline {2.12.1}Populasi}{44}{subsection.2.12.1}%
+\contentsline {subsection}{\numberline {2.12.2}Sampel}{44}{subsection.2.12.2}%
+\contentsline {subsection}{\numberline {2.12.3}Prosedur Probabilitas \textit {Sampling}}{45}{subsection.2.12.3}%
+\contentsline {subsection}{\numberline {2.12.4}Prosedur Probabilitas \textit {Non Sampling}}{46}{subsection.2.12.4}%
+\contentsline {section}{\numberline {2.13}SPSS}{47}{section.2.13}%
+\contentsline {chapter}{\numberline {3}\uppercase {Metodologi Penelitian}}{48}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Tahap Perencanaan}{49}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Identifikasi Masalah}{49}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Studi Literatur}{49}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Menentukan Tujuan dan Manfaat}{49}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Menentukan Batasan Masalah}{49}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Tahap Pengumpulan Data}{49}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Melakukan Wawancara}{50}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Menentukan Populasi dan Sampel}{50}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Membuat dan Menyebarkan Kuisioner}{50}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Tahap Analisis dan Hasil}{50}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Menganalisis SITARIS SI}{50}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Menganalisis Pengolahan Kuisioner}{50}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Menganalisis Pengukuran Model ISO 9126}{50}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Tahap Kesimpulan dan Dokumentasi}{50}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Membuat persentase Kelayakan Sistem}{50}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Membuat Rekomendasi dan Kesimpulan}{51}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}JANGKAAN HASIL}{52}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Analisa}{52}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Analisa Kebutuhan Fungsional Sistem}{52}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Analisa Kebutuhan Non-Fungsional Sistem}{52}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Perancangan}{52}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Perancangan Struktur Menu}{52}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Perancangan Basis Data}{52}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Perancangan Antar-Muka}{52}{subsection.4.2.3}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.79}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
 \contentsline {chapter}{LAMPIRAN \numberline {C}DATA MORFOMETRIK SAPI}{C - 1}{appendix.1.C}%

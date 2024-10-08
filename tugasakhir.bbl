@@ -55,6 +55,38 @@ Al~Agani, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Alkodri%
+, Farid%
+, Rachmatsyah%
+\BCBL {}\ \BBA {} Atmaja%
+}{%
+Alkodri%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+alkodri2023pengaplikasian}
+\APACinsertmetastar {%
+alkodri2023pengaplikasian}%
+\begin{APACrefauthors}%
+Alkodri, A\BPBI A.%
+, Farid, B\BPBI I.%
+, Rachmatsyah, A\BPBI D.%
+\BCBL {}\ \BBA {} Atmaja, F\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pengaplikasian Standar ISO 9126 dalam Rancang Bangun
+  Sistem Informasi Inventori dan Pengawasan Laboratorium Berbasis Android}
+  {Pengaplikasian standar iso 9126 dalam rancang bangun sistem informasi
+  inventori dan pengawasan laboratorium berbasis android}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{EXPERT: Jurnal Manajemen Sistem Informasi dan
+  Teknologi}{13}{1}{44}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Amalia%
 , Dianingati%
 \BCBL {}\ \protect \BOthers {.}}{%
@@ -130,6 +162,38 @@ Budijanto, D.%
   sampling, dan besar sampel}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Kementerian Kesehatan RI}{18}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dewi%
+\ \BBA {} Jati%
+}{%
+Dewi%
+\ \BBA {} Jati%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+dewi2017quality}
+\APACinsertmetastar {%
+dewi2017quality}%
+\begin{APACrefauthors}%
+Dewi, A\BPBI T.%
+\BCBT {}\ \BBA {} Jati, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A QUALITY ANALYSIS USING ISO 9126 IN THE INFORMATION
+  SYSTEM OF “NEZAWA INFORMATION SYSTEM DATA COLLECTION (ISDC) AND CHAT” AS
+  A MEANS OF INFORMATION OF REUNION AND COMMUNICATION AMONG ALUMNI OF SMK
+  NEGERI 1 WANAREJA} {A quality analysis using iso 9126 in the information
+  system of “nezawa information system data collection (isdc) and chat” as
+  a means of information of reunion and communication among alumni of smk
+  negeri 1 wanareja}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{E-JPTI (Jurnal Elektronik Pendidikan Teknik
+  Informatika)}{6}{3}{1--9}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -212,6 +276,39 @@ Iso, I.%
 \newblock
 \APACjournalVolNumPages{Geneva, Switzerland: International Organization for
   Standardization}{21}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kumalasari%
+, Putri%
+, Widiatry%
+\BCBL {}\ \BBA {} Pranatawijaya%
+}{%
+Kumalasari%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+kumalasari2024analisis}
+\APACinsertmetastar {%
+kumalasari2024analisis}%
+\begin{APACrefauthors}%
+Kumalasari, S.%
+, Putri, T\BPBI S\BPBI E.%
+, Widiatry, W.%
+\BCBL {}\ \BBA {} Pranatawijaya, V\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ANALISIS KUALITAS DAN PENERAPAN SOFTWARE QUALITY
+  ASSURANCE MENGGUNAKAN MODEL ISO/IEC 9126 PADA WEBSITE OBJEK WISATA DI
+  KABUPATEN GUNUNG MAS} {Analisis kualitas dan penerapan software quality
+  assurance menggunakan model iso/iec 9126 pada website objek wisata di
+  kabupaten gunung mas}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{JATI (Jurnal Mahasiswa Teknik
+  Informatika)}{8}{4}{7630--7635}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -344,6 +441,32 @@ Sarwono, J.%
   prosedur-prosedur populer dalam spss 23}.
 \newblock
 \APACaddressPublisher{}{Elex Media Komputindo}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{SITARIS}%
+}{%
+{SITARIS}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+sitaris-lab-si-website}
+\APACinsertmetastar {%
+sitaris-lab-si-website}%
+\begin{APACrefauthors}%
+{SITARIS}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {SITARIS Laboratorium Sistem Informasi UIN Suska Riau.} {Sitaris
+  laboratorium sistem informasi uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://sitaris.lab-si.uin-suska.ac.id}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 08 Oktober 2023}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
