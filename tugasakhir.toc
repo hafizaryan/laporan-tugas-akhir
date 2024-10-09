@@ -36,6 +36,8 @@
 \contentsline {subsection}{\numberline {2.12.3}Prosedur Probabilitas \textit {Sampling}}{45}{subsection.2.12.3}%
 \contentsline {subsection}{\numberline {2.12.4}Prosedur Probabilitas \textit {Non Sampling}}{46}{subsection.2.12.4}%
 \contentsline {section}{\numberline {2.13}SPSS}{47}{section.2.13}%
+\contentsline {subsection}{\numberline {2.13.1}Uji Validitas}{47}{subsection.2.13.1}%
+\contentsline {subsection}{\numberline {2.13.2}Uji Reliabilitas}{47}{subsection.2.13.2}%
 \contentsline {chapter}{\numberline {3}\uppercase {Metodologi Penelitian}}{48}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Tahap Perencanaan}{49}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Identifikasi Masalah}{49}{subsection.3.1.1}%
@@ -54,13 +56,6 @@
 \contentsline {subsection}{\numberline {3.4.1}Membuat Persentase Kelayakan Sistem}{54}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Membuat Rekomendasi dan Kesimpulan}{55}{subsection.3.4.2}%
 \contentsline {chapter}{\numberline {4}JANGKAAN HASIL}{56}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Analisa}{56}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Analisa Kebutuhan Fungsional Sistem}{56}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Analisa Kebutuhan Non-Fungsional Sistem}{56}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Perancangan}{56}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Perancangan Struktur Menu}{56}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Perancangan Basis Data}{56}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Perancangan Antar-Muka}{56}{subsection.4.2.3}%
 \contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.79}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%

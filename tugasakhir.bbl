@@ -142,6 +142,36 @@ Amin, N\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Anggraini%
+, Aprianti%
+, Setyawati%
+\BCBL {}\ \BBA {} Hartanto%
+}{%
+Anggraini%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+anggraini2022pembelajaran}
+\APACinsertmetastar {%
+anggraini2022pembelajaran}%
+\begin{APACrefauthors}%
+Anggraini, F\BPBI D\BPBI P.%
+, Aprianti, A.%
+, Setyawati, V\BPBI A\BPBI V.%
+\BCBL {}\ \BBA {} Hartanto, A\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pembelajaran statistika menggunakan software SPSS untuk
+  uji validitas dan reliabilitas} {Pembelajaran statistika menggunakan software
+  spss untuk uji validitas dan reliabilitas}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Jurnal Basicedu}{6}{4}{6491--6504}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Budijanto%
 }{%
 Budijanto%
@@ -276,6 +306,32 @@ Iso, I.%
 \newblock
 \APACjournalVolNumPages{Geneva, Switzerland: International Organization for
   Standardization}{21}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Janti%
+}{%
+Janti%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+janti2014analisis}
+\APACinsertmetastar {%
+janti2014analisis}%
+\begin{APACrefauthors}%
+Janti, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Analisis validitas dan reliabilitas dengan skala likert
+  terhadap pengembangan si/ti dalam penentuan pengambilan keputusan penerapan
+  strategic planning pada industri garmen} {Analisis validitas dan reliabilitas
+  dengan skala likert terhadap pengembangan si/ti dalam penentuan pengambilan
+  keputusan penerapan strategic planning pada industri garmen}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Prosiding Snast}{}{}{155--160}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

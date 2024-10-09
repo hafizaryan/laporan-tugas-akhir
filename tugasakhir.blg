@@ -37,51 +37,51 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: konfigurasi/daftarpustaka.bib
 Warning--entry type for "lab-si-website" isn't style-file defined
---line 795 of file konfigurasi/daftarpustaka.bib
+--line 833 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
---line 811 of file konfigurasi/daftarpustaka.bib
+--line 849 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 21 entries,
+You've used 23 entries,
             6951 wiz_defined-function locations,
-            1395 strings with 15271 characters,
-and the built_in function-call counts, 45944 in all, are:
-= -- 5723
-> -- 313
-< -- 2573
-+ -- 2664
-- -- 50
-* -- 3102
-:= -- 9227
-add.period$ -- 82
-call.type$ -- 21
-change.case$ -- 357
+            1406 strings with 15778 characters,
+and the built_in function-call counts, 51066 in all, are:
+= -- 6345
+> -- 346
+< -- 2898
++ -- 3011
+- -- 54
+* -- 3474
+:= -- 10325
+add.period$ -- 90
+call.type$ -- 23
+change.case$ -- 391
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 1026
-empty$ -- 1535
-format.name$ -- 520
-if$ -- 8293
+cite$ -- 46
+duplicate$ -- 1140
+empty$ -- 1683
+format.name$ -- 575
+if$ -- 9169
 int.to.chr$ -- 0
-int.to.str$ -- 63
+int.to.str$ -- 69
 missing$ -- 0
-newline$ -- 516
-num.names$ -- 168
-pop$ -- 601
+newline$ -- 566
+num.names$ -- 184
+pop$ -- 654
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 92
 quote$ -- 0
-skip$ -- 2811
+skip$ -- 3084
 stack$ -- 0
-substring$ -- 2841
-swap$ -- 585
-text.length$ -- 46
+substring$ -- 3208
+swap$ -- 646
+text.length$ -- 50
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1888
+type$ -- 2048
 warning$ -- 2
-while$ -- 175
+while$ -- 194
 width$ -- 0
-write$ -- 634
+write$ -- 697
 (There were 4 warnings)
