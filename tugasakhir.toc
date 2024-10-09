@@ -56,6 +56,20 @@
 \contentsline {subsection}{\numberline {3.4.1}Membuat Persentase Kelayakan Sistem}{54}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Membuat Rekomendasi dan Kesimpulan}{55}{subsection.3.4.2}%
 \contentsline {chapter}{\numberline {4}JANGKAAN HASIL}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Studi Literatur}{56}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Identifikasi Masalah}{56}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Pengumpulan Data}{56}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Penentuan Metode ISO 9126}{56}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Populasi dan Sampel}{56}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Uji Kelayakan Karakteristik}{56}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Analisa Hasil Pengujian}{56}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Hasil Rekomendasi}{56}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Rekomendasi Karakteristik Functionality}{56}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Rekomendasi Karakteristik Reliability}{56}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Rekomendasi Karakteristik Usability}{56}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Rekomendasi Karakteristik Efficiency}{56}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}Rekomendasi Karakteristik Maintainability}{56}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}Rekomendasi Karakteristik Portability}{56}{subsection.4.8.6}%
 \contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.79}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
