@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  9 OCT 2024 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  10 OCT 2024 08:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -900,16 +900,6 @@ l.25
 
 
 ]
-Underfull \hbox (badness 1132) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 si-bil-i-tas model ISO 9126 dalam eval-u-asi sis-tem in-for-masi di berba-gai kon-
- []
-
-
-Underfull \hbox (badness 1281) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 bagaimana model ini da-pat dit-er-ap-kan un-tuk mengeval-u-asi sis-tem in-for-masi
- []
-
-
 
 [2]
 Underfull \hbox (badness 1917) in paragraph at lines 35--37
@@ -969,7 +959,7 @@ Underfull \hbox (badness 4726) in paragraph at lines 76--77
 
 
 [7]
-<konten//gambar/Struktur Organisasi.png, id=782, 406.01688pt x 305.14pt>
+<konten//gambar/Struktur Organisasi.png, id=779, 406.01688pt x 305.14pt>
 File: konten//gambar/Struktur Organisasi.png Graphic file (type png)
 <use konten//gambar/Struktur Organisasi.png>
 Package pdftex.def Info: konten//gambar/Struktur Organisasi.png  used on input line 88.
@@ -983,7 +973,7 @@ Underfull \hbox (badness 1033) in paragraph at lines 113--114
 \OT1/ptm/m/n/12 dibuat de-ngan meng-gu-nakan Frame-work CodeIgniter4 dan ba-hasa pem-ro-gra-
  []
 
-<konten//gambar/Login Page.png, id=813, 1927.2pt x 1003.75pt>
+<konten//gambar/Login Page.png, id=810, 1927.2pt x 1003.75pt>
 File: konten//gambar/Login Page.png Graphic file (type png)
 <use konten//gambar/Login Page.png>
 Package pdftex.def Info: konten//gambar/Login Page.png  used on input line 122.
@@ -991,17 +981,17 @@ Package pdftex.def Info: konten//gambar/Login Page.png  used on input line 122.
 
 
 [10 <./konten//gambar/Login Page.png>]
-<konten//gambar/login berhasil.png, id=822, 1927.2pt x 1003.75pt>
+<konten//gambar/login berhasil.png, id=819, 1927.2pt x 1003.75pt>
 File: konten//gambar/login berhasil.png Graphic file (type png)
 <use konten//gambar/login berhasil.png>
 Package pdftex.def Info: konten//gambar/login berhasil.png  used on input line 139.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/pendanaan.png, id=823, 1927.2pt x 1003.75pt>
+<konten//gambar/pendanaan.png, id=820, 1927.2pt x 1003.75pt>
 File: konten//gambar/pendanaan.png Graphic file (type png)
 <use konten//gambar/pendanaan.png>
 Package pdftex.def Info: konten//gambar/pendanaan.png  used on input line 185.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/pendanaan tambah.png, id=824, 1927.2pt x 1003.75pt>
+<konten//gambar/pendanaan tambah.png, id=821, 1927.2pt x 1003.75pt>
 File: konten//gambar/pendanaan tambah.png Graphic file (type png)
 <use konten//gambar/pendanaan tambah.png>
 Package pdftex.def Info: konten//gambar/pendanaan tambah.png  used on input line 192.
@@ -1009,12 +999,12 @@ Package pdftex.def Info: konten//gambar/pendanaan tambah.png  used on input line
 
 
 [11 <./konten//gambar/login berhasil.png> <./konten//gambar/pendanaan.png>]
-<konten//gambar/pendanaan edit.png, id=833, 1927.2pt x 1003.75pt>
+<konten//gambar/pendanaan edit.png, id=830, 1927.2pt x 1003.75pt>
 File: konten//gambar/pendanaan edit.png Graphic file (type png)
 <use konten//gambar/pendanaan edit.png>
 Package pdftex.def Info: konten//gambar/pendanaan edit.png  used on input line 199.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang.png, id=834, 1445.4pt x 813.0375pt>
+<konten//gambar/barang.png, id=831, 1445.4pt x 813.0375pt>
 File: konten//gambar/barang.png Graphic file (type png)
 <use konten//gambar/barang.png>
 Package pdftex.def Info: konten//gambar/barang.png  used on input line 208.
@@ -1022,12 +1012,12 @@ Package pdftex.def Info: konten//gambar/barang.png  used on input line 208.
 
 
 [12 <./konten//gambar/pendanaan tambah.png> <./konten//gambar/pendanaan edit.png>]
-<konten//gambar/barang tambah.png, id=842, 1445.4pt x 813.0375pt>
+<konten//gambar/barang tambah.png, id=839, 1445.4pt x 813.0375pt>
 File: konten//gambar/barang tambah.png Graphic file (type png)
 <use konten//gambar/barang tambah.png>
 Package pdftex.def Info: konten//gambar/barang tambah.png  used on input line 215.
 (pdftex.def)             Requested size: 326.64055pt x 183.73193pt.
-<konten//gambar/barang edit.png, id=843, 1445.4pt x 813.0375pt>
+<konten//gambar/barang edit.png, id=840, 1445.4pt x 813.0375pt>
 File: konten//gambar/barang edit.png Graphic file (type png)
 <use konten//gambar/barang edit.png>
 Package pdftex.def Info: konten//gambar/barang edit.png  used on input line 222.
@@ -1035,17 +1025,17 @@ Package pdftex.def Info: konten//gambar/barang edit.png  used on input line 222.
 
 
 [13 <./konten//gambar/barang.png> <./konten//gambar/barang tambah.png>]
-<konten//gambar/barang detail.png, id=850, 1927.2pt x 1003.75pt>
+<konten//gambar/barang detail.png, id=847, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang detail.png Graphic file (type png)
 <use konten//gambar/barang detail.png>
 Package pdftex.def Info: konten//gambar/barang detail.png  used on input line 229.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang cetak pendanaan.png, id=851, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak pendanaan.png, id=848, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak pendanaan.png Graphic file (type png)
 <use konten//gambar/barang cetak pendanaan.png>
 Package pdftex.def Info: konten//gambar/barang cetak pendanaan.png  used on input line 236.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang cetak ruangan.png, id=852, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak ruangan.png, id=849, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak ruangan.png Graphic file (type png)
 <use konten//gambar/barang cetak ruangan.png>
 Package pdftex.def Info: konten//gambar/barang cetak ruangan.png  used on input line 243.
@@ -1053,17 +1043,17 @@ Package pdftex.def Info: konten//gambar/barang cetak ruangan.png  used on input 
 
 
 [14 <./konten//gambar/barang edit.png> <./konten//gambar/barang detail.png> <./konten//gambar/barang cetak pendanaan.png>]
-<konten//gambar/barang cetak kategori.png, id=860, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak kategori.png, id=857, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak kategori.png Graphic file (type png)
 <use konten//gambar/barang cetak kategori.png>
 Package pdftex.def Info: konten//gambar/barang cetak kategori.png  used on input line 250.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang cetak tahun.png, id=861, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak tahun.png, id=858, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak tahun.png Graphic file (type png)
 <use konten//gambar/barang cetak tahun.png>
 Package pdftex.def Info: konten//gambar/barang cetak tahun.png  used on input line 257.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang cetak qr.png, id=862, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak qr.png, id=859, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak qr.png Graphic file (type png)
 <use konten//gambar/barang cetak qr.png>
 Package pdftex.def Info: konten//gambar/barang cetak qr.png  used on input line 264.
@@ -1071,17 +1061,17 @@ Package pdftex.def Info: konten//gambar/barang cetak qr.png  used on input line 
 
 
 [15 <./konten//gambar/barang cetak ruangan.png> <./konten//gambar/barang cetak kategori.png> <./konten//gambar/barang cetak tahun.png>]
-<konten//gambar/barang cetak ruangan pdf.png, id=870, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak ruangan pdf.png, id=867, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak ruangan pdf.png Graphic file (type png)
 <use konten//gambar/barang cetak ruangan pdf.png>
 Package pdftex.def Info: konten//gambar/barang cetak ruangan pdf.png  used on input line 271.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang cetak pendanaan pdf.png, id=871, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak pendanaan pdf.png, id=868, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak pendanaan pdf.png Graphic file (type png)
 <use konten//gambar/barang cetak pendanaan pdf.png>
 Package pdftex.def Info: konten//gambar/barang cetak pendanaan pdf.png  used on input line 278.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang cetak tahun pdf.png, id=872, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak tahun pdf.png, id=869, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak tahun pdf.png Graphic file (type png)
 <use konten//gambar/barang cetak tahun pdf.png>
 Package pdftex.def Info: konten//gambar/barang cetak tahun pdf.png  used on input line 285.
@@ -1089,12 +1079,12 @@ Package pdftex.def Info: konten//gambar/barang cetak tahun pdf.png  used on inpu
 
 
 [16 <./konten//gambar/barang cetak qr.png> <./konten//gambar/barang cetak ruangan pdf.png> <./konten//gambar/barang cetak pendanaan pdf.png>]
-<konten//gambar/barang cetak kategori pdf.png, id=880, 1927.2pt x 1003.75pt>
+<konten//gambar/barang cetak kategori pdf.png, id=877, 1927.2pt x 1003.75pt>
 File: konten//gambar/barang cetak kategori pdf.png Graphic file (type png)
 <use konten//gambar/barang cetak kategori pdf.png>
 Package pdftex.def Info: konten//gambar/barang cetak kategori pdf.png  used on input line 292.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/rsi.png, id=881, 1445.4pt x 752.0597pt>
+<konten//gambar/rsi.png, id=878, 1445.4pt x 752.0597pt>
 File: konten//gambar/rsi.png Graphic file (type png)
 <use konten//gambar/rsi.png>
 Package pdftex.def Info: konten//gambar/rsi.png  used on input line 301.
@@ -1102,12 +1092,12 @@ Package pdftex.def Info: konten//gambar/rsi.png  used on input line 301.
 
 
 [17 <./konten//gambar/barang cetak tahun pdf.png> <./konten//gambar/barang cetak kategori pdf.png>]
-<konten//gambar/se.png, id=890, 1445.4pt x 754.31813pt>
+<konten//gambar/se.png, id=887, 1445.4pt x 754.31813pt>
 File: konten//gambar/se.png Graphic file (type png)
 <use konten//gambar/se.png>
 Package pdftex.def Info: konten//gambar/se.png  used on input line 308.
 (pdftex.def)             Requested size: 326.64055pt x 170.4624pt.
-<konten//gambar/int.png, id=891, 1445.4pt x 758.08218pt>
+<konten//gambar/int.png, id=888, 1445.4pt x 758.08218pt>
 File: konten//gambar/int.png Graphic file (type png)
 <use konten//gambar/int.png>
 Package pdftex.def Info: konten//gambar/int.png  used on input line 315.
@@ -1115,17 +1105,17 @@ Package pdftex.def Info: konten//gambar/int.png  used on input line 315.
 
 
 [18 <./konten//gambar/rsi.png> <./konten//gambar/se.png> <./konten//gambar/int.png>]
-<konten//gambar/peminjaman barang index hasil.png, id=899, 1927.2pt x 1003.75pt>
+<konten//gambar/peminjaman barang index hasil.png, id=896, 1927.2pt x 1003.75pt>
 File: konten//gambar/peminjaman barang index hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang index hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang index hasil.png  used on input line 324.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/peminjaman barang pinjam hasil.png, id=900, 1927.2pt x 1088.065pt>
+<konten//gambar/peminjaman barang pinjam hasil.png, id=897, 1927.2pt x 1088.065pt>
 File: konten//gambar/peminjaman barang pinjam hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang pinjam hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang pinjam hasil.png  used on input line 338.
 (pdftex.def)             Requested size: 326.64055pt x 184.40411pt.
-<konten//gambar/peminjaman barang tambah internal 1 hasil.png, id=901, 1927.2pt x 1041.8925pt>
+<konten//gambar/peminjaman barang tambah internal 1 hasil.png, id=898, 1927.2pt x 1041.8925pt>
 File: konten//gambar/peminjaman barang tambah internal 1 hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang tambah internal 1 hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang tambah internal 1 hasil.png  used on input line 345.
@@ -1133,17 +1123,17 @@ Package pdftex.def Info: konten//gambar/peminjaman barang tambah internal 1 hasi
 
 
 [19 <./konten//gambar/peminjaman barang index hasil.png> <./konten//gambar/peminjaman barang pinjam hasil.png>]
-<konten//gambar/peminjaman barang tambah internal 2 hasil.png, id=909, 1445.4pt x 759.58781pt>
+<konten//gambar/peminjaman barang tambah internal 2 hasil.png, id=906, 1445.4pt x 759.58781pt>
 File: konten//gambar/peminjaman barang tambah internal 2 hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang tambah internal 2 hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang tambah internal 2 hasil.png  used on input line 352.
 (pdftex.def)             Requested size: 326.64055pt x 171.65324pt.
-<konten//gambar/peminjaman barang tambah internal 3 hasil.png, id=910, 1927.2pt x 1008.76875pt>
+<konten//gambar/peminjaman barang tambah internal 3 hasil.png, id=907, 1927.2pt x 1008.76875pt>
 File: konten//gambar/peminjaman barang tambah internal 3 hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang tambah internal 3 hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang tambah internal 3 hasil.png  used on input line 359.
 (pdftex.def)             Requested size: 326.64055pt x 170.96507pt.
-<konten//gambar/peminjaman barang tambah eksternal 1 hasil.png, id=911, 1927.2pt x 1008.76875pt>
+<konten//gambar/peminjaman barang tambah eksternal 1 hasil.png, id=908, 1927.2pt x 1008.76875pt>
 File: konten//gambar/peminjaman barang tambah eksternal 1 hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang tambah eksternal 1 hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang tambah eksternal 1 hasil.png  used on input line 366.
@@ -1151,12 +1141,12 @@ Package pdftex.def Info: konten//gambar/peminjaman barang tambah eksternal 1 has
 
 
 [20 <./konten//gambar/peminjaman barang tambah internal 1 hasil.png> <./konten//gambar/peminjaman barang tambah internal 2 hasil.png> <./konten//gambar/peminjaman barang tambah internal 3 hasil.png>]
-<konten//gambar/peminjaman barang tambah eksternal 2 hasil.png, id=919, 1445.4pt x 759.58781pt>
+<konten//gambar/peminjaman barang tambah eksternal 2 hasil.png, id=916, 1445.4pt x 759.58781pt>
 File: konten//gambar/peminjaman barang tambah eksternal 2 hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang tambah eksternal 2 hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang tambah eksternal 2 hasil.png  used on input line 373.
 (pdftex.def)             Requested size: 326.64055pt x 171.65324pt.
-<konten//gambar/peminjaman barang tambah eksternal 3 hasil.png, id=920, 1927.2pt x 1008.76875pt>
+<konten//gambar/peminjaman barang tambah eksternal 3 hasil.png, id=917, 1927.2pt x 1008.76875pt>
 File: konten//gambar/peminjaman barang tambah eksternal 3 hasil.png Graphic file (type png)
 <use konten//gambar/peminjaman barang tambah eksternal 3 hasil.png>
 Package pdftex.def Info: konten//gambar/peminjaman barang tambah eksternal 3 hasil.png  used on input line 380.
@@ -1164,17 +1154,17 @@ Package pdftex.def Info: konten//gambar/peminjaman barang tambah eksternal 3 has
 
 
 [21 <./konten//gambar/peminjaman barang tambah eksternal 1 hasil.png> <./konten//gambar/peminjaman barang tambah eksternal 2 hasil.png> <./konten//gambar/peminjaman barang tambah eksternal 3 hasil.png>]
-<konten//gambar/peminjaman ruangan index.png, id=928, 1927.2pt x 1120.185pt>
+<konten//gambar/peminjaman ruangan index.png, id=925, 1927.2pt x 1120.185pt>
 File: konten//gambar/peminjaman ruangan index.png Graphic file (type png)
 <use konten//gambar/peminjaman ruangan index.png>
 Package pdftex.def Info: konten//gambar/peminjaman ruangan index.png  used on input line 389.
 (pdftex.def)             Requested size: 326.64055pt x 189.84778pt.
-<konten//gambar/tambah biaya peminjaman ruangan.png, id=929, 1927.2pt x 1003.75pt>
+<konten//gambar/tambah biaya peminjaman ruangan.png, id=926, 1927.2pt x 1003.75pt>
 File: konten//gambar/tambah biaya peminjaman ruangan.png Graphic file (type png)
 <use konten//gambar/tambah biaya peminjaman ruangan.png>
 Package pdftex.def Info: konten//gambar/tambah biaya peminjaman ruangan.png  used on input line 396.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/peminjaman ruangan peminjam.png, id=930, 1927.2pt x 1088.065pt>
+<konten//gambar/peminjaman ruangan peminjam.png, id=927, 1927.2pt x 1088.065pt>
 File: konten//gambar/peminjaman ruangan peminjam.png Graphic file (type png)
 <use konten//gambar/peminjaman ruangan peminjam.png>
 Package pdftex.def Info: konten//gambar/peminjaman ruangan peminjam.png  used on input line 403.
@@ -1182,12 +1172,12 @@ Package pdftex.def Info: konten//gambar/peminjaman ruangan peminjam.png  used on
 
 
 [22 <./konten//gambar/peminjaman ruangan index.png> <./konten//gambar/tambah biaya peminjaman ruangan.png>]
-<konten//gambar/peminjaman ruangan tambah internal.png, id=938, 1445.4pt x 813.0375pt>
+<konten//gambar/peminjaman ruangan tambah internal.png, id=935, 1445.4pt x 813.0375pt>
 File: konten//gambar/peminjaman ruangan tambah internal.png Graphic file (type png)
 <use konten//gambar/peminjaman ruangan tambah internal.png>
 Package pdftex.def Info: konten//gambar/peminjaman ruangan tambah internal.png  used on input line 410.
 (pdftex.def)             Requested size: 326.64055pt x 183.73193pt.
-<konten//gambar/peminjaman ruangan tambah eksternal.png, id=939, 1445.4pt x 813.0375pt>
+<konten//gambar/peminjaman ruangan tambah eksternal.png, id=936, 1445.4pt x 813.0375pt>
 File: konten//gambar/peminjaman ruangan tambah eksternal.png Graphic file (type png)
 <use konten//gambar/peminjaman ruangan tambah eksternal.png>
 Package pdftex.def Info: konten//gambar/peminjaman ruangan tambah eksternal.png  used on input line 417.
@@ -1195,12 +1185,12 @@ Package pdftex.def Info: konten//gambar/peminjaman ruangan tambah eksternal.png 
 
 
 [23 <./konten//gambar/peminjaman ruangan peminjam.png> <./konten//gambar/peminjaman ruangan tambah internal.png>]
-<konten//gambar/dokumentasi index.png, id=947, 1927.2pt x 1003.75pt>
+<konten//gambar/dokumentasi index.png, id=944, 1927.2pt x 1003.75pt>
 File: konten//gambar/dokumentasi index.png Graphic file (type png)
 <use konten//gambar/dokumentasi index.png>
 Package pdftex.def Info: konten//gambar/dokumentasi index.png  used on input line 426.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/dokumentasi detail.png, id=948, 1927.2pt x 1003.75pt>
+<konten//gambar/dokumentasi detail.png, id=945, 1927.2pt x 1003.75pt>
 File: konten//gambar/dokumentasi detail.png Graphic file (type png)
 <use konten//gambar/dokumentasi detail.png>
 Package pdftex.def Info: konten//gambar/dokumentasi detail.png  used on input line 433.
@@ -1208,17 +1198,17 @@ Package pdftex.def Info: konten//gambar/dokumentasi detail.png  used on input li
 
 
 [24 <./konten//gambar/peminjaman ruangan tambah eksternal.png> <./konten//gambar/dokumentasi index.png>]
-<konten//gambar/dokumentasi tambah.png, id=956, 1445.4pt x 813.0375pt>
+<konten//gambar/dokumentasi tambah.png, id=953, 1445.4pt x 813.0375pt>
 File: konten//gambar/dokumentasi tambah.png Graphic file (type png)
 <use konten//gambar/dokumentasi tambah.png>
 Package pdftex.def Info: konten//gambar/dokumentasi tambah.png  used on input line 440.
 (pdftex.def)             Requested size: 326.64055pt x 183.73193pt.
-<konten//gambar/dokumentasi edit.png, id=957, 1927.2pt x 1003.75pt>
+<konten//gambar/dokumentasi edit.png, id=954, 1927.2pt x 1003.75pt>
 File: konten//gambar/dokumentasi edit.png Graphic file (type png)
 <use konten//gambar/dokumentasi edit.png>
 Package pdftex.def Info: konten//gambar/dokumentasi edit.png  used on input line 447.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/dokumentasi download.png, id=958, 1927.2pt x 1003.75pt>
+<konten//gambar/dokumentasi download.png, id=955, 1927.2pt x 1003.75pt>
 File: konten//gambar/dokumentasi download.png Graphic file (type png)
 <use konten//gambar/dokumentasi download.png>
 Package pdftex.def Info: konten//gambar/dokumentasi download.png  used on input line 454.
@@ -1226,12 +1216,12 @@ Package pdftex.def Info: konten//gambar/dokumentasi download.png  used on input 
 
 
 [25 <./konten//gambar/dokumentasi detail.png> <./konten//gambar/dokumentasi tambah.png> <./konten//gambar/dokumentasi edit.png>]
-<konten//gambar/maintenance index.png, id=966, 1927.2pt x 1003.75pt>
+<konten//gambar/maintenance index.png, id=963, 1927.2pt x 1003.75pt>
 File: konten//gambar/maintenance index.png Graphic file (type png)
 <use konten//gambar/maintenance index.png>
 Package pdftex.def Info: konten//gambar/maintenance index.png  used on input line 462.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/maintenance detail.png, id=967, 1927.2pt x 1003.75pt>
+<konten//gambar/maintenance detail.png, id=964, 1927.2pt x 1003.75pt>
 File: konten//gambar/maintenance detail.png Graphic file (type png)
 <use konten//gambar/maintenance detail.png>
 Package pdftex.def Info: konten//gambar/maintenance detail.png  used on input line 469.
@@ -1239,12 +1229,12 @@ Package pdftex.def Info: konten//gambar/maintenance detail.png  used on input li
 
 
 [26 <./konten//gambar/dokumentasi download.png> <./konten//gambar/maintenance index.png>]
-<konten//gambar/maintenance tambah.png, id=975, 1927.2pt x 1120.185pt>
+<konten//gambar/maintenance tambah.png, id=972, 1927.2pt x 1120.185pt>
 File: konten//gambar/maintenance tambah.png Graphic file (type png)
 <use konten//gambar/maintenance tambah.png>
 Package pdftex.def Info: konten//gambar/maintenance tambah.png  used on input line 476.
 (pdftex.def)             Requested size: 326.64055pt x 189.84778pt.
-<konten//gambar/maintenance edit.png, id=976, 1927.2pt x 1003.75pt>
+<konten//gambar/maintenance edit.png, id=973, 1927.2pt x 1003.75pt>
 File: konten//gambar/maintenance edit.png Graphic file (type png)
 <use konten//gambar/maintenance edit.png>
 Package pdftex.def Info: konten//gambar/maintenance edit.png  used on input line 483.
@@ -1252,17 +1242,17 @@ Package pdftex.def Info: konten//gambar/maintenance edit.png  used on input line
 
 
 [27 <./konten//gambar/maintenance detail.png> <./konten//gambar/maintenance tambah.png> <./konten//gambar/maintenance edit.png>]
-<konten//gambar/pemusnahan barang index.png, id=984, 1927.2pt x 1003.75pt>
+<konten//gambar/pemusnahan barang index.png, id=981, 1927.2pt x 1003.75pt>
 File: konten//gambar/pemusnahan barang index.png Graphic file (type png)
 <use konten//gambar/pemusnahan barang index.png>
 Package pdftex.def Info: konten//gambar/pemusnahan barang index.png  used on input line 492.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/pemusnahan barangdtl.png, id=985, 1927.2pt x 1003.75pt>
+<konten//gambar/pemusnahan barangdtl.png, id=982, 1927.2pt x 1003.75pt>
 File: konten//gambar/pemusnahan barangdtl.png Graphic file (type png)
 <use konten//gambar/pemusnahan barangdtl.png>
 Package pdftex.def Info: konten//gambar/pemusnahan barangdtl.png  used on input line 499.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/pemusnahan barangtbh.png, id=986, 1445.4pt x 813.0375pt>
+<konten//gambar/pemusnahan barangtbh.png, id=983, 1445.4pt x 813.0375pt>
 File: konten//gambar/pemusnahan barangtbh.png Graphic file (type png)
 <use konten//gambar/pemusnahan barangtbh.png>
 Package pdftex.def Info: konten//gambar/pemusnahan barangtbh.png  used on input line 506.
@@ -1270,12 +1260,12 @@ Package pdftex.def Info: konten//gambar/pemusnahan barangtbh.png  used on input 
 
 
 [28 <./konten//gambar/pemusnahan barang index.png> <./konten//gambar/pemusnahan barangdtl.png>]
-<konten//gambar/pemusnahan barang edit.png, id=994, 1927.2pt x 1003.75pt>
+<konten//gambar/pemusnahan barang edit.png, id=991, 1927.2pt x 1003.75pt>
 File: konten//gambar/pemusnahan barang edit.png Graphic file (type png)
 <use konten//gambar/pemusnahan barang edit.png>
 Package pdftex.def Info: konten//gambar/pemusnahan barang edit.png  used on input line 513.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/fakultas index.png, id=995, 1445.4pt x 813.0375pt>
+<konten//gambar/fakultas index.png, id=992, 1445.4pt x 813.0375pt>
 File: konten//gambar/fakultas index.png Graphic file (type png)
 <use konten//gambar/fakultas index.png>
 Package pdftex.def Info: konten//gambar/fakultas index.png  used on input line 522.
@@ -1283,12 +1273,12 @@ Package pdftex.def Info: konten//gambar/fakultas index.png  used on input line 5
 
 
 [29 <./konten//gambar/pemusnahan barangtbh.png> <./konten//gambar/pemusnahan barang edit.png>]
-<konten//gambar/fakultas tambah.png, id=1004, 1927.2pt x 1003.75pt>
+<konten//gambar/fakultas tambah.png, id=1001, 1927.2pt x 1003.75pt>
 File: konten//gambar/fakultas tambah.png Graphic file (type png)
 <use konten//gambar/fakultas tambah.png>
 Package pdftex.def Info: konten//gambar/fakultas tambah.png  used on input line 529.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/fakultas edit.png, id=1005, 1927.2pt x 1003.75pt>
+<konten//gambar/fakultas edit.png, id=1002, 1927.2pt x 1003.75pt>
 File: konten//gambar/fakultas edit.png Graphic file (type png)
 <use konten//gambar/fakultas edit.png>
 Package pdftex.def Info: konten//gambar/fakultas edit.png  used on input line 536.
@@ -1296,17 +1286,17 @@ Package pdftex.def Info: konten//gambar/fakultas edit.png  used on input line 53
 
 
 [30 <./konten//gambar/fakultas index.png> <./konten//gambar/fakultas tambah.png> <./konten//gambar/fakultas edit.png>]
-<konten//gambar/prodi index.png, id=1013, 1445.4pt x 813.0375pt>
+<konten//gambar/prodi index.png, id=1010, 1445.4pt x 813.0375pt>
 File: konten//gambar/prodi index.png Graphic file (type png)
 <use konten//gambar/prodi index.png>
 Package pdftex.def Info: konten//gambar/prodi index.png  used on input line 545.
 (pdftex.def)             Requested size: 326.64055pt x 183.73193pt.
-<konten//gambar/prodi tambah.png, id=1014, 1927.2pt x 1003.75pt>
+<konten//gambar/prodi tambah.png, id=1011, 1927.2pt x 1003.75pt>
 File: konten//gambar/prodi tambah.png Graphic file (type png)
 <use konten//gambar/prodi tambah.png>
 Package pdftex.def Info: konten//gambar/prodi tambah.png  used on input line 552.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/prodi edit.png, id=1015, 1927.2pt x 1003.75pt>
+<konten//gambar/prodi edit.png, id=1012, 1927.2pt x 1003.75pt>
 File: konten//gambar/prodi edit.png Graphic file (type png)
 <use konten//gambar/prodi edit.png>
 Package pdftex.def Info: konten//gambar/prodi edit.png  used on input line 559.
@@ -1314,12 +1304,12 @@ Package pdftex.def Info: konten//gambar/prodi edit.png  used on input line 559.
 
 
 [31 <./konten//gambar/prodi index.png> <./konten//gambar/prodi tambah.png>]
-<konten//gambar/gedung index.png, id=1023, 1445.4pt x 756.57657pt>
+<konten//gambar/gedung index.png, id=1020, 1445.4pt x 756.57657pt>
 File: konten//gambar/gedung index.png Graphic file (type png)
 <use konten//gambar/gedung index.png>
 Package pdftex.def Info: konten//gambar/gedung index.png  used on input line 567.
 (pdftex.def)             Requested size: 326.64055pt x 170.97276pt.
-<konten//gambar/gedung tambah.png, id=1024, 1927.2pt x 1003.75pt>
+<konten//gambar/gedung tambah.png, id=1021, 1927.2pt x 1003.75pt>
 File: konten//gambar/gedung tambah.png Graphic file (type png)
 <use konten//gambar/gedung tambah.png>
 Package pdftex.def Info: konten//gambar/gedung tambah.png  used on input line 574.
@@ -1327,12 +1317,12 @@ Package pdftex.def Info: konten//gambar/gedung tambah.png  used on input line 57
 
 
 [32 <./konten//gambar/prodi edit.png> <./konten//gambar/gedung index.png>]
-<konten//gambar/gedung edit.png, id=1032, 1927.2pt x 1003.75pt>
+<konten//gambar/gedung edit.png, id=1029, 1927.2pt x 1003.75pt>
 File: konten//gambar/gedung edit.png Graphic file (type png)
 <use konten//gambar/gedung edit.png>
 Package pdftex.def Info: konten//gambar/gedung edit.png  used on input line 581.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/ruangan index.png, id=1033, 1445.4pt x 813.0375pt>
+<konten//gambar/ruangan index.png, id=1030, 1445.4pt x 813.0375pt>
 File: konten//gambar/ruangan index.png Graphic file (type png)
 <use konten//gambar/ruangan index.png>
 Package pdftex.def Info: konten//gambar/ruangan index.png  used on input line 589.
@@ -1340,12 +1330,12 @@ Package pdftex.def Info: konten//gambar/ruangan index.png  used on input line 58
 
 
 [33 <./konten//gambar/gedung tambah.png> <./konten//gambar/gedung edit.png>]
-<konten//gambar/ruangan tambah.png, id=1041, 1927.2pt x 1003.75pt>
+<konten//gambar/ruangan tambah.png, id=1038, 1927.2pt x 1003.75pt>
 File: konten//gambar/ruangan tambah.png Graphic file (type png)
 <use konten//gambar/ruangan tambah.png>
 Package pdftex.def Info: konten//gambar/ruangan tambah.png  used on input line 596.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/ruangan edit.png, id=1042, 1927.2pt x 1003.75pt>
+<konten//gambar/ruangan edit.png, id=1039, 1927.2pt x 1003.75pt>
 File: konten//gambar/ruangan edit.png Graphic file (type png)
 <use konten//gambar/ruangan edit.png>
 Package pdftex.def Info: konten//gambar/ruangan edit.png  used on input line 603.
@@ -1353,17 +1343,17 @@ Package pdftex.def Info: konten//gambar/ruangan edit.png  used on input line 603
 
 
 [34 <./konten//gambar/ruangan index.png> <./konten//gambar/ruangan tambah.png> <./konten//gambar/ruangan edit.png>]
-<konten//gambar/user index.png, id=1050, 1927.2pt x 1120.185pt>
+<konten//gambar/user index.png, id=1047, 1927.2pt x 1120.185pt>
 File: konten//gambar/user index.png Graphic file (type png)
 <use konten//gambar/user index.png>
 Package pdftex.def Info: konten//gambar/user index.png  used on input line 612.
 (pdftex.def)             Requested size: 326.64055pt x 189.84778pt.
-<konten//gambar/user detail.png, id=1051, 1927.2pt x 1003.75pt>
+<konten//gambar/user detail.png, id=1048, 1927.2pt x 1003.75pt>
 File: konten//gambar/user detail.png Graphic file (type png)
 <use konten//gambar/user detail.png>
 Package pdftex.def Info: konten//gambar/user detail.png  used on input line 619.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/user tambah.png, id=1052, 1927.2pt x 1003.75pt>
+<konten//gambar/user tambah.png, id=1049, 1927.2pt x 1003.75pt>
 File: konten//gambar/user tambah.png Graphic file (type png)
 <use konten//gambar/user tambah.png>
 Package pdftex.def Info: konten//gambar/user tambah.png  used on input line 626.
@@ -1371,12 +1361,12 @@ Package pdftex.def Info: konten//gambar/user tambah.png  used on input line 626.
 
 
 [35 <./konten//gambar/user index.png> <./konten//gambar/user detail.png>]
-<konten//gambar/user edit.png, id=1061, 1927.2pt x 1003.75pt>
+<konten//gambar/user edit.png, id=1058, 1927.2pt x 1003.75pt>
 File: konten//gambar/user edit.png Graphic file (type png)
 <use konten//gambar/user edit.png>
 Package pdftex.def Info: konten//gambar/user edit.png  used on input line 633.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/profil.png, id=1062, 1927.2pt x 1003.75pt>
+<konten//gambar/profil.png, id=1059, 1927.2pt x 1003.75pt>
 File: konten//gambar/profil.png Graphic file (type png)
 <use konten//gambar/profil.png>
 Package pdftex.def Info: konten//gambar/profil.png  used on input line 642.
@@ -1384,12 +1374,12 @@ Package pdftex.def Info: konten//gambar/profil.png  used on input line 642.
 
 
 [36 <./konten//gambar/user tambah.png> <./konten//gambar/user edit.png>]
-<konten//gambar/profil edit.png, id=1070, 1927.2pt x 1236.62pt>
+<konten//gambar/profil edit.png, id=1067, 1927.2pt x 1236.62pt>
 File: konten//gambar/profil edit.png Graphic file (type png)
 <use konten//gambar/profil edit.png>
 Package pdftex.def Info: konten//gambar/profil edit.png  used on input line 649.
 (pdftex.def)             Requested size: 326.64055pt x 209.58105pt.
-<konten//gambar/pengembang.png, id=1071, 1927.2pt x 2066.72125pt>
+<konten//gambar/pengembang.png, id=1068, 1927.2pt x 2066.72125pt>
 File: konten//gambar/pengembang.png Graphic file (type png)
 <use konten//gambar/pengembang.png>
 Package pdftex.def Info: konten//gambar/pengembang.png  used on input line 658.
@@ -1401,7 +1391,7 @@ Package pdftex.def Info: konten//gambar/pengembang.png  used on input line 658.
 [38 <./konten//gambar/pengembang.png>]
 
 [39]
-<konten//gambar/Model-Iso.png, id=1103, 603.75563pt x 292.09125pt>
+<konten//gambar/Model-Iso.png, id=1100, 603.75563pt x 292.09125pt>
 File: konten//gambar/Model-Iso.png Graphic file (type png)
 <use konten//gambar/Model-Iso.png>
 Package pdftex.def Info: konten//gambar/Model-Iso.png  used on input line 697.
@@ -1456,7 +1446,7 @@ BAB 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 15.
 
-<konten//gambar/metodologi-penelitian.png, id=1208, 427.5975pt x 566.86781pt>
+<konten//gambar/metodologi-penelitian.png, id=1205, 427.5975pt x 566.86781pt>
 File: konten//gambar/metodologi-penelitian.png Graphic file (type png)
 <use konten//gambar/metodologi-penelitian.png>
 Package pdftex.def Info: konten//gambar/metodologi-penelitian.png  used on input line 20.
@@ -1589,7 +1579,7 @@ LAMPIRAN D.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=1285, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=1282, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -1627,9 +1617,9 @@ Here is how much of TeX's memory you used:
  1212 hyphenation exceptions out of 8191
  94i,12n,107p,1857b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (71 pages, 8089278 bytes).
+Output written on tugasakhir.pdf (71 pages, 8088648 bytes).
 PDF statistics:
- 1403 PDF objects out of 1440 (max. 8388607)
+ 1400 PDF objects out of 1440 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
  972 words of extra memory for PDF output out of 10000 (max. 10000000)
 
