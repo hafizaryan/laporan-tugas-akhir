@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  10 OCT 2024 08:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.2)  10 OCT 2024 11:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -902,7 +902,7 @@ l.25
 ]
 
 [2]
-Underfull \hbox (badness 1917) in paragraph at lines 35--37
+Underfull \hbox (badness 1917) in paragraph at lines 37--39
 []\OT1/ptm/m/n/12 Berdasarkan latar be-lakang yang telah di-u-raikan, diper-oleh ru-mu-san
  []
 
@@ -1611,13 +1611,13 @@ Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
 Here is how much of TeX's memory you used:
  17039 strings out of 473899
  293974 string characters out of 5726500
- 758745 words of memory out of 5000000
+ 758683 words of memory out of 5000000
  39128 multiletter control sequences out of 15000+600000
  597365 words of font info for 118 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
  94i,12n,107p,1857b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hafiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (71 pages, 8088648 bytes).
+Output written on tugasakhir.pdf (71 pages, 8088657 bytes).
 PDF statistics:
  1400 PDF objects out of 1440 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
