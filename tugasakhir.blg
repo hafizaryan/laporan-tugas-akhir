@@ -42,46 +42,45 @@ Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
 --line 849 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
-Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 23 entries,
+You've used 21 entries,
             6951 wiz_defined-function locations,
-            1406 strings with 15778 characters,
-and the built_in function-call counts, 51066 in all, are:
-= -- 6345
-> -- 346
-< -- 2898
-+ -- 3011
-- -- 54
-* -- 3474
-:= -- 10325
-add.period$ -- 90
-call.type$ -- 23
-change.case$ -- 391
+            1394 strings with 15439 characters,
+and the built_in function-call counts, 47049 in all, are:
+= -- 5818
+> -- 318
+< -- 2696
++ -- 2821
+- -- 48
+* -- 3225
+:= -- 9573
+add.period$ -- 83
+call.type$ -- 21
+change.case$ -- 357
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 1140
-empty$ -- 1683
-format.name$ -- 575
-if$ -- 9169
+cite$ -- 42
+duplicate$ -- 1061
+empty$ -- 1541
+format.name$ -- 527
+if$ -- 8402
 int.to.chr$ -- 0
-int.to.str$ -- 69
+int.to.str$ -- 63
 missing$ -- 0
-newline$ -- 566
-num.names$ -- 184
-pop$ -- 654
+newline$ -- 518
+num.names$ -- 168
+pop$ -- 576
 preamble$ -- 1
-purify$ -- 92
+purify$ -- 84
 quote$ -- 0
-skip$ -- 3084
+skip$ -- 2815
 stack$ -- 0
-substring$ -- 3208
-swap$ -- 646
-text.length$ -- 50
+substring$ -- 3005
+swap$ -- 597
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2048
-warning$ -- 2
-while$ -- 194
+type$ -- 1824
+warning$ -- 1
+while$ -- 180
 width$ -- 0
-write$ -- 697
-(There were 4 warnings)
+write$ -- 638
+(There were 3 warnings)
