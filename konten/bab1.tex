@@ -17,55 +17,57 @@
 %-----------------------------------------------------------------------------%
 \section{Latar Belakang}
 %-----------------------------------------------------------------------------%
-Program Studi Sistem Informasi merupakan salah satu program studi yang berada di Fakultas Sains dan Teknologi Universitas Islam Negeri Sultan Syarif Kasim Riau. Program Studi Sistem Informasi dilengkapi dengan laboratorium yang mendukung pelaksanaan Tri Dharma Perguruan Tinggi yang dalam konteks pendidikan tinggi di Indonesia, meliputi pengajaran, penelitian, dan pengabdian kepada masyarakat. Pilar-pilar ini secara kolektif menjadikan perguruan tinggi sebagai kontributor dalam pengembangan pengetahuan, teknologi, dan masyarakat secara keseluruhan. Hal ini juga mencakup sesi praktikum yang bermanfaat bagi mahasiswa dan dosen.
+Laboratorium merupakan salah satu fasilitas penting dalam institusi pendidikan, terutama dalam mendukung kegiatan praktikum dan penelitian. Manajemen laboratorium yang efektif harus mencakup pengelolaan inventaris yang akurat dan efisien. Tata kelola laboratorium yang baik sangat diperlukan untuk memastikan bahwa semua peralatan dan fasilitas dapat digunakan secara optimal dan efisien, serta untuk membangun budaya kualitas dalam pendidikan tinggi \cite{abrantes2020governance}.
 
-Laboratorium merupakan tempat yang digunakan mahasiswa untuk melakukan kegiatan pengujian, riset ilmiah, praktikum, serta penelitian. Program Studi Sistem Informasi memiliki fasilitas infrastruktur pendukung Tridharma Perguruan Tinggi yang baik, salah satunya adalah laboratorium terpadu di bawah Fakultas Sains dan Teknologi yang dikelola oleh Program Studi Sistem Informasi sejak tahun 2002. Terdapat tiga laboratorium yang dikelola oleh Program Studi Sistem Informasi, yaitu Laboratorium Rekayasa Sistem Informasi (RSI), Laboratorium Internet (INT), dan Laboratorium Software Engineering (SE) \cite{lab-si-website}. Ketiga laboratorium tersebut merupakan sumber daya berharga yang dapat dimanfaatkan secara efektif untuk mencapai tujuan universitas dan menghasilkan lulusan yang kompeten di Program Studi Sistem Informasi melalui pendidikan, penelitian, dan pengabdian kepada masyarakat, dengan tetap mengintegrasikan nilai-nilai keislaman. Laboratorium-laboratorium ini tidak hanya digunakan untuk praktikum mahasiswa sesuai kurikulum, tetapi juga mendukung berbagai kegiatan mahasiswa dan dosen untuk meningkatkan pengetahuan di bidang Sistem Informasi. Laboratorium-laboratorium Program Studi Sistem Informasi dilengkapi dengan fasilitas yang memadai untuk mendukung pembelajaran mahasiswa. Evaluasi terhadap fasilitas yang ada di laboratorium-laboratorium Program Studi Sistem Informasi dilakukan untuk meningkatkan pengalaman belajar mahasiswa dalam memahami materi, termasuk manajemen inventaris. Manajemen inventaris merupakan salah satu bentuk pengawasan barang - barang yang ada di Laboratorium Program Studi Sistem Informasi di UIN Suska Riau. Tujuan dari manajemen ini untuk memantau jumlah, kondisi, dan status barang yang ada di laboratorium. 
+Universitas Islam Negeri Sultan Syarif Kasim (UIN Suska) Riau, sebagai salah satu perguruan tinggi negeri di Indonesia, memiliki Program Studi Sistem Informasi di bawah naungan Fakultas Sains dan Teknologi. Program Studi ini dilengkapi dengan fasilitas laboratorium yang menyeluruh untuk mendukung pelaksanaan Tri Dharma Perguruan Tinggi: pengajaran, penelitian, dan pengabdian kepada masyarakat. Ketiga pilar ini berperan sinergis dalam menjadikan UIN Suska Riau sebagai kontributor signifikan dalam pengembangan ilmu pengetahuan, teknologi, dan kemajuan masyarakat.
 
-Berdasarkan penelitian sebelumnya, proses pengelolaan inventaris yang mulanya masih dilakukan secara manual, dengan pencatatan yang belum terkomputerisasi yang seringkali mengakibatkan kesulitan dalam memantau dan mengelola data inventaris serta membuat pengolahan data menjadi tidak mudah dan tidak efisien. Masalah ini sudah diatasi dengan solusi mengimplementasikan sistem informasi inventaris yang disebut SITARIS SI di Laboratorium Program Studi Sistem Informasi menggunakan \textit{framework} CodeIgniter 4 yang merupakan bagian dari penelitian kerja praktek mini proyek sebelumnya. 
+Sejak tahun 2002, Program Studi Sistem Informasi telah mengelola tiga laboratorium terpadu di bawah Fakultas Sains dan Teknologi, yaitu Laboratorium Rekayasa Sistem Informasi (RSI), Laboratorium Internet (INT), dan Laboratorium Software Engineering (SE) \cite{lab-si-website}. Laboratorium-laboratorium ini berfungsi tidak hanya sebagai sarana praktikum bagi mahasiswa sesuai kurikulum, tetapi juga sebagai pusat kegiatan riset dan inovasi yang memberikan manfaat substansial bagi civitas akademika, termasuk mahasiswa dan dosen.
 
-Sistem SITARIS SI telah memberikan kontribusi signifikan dalam pengelolaan inventaris laboratorium Program Studi Sistem Informasi. Namun, seiring dengan perkembangan teknologi dan kebutuhan pengguna yang semakin kompleks dan dalam penerapannya ditemukan beberapa masalah seperti kesalahan pembuatan kode barang, tidak berfungsinya beberapa fitur seperti peminjaman barang dan ruangan serta kebutuhan pada beberapa aspek, maka diperlukan evaluasi menyeluruh terhadap kualitas sistem tersebut untuk memastikan efektivitas dan efisiensinya dalam jangka panjang. Salah satu model evaluasi yang dapat digunakan untuk menilai kualitas perangkat lunak adalah ISO 9126. Model ini menyediakan kerangka kerja yang komprehensif untuk mengukur kualitas sistem informasi berdasarkan enam karakteristik utama, yaitu: \textit{efficiency, functionality, maintainability portability, reliability dan usability} \cite{iso2001iec}.
+Laboratorium-laboratorium Program Studi Sistem Informasi dilengkapi dengan fasilitas yang memadai untuk mendukung pembelajaran mahasiswa dan berbagai kegiatan akademik lainnya. Untuk memastikan efektivitas penggunaan fasilitas ini, dilakukan evaluasi berkala terhadap fasilitas yang ada, termasuk manajemen inventaris. Manajemen inventaris merupakan salah satu bentuk pengawasan barang-barang yang ada di Laboratorium Program Studi Sistem Informasi di UIN Suska Riau, dengan tujuan untuk memantau jumlah, kondisi, dan status barang yang ada di laboratorium.
 
-Berbagai penelitian terdahulu telah membuktikan keefektifan dan fleksibilitas model ISO 9126 dalam evaluasi sistem informasi di berbagai konteks. Dwiyantoro \citeyear{dwiyantoro2020evaluasi} dan Melathi \citeyear{melathi2017penerapan} mendemonstrasikan bagaimana model ini dapat diterapkan untuk mengevaluasi sistem informasi akademik dan perpustakaan, menghasilkan pengetahuan yang berharga untuk perbaikan dan pengembangan sistem. Rohman \citeyear{rohman2022evaluasi} lebih lanjut menunjukkan adaptabilitas ISO 9126 dalam fokus pada aspek-aspek spesifik seperti \textit{usability} dan \textit{functionality}. Keberhasilan penerapan ISO 9126 dalam berbagai konteks ini menegaskan kesesuaiannya untuk evaluasi Sistem Informasi Inventaris Laboratorium (SITARIS SI) Program Studi Sistem Informasi UIN Suska Riau, yang memerlukan penilaian komprehensif terhadap berbagai aspek kualitas perangkat lunak.
+Pengelolaan inventaris yang efektif dan efisien merupakan aspek krusial dalam memastikan optimalisasi penggunaan peralatan dan fasilitas laboratorium, serta dalam membangun budaya kualitas di lingkungan pendidikan tinggi. Hal ini sejalan dengan peran vital laboratorium komputer dalam menyediakan sarana dan prasarana yang diperlukan untuk pembelajaran dan pengembangan teknologi informasi \cite{stamatelos2009role}, serta pentingnya tata kelola laboratorium yang baik dalam membangun budaya kualitas di institusi pendidikan tinggi \cite{abrantes2020governance}.
 
-Selain itu, penerapan model ISO 9126 untuk evaluasi SITARIS SI sejalan dengan visi Program Studi Sistem Informasi UIN Suska Riau dalam mengintegrasikan teknologi informasi terkini dengan nilai-nilai keislaman. Evaluasi ini dapat menjadi langkah konkret dalam upaya peningkatan mutu layanan pendidikan dan pengelolaan sumber daya universitas yang transparan dan akuntabel.
+Dalam konteks Program Studi Sistem Informasi UIN Suska Riau, pengelolaan inventaris laboratorium sebelumnya dilakukan secara manual, yang mengakibatkan berbagai kendala seperti kesulitan dalam pemantauan dan pengelolaan data inventaris, serta ketidakefisienan dalam pengolahan data. Studi oleh Wild \citeyear{smith2021agile} menunjukkan bahwa pengelolaan inventaris yang tidak efisien dapat menghambat operasional laboratorium \cite{wild2017best}. Untuk mengatasi permasalahan tersebut, telah diimplementasikan sistem informasi inventaris bernama SITARIS SI, yang dikembangkan menggunakan framework CodeIgniter 4 sebagai bagian dari penelitian kerja praktek mini proyek sebelumnya.
 
-Berdasarkan latar belakang tersebut, penelitian ini bertujuan untuk menerapkan model ISO 9126 dalam mengevaluasi kualitas Sistem Informasi Inventaris Laboratorium (SITARIS SI) Program Studi Sistem Informasi UIN Suska Riau. Hasil evaluasi ini diharapkan dapat memberikan rekomendasi yang berharga untuk perbaikan dan pengembangan sistem di masa mendatang, serta menjadi acuan bagi pengembangan sistem informasi serupa di lingkungan akademik lainnya.
+Meskipun SITARIS SI telah berperan penting dalam manajemen inventaris laboratorium, perkembangan teknologi yang pesat dan kebutuhan yang semakin kompleks telah memunculkan berbagai tantangan baru. Beberapa permasalahan yang teridentifikasi meliputi kesalahan dalam pembuatan kode barang, disfungsi fitur peminjaman barang dan ruangan, serta berbagai kekurangan lainnya. Penelitian oleh Smith dkk. \citeyear{smith2021agile} menunjukkan bahwa metode Agile dapat meningkatkan responsivitas dan adaptabilitas sistem informasi dalam lingkungan pendidikan \cite{smith2021agile}. Untuk memastikan SITARIS SI tetap relevan dan mampu memenuhi kebutuhan pengguna di masa depan, diperlukan pengembangan sistem yang menyeluruh dan adaptif.
+
+Dalam upaya mengatasi tantangan tersebut, metode Agile dipilih sebagai pendekatan pengembangan yang paling sesuai. Metode Agile dikenal dengan kemampuannya untuk beradaptasi dengan perubahan secara cepat dan iteratif, sambil melibatkan pengguna di setiap tahap pengembangan. Prinsip kolaborasi dan umpan balik berkelanjutan yang menjadi ciri khas Agile memungkinkan pengembangan sistem yang lebih responsif terhadap kebutuhan pengguna, sekaligus meminimalkan risiko kegagalan sistem akibat perubahan lingkungan atau persyaratan yang dinamis.
+
+Penerapan metode Agile dalam pengembangan SITARIS SI menjadi Sistem Informasi Manajemen Laboratorium memungkinkan pengembang untuk merespon kebutuhan pengguna dengan lebih cepat dan efektif. Setiap fitur dapat dioptimalkan secara bertahap berdasarkan umpan balik pengguna, sehingga dapat meningkatkan kualitas, fungsionalitas, dan kemudahan penggunaan sistem. Pendekatan ini diharapkan dapat meningkatkan kepuasan pengguna dan mendukung pencapaian tujuan Program Studi Sistem Informasi UIN Suska Riau dalam pengelolaan sumber daya laboratorium yang lebih efisien dan transparan.
+
+Berdasarkan latar belakang tersebut, penelitian ini bertujuan untuk mengembangkan Sistem Informasi Inventaris Laboratorium (SITARIS SI) Program Studi Sistem Informasi UIN Suska Riau menjadi Sistem Manajemen Laboratorium yang lebih menyeluruh dengan menggunakan metode Agile. Melalui pendekatan Agile, diharapkan pengembangan sistem dapat dilakukan secara lebih responsif dan efisien, sehingga mampu memenuhi kebutuhan laboratorium yang terus berkembang dan meningkatkan kualitas pengelolaan laboratorium secara keseluruhan.
 
 %-----------------------------------------------------------------------------%
-\section{Perumusan Masalah}
+\section{Rumusan Masalah}
 %-----------------------------------------------------------------------------%
-Berdasarkan latar belakang yang telah diuraikan, diperoleh rumusan masalah untuk penelitian ini sebagai berikut:
-\begin{enumerate}
-	\item Bagaimana mengevaluasi kualitas SITARIS SI menggunakan metode ISO 9126 untuk dapat menentukan tingkat kualitas sistem dan kemudahan akses bagi pengguna serta memberikan rekomendasi untuk pengembangan sistem selanjutnya.
-	\item Apakah SITARIS SI sudah memenuhi aspek pada standar kualitas mutu perangkat lunak yang baik berdasarkan metode ISO 9126.
-\end{enumerate}
+Berdasarkan latar belakang yang telah diuraikan, diperoleh rumusan masalah untuk penelitian ini adalah bagaimana menerapkan metode Agile dalam pengembangan lebih lanjut SITARIS SI menjadi sistem manajemen laboratorium untuk meningkatkan kualitas, dan fungsionalitas sistem.
 
 %-----------------------------------------------------------------------------%
 \section{Batasan Masalah}
 %-----------------------------------------------------------------------------%
-Dalam melakukan penelitian diperlukan batasan agar tidak menyimpang dari apa yang direncanakan. Adapun batasan masalah dalam penelitian Tugas Akhir, yaitu:
+Dalam melakukan penelitian diperlukan batasan agar tidak menyimpang dari apa yang direncanakan. Adapun batasan masalah dalam penelitian Tugas Akhir ini adalah sebagai berikut:
 \begin{enumerate}
-	\item Penelitian ini menggunakan Metode ISO 9126 untuk mengukur tingkat kualitas SITARIS SI.
-	\item Evaluasi pada SITARIS SI menggunakan 6 faktor, yaitu: \textit{Functionality, Reliability, Usability, Efficiency, Portability,} dan \textit{Maintainability.} 
-	\item Teknik pengumpulan data menggunakan Kuesioner dan Wawancara.
-	\item Teknik pengujian kualitas menggunakan Black Box Testing, dan Manual Testing.
-	\item Teknik sampling yang digunakan adalah \textit{Probability Sampling} yaitu dengan \textit{Proportionate Stratified Random sampling}.
+	\item Penelitian ini menggunakan metode Agile dalam pengembangan lebih lanjut SITARIS SI untuk meningkatkan kualitas, fungsionalitas.
+	\item Pengembangan dilakukan secara iteratif dengan memperhatikan kebutuhan pengguna laboratorium yang didapatkan melalui umpan balik pada setiap siklus pengembangan.
+	\item Teknik pengumpulan data menggunakan Observasi, dan Wawancara untuk memahami kebutuhan pengguna laboratorium serta mengevaluasi hasil setiap iterasi.
+	\item Pengujian sistem dilakukan dengan metode Black Box Testing dan Manual Testing pada setiap iterasi pengembangan untuk memastikan kualitas fitur yang dikembangkan.
 \end{enumerate}
 
 %-----------------------------------------------------------------------------%
 \section{Tujuan}
 %-----------------------------------------------------------------------------%
 Tujuan Tugas Akhir ini adalah:
+
 \begin{enumerate}
-	\item Untuk mengetahui tingkat kualitas website SITARIS SI menggunakan Metode ISO 9126 pada faktor \textit{Functionality, Reliability, Usability, Efficiency, Portability,} dan \textit{Maintainability.} 
-	\item Membuat rekomendasi solusi berdasarkan hasil evaluasi kualitas website SITARIS SI guna meningkatkan kualitas website pengelolaan inventaris di Laboratorium Sistem Informasi.	
+	\item Menerapkan metode Agile dalam pengembangan SITARIS SI menjadi Sistem Manajemen Laboratorium yang lebih menyeluruh untuk meningkatkan kualitas dan fungsionalitas sistem.
+	\item Mengoptimalkan responsivitas dan adaptabilitas sistem melalui iterasi pengembangan yang melibatkan umpan balik pengguna secara berkelanjutan.
+	\item Memastikan Sistem Manajemen Laboratorium dapat memenuhi kebutuhan pengguna laboratorium yang terus berkembang dan meningkatkan efisiensi serta transparansi dalam pengelolaan sumber daya laboratorium.
 \end{enumerate}
 
 %-----------------------------------------------------------------------------%
 \section{Manfaat}
 %-----------------------------------------------------------------------------%
-Hasil penelitian diharapkan dapat menjadi bahan pertimbangan bagi pihak Laboratorium Sistem Informasi guna melakukan perbaikan terhadap kualitas website apabila selama diterapkan website ini masih terdapat kekurangan.
-
+Hasil penelitian diharapkan dapat menjadi sebuah sistem informasi manajemen laboratorium terintegrasi yang memberikan kemudahan dalam tata kelola laboratorium.
 %-----------------------------------------------------------------------------%
 \section{Sistematika Penulisan}
 %-----------------------------------------------------------------------------%
@@ -77,18 +79,15 @@ BAB 1 pada tugas akhir ini berisi tentang: (1) Latar Belakang masalah; (2) Rumus
 
 \textbf{BAB 2. \babDua}
 
-BAB 2 pada Tugas Akhir ini berisi tentang: (1) Penelitian Terdahulu; (2) Profil Instansi; (3) Sistem Informasi Inventaris; (4) Laboratorium; (5) SITARIS SI; (6)Evaluasi; (7) Kualitas Sistem; (8) Model ISO 9126; (9) Skala Likert; (10) Observasi; (11) Kuisioner; (12) Populasi dan Sampel; (13) SPSS.
-
+BAB 2 pada Tugas Akhir ini berisi tentang: (1) Profil Instansi; (2) Laboratorium; (3) SITARIS SI; (4) Model Pengambangan Sistem; (5) Observasi; (6) Web; (7) Framework; (8) CodeIgniter; (9) Database; (10) MariaDB; (11) PHP; (12) XAMPP.
 
 \textbf{BAB 3. \babTiga}
 
-BAB 3 pada Tugas Akhir ini berisi tentang: (1) Tahap Perencanaan; (2)
-Tahap Pengumpulan Data; (3) Tahap Analisis dan Hasil; (4) Tahap Kesimpulan dan Dokumentasi.
-
+BAB 3 pada Tugas Akhir ini berisi tentang: (1) Tahap Perencanaan; (2) Tahap Pengumpulan Data; (3) Tahap Analisis dan Perancangan; (4) Tahap Implementasi dan Pengujian; (5) Tahap Dokumentasi.
 
 \textbf{BAB 4. \babEmpat}
 
-BAB 4 pada Tugas Akhir ini berisi tentang: (1) Analisis Kondisi SITARIS SI Saat ini; (2) Analisis Pengolahan Data Kuesioner; (3) Analisis Uji Validitas dan Reliabilitas; (4) Analisis Pengukuran Model ISO 9126; (5) Analisis Kualitas SITARIS SI; (6) Analisis Hasil Penelitian; (7) Rekomendasi.
+BAB 4 pada Tugas Akhir ini berisi tentang:
 
 \textbf{BAB 5. \babLima}
 

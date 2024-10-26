@@ -1,75 +1,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Struktur Organisasi Laboratorium}}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Halaman \textit {Login}}}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Halaman Beranda}}{11}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Halaman Pendanaan \textit {Index}}}{11}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Halaman Tambah Pendanaan}}{12}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Halaman Edit Pendanaan}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Halaman Barang \textit {Index}}}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Halaman Tambah Barang}}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Halaman Edit Barang}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Tampilan Detail Barang}}{14}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Tampilan Tombol Cetak Pendanaan}}{14}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Tampilan Tombol Cetak Ruangan}}{15}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Tampilan Tombol Cetak Kategori}}{15}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Tampilan Tombol Cetak Tahun}}{15}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Halaman Cetak QR}}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Halaman Cetak Ruangan}}{16}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Halaman Cetak Pendanaan}}{16}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Halaman Cetak Tahun}}{17}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Halaman Cetak Kategori}}{17}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Halaman Posisi Barang Labor RSI}}{18}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Halaman Posisi Barang Labor SE}}{18}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Halaman Posisi Barang Labor INT}}{18}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Halaman Peminjaman Barang \textit {Index}}}{19}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Halaman Peminjaman Barang Bagi Peminjam}}{19}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Halaman Peminjaman Barang Bagi Peminjam Internal Tahap 1}}{20}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Halaman Peminjaman Barang Bagi Peminjam Internal Tahap 2}}{20}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Halaman Peminjaman Barang Bagi Peminjam Internal Tahap 3}}{20}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Halaman Peminjaman Barang Bagi Peminjam Eksternal Tahap 1}}{21}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Halaman Peminjaman Barang Bagi Peminjam Eksternal Tahap 2}}{21}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Halaman Peminjaman Barang Bagi Peminjam Eksternal Tahap 3}}{21}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Halaman Peminjaman Ruangan \textit {Index}}}{22}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Halaman Tambah Biaya Peminjaman Ruangan}}{22}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Halaman Peminjaman Ruangan Bagi Peminjam}}{23}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.34}{\ignorespaces Halaman Peminjaman Ruangan Bagi Peminjam Internal}}{23}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.35}{\ignorespaces Halaman Peminjaman Ruangan Bagi Peminjam Eksternal}}{24}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.36}{\ignorespaces Halaman Dokumentasi \textit {Index}}}{24}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.37}{\ignorespaces Tampilan Detail Dokumentasi}}{25}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.38}{\ignorespaces Halaman Tambah Dokumentasi}}{25}{figure.caption.46}%
-\contentsline {figure}{\numberline {2.39}{\ignorespaces Halaman Edit Dokumentasi}}{25}{figure.caption.47}%
-\contentsline {figure}{\numberline {2.40}{\ignorespaces Halaman Download Dokumentasi}}{26}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.41}{\ignorespaces Halaman \textit {Maintenance} \textit {Index}}}{26}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.42}{\ignorespaces Tampilan Detail \textit {Maintenance}}}{27}{figure.caption.50}%
-\contentsline {figure}{\numberline {2.43}{\ignorespaces Halaman Tambah \textit {Maintenance}}}{27}{figure.caption.51}%
-\contentsline {figure}{\numberline {2.44}{\ignorespaces Halaman Edit \textit {Maintenance}}}{27}{figure.caption.52}%
-\contentsline {figure}{\numberline {2.45}{\ignorespaces Halaman Pemusnahan Barang \textit {Index}}}{28}{figure.caption.53}%
-\contentsline {figure}{\numberline {2.46}{\ignorespaces Tampilan Detail Pemusnahan Barang}}{28}{figure.caption.54}%
-\contentsline {figure}{\numberline {2.47}{\ignorespaces Halaman Tambah Pemusnahan Barang}}{29}{figure.caption.55}%
-\contentsline {figure}{\numberline {2.48}{\ignorespaces Halaman Edit Pemusnahan Barang}}{29}{figure.caption.56}%
-\contentsline {figure}{\numberline {2.49}{\ignorespaces Halaman Fakultas \textit {Index}}}{30}{figure.caption.57}%
-\contentsline {figure}{\numberline {2.50}{\ignorespaces Halaman Tambah Fakultas}}{30}{figure.caption.58}%
-\contentsline {figure}{\numberline {2.51}{\ignorespaces Halaman Edit Fakultas}}{30}{figure.caption.59}%
-\contentsline {figure}{\numberline {2.52}{\ignorespaces Halaman Prodi Index}}{31}{figure.caption.60}%
-\contentsline {figure}{\numberline {2.53}{\ignorespaces Halaman Tambah Prodi}}{31}{figure.caption.61}%
-\contentsline {figure}{\numberline {2.54}{\ignorespaces Halaman Edit Prodi}}{32}{figure.caption.62}%
-\contentsline {figure}{\numberline {2.55}{\ignorespaces Halaman Gedung \textit {Index}}}{32}{figure.caption.63}%
-\contentsline {figure}{\numberline {2.56}{\ignorespaces Halaman Tambah Gedung}}{33}{figure.caption.64}%
-\contentsline {figure}{\numberline {2.57}{\ignorespaces Halaman Edit Gedung}}{33}{figure.caption.65}%
-\contentsline {figure}{\numberline {2.58}{\ignorespaces Halaman Ruangan \textit {Index}}}{34}{figure.caption.66}%
-\contentsline {figure}{\numberline {2.59}{\ignorespaces Halaman Tambah Ruangan}}{34}{figure.caption.67}%
-\contentsline {figure}{\numberline {2.60}{\ignorespaces Halaman Edit Ruangan}}{34}{figure.caption.68}%
-\contentsline {figure}{\numberline {2.61}{\ignorespaces Halaman Pengguna \textit {Index}}}{35}{figure.caption.69}%
-\contentsline {figure}{\numberline {2.62}{\ignorespaces Tampilan Detail Pengguna}}{35}{figure.caption.70}%
-\contentsline {figure}{\numberline {2.63}{\ignorespaces Halaman Tambah Pengguna}}{36}{figure.caption.71}%
-\contentsline {figure}{\numberline {2.64}{\ignorespaces Halaman Edit Pengguna}}{36}{figure.caption.72}%
-\contentsline {figure}{\numberline {2.65}{\ignorespaces Halaman Profil Pengguna}}{37}{figure.caption.73}%
-\contentsline {figure}{\numberline {2.66}{\ignorespaces Halaman Edit Profil Pengguna}}{37}{figure.caption.74}%
-\contentsline {figure}{\numberline {2.67}{\ignorespaces Halaman Pengembang}}{38}{figure.caption.75}%
-\contentsline {figure}{\numberline {2.68}{\ignorespaces Karakteristik dan sub karakteristik ISO 9126}}{40}{figure.caption.76}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Struktur Organisasi Laboratorium}}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Halaman \textit {Login}}}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Halaman Beranda}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Halaman Barang \textit {Index}}}{10}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodologi Penelitian}}{48}{figure.caption.77}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodologi Penelitian}}{11}{figure.caption.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

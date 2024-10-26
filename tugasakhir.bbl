@@ -1,6 +1,31 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Abrantes%
+}{%
+Abrantes%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+abrantes2020governance}
+\APACinsertmetastar {%
+abrantes2020governance}%
+\begin{APACrefauthors}%
+Abrantes, B\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Governance of academic laboratories and the
+  capabilisation of higher education students} {Governance of academic
+  laboratories and the capabilisation of higher education students}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Management in
+  Education}{14}{2}{135--158}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {Ahsyar}%
 }{%
 {Ahsyar}%
@@ -23,455 +48,6 @@ lab-si-website}%
 \begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
 \newblock
 \APACrefnote{Akses Tanggal: 14 Oktober 2023}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Al~Agani%
-, Munadi%
-\BCBL {}\ \BBA {} Subianto%
-}{%
-Al~Agani%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2018}}%
-}]{%
-al2018evaluasi}
-\APACinsertmetastar {%
-al2018evaluasi}%
-\begin{APACrefauthors}%
-Al~Agani, M.%
-, Munadi, R.%
-\BCBL {}\ \BBA {} Subianto, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Evaluasi kinerja sistem informasi akademik menggunakan
-  IT balanced scorecard pada universitas Serambi Mekkah Banda Aceh} {Evaluasi
-  kinerja sistem informasi akademik menggunakan it balanced scorecard pada
-  universitas serambi mekkah banda aceh}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Jurnal Informatika Upgris}{4}{1}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Alkodri%
-, Farid%
-, Rachmatsyah%
-\BCBL {}\ \BBA {} Atmaja%
-}{%
-Alkodri%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2023}}%
-}]{%
-alkodri2023pengaplikasian}
-\APACinsertmetastar {%
-alkodri2023pengaplikasian}%
-\begin{APACrefauthors}%
-Alkodri, A\BPBI A.%
-, Farid, B\BPBI I.%
-, Rachmatsyah, A\BPBI D.%
-\BCBL {}\ \BBA {} Atmaja, F\BPBI B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Pengaplikasian Standar ISO 9126 dalam Rancang Bangun
-  Sistem Informasi Inventori dan Pengawasan Laboratorium Berbasis Android}
-  {Pengaplikasian standar iso 9126 dalam rancang bangun sistem informasi
-  inventori dan pengawasan laboratorium berbasis android}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{EXPERT: Jurnal Manajemen Sistem Informasi dan
-  Teknologi}{13}{1}{44}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Amalia%
-, Dianingati%
-\BCBL {}\ \protect \BOthers {.}}{%
-Amalia%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2022}}%
-}]{%
-amalia2022pengaruh}
-\APACinsertmetastar {%
-amalia2022pengaruh}%
-\begin{APACrefauthors}%
-Amalia, R\BPBI N.%
-, Dianingati, R\BPBI S.%
-\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2022}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Pengaruh jumlah responden terhadap hasil uji validitas
-  dan reliabilitas kuesioner pengetahuan dan perilaku swamedikasi} {Pengaruh
-  jumlah responden terhadap hasil uji validitas dan reliabilitas kuesioner
-  pengetahuan dan perilaku swamedikasi}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Generics: Journal of Research in
-  Pharmacy}{2}{1}{9--15}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Amin%
-, Garancang%
-\BCBL {}\ \BBA {} Abunawas%
-}{%
-Amin%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2023}}%
-}]{%
-amin2023konsep}
-\APACinsertmetastar {%
-amin2023konsep}%
-\begin{APACrefauthors}%
-Amin, N\BPBI F.%
-, Garancang, S.%
-\BCBL {}\ \BBA {} Abunawas, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Konsep umum populasi dan sampel dalam penelitian}
-  {Konsep umum populasi dan sampel dalam penelitian}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Pilar}{14}{1}{15--31}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Anggraini%
-, Aprianti%
-, Setyawati%
-\BCBL {}\ \BBA {} Hartanto%
-}{%
-Anggraini%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2022}}%
-}]{%
-anggraini2022pembelajaran}
-\APACinsertmetastar {%
-anggraini2022pembelajaran}%
-\begin{APACrefauthors}%
-Anggraini, F\BPBI D\BPBI P.%
-, Aprianti, A.%
-, Setyawati, V\BPBI A\BPBI V.%
-\BCBL {}\ \BBA {} Hartanto, A\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2022}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Pembelajaran statistika menggunakan software SPSS untuk
-  uji validitas dan reliabilitas} {Pembelajaran statistika menggunakan software
-  spss untuk uji validitas dan reliabilitas}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Jurnal Basicedu}{6}{4}{6491--6504}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Budijanto%
-}{%
-Budijanto%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-budijanto2013populasi}
-\APACinsertmetastar {%
-budijanto2013populasi}%
-\begin{APACrefauthors}%
-Budijanto, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Populasi, sampling, dan besar sampel} {Populasi,
-  sampling, dan besar sampel}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Kementerian Kesehatan RI}{18}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Dewi%
-\ \BBA {} Jati%
-}{%
-Dewi%
-\ \BBA {} Jati%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-dewi2017quality}
-\APACinsertmetastar {%
-dewi2017quality}%
-\begin{APACrefauthors}%
-Dewi, A\BPBI T.%
-\BCBT {}\ \BBA {} Jati, H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A QUALITY ANALYSIS USING ISO 9126 IN THE INFORMATION
-  SYSTEM OF “NEZAWA INFORMATION SYSTEM DATA COLLECTION (ISDC) AND CHAT” AS
-  A MEANS OF INFORMATION OF REUNION AND COMMUNICATION AMONG ALUMNI OF SMK
-  NEGERI 1 WANAREJA} {A quality analysis using iso 9126 in the information
-  system of “nezawa information system data collection (isdc) and chat” as
-  a means of information of reunion and communication among alumni of smk
-  negeri 1 wanareja}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{E-JPTI (Jurnal Elektronik Pendidikan Teknik
-  Informatika)}{6}{3}{1--9}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Dwiyantoro%
-}{%
-Dwiyantoro%
-}{%
-{\protect \APACyear {2020}}%
-}]{%
-dwiyantoro2020evaluasi}
-\APACinsertmetastar {%
-dwiyantoro2020evaluasi}%
-\begin{APACrefauthors}%
-Dwiyantoro, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2020}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Evaluasi software aplikasi senayan library management
-  system (slims) di lingkungan universitas lancang kuning pekanbaru menggunakan
-  pendekatan iso 9126 usability} {Evaluasi software aplikasi senayan library
-  management system (slims) di lingkungan universitas lancang kuning pekanbaru
-  menggunakan pendekatan iso 9126 usability}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Al-Kuttab: Jurnal Kajian Perpustakaan, Informasi dan
-  Kearsipan}{2}{1}{21--31}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Fendya%
-\ \BBA {} Wibawa%
-}{%
-Fendya%
-\ \BBA {} Wibawa%
-}{%
-{\protect \APACyear {2018}}%
-}]{%
-fendya2018pengembangan}
-\APACinsertmetastar {%
-fendya2018pengembangan}%
-\begin{APACrefauthors}%
-Fendya, W\BPBI T.%
-\BCBT {}\ \BBA {} Wibawa, S\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Pengembangan sistem kuesioner daring dengan metode
-  weight product untuk mengetahui kepuasan pendidikan komputer pada lpk cyber
-  computer} {Pengembangan sistem kuesioner daring dengan metode weight product
-  untuk mengetahui kepuasan pendidikan komputer pada lpk cyber
-  computer}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{IT-Edu: Jurnal Information Technology and
-  Education}{3}{01}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Iso%
-}{%
-Iso%
-}{%
-{\protect \APACyear {2001}}%
-}]{%
-iso2001iec}
-\APACinsertmetastar {%
-iso2001iec}%
-\begin{APACrefauthors}%
-Iso, I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Iec 9126-1: Software engineering-product quality-part 1:
-  Quality model} {Iec 9126-1: Software engineering-product quality-part 1:
-  Quality model}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Geneva, Switzerland: International Organization for
-  Standardization}{21}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Janti%
-}{%
-Janti%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-janti2014analisis}
-\APACinsertmetastar {%
-janti2014analisis}%
-\begin{APACrefauthors}%
-Janti, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Analisis validitas dan reliabilitas dengan skala likert
-  terhadap pengembangan si/ti dalam penentuan pengambilan keputusan penerapan
-  strategic planning pada industri garmen} {Analisis validitas dan reliabilitas
-  dengan skala likert terhadap pengembangan si/ti dalam penentuan pengambilan
-  keputusan penerapan strategic planning pada industri garmen}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Prosiding Snast}{}{}{155--160}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Kumalasari%
-, Putri%
-, Widiatry%
-\BCBL {}\ \BBA {} Pranatawijaya%
-}{%
-Kumalasari%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2024}}%
-}]{%
-kumalasari2024analisis}
-\APACinsertmetastar {%
-kumalasari2024analisis}%
-\begin{APACrefauthors}%
-Kumalasari, S.%
-, Putri, T\BPBI S\BPBI E.%
-, Widiatry, W.%
-\BCBL {}\ \BBA {} Pranatawijaya, V\BPBI H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {ANALISIS KUALITAS DAN PENERAPAN SOFTWARE QUALITY
-  ASSURANCE MENGGUNAKAN MODEL ISO/IEC 9126 PADA WEBSITE OBJEK WISATA DI
-  KABUPATEN GUNUNG MAS} {Analisis kualitas dan penerapan software quality
-  assurance menggunakan model iso/iec 9126 pada website objek wisata di
-  kabupaten gunung mas}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{JATI (Jurnal Mahasiswa Teknik
-  Informatika)}{8}{4}{7630--7635}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Melathi%
-\ \BBA {} Suharso%
-}{%
-Melathi%
-\ \BBA {} Suharso%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-melathi2017penerapan}
-\APACinsertmetastar {%
-melathi2017penerapan}%
-\begin{APACrefauthors}%
-Melathi, A\BPBI A.%
-\BCBT {}\ \BBA {} Suharso, W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Penerapan Model Kualitas ISO/IEC 9126 Untuk Evaluasi
-  Sistem Informasi Akademik Lembaga Bimbingan Belajar Berbasis Web} {Penerapan
-  model kualitas iso/iec 9126 untuk evaluasi sistem informasi akademik lembaga
-  bimbingan belajar berbasis web}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{JUSTINDO (Jurnal Sistem dan Teknologi Informasi
-  Indonesia)}{2}{1}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Pawirosumarto%
-}{%
-Pawirosumarto%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-pawirosumarto2016pengaruh}
-\APACinsertmetastar {%
-pawirosumarto2016pengaruh}%
-\begin{APACrefauthors}%
-Pawirosumarto, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Pengaruh kualitas sistem, kualitas informasi, dan
-  kualitas layanan terhadap kepuasan pengguna sistem e-learning} {Pengaruh
-  kualitas sistem, kualitas informasi, dan kualitas layanan terhadap kepuasan
-  pengguna sistem e-learning}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Jurnal Ilmiah Manajemen}{6}{3}{416--433}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Rohman%
-, Sarisma%
-\BCBL {}\ \BBA {} Sibyan%
-}{%
-Rohman%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2022}}%
-}]{%
-rohman2022evaluasi}
-\APACinsertmetastar {%
-rohman2022evaluasi}%
-\begin{APACrefauthors}%
-Rohman, S.%
-, Sarisma, J.%
-\BCBL {}\ \BBA {} Sibyan, H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2022}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {EVALUASI USABILITY BERDASARKAN ISO 9126-4 PADA SISTEM
-  INFORMASI BADAN KEPEGAWAIAN DAERAH (BKD) KABUPATEN WONOSOBO} {Evaluasi
-  usability berdasarkan iso 9126-4 pada sistem informasi badan kepegawaian
-  daerah (bkd) kabupaten wonosobo}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Economic, Business and Engineering
-  (JEBE)}{4}{1}{123--128}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Sarwono%
-}{%
-Sarwono%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-sarwono2017mengenal}
-\APACinsertmetastar {%
-sarwono2017mengenal}%
-\begin{APACrefauthors}%
-Sarwono, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2017}.
-\newblock
-\APACrefbtitle {Mengenal Prosedur-Prosedur Populer dalam SPSS 23} {Mengenal
-  prosedur-prosedur populer dalam spss 23}.
-\newblock
-\APACaddressPublisher{}{Elex Media Komputindo}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -498,6 +74,67 @@ sitaris-lab-si-website}%
   \end{APACrefURL}
 \newblock
 \APACrefnote{Akses Tanggal: 08 Oktober 2023}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Smith%
+, Janicke%
+, He%
+, Ferra%
+\BCBL {}\ \BBA {} Albakri%
+}{%
+Smith%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+smith2021agile}
+\APACinsertmetastar {%
+smith2021agile}%
+\begin{APACrefauthors}%
+Smith, R.%
+, Janicke, H.%
+, He, Y.%
+, Ferra, F.%
+\BCBL {}\ \BBA {} Albakri, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The agile incident response for industrial control
+  systems (AIR4ICS) framework} {The agile incident response for industrial
+  control systems (air4ics) framework}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers \& Security}{109}{}{102398}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stamatelos%
+\ \BBA {} Stamatelos%
+}{%
+Stamatelos%
+\ \BBA {} Stamatelos%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+stamatelos2009role}
+\APACinsertmetastar {%
+stamatelos2009role}%
+\begin{APACrefauthors}%
+Stamatelos, G.%
+\BCBT {}\ \BBA {} Stamatelos, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The role of engineering laboratories in the
+  establishment of a quality culture in higher education in Greece} {The role
+  of engineering laboratories in the establishment of a quality culture in
+  higher education in greece}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European Journal of Engineering
+  Education}{34}{1}{1--13}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -530,30 +167,6 @@ Sweden, I\BPBI N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Terttiaavini%
-}{%
-Terttiaavini%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-terttiaavini2014analisa}
-\APACinsertmetastar {%
-terttiaavini2014analisa}%
-\begin{APACrefauthors}%
-Terttiaavini, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Analisa Penerapan Sistem Informasi Perpustakaan
-  Universitas Indo Global Mandiri} {Analisa penerapan sistem informasi
-  perpustakaan universitas indo global mandiri}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Jurnal Ilmiah Informatika Global}{5}{1}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Tilley%
 \ \BBA {} Rosenblatt%
 }{%
@@ -576,6 +189,29 @@ Tilley, S.%
 \APACrefbtitle {Systems analysis and design} {Systems analysis and design}.
 \newblock
 \APACaddressPublisher{}{Cengage Learning}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wild%
+}{%
+Wild%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+wild2017best}
+\APACinsertmetastar {%
+wild2017best}%
+\begin{APACrefauthors}%
+Wild, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Best practice in inventory management} {Best practice in
+  inventory management}.
+\newblock
+\APACaddressPublisher{}{Routledge}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
