@@ -79,6 +79,38 @@ Al-Saqqa, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+C.%
+, P.%
+, R%
+\BCBL {}\ \BBA {} V.%
+}{%
+C.%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+dongapure_a__c___2024}
+\APACinsertmetastar {%
+dongapure_a__c___2024}%
+\begin{APACrefauthors}%
+C., D\BPBI A.%
+, P., C\BPBI P.%
+, R, Y\BPBI P.%
+\BCBL {}\ \BBA {} V., K\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Good Laboratory Practices (GLP) in an Academic Institute
+  for Science} {Good laboratory practices (glp) in an academic institute for
+  science}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Advanced Zoology}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.53555/jaz.v45i1.288} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cowls%
 , Tsamados%
 , Taddeo%
@@ -171,6 +203,36 @@ Irawan, R.%
 \newblock
 \APACjournalVolNumPages{Jurnal Saintekom: Sains, Teknologi, Komputer dan
   Manajemen}{7}{1}{67--80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+La~Braca%
+\ \BBA {} Kalman%
+}{%
+La~Braca%
+\ \BBA {} Kalman%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+la2021comparison}
+\APACinsertmetastar {%
+la2021comparison}%
+\begin{APACrefauthors}%
+La~Braca, F.%
+\BCBT {}\ \BBA {} Kalman, C\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparison of labatorials and traditional labs: The
+  impacts of instructional scaffolding on the student experience and conceptual
+  understanding} {Comparison of labatorials and traditional labs: The impacts
+  of instructional scaffolding on the student experience and conceptual
+  understanding}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physical Review Physics Education
+  Research}{17}{1}{010131}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -340,35 +402,6 @@ Smith, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Stamatelos%
-\ \BBA {} Stamatelos%
-}{%
-Stamatelos%
-\ \BBA {} Stamatelos%
-}{%
-{\protect \APACyear {2009}}%
-}]{%
-stamatelos2009role}
-\APACinsertmetastar {%
-stamatelos2009role}%
-\begin{APACrefauthors}%
-Stamatelos, G.%
-\BCBT {}\ \BBA {} Stamatelos, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The role of engineering laboratories in the
-  establishment of a quality culture in higher education in Greece} {The role
-  of engineering laboratories in the establishment of a quality culture in
-  higher education in greece}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{European Journal of Engineering
-  Education}{34}{1}{1--13}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Sweden%
 \ \protect \BOthers {.}}{%
 Sweden%
@@ -423,6 +456,58 @@ Tyowati, S.%
   provinsi kalimantan tengah}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{J. SAINTEKOM}{7}{1}{67}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{UIN Suska Riau}%
+}{%
+{UIN Suska Riau}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+uin-suska-website}
+\APACinsertmetastar {%
+uin-suska-website}%
+\begin{APACrefauthors}%
+{UIN Suska Riau}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {UIN Suska Riau.} {Uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://uin-suska.ac.id} \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 28 Oktober 2024}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Warren%
+}{%
+Warren%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+jeffrey_s__warren_2017}
+\APACinsertmetastar {%
+jeffrey_s__warren_2017}%
+\begin{APACrefauthors}%
+Warren, J\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effective Governance Structure and Management of
+  Utilization Programs} {Effective governance structure and management of
+  utilization programs}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~31-37).
+\newblock
+\APACaddressPublisher{}{Springer International Publishing}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-319-34199-6_3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

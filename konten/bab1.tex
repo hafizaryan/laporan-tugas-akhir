@@ -17,57 +17,52 @@
 %-----------------------------------------------------------------------------%
 \section{Latar Belakang}
 %-----------------------------------------------------------------------------%
-Laboratorium merupakan salah satu fasilitas penting dalam institusi pendidikan, terutama dalam mendukung kegiatan praktikum dan penelitian. Manajemen laboratorium yang efektif harus mencakup pengelolaan inventaris yang akurat dan efisien. Tata kelola laboratorium yang baik sangat diperlukan untuk memastikan bahwa semua peralatan dan fasilitas dapat digunakan secara optimal dan efisien, serta untuk membangun budaya kualitas dalam pendidikan tinggi \cite{abrantes2020governance}.
+Laboratorium merupakan salah satu fasilitas vital dalam institusi pendidikan yang berperan penting dalam mendukung kegiatan praktikum dan penelitian \cite{la2021comparison}. Tata kelola laboratorium yang baik menjadi kunci dalam memastikan penggunaan peralatan dan fasilitas secara optimal dan efisien \cite{jeffrey_s__warren_2017}. Pengelolaan inventaris yang akurat dan efisien adalah bagian integral dari tata kelola ini, yang bertujuan untuk membangun budaya kualitas dalam pendidikan tinggi \cite{abrantes2020governance}. Dengan tata kelola yang efektif, institusi dapat memastikan bahwa semua sumber daya laboratorium digunakan secara maksimal untuk mendukung pengembangan ilmu pengetahuan dan teknologi.
 
-Universitas Islam Negeri Sultan Syarif Kasim Riau, sebagai salah satu perguruan tinggi negeri di Indonesia, memiliki Program Studi Sistem Informasi di bawah naungan Fakultas Sains dan Teknologi. Program Studi ini dilengkapi dengan fasilitas laboratorium yang menyeluruh untuk mendukung pelaksanaan Tri Dharma Perguruan Tinggi: pengajaran, penelitian, dan pengabdian kepada masyarakat. Ketiga pilar ini berperan sinergis dalam menjadikan UIN Suska Riau sebagai kontributor signifikan dalam pengembangan ilmu pengetahuan, teknologi, dan kemajuan masyarakat.
+Universitas Islam Negeri Sultan Syarif Kasim Riau sebagai salah satu perguruan tinggi negeri di Indonesia memiliki Program Studi Sistem Informasi di bawah naungan Fakultas Sains dan Teknologi \cite{uin-suska-website}. Program Studi ini dilengkapi dengan fasilitas laboratorium yang menyeluruh untuk mendukung pelaksanaan Tri Dharma Perguruan Tinggi yaitu, pengajaran, penelitian, dan pengabdian kepada masyarakat. Ketiga pilar ini berperan sinergis dalam menjadikan UIN Suska Riau sebagai kontributor signifikan dalam pengembangan ilmu pengetahuan, teknologi, dan kemajuan masyarakat.
 
 Sejak tahun 2002, Program Studi Sistem Informasi telah mengelola tiga laboratorium terpadu di bawah Fakultas Sains dan Teknologi, yaitu Laboratorium Rekayasa Sistem Informasi (RSI), Laboratorium Internet (INT), dan Laboratorium Software Engineering (SE) \cite{lab-si-website}. Laboratorium-laboratorium ini berfungsi tidak hanya sebagai sarana praktikum bagi mahasiswa sesuai kurikulum, tetapi juga sebagai pusat kegiatan riset dan inovasi yang memberikan manfaat substansial bagi civitas akademika, termasuk mahasiswa dan dosen.
 
-Laboratorium-laboratorium Program Studi Sistem Informasi dilengkapi dengan fasilitas yang memadai untuk mendukung pembelajaran mahasiswa dan berbagai kegiatan akademik lainnya. Untuk memastikan efektivitas penggunaan fasilitas ini, dilakukan evaluasi berkala terhadap fasilitas yang ada, termasuk manajemen inventaris. Manajemen inventaris merupakan salah satu bentuk pengawasan barang-barang yang ada di Laboratorium Program Studi Sistem Informasi di UIN Suska Riau, dengan tujuan untuk memantau jumlah, kondisi, dan status barang yang ada di laboratorium.
+Laboratorium-laboratorium Program Studi Sistem Informasi dilengkapi dengan fasilitas yang memadai untuk mendukung pembelajaran mahasiswa dan berbagai kegiatan akademik lainnya. Untuk memastikan efektivitas dan efisiensi tata kelola laboratorium, dilakukan evaluasi berkala terhadap seluruh aspek fasilitas yang ada \cite{lab-si-website}. Tata kelola laboratorium yang baik sangat penting untuk memantau dan mengelola penggunaan peralatan serta fasilitas laboratorium secara optimal sehingga dapat mendukung kegiatan akademik dan penelitian dengan lebih baik \cite{dongapure_a__c___2024}.
 
-Pengelolaan inventaris yang efektif dan efisien merupakan aspek krusial dalam memastikan optimalisasi penggunaan peralatan dan fasilitas laboratorium, serta dalam membangun budaya kualitas di lingkungan pendidikan tinggi. Hal ini sejalan dengan peran vital laboratorium komputer dalam menyediakan sarana dan prasarana yang diperlukan untuk pembelajaran dan pengembangan teknologi informasi \cite{stamatelos2009role}, serta pentingnya tata kelola laboratorium yang baik dalam membangun budaya kualitas di institusi pendidikan tinggi \cite{abrantes2020governance}.
+Dalam konteks Program Studi Sistem Informasi UIN Suska Riau, tata kelola laboratorium sudah dilakukan dengan beberapa cara yaitu mulai dari pengelolaan inventaris laboratorium sebelumnya dilakukan secara manual, yang mengakibatkan berbagai kendala seperti kesulitan dalam pemantauan dan pengelolaan data inventaris, serta ketidakefisienan dalam pengolahan data. Studi oleh Wild \citeyear{smith2021agile} menunjukkan bahwa pengelolaan inventaris yang tidak efisien dapat menghambat operasional laboratorium \cite{wild2017best}. Dalam mengatasi permasalahan tersebut, laboratorium program studi sistem informasi telah mengimplementasikan sistem informasi inventaris bernama SITARIS SI, yang dikembangkan menggunakan framework CodeIgniter 4 sebagai bagian dari penelitian kerja praktek mini proyek tahun 2023. Tata kelola laboratorium dalam hal kunjungan juga sudah diterapkan sistem informasi kunjungan bernama LABVIS, yang bertujuan untuk mempermudah pemantauan dan pengelolaan kunjungan laboratorium secara efisien.
 
-Dalam konteks Program Studi Sistem Informasi UIN Suska Riau, pengelolaan inventaris laboratorium sebelumnya dilakukan secara manual, yang mengakibatkan berbagai kendala seperti kesulitan dalam pemantauan dan pengelolaan data inventaris, serta ketidakefisienan dalam pengolahan data. Studi oleh Wild \citeyear{smith2021agile} menunjukkan bahwa pengelolaan inventaris yang tidak efisien dapat menghambat operasional laboratorium \cite{wild2017best}. Untuk mengatasi permasalahan tersebut, telah diimplementasikan sistem informasi inventaris bernama SITARIS SI, yang dikembangkan menggunakan framework CodeIgniter 4 sebagai bagian dari penelitian kerja praktek mini proyek sebelumnya.
+Meskipun SITARIS SI telah berperan penting dalam manajemen inventaris laboratorium, perkembangan teknologi yang pesat dan kebutuhan yang semakin kompleks telah memunculkan berbagai tantangan baru. Beberapa permasalahan yang teridentifikasi pada SITARIS SI meliputi kesalahan dalam pembuatan kode barang, disfungsi fitur peminjaman barang dan ruangan, ketidaksesuaian laporan akhir pada SITARIS SI dengan format laporan akhir kepala laboratorium, serta berbagai kekurangan lainnya, menjadikan sistem tersebut tidak mampu secara optimal dalam mendukung kebutuhan tata kelola laboratorium.
 
-Meskipun SITARIS SI telah berperan penting dalam manajemen inventaris laboratorium, perkembangan teknologi yang pesat dan kebutuhan yang semakin kompleks telah memunculkan berbagai tantangan baru. Beberapa permasalahan yang teridentifikasi meliputi kesalahan dalam pembuatan kode barang, disfungsi fitur peminjaman barang dan ruangan, serta berbagai kekurangan lainnya. Penelitian oleh Smith dkk. \citeyear{smith2021agile} menunjukkan bahwa metode Agile dapat meningkatkan responsivitas dan adaptabilitas sistem informasi dalam lingkungan pendidikan \cite{smith2021agile}. Untuk memastikan SITARIS SI tetap relevan dan mampu memenuhi kebutuhan pengguna di masa depan, diperlukan pengembangan sistem yang menyeluruh dan adaptif.
+Dalam upaya mengatasi tantangan tersebut, pengembangan sistem diperlukan untuk meningkatkan kualitas dan fungsionalitas SITARIS SI. Sistem yang dikembangkan akan berfokus pada peningkatan efisiensi pengelolaan laboratorium dengan memperhatikan umpan balik dari pengguna secara berkelanjutan. Pendekatan pengembangan yang sistematis dan terstruktur akan memungkinkan sistem untuk lebih responsif terhadap kebutuhan pengguna, sekaligus meminimalkan risiko kegagalan sistem.
 
-Dalam upaya mengatasi tantangan tersebut, metode Agile dipilih sebagai pendekatan pengembangan yang paling sesuai. Metode Agile dikenal dengan kemampuannya untuk beradaptasi dengan perubahan secara cepat dan iteratif, sambil melibatkan pengguna di setiap tahap pengembangan. Prinsip kolaborasi dan umpan balik berkelanjutan yang menjadi ciri khas Agile memungkinkan pengembangan sistem yang lebih responsif terhadap kebutuhan pengguna, sekaligus meminimalkan risiko kegagalan sistem akibat perubahan lingkungan atau persyaratan yang dinamis.
-
-Penerapan metode Agile dalam pengembangan SITARIS SI menjadi Sistem Informasi Manajemen Laboratorium memungkinkan pengembang untuk merespon kebutuhan pengguna dengan lebih cepat dan efektif. Setiap fitur dapat dioptimalkan secara bertahap berdasarkan umpan balik pengguna, sehingga dapat meningkatkan kualitas, fungsionalitas, dan kemudahan penggunaan sistem. Pendekatan ini diharapkan dapat meningkatkan kepuasan pengguna dan mendukung pencapaian tujuan Program Studi Sistem Informasi UIN Suska Riau dalam pengelolaan sumber daya laboratorium yang lebih efisien dan transparan.
-
-Berdasarkan latar belakang tersebut, penelitian ini bertujuan untuk mengembangkan Sistem Informasi Inventaris Laboratorium (SITARIS SI) Program Studi Sistem Informasi UIN Suska Riau menjadi Sistem Manajemen Laboratorium yang lebih menyeluruh dengan menggunakan metode Agile. Melalui pendekatan Agile, diharapkan pengembangan sistem dapat dilakukan secara lebih responsif dan efisien, sehingga mampu memenuhi kebutuhan laboratorium yang terus berkembang dan meningkatkan kualitas pengelolaan laboratorium secara keseluruhan.
+Berdasarkan latar belakang tersebut, penelitian ini bertujuan untuk mengembangkan Sistem Informasi Inventaris Laboratorium (SITARIS SI) Program Studi Sistem Informasi UIN Suska Riau menjadi Sistem Manajemen Laboratorium yang lebih menyeluruh. Pengembangan sistem akan berfokus pada peningkatan fungsionalitas dan kinerja sistem secara keseluruhan, sehingga mampu memenuhi kebutuhan laboratorium yang terus berkembang dan meningkatkan kualitas pengelolaan laboratorium.
 
 %-----------------------------------------------------------------------------%
 \section{Rumusan Masalah}
 %-----------------------------------------------------------------------------%
-Berdasarkan latar belakang yang telah diuraikan, diperoleh rumusan masalah untuk penelitian ini adalah bagaimana menerapkan metode Agile dalam pengembangan lebih lanjut SITARIS SI menjadi sistem manajemen laboratorium untuk meningkatkan kualitas, dan fungsionalitas sistem.
+Berdasarkan latar belakang yang telah diuraikan, diperoleh rumusan masalah untuk penelitian ini adalah bagaimana pengembangan lebih lanjut SITARIS SI menjadi Sistem Manajemen Laboratorium yang lebih menyeluruh menggunakan metode Agile development.
 
 %-----------------------------------------------------------------------------%
 \section{Batasan Masalah}
 %-----------------------------------------------------------------------------%
 Dalam melakukan penelitian diperlukan batasan agar tidak menyimpang dari apa yang direncanakan. Adapun batasan masalah dalam penelitian Tugas Akhir ini adalah sebagai berikut:
 \begin{enumerate}
-	\item Penelitian ini menggunakan metode Agile dalam pengembangan lebih lanjut SITARIS SI untuk meningkatkan kualitas, fungsionalitas.
-	\item Pengembangan dilakukan secara iteratif dengan memperhatikan kebutuhan pengguna laboratorium yang didapatkan melalui umpan balik pada setiap siklus pengembangan.
-	\item Teknik pengumpulan data menggunakan Observasi, dan Wawancara untuk memahami kebutuhan pengguna laboratorium serta mengevaluasi hasil setiap iterasi.
-	\item Pengujian sistem dilakukan dengan metode Black Box Testing dan Manual Testing pada setiap iterasi pengembangan untuk memastikan kualitas fitur yang dikembangkan.
+	\item Penelitian ini hanya akan fokus pada pengembangan Sistem Informasi Inventaris Laboratorium (SITARIS SI) menjadi Sistem Manajemen Laboratorium.
+	\item Pengembangan sistem akan menggunakan metode Agile development.
+	\item Penelitian ini tidak mencakup pengembangan perangkat keras laboratorium.
+	\item Evaluasi sistem akan dilakukan berdasarkan umpan balik dari pengguna di Program Studi Sistem Informasi UIN Suska Riau.
+	\item Penelitian ini hanya akan mencakup laboratorium yang berada di bawah naungan Program Studi Sistem Informasi UIN Suska Riau.
 \end{enumerate}
 
 %-----------------------------------------------------------------------------%
 \section{Tujuan}
 %-----------------------------------------------------------------------------%
 Tujuan Tugas Akhir ini adalah:
-
 \begin{enumerate}
-	\item Menerapkan metode Agile dalam pengembangan SITARIS SI menjadi Sistem Manajemen Laboratorium yang lebih menyeluruh untuk meningkatkan kualitas dan fungsionalitas sistem.
-	\item Mengoptimalkan responsivitas dan adaptabilitas sistem melalui iterasi pengembangan yang melibatkan umpan balik pengguna secara berkelanjutan.
-	\item Memastikan Sistem Manajemen Laboratorium dapat memenuhi kebutuhan pengguna laboratorium yang terus berkembang dan meningkatkan efisiensi serta transparansi dalam pengelolaan sumber daya laboratorium.
+	\item Menganalisis SITARIS SI sebagai sistem informasi inventaris laboratorium untuk mengetahui kekurangan dan kendala yang ada.
+	\item Mengembangkan Sistem Informasi Inventaris Laboratorium (SITARIS SI) menjadi Sistem Manajemen Laboratorium.
 \end{enumerate}
 
 %-----------------------------------------------------------------------------%
 \section{Manfaat}
 %-----------------------------------------------------------------------------%
-Hasil penelitian diharapkan dapat menjadi sebuah sistem informasi manajemen laboratorium terintegrasi yang memberikan kemudahan dalam tata kelola laboratorium.
+Hasil penelitian diharapkan dapat menjadi sebuah sistem informasi manajemen laboratorium terintegrasi yang memberikan kemudahan dalam tata kelola laboratorium. Sistem ini diharapkan mampu mengelola inventaris laboratorium dengan lebih efisien, memantau penggunaan peralatan dan fasilitas secara real-time, serta menyediakan laporan yang akurat dan sesuai dengan kebutuhan kepala laboratorium. Selain itu, sistem ini juga diharapkan dapat memfasilitasi peminjaman barang dan ruangan dengan lebih mudah, serta mengelola kunjungan laboratorium secara efektif. Dengan demikian, sistem ini akan mendukung kegiatan praktikum dan penelitian dengan lebih baik, serta meningkatkan kualitas pengelolaan laboratorium secara keseluruhan.
 %-----------------------------------------------------------------------------%
 \section{Sistematika Penulisan}
 %-----------------------------------------------------------------------------%
@@ -87,7 +82,7 @@ BAB 3 pada Tugas Akhir ini berisi tentang: (1) Tahap Perencanaan; (2) Tahap Peng
 
 \textbf{BAB 4. \babEmpat}
 
-BAB 4 pada Tugas Akhir ini berisi tentang:
+BAB 4 pada Tugas Akhir ini berisi tentang: (1) Analisis SITARIS SI; (2) Perancangan Sistem; (3) Implementasi Sistem; (4) Pengujian Sistem; (5) Dokumentasi Sistem.
 
 \textbf{BAB 5. \babLima}
 
