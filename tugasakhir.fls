@@ -413,6 +413,13 @@ INPUT .\konten\\gambar\barang.png
 INPUT .\konten\\gambar\barang.png
 INPUT .\konten\\gambar\barang.png
 INPUT .\konten\\gambar\barang.png
+INPUT .\konten\\gambar\agile.png
+INPUT .\konten\\gambar\agile.png
+INPUT .\konten\\gambar\agile.png
+INPUT .\konten\\gambar\agile.png
+INPUT .\konten\\gambar\agile.png
+INPUT .\konten\\gambar\agile.png
+INPUT .\konten\\gambar\agile.png
 INPUT .\konten\bab3.tex
 INPUT .\konten\bab3.tex
 OUTPUT konten\bab3.aux
@@ -436,6 +443,9 @@ INPUT .\tugasakhir.bbl
 INPUT .\tugasakhir.bbl
 INPUT tugasakhir.bbl
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranSemua.tex
@@ -443,9 +453,6 @@ INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranA.tex
 INPUT .\halamanbelakang\lampiranA.tex
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 OUTPUT halamanbelakang\lampiranA.aux
 INPUT .\halamanbelakang\lampiranA.tex
 INPUT .\halamanbelakang\lampiranA.tex

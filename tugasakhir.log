@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  26 OCT 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  28 OCT 2024 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,6 +484,9 @@ LaTeX Warning: Label `fig:enter-label' multiply defined.
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
 ) (konten/bab3.aux
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
@@ -621,7 +624,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<kontrol/gambar/logouin.png, id=131, 289.08pt x 291.0875pt>
+<kontrol/gambar/logouin.png, id=211, 289.08pt x 291.0875pt>
 File: kontrol/gambar/logouin.png Graphic file (type png)
 <use kontrol/gambar/logouin.png>
 Package pdftex.def Info: kontrol/gambar/logouin.png  used on input line 35.
@@ -755,7 +758,7 @@ Underfull \hbox (badness 4726) in paragraph at lines 64--65
 []\OT1/ptm/m/n/12 Mendukung kegiatan pengab-dian kepada masyarakat yang berba-sis
  []
 
-<konten//gambar/Struktur Organisasi.png, id=290, 406.01688pt x 305.14pt>
+<konten//gambar/Struktur Organisasi.png, id=413, 406.01688pt x 305.14pt>
 File: konten//gambar/Struktur Organisasi.png Graphic file (type png)
 <use konten//gambar/Struktur Organisasi.png>
 Package pdftex.def Info: konten//gambar/Struktur Organisasi.png  used on input line 76.
@@ -769,7 +772,7 @@ Underfull \hbox (badness 1033) in paragraph at lines 96--97
 \OT1/ptm/m/n/12 dibuat de-ngan meng-gu-nakan Frame-work CodeIgniter4 dan ba-hasa pem-ro-gra-
  []
 
-<konten//gambar/Login Page.png, id=318, 1927.2pt x 1003.75pt>
+<konten//gambar/Login Page.png, id=441, 1927.2pt x 1003.75pt>
 File: konten//gambar/Login Page.png Graphic file (type png)
 <use konten//gambar/Login Page.png>
 Package pdftex.def Info: konten//gambar/Login Page.png  used on input line 105.
@@ -777,21 +780,36 @@ Package pdftex.def Info: konten//gambar/Login Page.png  used on input line 105.
 
 
 [8]
-<konten//gambar/login berhasil.png, id=326, 1927.2pt x 1003.75pt>
+<konten//gambar/login berhasil.png, id=449, 1927.2pt x 1003.75pt>
 File: konten//gambar/login berhasil.png Graphic file (type png)
 <use konten//gambar/login berhasil.png>
 Package pdftex.def Info: konten//gambar/login berhasil.png  used on input line 114.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang.png, id=327, 1445.4pt x 813.0375pt>
+<konten//gambar/barang.png, id=450, 1445.4pt x 813.0375pt>
 File: konten//gambar/barang.png Graphic file (type png)
 <use konten//gambar/barang.png>
 Package pdftex.def Info: konten//gambar/barang.png  used on input line 123.
 (pdftex.def)             Requested size: 326.64055pt x 183.73193pt.
 
 
-[9 <./konten//gambar/Login Page.png> <./konten//gambar/login berhasil.png>])
+[9 <./konten//gambar/Login Page.png> <./konten//gambar/login berhasil.png>]
+<konten//gambar/agile.png, id=461, 804.00375pt x 347.79938pt>
+File: konten//gambar/agile.png Graphic file (type png)
+<use konten//gambar/agile.png>
+Package pdftex.def Info: konten//gambar/agile.png  used on input line 135.
+(pdftex.def)             Requested size: 326.64055pt x 141.29845pt.
 
-[10 <./konten//gambar/barang.png>]
+
+[10 <./konten//gambar/barang.png> <./konten//gambar/agile.png>]
+Underfull \hbox (badness 1448) in paragraph at lines 150--151
+\OT1/ptm/m/n/12 tur yang di-gu-nakan un-tuk memu-dahkan pe-ngem-bangan apli-kasi atau sis-tem
+ []
+
+
+
+[11])
+
+[12]
 \openout2 = `konten/bab3.aux'.
 
  (konten/bab3.tex
@@ -800,37 +818,50 @@ BAB 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 15.
 
-<konten//gambar/metodologi-penelitian.png, id=344, 514.92375pt x 706.13812pt>
+<konten//gambar/metodologi-penelitian.png, id=507, 514.92375pt x 706.13812pt>
 File: konten//gambar/metodologi-penelitian.png Graphic file (type png)
 <use konten//gambar/metodologi-penelitian.png>
 Package pdftex.def Info: konten//gambar/metodologi-penelitian.png  used on input line 20.
 (pdftex.def)             Requested size: 326.64055pt x 447.95096pt.
-)
 
-[11
+
+[13
 
 
 
 
  <./konten//gambar/metodologi-penelitian.png>]
+
+[14]
+
+[15])
+
+[16]
 \openout2 = `konten/bab4.aux'.
 
  (konten/bab4.tex
 BAB 4.
 )
 
-[12
+[17
 
 
 
 
-] (tugasakhir.bbl) (halamanbelakang/lampiranSemua.tex
+] (tugasakhir.bbl
 
-[1
+[18
 
 
 
-]
+]) (halamanbelakang/lampiranSemua.tex
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \include{halamanbelakang/lampiranA}
+                                        [1]
 \openout2 = `halamanbelakang/lampiranA.aux'.
 
  (halamanbelakang/lampiranA.tex
@@ -880,7 +911,7 @@ LAMPIRAN D.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=378, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=568, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -907,20 +938,20 @@ L3 programming layer <2024-09-10>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
-(rerunfilecheck)             Checksum: 7EDB76C2F486E11CEA981351DDD6E07F;4981.
+(rerunfilecheck)             Checksum: 0BE860012CDD0C30C6988D756CFE51C1;8501.
  ) 
 Here is how much of TeX's memory you used:
- 16221 strings out of 473899
- 270406 string characters out of 5725047
- 753155 words of memory out of 5000000
- 38565 multiletter control sequences out of 15000+600000
+ 16314 strings out of 473899
+ 272011 string characters out of 5725047
+ 755079 words of memory out of 5000000
+ 38617 multiletter control sequences out of 15000+600000
  591734 words of font info for 105 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
  94i,11n,107p,1109b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (24 pages, 528003 bytes).
+Output written on tugasakhir.pdf (30 pages, 626084 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 292 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 

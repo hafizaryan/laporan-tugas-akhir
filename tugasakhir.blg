@@ -37,49 +37,51 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: konfigurasi/daftarpustaka.bib
 Warning--entry type for "lab-si-website" isn't style-file defined
---line 931 of file konfigurasi/daftarpustaka.bib
+--line 985 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
---line 947 of file konfigurasi/daftarpustaka.bib
+--line 1001 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 8 entries,
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 16 entries,
             6951 wiz_defined-function locations,
-            1329 strings with 12343 characters,
-and the built_in function-call counts, 15986 in all, are:
-= -- 2064
-> -- 122
-< -- 743
-+ -- 824
-- -- 20
-* -- 973
-:= -- 2882
-add.period$ -- 32
-call.type$ -- 8
-change.case$ -- 136
+            1374 strings with 14077 characters,
+and the built_in function-call counts, 33351 in all, are:
+= -- 4126
+> -- 263
+< -- 1733
++ -- 1807
+- -- 40
+* -- 2210
+:= -- 6398
+add.period$ -- 62
+call.type$ -- 16
+change.case$ -- 272
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 409
-empty$ -- 597
-format.name$ -- 208
-if$ -- 3052
+cite$ -- 32
+duplicate$ -- 829
+empty$ -- 1205
+format.name$ -- 448
+if$ -- 6152
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 48
 missing$ -- 0
-newline$ -- 202
-num.names$ -- 64
-pop$ -- 251
+newline$ -- 408
+num.names$ -- 128
+pop$ -- 432
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 64
 quote$ -- 0
-skip$ -- 1101
+skip$ -- 2148
 stack$ -- 0
-substring$ -- 899
-swap$ -- 212
-text.length$ -- 18
+substring$ -- 1936
+swap$ -- 468
+text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 784
-warning$ -- 0
-while$ -- 67
+type$ -- 1424
+warning$ -- 2
+while$ -- 150
 width$ -- 0
-write$ -- 244
-(There were 2 warnings)
+write$ -- 512
+(There were 4 warnings)
