@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  28 OCT 2024 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  28 OCT 2024 13:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -818,11 +818,11 @@ BAB 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 15.
 
-<konten//gambar/metodologi-penelitian.png, id=507, 514.92375pt x 706.13812pt>
+<konten//gambar/metodologi-penelitian.png, id=507, 437.38406pt x 730.98094pt>
 File: konten//gambar/metodologi-penelitian.png Graphic file (type png)
 <use konten//gambar/metodologi-penelitian.png>
 Package pdftex.def Info: konten//gambar/metodologi-penelitian.png  used on input line 20.
-(pdftex.def)             Requested size: 326.64055pt x 447.95096pt.
+(pdftex.def)             Requested size: 286.80426pt x 479.32584pt.
 
 
 [13
@@ -949,7 +949,7 @@ Here is how much of TeX's memory you used:
  1212 hyphenation exceptions out of 8191
  94i,11n,107p,1109b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (30 pages, 626084 bytes).
+Output written on tugasakhir.pdf (30 pages, 629444 bytes).
 PDF statistics:
  626 PDF objects out of 1000 (max. 8388607)
  131 named destinations out of 1000 (max. 500000)
