@@ -382,23 +382,44 @@ OUTPUT konten\bab2.aux
 INPUT .\konten\bab2.tex
 INPUT .\konten\bab2.tex
 INPUT konten\bab2.tex
-INPUT .\konten\\gambar\Struktur Organisasi.png
-INPUT .\konten\\gambar\Struktur Organisasi.png
-INPUT .\konten\\gambar\Struktur Organisasi.png
-INPUT .\konten\\gambar\Struktur Organisasi.png
-INPUT .\konten\\gambar\Struktur Organisasi.png
-INPUT .\konten\\gambar\Struktur Organisasi.png
-INPUT .\konten\\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT .\konten\\gambar\Login Page.png
-INPUT .\konten\\gambar\Login Page.png
-INPUT .\konten\\gambar\Login Page.png
-INPUT .\konten\\gambar\Login Page.png
-INPUT .\konten\\gambar\Login Page.png
-INPUT .\konten\\gambar\Login Page.png
-INPUT .\konten\\gambar\Login Page.png
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\\gambar\Login Page.png
+INPUT .\konten\\gambar\Login Page.png
+INPUT .\konten\\gambar\Login Page.png
+INPUT .\konten\\gambar\Login Page.png
+INPUT .\konten\\gambar\Login Page.png
+INPUT .\konten\\gambar\Login Page.png
+INPUT .\konten\\gambar\Login Page.png
 INPUT .\konten\\gambar\login berhasil.png
 INPUT .\konten\\gambar\login berhasil.png
 INPUT .\konten\\gambar\login berhasil.png

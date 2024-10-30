@@ -47,7 +47,7 @@ lab-si-website}%
 \newblock
 \begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
 \newblock
-\APACrefnote{Akses Tanggal: 14 Oktober 2023}
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -203,6 +203,31 @@ Irawan, R.%
 \newblock
 \APACjournalVolNumPages{Jurnal Saintekom: Sains, Teknologi, Komputer dan
   Manajemen}{7}{1}{67--80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{lab-si.uin-suska.ac.id}%
+}{%
+{lab-si.uin-suska.ac.id}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+labsi2023}
+\APACinsertmetastar {%
+labsi2023}%
+\begin{APACrefauthors}%
+{lab-si.uin-suska.ac.id}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Website Laboratorium Sistem Informasi UIN Suska Riau.} {Website
+  laboratorium sistem informasi uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -431,6 +456,31 @@ Sweden, I\BPBI N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Tilley%
+\ \BBA {} Rosenblatt%
+}{%
+Tilley%
+\ \BBA {} Rosenblatt%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+tilley2017systems}
+\APACinsertmetastar {%
+tilley2017systems}%
+\begin{APACrefauthors}%
+Tilley, S.%
+\BCBT {}\ \BBA {} Rosenblatt, H\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Systems analysis and design} {Systems analysis and design}.
+\newblock
+\APACaddressPublisher{}{Cengage Learning}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Tyowati%
 \ \BBA {} Irawan%
 }{%
@@ -479,7 +529,7 @@ uin-suska-website}%
 \newblock
 \begin{APACrefURL} \url{https://uin-suska.ac.id} \end{APACrefURL}
 \newblock
-\APACrefnote{Akses Tanggal: 28 Oktober 2024}
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
