@@ -26,6 +26,32 @@ Abrantes, B\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ahmed%
+, Cox%
+\BCBL {}\ \BBA {} Girvan%
+}{%
+Ahmed%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+ahmed2014developing}
+\APACinsertmetastar {%
+ahmed2014developing}%
+\begin{APACrefauthors}%
+Ahmed, T.%
+, Cox, J.%
+\BCBL {}\ \BBA {} Girvan, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Developing information systems: Practical guidance for
+  IT professionals} {Developing information systems: Practical guidance for it
+  professionals}.{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {Ahsyar}%
 }{%
 {Ahsyar}%
@@ -144,6 +170,34 @@ Cowls, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Efendi%
+, Ramadhani%
+, Zihad%
+\BCBL {}\ \protect \BOthers {.}}{%
+Efendi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+efendi2023perkembangan}
+\APACinsertmetastar {%
+efendi2023perkembangan}%
+\begin{APACrefauthors}%
+Efendi, E.%
+, Ramadhani, R\BPBI N.%
+, Zihad, A.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perkembangan Sistem Informasi pada Organisasi Dakwah}
+  {Perkembangan sistem informasi pada organisasi dakwah}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Da'watuna: Journal of Communication and Islamic
+  Broadcasting}{3}{2}{938--949}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Fadllullah%
 , Mulyadi%
 , Rochaniati%
@@ -179,6 +233,32 @@ Fadllullah, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Furterer%
+}{%
+Furterer%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+furterer2018applying}
+\APACinsertmetastar {%
+furterer2018applying}%
+\begin{APACrefauthors}%
+Furterer, S\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Applying systems engineering tools to teach systems
+  engineering in an engineering management program} {Applying systems
+  engineering tools to teach systems engineering in an engineering management
+  program}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2018 ASEE Annual Conference \& Exposition.} {2018 asee
+  annual conference \& exposition.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Irawan%
 \ \protect \BOthers {.}}{%
 Irawan%
@@ -203,6 +283,36 @@ Irawan, R.%
 \newblock
 \APACjournalVolNumPages{Jurnal Saintekom: Sains, Teknologi, Komputer dan
   Manajemen}{7}{1}{67--80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kiplie%
+, Yatin%
+, Angutim%
+\BCBL {}\ \BBA {} Hamid%
+}{%
+Kiplie%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+kiplie2018system}
+\APACinsertmetastar {%
+kiplie2018system}%
+\begin{APACrefauthors}%
+Kiplie, F\BPBI H.%
+, Yatin, S\BPBI F\BPBI M.%
+, Angutim, M.%
+\BCBL {}\ \BBA {} Hamid, N\BPBI H\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {System development for document management system}
+  {System development for document management system}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Academic Research in Business
+  and Social Sciences}{8}{9}{748--757}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
