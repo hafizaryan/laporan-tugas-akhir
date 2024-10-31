@@ -37,56 +37,57 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: konfigurasi/daftarpustaka.bib
 Warning--entry type for "lab-si-website" isn't style-file defined
---line 1119 of file konfigurasi/daftarpustaka.bib
+--line 1341 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "labsi2023" isn't style-file defined
---line 1135 of file konfigurasi/daftarpustaka.bib
+--line 1357 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "uin-suska-website" isn't style-file defined
---line 1151 of file konfigurasi/daftarpustaka.bib
+--line 1373 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
---line 1205 of file konfigurasi/daftarpustaka.bib
+--line 1427 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 25 entries,
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 36 entries,
             6951 wiz_defined-function locations,
-            1416 strings with 15514 characters,
-and the built_in function-call counts, 51603 in all, are:
-= -- 6553
-> -- 410
-< -- 2556
-+ -- 2653
-- -- 64
-* -- 3264
-:= -- 9470
-add.period$ -- 101
-call.type$ -- 25
-change.case$ -- 426
+            1483 strings with 18162 characters,
+and the built_in function-call counts, 76087 in all, are:
+= -- 9468
+> -- 628
+< -- 3895
++ -- 4050
+- -- 92
+* -- 4952
+:= -- 14210
+add.period$ -- 142
+call.type$ -- 36
+change.case$ -- 613
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 1299
-empty$ -- 1888
-format.name$ -- 683
-if$ -- 9752
+cite$ -- 72
+duplicate$ -- 1989
+empty$ -- 2752
+format.name$ -- 1080
+if$ -- 14172
 int.to.chr$ -- 0
-int.to.str$ -- 75
+int.to.str$ -- 108
 missing$ -- 0
-newline$ -- 637
-num.names$ -- 200
-pop$ -- 756
+newline$ -- 925
+num.names$ -- 288
+pop$ -- 1064
 preamble$ -- 1
-purify$ -- 100
+purify$ -- 144
 quote$ -- 0
-skip$ -- 3496
+skip$ -- 4956
 stack$ -- 0
-substring$ -- 2867
-swap$ -- 702
-text.length$ -- 62
+substring$ -- 4357
+swap$ -- 1095
+text.length$ -- 87
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2480
-warning$ -- 3
-while$ -- 232
+type$ -- 3360
+warning$ -- 4
+while$ -- 367
 width$ -- 0
-write$ -- 797
-(There were 7 warnings)
+write$ -- 1179
+(There were 8 warnings)

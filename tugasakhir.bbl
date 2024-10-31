@@ -105,6 +105,67 @@ Al-Saqqa, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Balza%
+, Cusatis%
+, McDonnell%
+, Basir%
+\BCBL {}\ \BBA {} Flynn%
+}{%
+Balza%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+balza2022effective}
+\APACinsertmetastar {%
+balza2022effective}%
+\begin{APACrefauthors}%
+Balza, J\BPBI S.%
+, Cusatis, R.%
+, McDonnell, S\BPBI M.%
+, Basir, M\BPBI A.%
+\BCBL {}\ \BBA {} Flynn, K\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effective questionnaire design: how to use cognitive
+  interviews to refine questionnaire items} {Effective questionnaire design:
+  how to use cognitive interviews to refine questionnaire items}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of neonatal-perinatal
+  medicine}{15}{2}{345--349}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bree%
+\ \BBA {} Gallagher%
+}{%
+Bree%
+\ \BBA {} Gallagher%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+bree2016using}
+\APACinsertmetastar {%
+bree2016using}%
+\begin{APACrefauthors}%
+Bree, R\BPBI T.%
+\BCBT {}\ \BBA {} Gallagher, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Using Microsoft Excel to code and thematically analyse
+  qualitative data: a simple, cost-effective approach.} {Using microsoft excel
+  to code and thematically analyse qualitative data: a simple, cost-effective
+  approach.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{All Ireland Journal of Higher Education}{8}{2}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 C.%
 , P.%
 , R%
@@ -233,6 +294,34 @@ Fadllullah, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Feng%
+, Li%
+\BCBL {}\ \BBA {} McVay%
+}{%
+Feng%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+feng2009internal}
+\APACinsertmetastar {%
+feng2009internal}%
+\begin{APACrefauthors}%
+Feng, M.%
+, Li, C.%
+\BCBL {}\ \BBA {} McVay, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internal control and management guidance} {Internal
+  control and management guidance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of accounting and
+  economics}{48}{2-3}{190--209}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Furterer%
 }{%
 Furterer%
@@ -256,6 +345,36 @@ Furterer, S\BPBI L.%
 \newblock
 \BIn{} \APACrefbtitle {2018 ASEE Annual Conference \& Exposition.} {2018 asee
   annual conference \& exposition.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hussain%
+, Haque%
+\BCBL {}\ \BBA {} Baloch%
+}{%
+Hussain%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+hussain2019management}
+\APACinsertmetastar {%
+hussain2019management}%
+\begin{APACrefauthors}%
+Hussain, N.%
+, Haque, A\BPBI U.%
+\BCBL {}\ \BBA {} Baloch, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Management theories: The contribution of contemporary
+  management theorists in tackling contemporary management challenges}
+  {Management theories: The contribution of contemporary management theorists
+  in tackling contemporary management challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ya{\c{s}}ar {\"U}niversitesi
+  E-Dergisi}{14}{}{156--169}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -283,6 +402,67 @@ Irawan, R.%
 \newblock
 \APACjournalVolNumPages{Jurnal Saintekom: Sains, Teknologi, Komputer dan
   Manajemen}{7}{1}{67--80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kaehler%
+, Grundei%
+, Kaehler%
+\BCBL {}\ \BBA {} Grundei%
+}{%
+Kaehler%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+kaehler2019concept}
+\APACinsertmetastar {%
+kaehler2019concept}%
+\begin{APACrefauthors}%
+Kaehler, B.%
+, Grundei, J.%
+, Kaehler, B.%
+\BCBL {}\ \BBA {} Grundei, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The concept of management: In search of a new
+  definition} {The concept of management: In search of a new
+  definition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{HR governance: A theoretical introduction}{}{}{3--26}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kawai%
+\ \protect \BOthers {.}}{%
+Kawai%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+kawai2021phase}
+\APACinsertmetastar {%
+kawai2021phase}%
+\begin{APACrefauthors}%
+Kawai, H.%
+, Ando, K.%
+, Maruyama, D.%
+, Yamamoto, K.%
+, Kiyohara, E.%
+, Terui, Y.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Phase II study of E7777 in Japanese patients with
+  relapsed/refractory peripheral and cutaneous T-cell lymphoma} {Phase ii study
+  of e7777 in japanese patients with relapsed/refractory peripheral and
+  cutaneous t-cell lymphoma}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cancer science}{112}{6}{2426--2435}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -395,6 +575,58 @@ MariaDB, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Marwah%
+, Puspitorini%
+\BCBL {}\ \protect \BOthers {.}}{%
+Marwah%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+marwah2024sistem}
+\APACinsertmetastar {%
+marwah2024sistem}%
+\begin{APACrefauthors}%
+Marwah, S.%
+, Puspitorini, S.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SISTEM INFORMASI MANAJEMEN LABORATORIUM PADA JURUSAN
+  FARMASI POLITEKNIK KESEHATAN KEMENKES JAMBI} {Sistem informasi manajemen
+  laboratorium pada jurusan farmasi politeknik kesehatan kemenkes
+  jambi}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{FORTECH (Journal of Information
+  Technology)}{8}{1}{13--19}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Monday%
+}{%
+Monday%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+monday2020impacts}
+\APACinsertmetastar {%
+monday2020impacts}%
+\begin{APACrefauthors}%
+Monday, T\BPBI U.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impacts of interview as research instrument of data
+  collection in social sciences} {Impacts of interview as research instrument
+  of data collection in social sciences}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Digital Art \& Humanities}{1}{1}{15--24}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Pakpahan%
 , Fa{\^a}%
 \BCBL {}\ \protect \BOthers {.}}{%
@@ -422,6 +654,63 @@ Pakpahan, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rihm%
+\ \protect \BOthers {.}}{%
+Rihm%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+rihm2024digital}
+\APACinsertmetastar {%
+rihm2024digital}%
+\begin{APACrefauthors}%
+Rihm, S\BPBI D.%
+, Tan, Y\BPBI R.%
+, Ang, W.%
+, Hofmeister, M.%
+, Deng, X.%
+, Laksana, M\BPBI T.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The digital lab manager: Automating research support}
+  {The digital lab manager: Automating research support}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{SLAS technology}{29}{3}{100135}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rueda%
+, Panach%
+\BCBL {}\ \BBA {} Distante%
+}{%
+Rueda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+rueda2020requirements}
+\APACinsertmetastar {%
+rueda2020requirements}%
+\begin{APACrefauthors}%
+Rueda, S.%
+, Panach, J\BPBI I.%
+\BCBL {}\ \BBA {} Distante, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Requirements elicitation methods based on interviews in
+  comparison: A family of experiments} {Requirements elicitation methods based
+  on interviews in comparison: A family of experiments}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information and Software Technology}{126}{}{106361}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sallaby%
 \ \BBA {} Kanedi%
 }{%
@@ -446,6 +735,36 @@ Sallaby, A\BPBI F.%
   menggunakan framework codeigniter}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Jurnal Media Infotama}{16}{1}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sch{\"u}hly%
+\ \BBA {} Sch{\"u}hly%
+}{%
+Sch{\"u}hly%
+\ \BBA {} Sch{\"u}hly%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+schuhly2022strategic}
+\APACinsertmetastar {%
+schuhly2022strategic}%
+\begin{APACrefauthors}%
+Sch{\"u}hly, A\BPBI M.%
+\BCBT {}\ \BBA {} Sch{\"u}hly, A\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {What is strategic management and Why do we need it:
+  theoretical foundations of strategic management} {What is strategic
+  management and why do we need it: theoretical foundations of strategic
+  management}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cultural Influences on the Process of Strategic
+  Management: Using Scenario Planning for Decision Making in Multinational
+  Corporations}{}{}{33--135}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
