@@ -654,6 +654,39 @@ Pakpahan, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rahy%
+\ \BBA {} Bass%
+}{%
+Rahy%
+\ \BBA {} Bass%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+rahy2020implementation}
+\APACinsertmetastar {%
+rahy2020implementation}%
+\begin{APACrefauthors}%
+Rahy, S.%
+\BCBT {}\ \BBA {} Bass, J\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Implementation of agile methodology in developing
+  countries: Case study in lebanon} {Implementation of agile methodology in
+  developing countries: Case study in lebanon}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Information and Communication Technologies for
+  Development: 16th IFIP WG 9.4 International Conference on Social Implications
+  of Computers in Developing Countries, ICT4D 2020, Manchester, UK, June
+  10--11, 2020, Proceedings 16} {Information and communication technologies for
+  development: 16th ifip wg 9.4 international conference on social implications
+  of computers in developing countries, ict4d 2020, manchester, uk, june
+  10--11, 2020, proceedings 16}\ (\BPGS\ 217--228).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rihm%
 \ \protect \BOthers {.}}{%
 Rihm%
@@ -765,6 +798,31 @@ Sch{\"u}hly, A\BPBI M.%
 \APACjournalVolNumPages{Cultural Influences on the Process of Strategic
   Management: Using Scenario Planning for Decision Making in Multinational
   Corporations}{}{}{33--135}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{sif.uin-suska.ac.id}%
+}{%
+{sif.uin-suska.ac.id}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+web-prodi}
+\APACinsertmetastar {%
+web-prodi}%
+\begin{APACrefauthors}%
+{sif.uin-suska.ac.id}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Website Prodi Sistem Informasi UIN Suska Riau.} {Website prodi
+  sistem informasi uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://sif.uin-suska.ac.id} \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -910,6 +968,62 @@ Tilley, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Trelles%
+}{%
+Trelles%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+trelles2021agile}
+\APACinsertmetastar {%
+trelles2021agile}%
+\begin{APACrefauthors}%
+Trelles, S\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Agile Adoption in Information Technology Departments at
+  Research Universities} {Agile adoption in information technology departments
+  at research universities}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tuunanen%
+, Vartiainen%
+, Kainulainen%
+\BCBL {}\ \BBA {} Ebrahim%
+}{%
+Tuunanen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+tuunanen2023development}
+\APACinsertmetastar {%
+tuunanen2023development}%
+\begin{APACrefauthors}%
+Tuunanen, T.%
+, Vartiainen, T.%
+, Kainulainen, S.%
+\BCBL {}\ \BBA {} Ebrahim, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Development of an Agile Requirements Risk Prioritization
+  Method: A Design Science Research Study} {Development of an agile
+  requirements risk prioritization method: A design science research
+  study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Communications of the Association for Information
+  Systems}{52}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Tyowati%
 \ \BBA {} Irawan%
 }{%
@@ -1010,6 +1124,69 @@ Wild, T.%
   inventory management}.
 \newblock
 \APACaddressPublisher{}{Routledge}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wisnumurti%
+, Trimarsiah%
+\BCBL {}\ \BBA {} Faulina%
+}{%
+Wisnumurti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+wisnumurti2022penerapan}
+\APACinsertmetastar {%
+wisnumurti2022penerapan}%
+\begin{APACrefauthors}%
+Wisnumurti, W.%
+, Trimarsiah, Y.%
+\BCBL {}\ \BBA {} Faulina, S\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Penerapan Agile Development Methodology Pada Sistem
+  Informasi Penjualan Ecer Dan Grosir Toko Kinanti Martapura} {Penerapan agile
+  development methodology pada sistem informasi penjualan ecer dan grosir toko
+  kinanti martapura}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{JUTIM (Jurnal Teknik Informatika
+  Musirawas)}{7}{2}{109--120}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Xu%
+, Wei%
+, Tang%
+\BCBL {}\ \BBA {} Ordonez~de Pablos%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+zhang2024establishment}
+\APACinsertmetastar {%
+zhang2024establishment}%
+\begin{APACrefauthors}%
+Zhang, X.%
+, Xu, T.%
+, Wei, X.%
+, Tang, J.%
+\BCBL {}\ \BBA {} Ordonez~de Pablos, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The establishment of transactive memory system in
+  distributed agile teams engaged in AI-related knowledge work} {The
+  establishment of transactive memory system in distributed agile teams engaged
+  in ai-related knowledge work}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Knowledge Management}{28}{2}{381--408}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
