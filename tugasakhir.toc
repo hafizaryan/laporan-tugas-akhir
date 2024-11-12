@@ -59,8 +59,8 @@
 \contentsline {subsection}{\numberline {4.3.1}Analisa Kebutuhan Fungsional Sistem}{26}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Analisa Kebutuhan Non-Fungsional Sistem}{26}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Perancangan}{26}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Perancangan Struktur Menu}{26}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Perancangan Basis Data}{26}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.1}Perancangan Basis Data}{26}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Perancangan Struktur Menu}{26}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Perancangan Interface}{26}{subsection.4.4.3}%
 \contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.29}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%

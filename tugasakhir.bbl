@@ -52,9 +52,9 @@ Ahmed, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{Ahsyar}%
+Ahsyar%
 }{%
-{Ahsyar}%
+Ahsyar%
 }{%
 {\protect \APACyear {2023}}%
 }]{%
@@ -62,7 +62,7 @@ lab-si-website}
 \APACinsertmetastar {%
 lab-si-website}%
 \begin{APACrefauthors}%
-{Ahsyar}.%
+Ahsyar, T\BPBI K.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -166,38 +166,6 @@ Bree, R\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-C.%
-, P.%
-, R%
-\BCBL {}\ \BBA {} V.%
-}{%
-C.%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2024}}%
-}]{%
-dongapure_a__c___2024}
-\APACinsertmetastar {%
-dongapure_a__c___2024}%
-\begin{APACrefauthors}%
-C., D\BPBI A.%
-, P., C\BPBI P.%
-, R, Y\BPBI P.%
-\BCBL {}\ \BBA {} V., K\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Good Laboratory Practices (GLP) in an Academic Institute
-  for Science} {Good laboratory practices (glp) in an academic institute for
-  science}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Advanced Zoology}{}{}{}.
-\newblock
-\begin{APACrefDOI} \doi{10.53555/jaz.v45i1.288} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Cowls%
 , Tsamados%
 , Taddeo%
@@ -228,6 +196,36 @@ Cowls, J.%
 \newblock
 \begin{APACrefURL} \url{https://api.semanticscholar.org/CorpusID:233940459}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dongapure%
+, Choudhari%
+, Yawale%
+\BCBL {}\ \BBA {} Kawalkar%
+}{%
+Dongapure%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+dongapure2024good}
+\APACinsertmetastar {%
+dongapure2024good}%
+\begin{APACrefauthors}%
+Dongapure, A.%
+, Choudhari, P.%
+, Yawale, P.%
+\BCBL {}\ \BBA {} Kawalkar, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Good Laboratory Practices (GLP) in an Academic Institute
+  for Science.} {Good laboratory practices (glp) in an academic institute for
+  science.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Advanced Zoology}{45}{1}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
