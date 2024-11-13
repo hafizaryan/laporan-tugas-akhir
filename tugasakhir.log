@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  12 NOV 2024 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  13 NOV 2024 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -976,16 +976,23 @@ Package pdftex.def Info: konten//gambar/metodologi-penelitian.png  used on input
 
  (konten/bab4.tex
 BAB 4.
-)
+
+Underfull \hbox (badness 1997) in paragraph at lines 25--26
+[]\OT1/ptm/m/it/12 Laboratory As-sis-tant Reg-is-tra-tion In-for-ma-tion Sys-tem \OT1/ptm/m/n/12 yang dis-ingkat
+ []
+
+
 
 [26
 
 
 
 
-] (tugasakhir.bbl
+])
 
-[27
+[27] (tugasakhir.bbl
+
+[28
 
 
 
@@ -996,14 +1003,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.663 rahy2020implementation}
-                              [28]
+                              [29]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.989 
-       [29]) (halamanbelakang/lampiranSemua.tex
+       [30]) (halamanbelakang/lampiranSemua.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
@@ -1060,7 +1067,7 @@ LAMPIRAN D.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=934, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=943, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -1090,17 +1097,17 @@ Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
 (rerunfilecheck)             Checksum: AAF9E6C1D2F8EA0F865CCBD6A2091C3A;11477.
  ) 
 Here is how much of TeX's memory you used:
- 16590 strings out of 473899
- 278640 string characters out of 5725047
+ 16596 strings out of 473899
+ 278682 string characters out of 5725047
  760276 words of memory out of 5000000
  38826 multiletter control sequences out of 15000+600000
  592748 words of font info for 107 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
  94i,11n,107p,1647b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (42 pages, 6300822 bytes).
+Output written on tugasakhir.pdf (43 pages, 6304110 bytes).
 PDF statistics:
- 1007 PDF objects out of 1200 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
+ 1018 PDF objects out of 1200 (max. 8388607)
+ 204 named destinations out of 1000 (max. 500000)
  663 words of extra memory for PDF output out of 10000 (max. 10000000)
 
