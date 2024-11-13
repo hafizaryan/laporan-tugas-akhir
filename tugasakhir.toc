@@ -53,15 +53,15 @@
 \contentsline {section}{\numberline {3.3}Tahap Implementasi dan Pengujian}{25}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Tahap Dokumentasi}{25}{section.3.4}%
 \contentsline {chapter}{\numberline {4}JANGKAAN HASIL}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Analisa Sistem Berjalan}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Analisa Sistem Usulan}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analisa Kebutuhan Sistem}{27}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Analisa Kebutuhan Fungsional Sistem}{27}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Analisa Kebutuhan Non-Fungsional Sistem}{27}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Perancangan}{27}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Perancangan Basis Data}{27}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Perancangan Struktur Menu}{27}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Perancangan Interface}{27}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.1}Analisis Sistem Berjalan}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Analisis Sistem Usulan}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analisis Kebutuhan Sistem}{27}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Analisis Kebutuhan Fungsional Sistem}{27}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analisis Kebutuhan Non-Fungsional Sistem}{27}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Perancangan}{29}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Perancangan Basis Data}{29}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Perancangan Struktur Menu}{29}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Perancangan Interface}{29}{subsection.4.4.3}%
 \contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.29}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%

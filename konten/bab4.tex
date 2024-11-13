@@ -14,7 +14,7 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babEmpat}
 %-----------------------------------------------------------------------------%
-\section{Analisa Sistem Berjalan}
+\section{Analisis Sistem Berjalan}
 Dalam proses tata kelola yang berlangsung di laboratorium Program Studi Sistem Informasi, hingga saat ini laboratorium telah menerapkan beberapa sistem informasi untuk mengelola berbagai aspek operasionalnya. Sistem-sistem tersebut meliputi:
 
 \begin{enumerate}
@@ -29,15 +29,81 @@ Dalam proses tata kelola yang berlangsung di laboratorium Program Studi Sistem I
 
 Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Namun, beberapa sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi (KaProdi). Hal ini mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan. Penyempurnaan ini bertujuan untuk mencapai tujuan laboratorium dalam menerapkan \textit{Integrated Laboratory Management Information System} (ILMIS), yang akan mengintegrasikan seluruh aspek manajemen laboratorium, termasuk penjadwalan, ke dalam satu sistem yang efisien.
 
-\section{Analisa Sistem Usulan}
+\section{Analisis Sistem Usulan}
 \begin{enumerate}
-	\item Analisa Sistem Usulan Penjadwalan Laboratorium
+	\item Analisis Sistem Usulan Penjadwalan Laboratorium
 \end{enumerate}
-Pengembangan sistem ini akan menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Alur analisa sistem usulan penjadwalan laboratorium dapat dilihat pada Gambar
+Pengembangan sistem ini akan menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Alur Analisis sistem usulan penjadwalan laboratorium dapat dilihat pada Gambar
 
-\section{Analisa Kebutuhan Sistem}
-\subsection{Analisa Kebutuhan Fungsional Sistem}
-\subsection{Analisa Kebutuhan Non-Fungsional Sistem}
+\section{Analisis Kebutuhan Sistem}
+\subsection{Analisis Kebutuhan Fungsional Sistem}
+Sistem ini dirancang untuk memenuhi berbagai kebutuhan fungsional yang esensial dalam pengelolaan penjadwalan laboratorium. Ini mencakup manajemen jadwal yang fleksibel dan mudah diakses, kemampuan pengelolaan jadwal yang intuitif dengan validasi yang ketat, serta sistem pengelolaan informasi yang memungkinkan pemantauan dan manajemen informasi terkait penggunaan laboratorium. Sistem ini juga mendukung proses validasi yang terstruktur  untuk memantau dan memberitahukan status penggunaan laboratorium kepada pengguna. Pengelolaan akses pengguna yang aman dan integrasi yang lancar dengan sistem internal laboratorium lainnya juga menjadi bagian integral dari fungsi sistem ini, memastikan efisiensi dan transparansi dalam seluruh proses penjadwalan laboratorium.
+
+\subsection{Analisis Kebutuhan Non-Fungsional Sistem}
+Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan perangkat lunak dan kebutuhan perangkat keras. Analisis terhadap kebutuhan perangkat keras dilakukan untuk mengoptimalkan dan mempermudah proses perancangan serta implementasi sistem yang akan dibangun.
+% -----------------------------------------------------------------------------%
+\begin{enumerate}
+	\item  Analisis Kebutuhan Perangkat Lunak \\
+	      Pada tahap analisis ini, peneliti mengidentifikasi dan mendefinisikan segala kebutuhan yang harus dipenuhi oleh sistem yang akan dikembangkan. Fokus utama dari analisis ini adalah memahami secara mendalam tujuan dan kebutuhan pengguna akhir, baik itu admin, kalab, kaprodi, sekprodi dan aslab. Analisis kebutuhan perangkat lunak dapat dilihat pada Tabel \ref{tab:AnalisisKebutuhanPerangkatLunak}
+	      \begin{longtable}{clcc}
+		      \caption{Analisis Kebutuhan Perangkat Lunak}
+		      \label{tab:AnalisisKebutuhanPerangkatLunak}                                                                                                               \\
+		      \hline
+		      \multicolumn{1}{l}{\textbf{No}} & \textbf{Perangkat Lunak}     & \multicolumn{1}{l}{\textbf{Versi Minimal}} & \multicolumn{1}{l}{\textbf{Versi Tersedia}} \\ \hline
+		      \endfirsthead
+		      %
+		      \multicolumn{4}{c}%
+		      {{\bfseries Table \thetable\ continued from previous page}}                                                                                               \\
+		      \hline
+		      \multicolumn{1}{l}{\textbf{No}} & \textbf{Perangkat Lunak}     & \multicolumn{1}{l}{\textbf{Versi Minimal}} & \multicolumn{1}{l}{\textbf{Versi Tersedia}} \\ \hline
+		      \endhead
+		      %
+		      \hline
+		      \endfoot
+		      %
+		      \endlastfoot
+		      %
+		      1                               & Windows                      & W8                                         & W11                                         \\
+		      2                               & Balsamiq Mockup              & 4.0.0                                      & 4.7.5                                       \\
+		      3                               & Google Chrome                & -                                          & 127.0.6533.100                              \\
+		      4                               & MySQL                        & 8.0.0                                      & 8.0.30                                      \\
+		      5                               & VS Code                      & 1.71.1                                     & 1.92.1                                      \\
+		      6                               & Hypertext Preprocessor (PHP) & 8.0.0                                      & 8.2.16                                      \\
+		      7                               & CodeIgniter                  & 4                                          & 4                                           \\ \hline
+	      \end{longtable}
+
+	\item Analisis Kebutuhan Perangkat Keras \\
+	      Pada tahap analisis ini, peneliti melakukan identifikasi dan mendefinisikan segala kebutuhan yang harus dipenuhi oleh sistem yang dikembangkan. Fokus utama dari analisis ini adalah memahami secara mendalam tujuan dan kebutuhan pengguna akhir, baik admin, kalab, kaprodi, sekprodi, dan aslab. Analisis ini menjadi landasan kritis untuk merancang solusi yang tepat dan memastikan bahwa sistem dapat efektif memenuhi tujuan strategis laboratorium dalam mengelola manajemen tata kelola laboratorium. Analisis kebutuhan ini dapat dilihat pada Tabel \ref{tab:PerangkatKerasPengembang}.
+	      \begin{longtable}{clll}
+		      \caption{Analisis Kebutuhan Perangkat Keras Pengembang}
+		      \label{tab:PerangkatKerasPengembang}                                                                                                                                                                                              \\
+		      \hline
+		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                          & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                              \\ \hline
+		      \endfirsthead
+		      %
+		      \multicolumn{4}{c}%
+		      {{\bfseries Table \thetable\ continued from previous page}}                                                                                                                                                                       \\
+		      \hline
+		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                          & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                              \\ \hline
+		      \endhead
+		      %
+		      \hline
+		      \endfoot
+		      %
+		      \endlastfoot
+		      %
+		      1           & Processor                                    & \begin{tabular}[c]{@{}l@{}}Intel Core i3 atau AMD \\ Ryzen 3\end{tabular} & \begin{tabular}[c]{@{}l@{}}AMD Ryzen 5 5600U, 6Cores, \\ 12Threads, 2.3GHz.\end{tabular} \\
+		      2           & Memory                                       & 4 GB DDR4                                                                 & 16 GB DDR4-3200 MHz                                                                      \\
+		      3           & Storage                                      & \begin{tabular}[c]{@{}l@{}}256 GB SSD atau \\ 500 GB HDD\end{tabular}     & 512 GB M.2 NVMe                                                                          \\
+		      4           & Keyboard                                     & \begin{tabular}[c]{@{}l@{}}Standard QWERTY \\ keyboard\end{tabular}       & 6-row, multimedia Fn keys                                                                \\
+		      5           & Connection                                   & \begin{tabular}[c]{@{}l@{}}Wi-Fi 802.11n atau \\ Ethernet\end{tabular}    & Wi-Fi® 6                                                                                 \\
+		      6           & Monitor                                      & \begin{tabular}[c]{@{}l@{}}14 inch, resolusi \\ 1366x768\end{tabular}     & 13 inc                                                                                   \\ \hline
+	      \end{longtable}
+
+	      Dalam spesifikasi perangkat keras yang disarankan pada Sistem \textit{Integrated Laboratory Management Information System} sesuai yang tertera pada Tabel \ref{tab:PerangkatKerasPengembang} sebaiknya memenuhi syarat spesifikasi minimum agar sistem dapat berjalan dengan sempurna.
+
+\end{enumerate}
+
 \section{Perancangan}
 \subsection{Perancangan Basis Data}
 \subsection{Perancangan Struktur Menu}
