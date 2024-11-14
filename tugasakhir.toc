@@ -30,42 +30,43 @@
 \contentsline {section}{\numberline {2.11}LABVIS}{15}{section.2.11}%
 \contentsline {section}{\numberline {2.12}SITARIS SI}{16}{section.2.12}%
 \contentsline {section}{\numberline {2.13}Model Pengembangan Sistem}{18}{section.2.13}%
-\contentsline {section}{\numberline {2.14}Observasi}{19}{section.2.14}%
-\contentsline {section}{\numberline {2.15}Wawancara}{19}{section.2.15}%
-\contentsline {section}{\numberline {2.16}PHP}{19}{section.2.16}%
-\contentsline {section}{\numberline {2.17}Framework}{20}{section.2.17}%
-\contentsline {section}{\numberline {2.18}CodeIgniter}{20}{section.2.18}%
-\contentsline {section}{\numberline {2.19}Visual Studio Code}{20}{section.2.19}%
-\contentsline {section}{\numberline {2.20}Astah}{21}{section.2.20}%
-\contentsline {section}{\numberline {2.21}\textit {Database}}{21}{section.2.21}%
-\contentsline {section}{\numberline {2.22}MariaDB}{21}{section.2.22}%
-\contentsline {section}{\numberline {2.23}XAMPP}{22}{section.2.23}%
-\contentsline {chapter}{\numberline {3}\uppercase {Metodologi Penelitian}}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Tahap Perencanaan}{23}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Identifikasi Masalah}{23}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Observasi}{23}{subsubsection.3.1.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.2}Wawancara}{24}{subsubsection.3.1.1.2}%
-\contentsline {subsection}{\numberline {3.1.2}Studi Literatur}{24}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Menentukan Tujuan dan Manfaat}{24}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Menentukan Batasan Masalah}{24}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Tahap Analisis dan Perancangan}{24}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Menganalisis SITARIS SI}{24}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Agile Development}{25}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Tahap Implementasi dan Pengujian}{25}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Tahap Dokumentasi}{25}{section.3.4}%
-\contentsline {chapter}{\numberline {4}JANGKAAN HASIL}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Analisis Sistem Berjalan}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Analisis Sistem Usulan}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analisis Kebutuhan Sistem}{27}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Analisis Kebutuhan Fungsional Sistem}{27}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Analisis Kebutuhan Non-Fungsional Sistem}{27}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Perancangan}{29}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Use Case Diagram}{29}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Activity Diagram}{29}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Class Diagram}{29}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Perancangan Basis Data}{29}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{29}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Perancangan Interface}{29}{subsection.4.4.6}%
+\contentsline {section}{\numberline {2.14}\textit {Unified Modelling Language} (UML)}{19}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Observasi}{21}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Wawancara}{21}{section.2.16}%
+\contentsline {section}{\numberline {2.17}PHP}{21}{section.2.17}%
+\contentsline {section}{\numberline {2.18}Framework}{22}{section.2.18}%
+\contentsline {section}{\numberline {2.19}CodeIgniter}{22}{section.2.19}%
+\contentsline {section}{\numberline {2.20}Visual Studio Code}{23}{section.2.20}%
+\contentsline {section}{\numberline {2.21}Astah}{23}{section.2.21}%
+\contentsline {section}{\numberline {2.22}\textit {Database}}{23}{section.2.22}%
+\contentsline {section}{\numberline {2.23}MariaDB}{24}{section.2.23}%
+\contentsline {section}{\numberline {2.24}XAMPP}{24}{section.2.24}%
+\contentsline {chapter}{\numberline {3}\uppercase {Metodologi Penelitian}}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Tahap Perencanaan}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Identifikasi Masalah}{25}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Observasi}{25}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Wawancara}{26}{subsubsection.3.1.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Studi Literatur}{26}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Menentukan Tujuan dan Manfaat}{26}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Menentukan Batasan Masalah}{26}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Tahap Analisis dan Perancangan}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Menganalisis SITARIS SI}{26}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Agile Development}{27}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Tahap Implementasi dan Pengujian}{27}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tahap Dokumentasi}{27}{section.3.4}%
+\contentsline {chapter}{\numberline {4}JANGKAAN HASIL}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Analisis Sistem Berjalan}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Analisis Sistem Usulan}{29}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analisis Kebutuhan Sistem}{29}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Analisis Kebutuhan Fungsional Sistem}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analisis Kebutuhan Non-Fungsional Sistem}{29}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Perancangan}{31}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Use Case Diagram}{31}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}\textit {Activity Diagram}}{31}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}\textit {Class Diagram}}{31}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{31}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{37}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Perancangan Interface}{37}{subsection.4.4.6}%
 \contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.30}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%

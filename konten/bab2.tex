@@ -227,6 +227,88 @@ Dalam penelitian ini, digunakan model pengembangan sistem Agile sebagai metodolo
 	\label{fig:enter-label}
 \end{figure}
 
+\section{\textit{Unified Modelling Language} (UML)}
+
+\textit{Unified Modelling Language} (UML) merupakan sebuah bahasa yang berdasarkan grafik/gambar untuk memvisualisasi, menspesifikasikan, membangun, dan pendokumentasian dari sebuah sistem pengembangan \textit{software}. UML sendiri juga memberikan standar penelitian sebuah sistem \textit{blue print}, yang meliputi konsep bisnis proses, penelitian kelas-kelas dalam bahasa program yang spesifik, skema \textit{database}, dan komponen-komponen yang diperlukan dalam sistem \textit{software} \cite{Mubarak2019}. Ada beberapa jenis diagram UML untuk membantu perancangan sistem antara lain:
+
+\begin{enumerate}
+	\item \textit{Use Case Diagram} \\
+	      Menggambarkan fungsionalitas yang diharapakan dari sebuah sistem, dan merepresentasikan sebuah interaksi antara aktor dan sistem. Didalam \textit{use case} terdapat aktor sebagai gambaran entitas dari manusia atau sebuah sistem yang melakukan pekerjaan di sistem. Keterangan Simbol \textit{Use Case Diagram} dapat dilihat pada \tab~\ref{tab21}.
+
+	      {
+	      \fontsize{10}{12}\selectfont
+	      \begin{longtable}{|c|c|c|l|}
+		      \caption{Deskripsi \textit{Use Case Diagram}}
+		      \label{tab21}                                                                                                                                                                                                                                                                                                                                                                \\
+		      \hline
+		      No & Simbol                                                                                                           & Nama                    & \multicolumn{1}{c|}{Keterangan}                                                                                                                                                                                            \\ \hline
+		      \endfirsthead
+		      %
+		      \multicolumn{4}{c}{\tablename\ \thetable\ {Deskripsi \textit{Activity} Diagram} \space (Tabel lanjutan...)}                                                                                                                                                                                                                                                                  \\
+		      \endhead
+		      %
+		      1  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 1.22cm, width= 0.91cm]{konten/gambar/uc1.jpg} \end{tabular} & \textit{Actor}          & \begin{tabular}[c]{@{}l@{}}Menspesifikasikan himpunan peran yang\\ pengguna mainkan ketika berinteraksi den-\\ gan use case.\end{tabular}                                                                                  \\ \hline
+		      2  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.21cm, width= 0.91cm]{konten/gambar/uc2.png} \end{tabular} & \textit{Depedency}      & \begin{tabular}[c]{@{}l@{}}Hubungan dimana perubahan terjadi pada\\ suatu elemen yang mandiri (independent)\\ akan mempengaruhi elemen yang bergan-\\ tung padanya elemen yang tidak mandiri\\ (independent).\end{tabular} \\ \hline
+		      3  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.21cm, width= 0.91cm]{konten/gambar/uc3.png} \end{tabular} & \textit{Generelization} & \begin{tabular}[c]{@{}l@{}}Hubungan dimana objek anak (descendent)\\ berbagi prilaku dan struktur dari data objek\\ yang ada di atasnya objek induk (ancestor).\end{tabular}                                               \\ \hline
+		      4  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.21cm, width= 0.91cm]{konten/gambar/uc4.png} \end{tabular} & \textit{Include}        & \begin{tabular}[c]{@{}l@{}}Menspesifikasikan bahwa use case sumber\\ secara eksplisit.\end{tabular}                                                                                                                        \\ \hline
+		      5  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.21cm, width= 0.91cm]{konten/gambar/uc5.png} \end{tabular} & \textit{Extend}         & \begin{tabular}[c]{@{}l@{}}Menspesifikasikan bahwa use case target\\ memperluas perilaku dari use case sumber\\ pada suatu titik yang diberikan.\end{tabular}                                                              \\ \hline
+		      6  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.21cm, width= 0.91cm]{konten/gambar/uc6.png} \end{tabular} & \textit{Association}    & \begin{tabular}[c]{@{}l@{}}Apa yang menghubungkan antara objek satu\\ dengan objek lainnya.\end{tabular}                                                                                                                   \\ \hline
+		      7  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 1.42cm, width= 0.91cm]{konten/gambar/uc7.png} \end{tabular} & \textit{System}         & \begin{tabular}[c]{@{}l@{}}Menspesifikasikan paket yang menampilkan\\ sistem secara terbatas.\end{tabular}                                                                                                                 \\ \hline
+		      8  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.52cm, width= 0.98cm]{konten/gambar/uc8.png} \end{tabular} & \textit{Use Case}       & \begin{tabular}[c]{@{}l@{}}Deskripsi dari urutan aksi-aksi yang ditam-\\ pilkan sistem yang menghasilkan suatu hasil\\ yang terukur bagi suatu aktor.\end{tabular}                                                         \\ \hline
+		      9  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.48cm, width= 1.06cm]{konten/gambar/uc9.jpg} \end{tabular} & \textit{Collaboration}  & \begin{tabular}[c]{@{}l@{}}Interaksi aturan-aturan dan elemen lain\\ yang bekerja sama untuk menyediakan per-\\ ilaku yang lebih bear dari jumlah dan\\ elemen-elemennya (sinergi).\end{tabular}                           \\ \hline
+	      \end{longtable}
+	      }
+
+	\item \textit{Activity} Diagram \\
+	      Diagram aktivitas atau \textit{Activity} diagram menggambarkan aliran fungsiona- liatas sistem. Pada tahap pemodelan bisnis, diagram aktivitas dapat digu- nakan untuk menunjukkan aliran kerja bisnis (\textit{businness work flow}). Da- pat juga digunakan untuk menggambarkan aliran kejadian (\textit{flow of event}) dalam \textit{use case}. Aktivitas menggambarkan proses yang berjalan, sementara \textit{use case} menggambarkan bagaiman aktor menggunakan sistem untuk melakukan aktivitas. Tabel Keterangan Simbol \textit{Activity} Diagram dapat dili- hat pada  \tab~\ref{tab22}.
+
+	      {
+	      \fontsize{10}{12}\selectfont
+	      \begin{longtable}{|c|c|c|l|}
+		      \caption{Deskripsi \textit{Activity Diagram}}
+		      \label{tab22}                                                                                                                                                                                                                                                                     \\
+		      \hline
+		      No & Simbol                                                                                                           & Nama                    & \multicolumn{1}{c|}{Keterangan}                                                                                                 \\ \hline
+		      \endfirsthead
+		      %
+		      \multicolumn{4}{c}{\tablename\ \thetable\ {Deskripsi \textit{Activity Diagram}} \space (Tabel lanjutan...)}                                                                                                                                                                       \\
+		      \endhead
+		      %
+		      1  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.51cm, width= 0.94cm]{konten/gambar/ac1.png} \end{tabular} & \textit{Activity}       & \begin{tabular}[c]{@{}l@{}}Memperlihatkan bagaimana masing- masing \\kelas antau antar muka saling berinteraksi\\satu sama lain.
+		                                                                                                                                                        \end{tabular} \\ \hline
+		      2  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.47cm, width= 0.94cm]{konten/gambar/ac2.png} \end{tabular} & \textit{Action}         & \begin{tabular}[c]{@{}l@{}}State dari sistem yang mencerminkan\\eksekusi dari suatu aksi\end{tabular}                           \\ \hline
+		      3  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.6cm, width= 0.6cm]{konten/gambar/ac3.png} \end{tabular}   & \textit{Initial node}   & Bagaimana objek dibentuk atau diawali.                                                                                          \\ \hline
+		      4  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.6cm, width= 0.6cm]{konten/gambar/ac4.png} \end{tabular}   & \textit{Activity final} & Bagaimana objek dibentuk dan dihancurkan                                                                                        \\ \hline
+		      5  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.06cm, width= 0.94cm]{konten/gambar/ac5.png} \end{tabular} & \textit{Fork node}      & \begin{tabular}[c]{@{}l@{}}Satu aliran yang pada tahap tertentu berubah\\ menjadi beberapa aliran.\end{tabular}                 \\ \hline
+	      \end{longtable}
+	      }
+
+	\item Class  Diagram \\
+	      \textit{Class Diagram} menggambarkan struktur statis dari kelas dalam sistem dan menggambarkan atribut, operasi dan hubungan antara kelas. \textit{Class Diagram} juga membantu dalam memvisualisasikan struktur kelas-kelas dari suatu sis- tem dan merupakan tipe diagram yang paling banyak dipakai. Keterangan Simbol \textit{Class Diagram} dapat dilihat pada  \tab~\ref{tab23}.
+
+	      {
+	      \fontsize{10}{12}\selectfont
+	      \begin{longtable}{|c|c|c|l|}
+		      \caption{Deskripsi \textit{Class Diagram}}
+		      \label{tab23}                                                                                                                                                                                                                                                                                                                                                          \\
+		      \hline
+		      No & Simbol                                                                                                           & Nama                                                                                      & \multicolumn{1}{c|}{Keterangan}                                                                                                                    \\ \hline
+		      \endfirsthead
+		      %
+		      \multicolumn{4}{c}{\tablename\ \thetable\ {Deskripsi \textit{Class Diagram}} \space (Tabel lanjutan...)}                                                                                                                                                                                                                                                               \\
+		      \endhead
+		      %
+		      1  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.8cm, width= 0.98cm]{konten/gambar/cd1.png} \end{tabular}  & \textit{Package}                                                                          & \begin{tabular}[c]{@{}l@{}}\textit{Package} merupakan sebuah bungku- \\san dari satu atau lebih kelas.
+		                                                                                                                                                                                                                          \end{tabular}                                              \\ \hline
+		      2  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.61cm, width= 0.71cm]{konten/gambar/cd2.png} \end{tabular} & Operasi                                                                                   & Kelas pada struktur sistem.                                                                                                                        \\ \hline
+		      3  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.22cm, width= 1.05cm]{konten/gambar/cd3.png} \end{tabular} & \begin{tabular}[c]{@{}c@{}} Asosiasi berarah/\\\textit{Directed asociation} \end{tabular} & \begin{tabular}[c]{@{}l@{}} Relasi antar kelas dengan makna u-\\mum, asosiasi biasanya juga disertai\\ dengan \textit{multiplicity}. \end{tabular} \\ \hline
+		      4  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.22cm, width= 1.05cm]{konten/gambar/cd4.png} \end{tabular} & \textit{Generalisasi}                                                                     & \begin{tabular}[c]{@{}l@{}} Relasi antar kelas dengan mak \\na generalisasi spesialisasi (umum\\khusus). \end{tabular}                             \\ \hline
+		      5  & \begin{tabular}[c]{@{}l@{}} \includegraphics[height= 0.22cm, width= 1.05cm]{konten/gambar/cd5.png} \end{tabular} & \begin{tabular}[c]{@{}c@{}}Kebergantungan/\\\textit{Defedency}\end{tabular}               & \begin{tabular}[c]{@{}l@{}}Relasi antar kelas dengan makna ke-\\bergantungan antar kelas.\end{tabular}                                             \\ \hline
+	      \end{longtable}
+	      }
+
+\end{enumerate}
+
 \section{Observasi}
 Observasi adalah tindakan mengamati secara langsung perilaku individu, objek, atau aktivitas dengan cara yang teratur tanpa melakukan interaksi lansung dengan subjek yang diamati. Observasi merupakan metode pengumpulan data di mana pengamat mengamati suatu sistem atau entitas saat sedang beroperasi untuk mendapatkan wawasan dan pemahaman yang lebih mendalam tentang bagaimana sistem tersebut bekerja \cite{tilley2017systems}.
 

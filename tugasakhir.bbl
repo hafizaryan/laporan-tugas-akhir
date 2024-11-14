@@ -166,6 +166,34 @@ Bree, R\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Carstoiu%
+\ \BBA {} Grigorescu%
+}{%
+Carstoiu%
+\ \BBA {} Grigorescu%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+Carstoiu1995}
+\APACinsertmetastar {%
+Carstoiu1995}%
+\begin{APACrefauthors}%
+Carstoiu, D.%
+\BCBT {}\ \BBA {} Grigorescu, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{OOAD Methods for O-O and KBS Development}} {{OOAD
+  Methods for O-O and KBS Development}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IFAC Proceedings Volumes}{28}{24}{263--268}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/s1474-6670(17)46560-8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cowls%
 , Tsamados%
 , Taddeo%
@@ -652,6 +680,34 @@ Monday, T\BPBI U.%
   of data collection in social sciences}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Digital Art \& Humanities}{1}{1}{15--24}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mubarak%
+}{%
+Mubarak%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Mubarak2019}
+\APACinsertmetastar {%
+Mubarak2019}%
+\begin{APACrefauthors}%
+Mubarak, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Rancang Bangun Aplikasi Web Sekolah Menggunakan Uml
+  (Unified Modeling Language) Dan Bahasa Pemrograman Php (Php Hypertext
+  Preprocessor) Berorientasi Objek}} {{Rancang Bangun Aplikasi Web Sekolah
+  Menggunakan Uml (Unified Modeling Language) Dan Bahasa Pemrograman Php (Php
+  Hypertext Preprocessor) Berorientasi Objek}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{JIKO (Jurnal Informatika dan Komputer)}{2}{1}{19--25}.
+\newblock
+\begin{APACrefDOI} \doi{10.33387/jiko.v2i1.1052} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
