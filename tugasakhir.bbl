@@ -346,6 +346,36 @@ Furterer, S\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hayati%
+, Rahayu%
+\BCBL {}\ \BBA {} Saputra%
+}{%
+Hayati%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+hayati2021sistem}
+\APACinsertmetastar {%
+hayati2021sistem}%
+\begin{APACrefauthors}%
+Hayati, N.%
+, Rahayu, S.%
+\BCBL {}\ \BBA {} Saputra, T\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sistem Informasi Pemilihan Asisten Laboratorium dengan
+  Metode Weighted Product dan Weighted Sum Model} {Sistem informasi pemilihan
+  asisten laboratorium dengan metode weighted product dan weighted sum
+  model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{STRING (Satuan Tulisan Riset dan Inovasi
+  Teknologi)}{6}{1}{1--8}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hussain%
 , Haque%
 \BCBL {}\ \BBA {} Baloch%
