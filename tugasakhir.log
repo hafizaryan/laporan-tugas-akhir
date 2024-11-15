@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  15 NOV 2024 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  15 NOV 2024 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -812,7 +812,7 @@ Underfull \hbox (badness 4726) in paragraph at lines 64--65
 []\OT1/ptm/m/n/12 Mendukung kegiatan pengab-dian kepada masyarakat yang berba-sis
  []
 
-<konten/gambar/Struktur Organisasi.png, id=715, 406.01688pt x 305.14pt>
+<konten/gambar/Struktur Organisasi.png, id=730, 406.01688pt x 305.14pt>
 File: konten/gambar/Struktur Organisasi.png Graphic file (type png)
 <use konten/gambar/Struktur Organisasi.png>
 Package pdftex.def Info: konten/gambar/Struktur Organisasi.png  used on input line 76.
@@ -824,12 +824,12 @@ Package pdftex.def Info: konten/gambar/Struktur Organisasi.png  used on input li
 [8 <./konten/gambar/Struktur Organisasi.png>]
 
 [9]
-<konten/gambar/lab-rsi.jpg, id=784, 424.422pt x 239.148pt>
+<konten/gambar/lab-rsi.jpg, id=799, 424.422pt x 239.148pt>
 File: konten/gambar/lab-rsi.jpg Graphic file (type jpg)
 <use konten/gambar/lab-rsi.jpg>
 Package pdftex.def Info: konten/gambar/lab-rsi.jpg  used on input line 100.
 (pdftex.def)             Requested size: 326.64055pt x 184.05693pt.
-<konten/gambar/lab-internet.jpg, id=791, 424.422pt x 239.148pt>
+<konten/gambar/lab-internet.jpg, id=806, 424.422pt x 239.148pt>
 File: konten/gambar/lab-internet.jpg Graphic file (type jpg)
 <use konten/gambar/lab-internet.jpg>
 Package pdftex.def Info: konten/gambar/lab-internet.jpg  used on input line 110.
@@ -837,7 +837,7 @@ Package pdftex.def Info: konten/gambar/lab-internet.jpg  used on input line 110.
 
 
 [10 <./konten/gambar/lab-rsi.jpg>]
-<konten/gambar/lab-se.jpg, id=802, 424.422pt x 239.148pt>
+<konten/gambar/lab-se.jpg, id=817, 424.422pt x 239.148pt>
 File: konten/gambar/lab-se.jpg Graphic file (type jpg)
 <use konten/gambar/lab-se.jpg>
 Package pdftex.def Info: konten/gambar/lab-se.jpg  used on input line 120.
@@ -845,12 +845,12 @@ Package pdftex.def Info: konten/gambar/lab-se.jpg  used on input line 120.
 
 
 [11 <./konten/gambar/lab-internet.jpg> <./konten/gambar/lab-se.jpg>]
-<konten//gambar/sitasi.png, id=815, 1015.54407pt x 559.33969pt>
+<konten//gambar/sitasi.png, id=830, 1015.54407pt x 559.33969pt>
 File: konten//gambar/sitasi.png Graphic file (type png)
 <use konten//gambar/sitasi.png>
 Package pdftex.def Info: konten//gambar/sitasi.png  used on input line 130.
 (pdftex.def)             Requested size: 326.64055pt x 179.90558pt.
-<konten//gambar/smartta.png, id=822, 1028.34187pt x 555.57562pt>
+<konten//gambar/smartta.png, id=837, 1028.34187pt x 555.57562pt>
 File: konten//gambar/smartta.png Graphic file (type png)
 <use konten//gambar/smartta.png>
 Package pdftex.def Info: konten//gambar/smartta.png  used on input line 140.
@@ -858,7 +858,7 @@ Package pdftex.def Info: konten//gambar/smartta.png  used on input line 140.
 
 
 [12 <./konten//gambar/sitasi.png>]
-<konten//gambar/sikape.png, id=834, 1014.79124pt x 550.30594pt>
+<konten//gambar/sikape.png, id=849, 1014.79124pt x 550.30594pt>
 File: konten//gambar/sikape.png Graphic file (type png)
 <use konten//gambar/sikape.png>
 Package pdftex.def Info: konten//gambar/sikape.png  used on input line 150.
@@ -866,7 +866,7 @@ Package pdftex.def Info: konten//gambar/sikape.png  used on input line 150.
 
 
 [13 <./konten//gambar/smartta.png> <./konten//gambar/sikape.png>]
-<konten//gambar/sirepo.png, id=845, 1028.34187pt x 578.16pt>
+<konten//gambar/sirepo.png, id=860, 1028.34187pt x 578.16pt>
 File: konten//gambar/sirepo.png Graphic file (type png)
 <use konten//gambar/sirepo.png>
 Package pdftex.def Info: konten//gambar/sirepo.png  used on input line 160.
@@ -874,12 +874,12 @@ Package pdftex.def Info: konten//gambar/sirepo.png  used on input line 160.
 
 
 [14 <./konten//gambar/sirepo.png>]
-<konten//gambar/labsi.png, id=856, 1014.79124pt x 563.10374pt>
+<konten//gambar/labsi.png, id=871, 1014.79124pt x 563.10374pt>
 File: konten//gambar/labsi.png Graphic file (type png)
 <use konten//gambar/labsi.png>
 Package pdftex.def Info: konten//gambar/labsi.png  used on input line 170.
 (pdftex.def)             Requested size: 326.64055pt x 181.24513pt.
-<konten//gambar/labvis.png, id=863, 1309.0415pt x 667.47481pt>
+<konten//gambar/labvis.png, id=878, 1309.0415pt x 667.47481pt>
 File: konten//gambar/labvis.png Graphic file (type png)
 <use konten//gambar/labvis.png>
 Package pdftex.def Info: konten//gambar/labvis.png  used on input line 180.
@@ -891,7 +891,7 @@ Underfull \hbox (badness 1033) in paragraph at lines 186--187
 \OT1/ptm/m/n/12 dibuat de-ngan meng-gu-nakan Frame-work CodeIgniter4 dan ba-hasa pem-ro-gra-
  []
 
-<konten//gambar/Login Page.png, id=875, 1927.2pt x 1003.75pt>
+<konten//gambar/Login Page.png, id=890, 1927.2pt x 1003.75pt>
 File: konten//gambar/Login Page.png Graphic file (type png)
 <use konten//gambar/Login Page.png>
 Package pdftex.def Info: konten//gambar/Login Page.png  used on input line 195.
@@ -899,12 +899,12 @@ Package pdftex.def Info: konten//gambar/Login Page.png  used on input line 195.
 
 
 [16 <./konten//gambar/labvis.png>]
-<konten//gambar/login berhasil.png, id=883, 1927.2pt x 1003.75pt>
+<konten//gambar/login berhasil.png, id=898, 1927.2pt x 1003.75pt>
 File: konten//gambar/login berhasil.png Graphic file (type png)
 <use konten//gambar/login berhasil.png>
 Package pdftex.def Info: konten//gambar/login berhasil.png  used on input line 204.
 (pdftex.def)             Requested size: 326.64055pt x 170.1145pt.
-<konten//gambar/barang.png, id=884, 1445.4pt x 813.0375pt>
+<konten//gambar/barang.png, id=899, 1445.4pt x 813.0375pt>
 File: konten//gambar/barang.png Graphic file (type png)
 <use konten//gambar/barang.png>
 Package pdftex.def Info: konten//gambar/barang.png  used on input line 213.
@@ -912,7 +912,7 @@ Package pdftex.def Info: konten//gambar/barang.png  used on input line 213.
 
 
 [17 <./konten//gambar/Login Page.png> <./konten//gambar/login berhasil.png>]
-<konten//gambar/agile.png, id=896, 804.00375pt x 347.79938pt>
+<konten//gambar/agile.png, id=911, 804.00375pt x 347.79938pt>
 File: konten//gambar/agile.png Graphic file (type png)
 <use konten//gambar/agile.png>
 Package pdftex.def Info: konten//gambar/agile.png  used on input line 225.
@@ -931,98 +931,98 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 250.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 250.
-<konten/gambar/uc1.jpg, id=908, 30.86531pt x 41.4047pt>
+<konten/gambar/uc1.jpg, id=923, 30.86531pt x 41.4047pt>
 File: konten/gambar/uc1.jpg Graphic file (type jpg)
 <use konten/gambar/uc1.jpg>
 Package pdftex.def Info: konten/gambar/uc1.jpg  used on input line 250.
 (pdftex.def)             Requested size: 25.89369pt x 34.71397pt.
-<konten/gambar/uc2.png, id=909, 56.46094pt x 12.7978pt>
+<konten/gambar/uc2.png, id=924, 56.46094pt x 12.7978pt>
 File: konten/gambar/uc2.png Graphic file (type png)
 <use konten/gambar/uc2.png>
 Package pdftex.def Info: konten/gambar/uc2.png  used on input line 251.
 (pdftex.def)             Requested size: 25.89221pt x 5.97531pt.
-<konten/gambar/uc3.png, id=910, 63.98906pt x 9.78656pt>
+<konten/gambar/uc3.png, id=925, 63.98906pt x 9.78656pt>
 File: konten/gambar/uc3.png Graphic file (type png)
 <use konten/gambar/uc3.png>
 Package pdftex.def Info: konten/gambar/uc3.png  used on input line 252.
 (pdftex.def)             Requested size: 25.89198pt x 5.97545pt.
-<konten/gambar/uc4.png, id=911, 60.97781pt x 9.78656pt>
+<konten/gambar/uc4.png, id=926, 60.97781pt x 9.78656pt>
 File: konten/gambar/uc4.png Graphic file (type png)
 <use konten/gambar/uc4.png>
 Package pdftex.def Info: konten/gambar/uc4.png  used on input line 253.
 (pdftex.def)             Requested size: 25.89241pt x 5.97545pt.
-<konten/gambar/uc5.png, id=912, 68.50594pt x 9.78656pt>
+<konten/gambar/uc5.png, id=927, 68.50594pt x 9.78656pt>
 File: konten/gambar/uc5.png Graphic file (type png)
 <use konten/gambar/uc5.png>
 Package pdftex.def Info: konten/gambar/uc5.png  used on input line 254.
 (pdftex.def)             Requested size: 25.89244pt x 5.97545pt.
-<konten/gambar/uc6.png, id=913, 53.44969pt x 22.58438pt>
+<konten/gambar/uc6.png, id=928, 53.44969pt x 22.58438pt>
 File: konten/gambar/uc6.png Graphic file (type png)
 <use konten/gambar/uc6.png>
 Package pdftex.def Info: konten/gambar/uc6.png  used on input line 255.
 (pdftex.def)             Requested size: 25.89206pt x 5.97517pt.
-<konten/gambar/uc7.png, id=914, 61.73062pt x 96.36pt>
+<konten/gambar/uc7.png, id=929, 61.73062pt x 96.36pt>
 File: konten/gambar/uc7.png Graphic file (type png)
 <use konten/gambar/uc7.png>
 Package pdftex.def Info: konten/gambar/uc7.png  used on input line 256.
 (pdftex.def)             Requested size: 25.89276pt x 40.4018pt.
-<konten/gambar/uc8.png, id=915, 121.95563pt x 64.74188pt>
+<konten/gambar/uc8.png, id=930, 121.95563pt x 64.74188pt>
 File: konten/gambar/uc8.png Graphic file (type png)
 <use konten/gambar/uc8.png>
 Package pdftex.def Info: konten/gambar/uc8.png  used on input line 257.
 (pdftex.def)             Requested size: 27.88358pt x 14.79547pt.
-<konten/gambar/uc9.jpg, id=916, 71.51718pt x 32.37094pt>
+<konten/gambar/uc9.jpg, id=931, 71.51718pt x 32.37094pt>
 File: konten/gambar/uc9.jpg Graphic file (type jpg)
 <use konten/gambar/uc9.jpg>
 Package pdftex.def Info: konten/gambar/uc9.jpg  used on input line 258.
 (pdftex.def)             Requested size: 30.16031pt x 13.65742pt.
  [19 <./konten/gambar/uc1.jpg> <./konten/gambar/uc2.png> <./konten/gambar/uc3.png> <./konten/gambar/uc4.png> <./konten/gambar/uc5.png> <./konten/gambar/uc6.png> <./konten/gambar/uc7.png>]
-<konten/gambar/ac1.png, id=925, 76.03406pt x 41.4047pt>
+<konten/gambar/ac1.png, id=940, 76.03406pt x 41.4047pt>
 File: konten/gambar/ac1.png Graphic file (type png)
 <use konten/gambar/ac1.png>
 Package pdftex.def Info: konten/gambar/ac1.png  used on input line 277.
 (pdftex.def)             Requested size: 26.74573pt x 14.5108pt.
-<konten/gambar/ac2.png, id=926, 70.76437pt x 35.38219pt>
+<konten/gambar/ac2.png, id=941, 70.76437pt x 35.38219pt>
 File: konten/gambar/ac2.png Graphic file (type png)
 <use konten/gambar/ac2.png>
 Package pdftex.def Info: konten/gambar/ac2.png  used on input line 279.
 (pdftex.def)             Requested size: 26.74496pt x 13.37248pt.
-<konten/gambar/ac3.png, id=927, 27.85406pt x 27.85406pt>
+<konten/gambar/ac3.png, id=942, 27.85406pt x 27.85406pt>
 File: konten/gambar/ac3.png Graphic file (type png)
 <use konten/gambar/ac3.png>
 Package pdftex.def Info: konten/gambar/ac3.png  used on input line 280.
 (pdftex.def)             Requested size: 17.07169pt x 17.07169pt.
-<konten/gambar/ac4.png, id=928, 32.37094pt x 32.37094pt>
+<konten/gambar/ac4.png, id=943, 32.37094pt x 32.37094pt>
 File: konten/gambar/ac4.png Graphic file (type png)
 <use konten/gambar/ac4.png>
 Package pdftex.def Info: konten/gambar/ac4.png  used on input line 281.
 (pdftex.def)             Requested size: 17.07254pt x 17.07254pt.
-<konten/gambar/ac5.png, id=929, 69.25874pt x 4.51688pt>
+<konten/gambar/ac5.png, id=944, 69.25874pt x 4.51688pt>
 File: konten/gambar/ac5.png Graphic file (type png)
 <use konten/gambar/ac5.png>
 Package pdftex.def Info: konten/gambar/ac5.png  used on input line 282.
 (pdftex.def)             Requested size: 26.74553pt x 1.70705pt.
-<konten/gambar/cd1.png, id=931, 90.3375pt x 73.02281pt>
+<konten/gambar/cd1.png, id=946, 90.3375pt x 73.02281pt>
 File: konten/gambar/cd1.png Graphic file (type png)
 <use konten/gambar/cd1.png>
 Package pdftex.def Info: konten/gambar/cd1.png  used on input line 301.
 (pdftex.def)             Requested size: 27.88303pt x 22.76161pt.
-<konten/gambar/cd2.png, id=932, 75.28125pt x 63.98906pt>
+<konten/gambar/cd2.png, id=947, 75.28125pt x 63.98906pt>
 File: konten/gambar/cd2.png Graphic file (type png)
 <use konten/gambar/cd2.png>
 Package pdftex.def Info: konten/gambar/cd2.png  used on input line 303.
 (pdftex.def)             Requested size: 20.20099pt x 17.35538pt.
-<konten/gambar/cd3.png, id=933, 93.34875pt x 19.57312pt>
+<konten/gambar/cd3.png, id=948, 93.34875pt x 19.57312pt>
 File: konten/gambar/cd3.png Graphic file (type png)
 <use konten/gambar/cd3.png>
 Package pdftex.def Info: konten/gambar/cd3.png  used on input line 304.
 (pdftex.def)             Requested size: 29.87505pt x 6.25963pt.
-<konten/gambar/cd4.png, id=934, 82.05656pt x 12.7978pt>
+<konten/gambar/cd4.png, id=949, 82.05656pt x 12.7978pt>
 File: konten/gambar/cd4.png Graphic file (type png)
 <use konten/gambar/cd4.png>
 Package pdftex.def Info: konten/gambar/cd4.png  used on input line 305.
 (pdftex.def)             Requested size: 29.87589pt x 6.25964pt.
-<konten/gambar/cd5.png, id=935, 76.78688pt x 12.7978pt>
+<konten/gambar/cd5.png, id=950, 76.78688pt x 12.7978pt>
 File: konten/gambar/cd5.png Graphic file (type png)
 <use konten/gambar/cd5.png>
 Package pdftex.def Info: konten/gambar/cd5.png  used on input line 306.
@@ -1032,7 +1032,7 @@ Package pdftex.def Info: konten/gambar/cd5.png  used on input line 306.
 [20 <./konten/gambar/uc8.png> <./konten/gambar/uc9.jpg> <./konten/gambar/ac1.png> <./konten/gambar/ac2.png> <./konten/gambar/ac3.png> <./konten/gambar/ac4.png> <./konten/gambar/ac5.png>]
 
 [21 <./konten/gambar/cd1.png> <./konten/gambar/cd2.png> <./konten/gambar/cd3.png> <./konten/gambar/cd4.png> <./konten/gambar/cd5.png>]
-<konten//gambar/logo-php.png, id=965, 1204.5pt x 650.43pt>
+<konten//gambar/logo-php.png, id=980, 1204.5pt x 650.43pt>
 File: konten//gambar/logo-php.png Graphic file (type png)
 <use konten//gambar/logo-php.png>
 Package pdftex.def Info: konten//gambar/logo-php.png  used on input line 323.
@@ -1042,7 +1042,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 329--330
 \OT1/ptm/m/n/12 tur yang di-gu-nakan un-tuk memu-dahkan pe-ngem-bangan apli-kasi atau sis-tem
  []
 
-<konten//gambar/logo-codeigniter.png, id=974, 253.94875pt x 301.125pt>
+<konten//gambar/logo-codeigniter.png, id=989, 253.94875pt x 301.125pt>
 File: konten//gambar/logo-codeigniter.png Graphic file (type png)
 <use konten//gambar/logo-codeigniter.png>
 Package pdftex.def Info: konten//gambar/logo-codeigniter.png  used on input line 336.
@@ -1050,12 +1050,12 @@ Package pdftex.def Info: konten//gambar/logo-codeigniter.png  used on input line
 
 
 [22 <./konten//gambar/logo-php.png>]
-<konten//gambar/logo-vs-code.png, id=988, 315.1775pt x 161.60374pt>
+<konten//gambar/logo-vs-code.png, id=1003, 315.1775pt x 161.60374pt>
 File: konten//gambar/logo-vs-code.png Graphic file (type png)
 <use konten//gambar/logo-vs-code.png>
 Package pdftex.def Info: konten//gambar/logo-vs-code.png  used on input line 346.
 (pdftex.def)             Requested size: 119.50278pt x 61.27443pt.
-<konten/gambar/astah.png, id=991, 454.69875pt x 111.41624pt>
+<konten/gambar/astah.png, id=1006, 454.69875pt x 111.41624pt>
 File: konten/gambar/astah.png Graphic file (type png)
 <use konten/gambar/astah.png>
 Package pdftex.def Info: konten/gambar/astah.png  used on input line 355.
@@ -1063,12 +1063,12 @@ Package pdftex.def Info: konten/gambar/astah.png  used on input line 355.
 
 
 [23 <./konten//gambar/logo-codeigniter.png> <./konten//gambar/logo-vs-code.png> <./konten/gambar/astah.png>]
-<konten//gambar/logo-mariadb.png, id=1007, 259.97125pt x 194.7275pt>
+<konten//gambar/logo-mariadb.png, id=1022, 259.97125pt x 194.7275pt>
 File: konten//gambar/logo-mariadb.png Graphic file (type png)
 <use konten//gambar/logo-mariadb.png>
 Package pdftex.def Info: konten//gambar/logo-mariadb.png  used on input line 368.
 (pdftex.def)             Requested size: 79.66649pt x 59.67258pt.
-<konten//gambar/logo-xampp.png, id=1010, 923.45pt x 930.47626pt>
+<konten//gambar/logo-xampp.png, id=1025, 923.45pt x 930.47626pt>
 File: konten//gambar/logo-xampp.png Graphic file (type png)
 <use konten//gambar/logo-xampp.png>
 Package pdftex.def Info: konten//gambar/logo-xampp.png  used on input line 378.
@@ -1084,7 +1084,7 @@ BAB 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 15.
 
-<konten//gambar/metodologi-penelitian.png, id=1022, 1212.02812pt x 710.655pt>
+<konten//gambar/metodologi-penelitian.png, id=1037, 1212.02812pt x 710.655pt>
 File: konten//gambar/metodologi-penelitian.png Graphic file (type png)
 <use konten//gambar/metodologi-penelitian.png>
 Package pdftex.def Info: konten//gambar/metodologi-penelitian.png  used on input line 20.
@@ -1150,136 +1150,176 @@ Overfull \hbox (14.73466pt too wide) in alignment at lines 93--101
 
 
 [30]
-<konten/gambar/activity-diagram/login.png, id=1071, 639.89063pt x 671.50874pt>
-File: konten/gambar/activity-diagram/login.png Graphic file (type png)
-<use konten/gambar/activity-diagram/login.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/login.png  used on input line 142.
-(pdftex.def)             Requested size: 326.64055pt x 342.78256pt.
+<konten/gambar/usecase-diagram/admin.png, id=1084, 801.74532pt x 638.385pt>
+File: konten/gambar/usecase-diagram/admin.png Graphic file (type png)
+<use konten/gambar/usecase-diagram/admin.png>
+Package pdftex.def Info: konten/gambar/usecase-diagram/admin.png  used on input line 146.
+(pdftex.def)             Requested size: 326.64055pt x 260.0933pt.
 
 
 [31]
-<konten/gambar/activity-diagram/tambah-dosen.png, id=1079, 642.14906pt x 587.19376pt>
+<konten/gambar/usecase-diagram/kalab.png, id=1091, 794.97pt x 635.37375pt>
+File: konten/gambar/usecase-diagram/kalab.png Graphic file (type png)
+<use konten/gambar/usecase-diagram/kalab.png>
+Package pdftex.def Info: konten/gambar/usecase-diagram/kalab.png  used on input line 156.
+(pdftex.def)             Requested size: 326.64055pt x 261.06723pt.
+
+
+[32 <./konten/gambar/usecase-diagram/admin.png>]
+<konten/gambar/usecase-diagram/kaprodi.png, id=1098, 800.23969pt x 636.87938pt>
+File: konten/gambar/usecase-diagram/kaprodi.png Graphic file (type png)
+<use konten/gambar/usecase-diagram/kaprodi.png>
+Package pdftex.def Info: konten/gambar/usecase-diagram/kaprodi.png  used on input line 166.
+(pdftex.def)             Requested size: 326.64055pt x 259.96579pt.
+
+
+[33 <./konten/gambar/usecase-diagram/kalab.png>]
+<konten/gambar/usecase-diagram/sekprodi.png, id=1105, 795.72281pt x 635.37375pt>
+File: konten/gambar/usecase-diagram/sekprodi.png Graphic file (type png)
+<use konten/gambar/usecase-diagram/sekprodi.png>
+Package pdftex.def Info: konten/gambar/usecase-diagram/sekprodi.png  used on input line 176.
+(pdftex.def)             Requested size: 326.64055pt x 260.81516pt.
+
+
+[34 <./konten/gambar/usecase-diagram/kaprodi.png>]
+<konten/gambar/usecase-diagram/aslab.png, id=1112, 801.74532pt x 638.385pt>
+File: konten/gambar/usecase-diagram/aslab.png Graphic file (type png)
+<use konten/gambar/usecase-diagram/aslab.png>
+Package pdftex.def Info: konten/gambar/usecase-diagram/aslab.png  used on input line 186.
+(pdftex.def)             Requested size: 326.64055pt x 260.0933pt.
+
+
+[35 <./konten/gambar/usecase-diagram/sekprodi.png>]
+<konten/gambar/activity-diagram/login.png, id=1122, 639.89063pt x 671.50874pt>
+File: konten/gambar/activity-diagram/login.png Graphic file (type png)
+<use konten/gambar/activity-diagram/login.png>
+Package pdftex.def Info: konten/gambar/activity-diagram/login.png  used on input line 198.
+(pdftex.def)             Requested size: 326.64055pt x 342.78256pt.
+
+
+[36 <./konten/gambar/usecase-diagram/aslab.png>]
+<konten/gambar/activity-diagram/tambah-dosen.png, id=1130, 642.14906pt x 587.19376pt>
 File: konten/gambar/activity-diagram/tambah-dosen.png Graphic file (type png)
 <use konten/gambar/activity-diagram/tambah-dosen.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/tambah-dosen.png  used on input line 150.
+Package pdftex.def Info: konten/gambar/activity-diagram/tambah-dosen.png  used on input line 206.
 (pdftex.def)             Requested size: 326.64055pt x 298.6943pt.
 
 
-[32 <./konten/gambar/activity-diagram/login.png>]
-<konten/gambar/activity-diagram/edit-dosen.png, id=1086, 636.12656pt x 570.63188pt>
+[37 <./konten/gambar/activity-diagram/login.png>]
+<konten/gambar/activity-diagram/edit-dosen.png, id=1137, 636.12656pt x 570.63188pt>
 File: konten/gambar/activity-diagram/edit-dosen.png Graphic file (type png)
 <use konten/gambar/activity-diagram/edit-dosen.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/edit-dosen.png  used on input line 158.
+Package pdftex.def Info: konten/gambar/activity-diagram/edit-dosen.png  used on input line 214.
 (pdftex.def)             Requested size: 326.64055pt x 293.00363pt.
 
 
-[33 <./konten/gambar/activity-diagram/tambah-dosen.png>]
-<konten/gambar/activity-diagram/hapus-dosen.png, id=1093, 638.385pt x 550.30594pt>
+[38 <./konten/gambar/activity-diagram/tambah-dosen.png>]
+<konten/gambar/activity-diagram/hapus-dosen.png, id=1144, 638.385pt x 550.30594pt>
 File: konten/gambar/activity-diagram/hapus-dosen.png Graphic file (type png)
 <use konten/gambar/activity-diagram/hapus-dosen.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/hapus-dosen.png  used on input line 166.
+Package pdftex.def Info: konten/gambar/activity-diagram/hapus-dosen.png  used on input line 222.
 (pdftex.def)             Requested size: 326.64055pt x 281.57599pt.
 
 
-[34 <./konten/gambar/activity-diagram/edit-dosen.png>]
-<konten/gambar/activity-diagram/tambah-matkul.png, id=1100, 636.12656pt x 584.1825pt>
+[39 <./konten/gambar/activity-diagram/edit-dosen.png>]
+<konten/gambar/activity-diagram/tambah-matkul.png, id=1151, 636.12656pt x 584.1825pt>
 File: konten/gambar/activity-diagram/tambah-matkul.png Graphic file (type png)
 <use konten/gambar/activity-diagram/tambah-matkul.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/tambah-matkul.png  used on input line 174.
+Package pdftex.def Info: konten/gambar/activity-diagram/tambah-matkul.png  used on input line 230.
 (pdftex.def)             Requested size: 326.64055pt x 299.96149pt.
 
 
-[35 <./konten/gambar/activity-diagram/hapus-dosen.png>]
-<konten/gambar/activity-diagram/edit-matkul.png, id=1108, 639.13782pt x 578.91281pt>
+[40 <./konten/gambar/activity-diagram/hapus-dosen.png>]
+<konten/gambar/activity-diagram/edit-matkul.png, id=1158, 639.13782pt x 578.91281pt>
 File: konten/gambar/activity-diagram/edit-matkul.png Graphic file (type png)
 <use konten/gambar/activity-diagram/edit-matkul.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/edit-matkul.png  used on input line 182.
+Package pdftex.def Info: konten/gambar/activity-diagram/edit-matkul.png  used on input line 238.
 (pdftex.def)             Requested size: 326.64055pt x 295.85997pt.
 
 
-[36 <./konten/gambar/activity-diagram/tambah-matkul.png>]
-<konten/gambar/activity-diagram/hapus-matkul.png, id=1115, 639.13782pt x 552.56438pt>
+[41 <./konten/gambar/activity-diagram/tambah-matkul.png>]
+<konten/gambar/activity-diagram/hapus-matkul.png, id=1166, 639.13782pt x 552.56438pt>
 File: konten/gambar/activity-diagram/hapus-matkul.png Graphic file (type png)
 <use konten/gambar/activity-diagram/hapus-matkul.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/hapus-matkul.png  used on input line 190.
+Package pdftex.def Info: konten/gambar/activity-diagram/hapus-matkul.png  used on input line 246.
 (pdftex.def)             Requested size: 326.64055pt x 282.3943pt.
 
 
-[37 <./konten/gambar/activity-diagram/edit-matkul.png>]
-<konten/gambar/activity-diagram/tambah-jadwal.png, id=1122, 640.64343pt x 601.4972pt>
+[42 <./konten/gambar/activity-diagram/edit-matkul.png>]
+<konten/gambar/activity-diagram/tambah-jadwal.png, id=1173, 640.64343pt x 601.4972pt>
 File: konten/gambar/activity-diagram/tambah-jadwal.png Graphic file (type png)
 <use konten/gambar/activity-diagram/tambah-jadwal.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/tambah-jadwal.png  used on input line 198.
+Package pdftex.def Info: konten/gambar/activity-diagram/tambah-jadwal.png  used on input line 254.
 (pdftex.def)             Requested size: 326.64055pt x 306.68608pt.
 
 
-[38 <./konten/gambar/activity-diagram/hapus-matkul.png>]
-<konten/gambar/activity-diagram/edit-jadwal.png, id=1129, 638.385pt x 582.67688pt>
+[43 <./konten/gambar/activity-diagram/hapus-matkul.png>]
+<konten/gambar/activity-diagram/edit-jadwal.png, id=1180, 638.385pt x 582.67688pt>
 File: konten/gambar/activity-diagram/edit-jadwal.png Graphic file (type png)
 <use konten/gambar/activity-diagram/edit-jadwal.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/edit-jadwal.png  used on input line 206.
+Package pdftex.def Info: konten/gambar/activity-diagram/edit-jadwal.png  used on input line 262.
 (pdftex.def)             Requested size: 326.64055pt x 298.13928pt.
 
 
-[39 <./konten/gambar/activity-diagram/tambah-jadwal.png>]
-<konten/gambar/activity-diagram/hapus-jadwal.png, id=1136, 639.89063pt x 551.81157pt>
+[44 <./konten/gambar/activity-diagram/tambah-jadwal.png>]
+<konten/gambar/activity-diagram/hapus-jadwal.png, id=1187, 639.89063pt x 551.81157pt>
 File: konten/gambar/activity-diagram/hapus-jadwal.png Graphic file (type png)
 <use konten/gambar/activity-diagram/hapus-jadwal.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/hapus-jadwal.png  used on input line 214.
+Package pdftex.def Info: konten/gambar/activity-diagram/hapus-jadwal.png  used on input line 270.
 (pdftex.def)             Requested size: 326.64055pt x 281.6812pt.
 
 
-[40 <./konten/gambar/activity-diagram/edit-jadwal.png>]
-<konten/gambar/class-diagram.png, id=1143, 596.2275pt x 709.14937pt>
+[45 <./konten/gambar/activity-diagram/edit-jadwal.png>]
+<konten/gambar/class-diagram.png, id=1194, 596.2275pt x 709.14937pt>
 File: konten/gambar/class-diagram.png Graphic file (type png)
 <use konten/gambar/class-diagram.png>
-Package pdftex.def Info: konten/gambar/class-diagram.png  used on input line 224.
+Package pdftex.def Info: konten/gambar/class-diagram.png  used on input line 281.
 (pdftex.def)             Requested size: 326.64055pt x 388.50764pt.
 
 
-[41 <./konten/gambar/activity-diagram/hapus-jadwal.png>]
+[46 <./konten/gambar/activity-diagram/hapus-jadwal.png>]
 
-[42 <./konten/gambar/class-diagram.png>] [43] [44]
+[47 <./konten/gambar/class-diagram.png>] [48] [49]
 
-[45]
+[50]
 
-[46]
-Underfull \hbox (badness 1436) in paragraph at lines 432--433
+[51]
+Underfull \hbox (badness 1436) in paragraph at lines 490--491
 []\OT1/ptm/m/n/12 Tabel ini mem-berikan se-tiap peng-guna iden-ti-fikasi unik melalui
  []
 
 
 
-[47]
-Overfull \hbox (18.10767pt too wide) in alignment at lines 443--449
+[52]
+Overfull \hbox (18.10767pt too wide) in alignment at lines 501--507
  [] [] [] [] 
  []
 
 
-Overfull \hbox (18.10767pt too wide) in alignment at lines 449--455
+Overfull \hbox (18.10767pt too wide) in alignment at lines 507--513
  [] [] [] [] 
  []
 
 
-Overfull \hbox (18.10767pt too wide) in alignment at lines 455--465
+Overfull \hbox (18.10767pt too wide) in alignment at lines 513--523
  [] [] [] [] 
  []
 
 
 
-[48]
-<konten/gambar/menu.png, id=1186, 1409.265pt x 948.54375pt>
+[53]
+<konten/gambar/menu.png, id=1237, 1409.265pt x 948.54375pt>
 File: konten/gambar/menu.png Graphic file (type png)
 <use konten/gambar/menu.png>
-Package pdftex.def Info: konten/gambar/menu.png  used on input line 485.
+Package pdftex.def Info: konten/gambar/menu.png  used on input line 544.
 (pdftex.def)             Requested size: 398.33858pt x 268.10884pt.
 
 
-[49 <./konten/gambar/menu.png>])
+[54 <./konten/gambar/menu.png>])
 
-[50] (tugasakhir.bbl
+[55] (tugasakhir.bbl
 
-[51
+[56
 
 
 
@@ -1290,21 +1330,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.646 mariadb2024}
-                   [52]
+                   [57]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.971 
-       [53]
+       [58]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1306 \end{thebibliography}
-                             [54]) (halamanbelakang/lampiranSemua.tex
+                             [59]) (halamanbelakang/lampiranSemua.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
@@ -1361,7 +1401,7 @@ LAMPIRAN D.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=1241, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=1291, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -1388,20 +1428,20 @@ L3 programming layer <2024-09-10>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
-(rerunfilecheck)             Checksum: C76AE354BEEC3FF147EB183CFA47F5D3;12379.
+(rerunfilecheck)             Checksum: 66287853BEE16750B1E444D507723B8E;12379.
  ) 
 Here is how much of TeX's memory you used:
- 17002 strings out of 473899
- 289341 string characters out of 5725047
- 771667 words of memory out of 5000000
- 39157 multiletter control sequences out of 15000+600000
+ 17052 strings out of 473899
+ 291221 string characters out of 5725047
+ 771967 words of memory out of 5000000
+ 39197 multiletter control sequences out of 15000+600000
  607787 words of font info for 138 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
  94i,15n,107p,1647b,810s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (68 pages, 6708875 bytes).
+Output written on tugasakhir.pdf (73 pages, 6831331 bytes).
 PDF statistics:
- 1331 PDF objects out of 1440 (max. 8388607)
- 271 named destinations out of 1000 (max. 500000)
- 863 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1384 PDF objects out of 1440 (max. 8388607)
+ 281 named destinations out of 1000 (max. 500000)
+ 888 words of extra memory for PDF output out of 10000 (max. 10000000)
 

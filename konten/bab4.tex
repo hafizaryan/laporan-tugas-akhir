@@ -104,8 +104,11 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 
 \end{enumerate}
 
+% =======================================================================================================================
 \section{Perancangan}
 Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan dari perancangan sistem adalah untuk menentukan, mengorganisir, dan membentuk komponen dari solusi sistem akhir sehingga memiliki \textit{blueprint} untuk membangun sistem.
+
+% =======================================================================================================================
 \subsection{Use Case Diagram}
 \textit{\textit{Use case} diagram} terdiri dari \textit{actor}, \textit{use case} dan serta hubungannya. \textit{\textit{Use case} diagram} adalah sesuatu yang penting untuk memvisualisasiakan, menspesifikasikan dan mendokumentasikan kebutuhan perilaku sistem. \textit{\textit{Use case} diagram} digunakan untuk menjelaskan kegiatan apa saja yang dapat dilakukan oleh \textit{user} pengguna sistem yang sedang berjalan \cite{Carstoiu1995}.
 \begin{longtable}{clp{8cm}}
@@ -133,6 +136,59 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	5           & Aslab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\ \hline
 \end{longtable}
 
+Sistem manajemen laboratorium merupakan sebuah sistem yang dikelola oleh seorang Admin sebagai aktor utama. Sistem ini digambarkan dalam bentuk diagram use case yang menunjukkan interaksi antara Admin dengan berbagai fungsi yang tersedia.
+
+Dalam sistem ini, Admin memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+
+Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Admin untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-admin}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/admin.png}
+	\caption{\textit{Usecase Diagram} Admin}
+	\label{usecase-diagram-admin}
+\end{figure}
+
+Dalam sistem ini, Kalab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+
+Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Kalab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/kalab.png}
+	\caption{\textit{Usecase Diagram} Kalab}
+	\label{usecase-diagram-kalab}
+\end{figure}
+
+Dalam sistem ini, Kaprodi memiliki satu fungsi utama yang dapat diakses, yaitu melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+
+Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, sehingga Kaprodi dapat dengan mudah memantau jadwal laboratorium yang ada. Hal ini ditunjukkan pada Gambar \ref{usecase-diagram-kaprodi}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/kaprodi.png}
+	\caption{\textit{Usecase Diagram} Kaprodi}
+	\label{usecase-diagram-kaprodi}
+\end{figure}
+
+Dalam sistem ini, Sekprodi memiliki satu fungsi utama yang dapat diakses, yaitu melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+
+Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, sehingga Sekprodi dapat dengan mudah memantau jadwal laboratorium yang ada. Hal ini ditunjukkan pada Gambar \ref{usecase-diagram-sekprodi}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/sekprodi.png}
+	\caption{\textit{Usecase Diagram} Sekprodi}
+	\label{usecase-diagram-sekprodi}
+\end{figure}
+
+Dalam sistem ini, Kalab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+
+Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Kalab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/aslab.png}
+	\caption{\textit{Usecase Diagram} Aslab}
+	\label{usecase-diagram-aslab}
+\end{figure}
+
+% =======================================================================================================================
 \subsection{\textit{Activity Diagram}}
 \textit{Activity diagram} adalah salah satu alat dalam \textit{Unified Modeling Language} (UML) yang digunakan untuk memvisualisasikan alur kerja atau aktivitas dalam suatu sistem \cite{linzhang2004generating}. Pada sistem ini, \textit{activity diagram} memberikan gambaran rinci tentang proses yang dilalui oleh berbagai aktor seperti Admin, Kalab, Kaprodi, Sekprodi, Aslab.
 
@@ -216,6 +272,7 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	\label{activity-diagram-hapus-jadwal}
 \end{figure}
 
+% =======================================================================================================================
 \subsection{\textit{Class Diagram}}
 \textit{Class diagram} adalah representasi visual dari struktur kelas dalam sistem manajemen laboratorium, yang menunjukkan hubungan logis antar kelas. \textit{Class diagram} ini menyediakan deskripsi terperinci dari setiap kelas yang terlibat dalam sistem, termasuk atribut dan operasi yang diperlukan untuk mendukung fungsi manajemen laboratorium secara efektif. \textit{Class diagram} Sistem Informasi Manajemen Laboratorium dapat dilihat pada \pic~\ref{class-diagram}
 
@@ -228,6 +285,7 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 
 Relasi antara jadwal dengan ruangan, dosen, dan mata kuliah diwakili oleh id\_ruangan, id\_dosen, dan id\_matkul pada jadwal. Id\_ruangan menunjukkan keterkaitan jadwal dengan ruangan tertentu, id\_dosen menunjukkan keterkaitan jadwal dengan dosen tertentu, dan id\_matkul menunjukkan keterkaitan jadwal dengan mata kuliah tertentu. Hubungan ini digambarkan dengan garis yang menghubungkan entitas jadwal ke masing-masing entitas ruangan, dosen, dan mata kuliah dalam diagram.
 
+% =======================================================================================================================
 \subsection{Perancangan \text{Database}}
 Perancangan \textit{database} adalah perancangan basis data yang akan digunakan pada sebuah sistem, didasari oleh data perusahaan. Perancangan ini bertujuan agar tiap field data yang memiliki relasi dapat terhubung pada tabel di \textit{database}, sehingga proses pengaksesan data akan dapat telaksana dengan lebih baik. Berikut adalah detail perancangan serta relasi yang ada pada \textit{database} sistem informasi inventaris laboratorium pada Laboratorium Sistem Informasi. Berikut tabel perancangan \textit{database}:
 
@@ -467,6 +525,7 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 
 \end{enumerate}
 
+% =======================================================================================================================
 \subsection{Perancangan Struktur Menu}
 Perancangan menu pada sistem informasi manajemen inventaris laboratorium ini dikembangkan dengan membagi hak akses menjadi 5 (lima) tingkatan yang berbeda sesuai dengan kewenangan pengguna. Pembagian menu ini dirancang untuk memastikan setiap pengguna dapat mengakses fitur-fitur yang sesuai dengan peran dan tanggung jawab mereka dalam pengelolaan laboratorium.
 
@@ -489,4 +548,5 @@ Struktur menu yang terorganisir ini dirancang untuk memudahkan pengelolaan inven
 
 Dalam pengembangan sistem kali ini, terdapat beberapa penambahan fitur baru yang ditandai dengan warna hijau pada struktur menu. Penambahan ini meliputi fitur Jadwal pada seluruh level pengguna (Admin, Kalab, Kaprodi, Sekprodi, dan Aslab), serta fitur Dosen dan Mata Kuliah yang ditambahkan pada Menu Kalab. Fitur Dosen dan Mata Kuliah yang sebelumnya hanya dapat diakses oleh Admin, kini juga dapat diakses oleh Kalab untuk memudahkan pengelolaan laboratorium yang berkaitan dengan kegiatan akademik. Pengembangan ini dilakukan untuk mengoptimalkan fungsi sistem dalam mendukung kegiatan pembelajaran dan praktikum di laboratorium, serta meningkatkan efisiensi koordinasi antara pengelola laboratorium dengan staf pengajar.
 
+% =======================================================================================================================
 \subsection{Perancangan Interface}

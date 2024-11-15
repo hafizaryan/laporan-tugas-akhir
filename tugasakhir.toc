@@ -62,12 +62,12 @@
 \contentsline {subsection}{\numberline {4.3.2}Analisis Kebutuhan Non-Fungsional Sistem}{29}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Perancangan}{31}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Use Case Diagram}{31}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}\textit {Activity Diagram}}{31}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}\textit {Class Diagram}}{41}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{42}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{48}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Perancangan Interface}{50}{subsection.4.4.6}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.42}%
+\contentsline {subsection}{\numberline {4.4.2}\textit {Activity Diagram}}{36}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}\textit {Class Diagram}}{46}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{47}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{53}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Perancangan Interface}{55}{subsection.4.4.6}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.47}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
 \contentsline {chapter}{LAMPIRAN \numberline {C}LOREM IPSUM}{C - 1}{appendix.1.C}%
