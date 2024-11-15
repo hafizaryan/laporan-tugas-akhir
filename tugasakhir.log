@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  15 NOV 2024 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  15 NOV 2024 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1150,18 +1150,17 @@ Overfull \hbox (14.73466pt too wide) in alignment at lines 93--101
 
 
 [30]
-<konten/gambar/usecase-diagram/admin.png, id=1084, 801.74532pt x 638.385pt>
-File: konten/gambar/usecase-diagram/admin.png Graphic file (type png)
-<use konten/gambar/usecase-diagram/admin.png>
-Package pdftex.def Info: konten/gambar/usecase-diagram/admin.png  used on input line 146.
-(pdftex.def)             Requested size: 326.64055pt x 260.0933pt.
-
 
 [31]
+<konten/gambar/usecase-diagram/admin.png, id=1089, 801.74532pt x 638.385pt>
+File: konten/gambar/usecase-diagram/admin.png Graphic file (type png)
+<use konten/gambar/usecase-diagram/admin.png>
+Package pdftex.def Info: konten/gambar/usecase-diagram/admin.png  used on input line 148.
+(pdftex.def)             Requested size: 326.64055pt x 260.0933pt.
 <konten/gambar/usecase-diagram/kalab.png, id=1091, 794.97pt x 635.37375pt>
 File: konten/gambar/usecase-diagram/kalab.png Graphic file (type png)
 <use konten/gambar/usecase-diagram/kalab.png>
-Package pdftex.def Info: konten/gambar/usecase-diagram/kalab.png  used on input line 156.
+Package pdftex.def Info: konten/gambar/usecase-diagram/kalab.png  used on input line 158.
 (pdftex.def)             Requested size: 326.64055pt x 261.06723pt.
 
 
@@ -1169,7 +1168,7 @@ Package pdftex.def Info: konten/gambar/usecase-diagram/kalab.png  used on input 
 <konten/gambar/usecase-diagram/kaprodi.png, id=1098, 800.23969pt x 636.87938pt>
 File: konten/gambar/usecase-diagram/kaprodi.png Graphic file (type png)
 <use konten/gambar/usecase-diagram/kaprodi.png>
-Package pdftex.def Info: konten/gambar/usecase-diagram/kaprodi.png  used on input line 166.
+Package pdftex.def Info: konten/gambar/usecase-diagram/kaprodi.png  used on input line 168.
 (pdftex.def)             Requested size: 326.64055pt x 259.96579pt.
 
 
@@ -1177,7 +1176,7 @@ Package pdftex.def Info: konten/gambar/usecase-diagram/kaprodi.png  used on inpu
 <konten/gambar/usecase-diagram/sekprodi.png, id=1105, 795.72281pt x 635.37375pt>
 File: konten/gambar/usecase-diagram/sekprodi.png Graphic file (type png)
 <use konten/gambar/usecase-diagram/sekprodi.png>
-Package pdftex.def Info: konten/gambar/usecase-diagram/sekprodi.png  used on input line 176.
+Package pdftex.def Info: konten/gambar/usecase-diagram/sekprodi.png  used on input line 178.
 (pdftex.def)             Requested size: 326.64055pt x 260.81516pt.
 
 
@@ -1185,7 +1184,7 @@ Package pdftex.def Info: konten/gambar/usecase-diagram/sekprodi.png  used on inp
 <konten/gambar/usecase-diagram/aslab.png, id=1112, 801.74532pt x 638.385pt>
 File: konten/gambar/usecase-diagram/aslab.png Graphic file (type png)
 <use konten/gambar/usecase-diagram/aslab.png>
-Package pdftex.def Info: konten/gambar/usecase-diagram/aslab.png  used on input line 186.
+Package pdftex.def Info: konten/gambar/usecase-diagram/aslab.png  used on input line 188.
 (pdftex.def)             Requested size: 326.64055pt x 260.0933pt.
 
 
@@ -1193,7 +1192,7 @@ Package pdftex.def Info: konten/gambar/usecase-diagram/aslab.png  used on input 
 <konten/gambar/activity-diagram/login.png, id=1122, 639.89063pt x 671.50874pt>
 File: konten/gambar/activity-diagram/login.png Graphic file (type png)
 <use konten/gambar/activity-diagram/login.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/login.png  used on input line 266.
+Package pdftex.def Info: konten/gambar/activity-diagram/login.png  used on input line 268.
 (pdftex.def)             Requested size: 326.64055pt x 342.78256pt.
 
 
@@ -1201,7 +1200,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/login.png  used on input
 <konten/gambar/activity-diagram/tambah-dosen.png, id=1130, 642.14906pt x 587.19376pt>
 File: konten/gambar/activity-diagram/tambah-dosen.png Graphic file (type png)
 <use konten/gambar/activity-diagram/tambah-dosen.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/tambah-dosen.png  used on input line 274.
+Package pdftex.def Info: konten/gambar/activity-diagram/tambah-dosen.png  used on input line 276.
 (pdftex.def)             Requested size: 326.64055pt x 298.6943pt.
 
 
@@ -1209,7 +1208,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/tambah-dosen.png  used o
 <konten/gambar/activity-diagram/edit-dosen.png, id=1137, 636.12656pt x 570.63188pt>
 File: konten/gambar/activity-diagram/edit-dosen.png Graphic file (type png)
 <use konten/gambar/activity-diagram/edit-dosen.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/edit-dosen.png  used on input line 282.
+Package pdftex.def Info: konten/gambar/activity-diagram/edit-dosen.png  used on input line 284.
 (pdftex.def)             Requested size: 326.64055pt x 293.00363pt.
 
 
@@ -1217,7 +1216,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/edit-dosen.png  used on 
 <konten/gambar/activity-diagram/hapus-dosen.png, id=1144, 638.385pt x 550.30594pt>
 File: konten/gambar/activity-diagram/hapus-dosen.png Graphic file (type png)
 <use konten/gambar/activity-diagram/hapus-dosen.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/hapus-dosen.png  used on input line 290.
+Package pdftex.def Info: konten/gambar/activity-diagram/hapus-dosen.png  used on input line 292.
 (pdftex.def)             Requested size: 326.64055pt x 281.57599pt.
 
 
@@ -1225,7 +1224,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/hapus-dosen.png  used on
 <konten/gambar/activity-diagram/tambah-matkul.png, id=1151, 636.12656pt x 584.1825pt>
 File: konten/gambar/activity-diagram/tambah-matkul.png Graphic file (type png)
 <use konten/gambar/activity-diagram/tambah-matkul.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/tambah-matkul.png  used on input line 298.
+Package pdftex.def Info: konten/gambar/activity-diagram/tambah-matkul.png  used on input line 300.
 (pdftex.def)             Requested size: 326.64055pt x 299.96149pt.
 
 
@@ -1233,7 +1232,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/tambah-matkul.png  used 
 <konten/gambar/activity-diagram/edit-matkul.png, id=1158, 639.13782pt x 578.91281pt>
 File: konten/gambar/activity-diagram/edit-matkul.png Graphic file (type png)
 <use konten/gambar/activity-diagram/edit-matkul.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/edit-matkul.png  used on input line 306.
+Package pdftex.def Info: konten/gambar/activity-diagram/edit-matkul.png  used on input line 308.
 (pdftex.def)             Requested size: 326.64055pt x 295.85997pt.
 
 
@@ -1241,7 +1240,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/edit-matkul.png  used on
 <konten/gambar/activity-diagram/hapus-matkul.png, id=1166, 639.13782pt x 552.56438pt>
 File: konten/gambar/activity-diagram/hapus-matkul.png Graphic file (type png)
 <use konten/gambar/activity-diagram/hapus-matkul.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/hapus-matkul.png  used on input line 314.
+Package pdftex.def Info: konten/gambar/activity-diagram/hapus-matkul.png  used on input line 316.
 (pdftex.def)             Requested size: 326.64055pt x 282.3943pt.
 
 
@@ -1249,7 +1248,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/hapus-matkul.png  used o
 <konten/gambar/activity-diagram/tambah-jadwal.png, id=1173, 640.64343pt x 601.4972pt>
 File: konten/gambar/activity-diagram/tambah-jadwal.png Graphic file (type png)
 <use konten/gambar/activity-diagram/tambah-jadwal.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/tambah-jadwal.png  used on input line 322.
+Package pdftex.def Info: konten/gambar/activity-diagram/tambah-jadwal.png  used on input line 324.
 (pdftex.def)             Requested size: 326.64055pt x 306.68608pt.
 
 
@@ -1257,7 +1256,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/tambah-jadwal.png  used 
 <konten/gambar/activity-diagram/edit-jadwal.png, id=1180, 638.385pt x 582.67688pt>
 File: konten/gambar/activity-diagram/edit-jadwal.png Graphic file (type png)
 <use konten/gambar/activity-diagram/edit-jadwal.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/edit-jadwal.png  used on input line 330.
+Package pdftex.def Info: konten/gambar/activity-diagram/edit-jadwal.png  used on input line 332.
 (pdftex.def)             Requested size: 326.64055pt x 298.13928pt.
 
 
@@ -1265,7 +1264,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/edit-jadwal.png  used on
 <konten/gambar/activity-diagram/hapus-jadwal.png, id=1187, 639.89063pt x 551.81157pt>
 File: konten/gambar/activity-diagram/hapus-jadwal.png Graphic file (type png)
 <use konten/gambar/activity-diagram/hapus-jadwal.png>
-Package pdftex.def Info: konten/gambar/activity-diagram/hapus-jadwal.png  used on input line 338.
+Package pdftex.def Info: konten/gambar/activity-diagram/hapus-jadwal.png  used on input line 340.
 (pdftex.def)             Requested size: 326.64055pt x 281.6812pt.
 
 
@@ -1273,7 +1272,7 @@ Package pdftex.def Info: konten/gambar/activity-diagram/hapus-jadwal.png  used o
 <konten/gambar/class-diagram.png, id=1194, 596.2275pt x 709.14937pt>
 File: konten/gambar/class-diagram.png Graphic file (type png)
 <use konten/gambar/class-diagram.png>
-Package pdftex.def Info: konten/gambar/class-diagram.png  used on input line 349.
+Package pdftex.def Info: konten/gambar/class-diagram.png  used on input line 351.
 (pdftex.def)             Requested size: 326.64055pt x 388.50764pt.
 
 
@@ -1284,24 +1283,24 @@ Package pdftex.def Info: konten/gambar/class-diagram.png  used on input line 349
 [50]
 
 [51]
-Underfull \hbox (badness 1436) in paragraph at lines 558--559
+Underfull \hbox (badness 1436) in paragraph at lines 560--561
 []\OT1/ptm/m/n/12 Tabel ini mem-berikan se-tiap peng-guna iden-ti-fikasi unik melalui
  []
 
 
 
 [52]
-Overfull \hbox (18.10767pt too wide) in alignment at lines 569--575
+Overfull \hbox (18.10767pt too wide) in alignment at lines 571--577
  [] [] [] [] 
  []
 
 
-Overfull \hbox (18.10767pt too wide) in alignment at lines 575--581
+Overfull \hbox (18.10767pt too wide) in alignment at lines 577--583
  [] [] [] [] 
  []
 
 
-Overfull \hbox (18.10767pt too wide) in alignment at lines 581--591
+Overfull \hbox (18.10767pt too wide) in alignment at lines 583--593
  [] [] [] [] 
  []
 
@@ -1311,7 +1310,7 @@ Overfull \hbox (18.10767pt too wide) in alignment at lines 581--591
 <konten/gambar/menu.png, id=1237, 1409.265pt x 948.54375pt>
 File: konten/gambar/menu.png Graphic file (type png)
 <use konten/gambar/menu.png>
-Package pdftex.def Info: konten/gambar/menu.png  used on input line 612.
+Package pdftex.def Info: konten/gambar/menu.png  used on input line 614.
 (pdftex.def)             Requested size: 398.33858pt x 268.10884pt.
 
 
@@ -1439,7 +1438,7 @@ Here is how much of TeX's memory you used:
  1212 hyphenation exceptions out of 8191
  94i,15n,107p,1647b,810s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (73 pages, 6831331 bytes).
+Output written on tugasakhir.pdf (73 pages, 6831519 bytes).
 PDF statistics:
  1384 PDF objects out of 1440 (max. 8388607)
  281 named destinations out of 1000 (max. 500000)

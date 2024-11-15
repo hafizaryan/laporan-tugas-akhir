@@ -136,11 +136,13 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	5           & Aslab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\ \hline
 \end{longtable}
 
-Sistem manajemen laboratorium merupakan sebuah sistem yang dikelola oleh seorang Admin sebagai aktor utama. Sistem ini digambarkan dalam bentuk diagram use case yang menunjukkan interaksi antara Admin dengan berbagai fungsi yang tersedia.
+Sistem manajemen laboratorium adalah sistem yang terkonsentrasi diurus oleh seseorang dengan peran Admin. Jenis ini digambarkan menggunakan diagram use case yang terlihat pada aktivitas interternal admin sistem dengan komponen yang ada.
 
-Dalam sistem ini, Admin memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+Dengan sistem ini terdapat 4 fungsi substansial yang dapat dipergunakan oleh adm selama mengoperasikan peralatan sistem. Fungsi - fungsi tersebut yaitu kompetensi Admin untuk menambah jadwal baru melalui menu "Tambah Jadwal Laboratorium", Edit jadwal yang bersistem dengan "Edit Jadwal Laboratorium", Menghapus schedule yang tidak diinginkan dengan "Hapus Jadwal Laboratorium", dan menampilkan history schedule dengan menjual "Lihat Jadwal Laboratorium"
 
-Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Admin untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-admin}.
+Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi “include” pada diagram. Tiga fungsi utama yaitu penambahan, pengeditan, dan penghapusan jadwal termasuk kedalam scope otoritas Adm, oleh sebab itu fungsi ini harus log in terlebih dahulu saat meta ternotfied. Sementara itu fungsi melihat jadual bagi pelaksana lab tidak mensyaratkan kuliah dahulu seperti yang ternyata dalam Gambar
+
+\ref{usecase-diagram-admin}.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/admin.png}
