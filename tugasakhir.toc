@@ -64,10 +64,10 @@
 \contentsline {subsection}{\numberline {4.4.1}Use Case Diagram}{31}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}\textit {Activity Diagram}}{31}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}\textit {Class Diagram}}{31}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{31}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{37}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Perancangan Interface}{37}{subsection.4.4.6}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.30}%
+\contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{33}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{38}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Perancangan Interface}{40}{subsection.4.4.6}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.32}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
 \contentsline {chapter}{LAMPIRAN \numberline {C}LOREM IPSUM}{C - 1}{appendix.1.C}%

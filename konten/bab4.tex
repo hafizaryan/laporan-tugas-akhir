@@ -133,12 +133,22 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	5           & Aslab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\ \hline
 \end{longtable}
 \subsection{\textit{Activity Diagram}}
+
 \subsection{\textit{Class Diagram}}
+\textit{Class diagram} adalah representasi visual dari struktur kelas dalam sistem manajemen laboratorium, yang menunjukkan hubungan logis antar kelas. \textit{Class diagram} ini menyediakan deskripsi terperinci dari setiap kelas yang terlibat dalam sistem, termasuk atribut dan operasi yang diperlukan untuk mendukung fungsi manajemen laboratorium secara efektif. \textit{Class diagram} Sistem Informasi Manajemen Laboratorium dapat dilihat pada \pic~\ref{class-diagram}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{konten/gambar/class-diagram.png}
+	\caption{\textit{Class Diagram} Sistem Manajemen Laboratorium}
+	\label{class-diagram}
+\end{figure}
+
+Relasi antara jadwal dengan ruangan, dosen, dan mata kuliah diwakili oleh id\_ruangan, id\_dosen, dan id\_matkul pada jadwal. Id\_ruangan menunjukkan keterkaitan jadwal dengan ruangan tertentu, id\_dosen menunjukkan keterkaitan jadwal dengan dosen tertentu, dan id\_matkul menunjukkan keterkaitan jadwal dengan mata kuliah tertentu. Hubungan ini digambarkan dengan garis yang menghubungkan entitas jadwal ke masing-masing entitas ruangan, dosen, dan mata kuliah dalam diagram.
+
 \subsection{Perancangan \text{Database}}
 Perancangan \textit{database} adalah perancangan basis data yang akan digunakan pada sebuah sistem, didasari oleh data perusahaan. Perancangan ini bertujuan agar tiap field data yang memiliki relasi dapat terhubung pada tabel di \textit{database}, sehingga proses pengaksesan data akan dapat telaksana dengan lebih baik. Berikut adalah detail perancangan serta relasi yang ada pada \textit{database} sistem informasi inventaris laboratorium pada Laboratorium Sistem Informasi. Berikut tabel perancangan \textit{database}:
 
 \begin{enumerate}
-
 
 	\item Perancangan \textit{Database} Tabel Dosen \\
 	      \begin{tabular}{lll}
@@ -150,11 +160,11 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Tabel Dosen dirancang untuk menyimpan informasi komprehensif tentang staf pengajar. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data dosen secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Dosen:
 
 	      \begin{itemize}
-		      \item Tabel ini menggunakan \textit{id\_dosen} sebagai \textit{primary key} dengan tipe data tinyint(4) dan fitur \textit{auto increment}, memastikan setiap dosen memiliki identifikasi unik dalam sistem.
-		      \item Atribut 'nama\_dosen' dan 'nip\_dosen' menyimpan informasi identitas dasar dosen, memungkinkan identifikasi personal dalam konteks akademik.
-		      \item Field 'jenis\_kelamin' menggunakan tipe data enum untuk memastikan konsistensi data dan memfasilitasi analisis demografis.
-		      \item 'email\_dosen' dan 'no\_hp' berfungsi sebagai saluran komunikasi penting, memungkinkan interaksi efektif antara sistem dan dosen.
-		      \item Atribut 'nidn' (Nomor Induk Dosen Nasional) menyimpan identifikasi unik dosen yang diakui secara nasional, memfasilitasi integrasi dengan sistem pendidikan tinggi yang lebih luas.
+		      \item Tabel ini menetapkan \textit{id\_dosen} sebagai kunci utama dengan tipe data tinyint(4) dan fitur \textit{auto increment}, yang memastikan bahwa setiap dosen diberikan identifikasi yang unik dalam sistem.
+		      \item Atribut 'nama\_dosen' dan 'nip\_dosen' berfungsi untuk menyimpan informasi dasar tentang dosen, yang memudahkan pengenalan personal dalam lingkungan akademis.
+		      \item Field 'jenis\_kelamin' memakai tipe data enum untuk menjaga konsistensi data dan membantu dalam analisis demografis.
+		      \item 'email\_dosen' dan 'no\_hp' merupakan saluran komunikasi yang vital, yang memungkinkan komunikasi yang efektif antara dosen dan sistem.
+		      \item Atribut 'nidn' (Nomor Induk Dosen Nasional) mencatat identifikasi nasional yang unik untuk dosen, yang mendukung integrasi dengan sistem pendidikan tinggi yang lebih luas.
 	      \end{itemize}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data dosen yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data.
@@ -196,10 +206,10 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Tabel Matkul dirancang untuk menyimpan informasi tentang mata kuliah yang ditawarkan dalam program akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data mata kuliah secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Matkul:
 
 	      \begin{itemize}
-		      \item Tabel ini menggunakan \textit{id\_matkul} sebagai \textit{primary key} dengan tipe data tinyint(4) dan fitur \textit{auto increment}, memastikan setiap mata kuliah memiliki identifikasi unik dalam sistem.
-		      \item Atribut 'kode\_matkul' dan 'nama\_matkul' menyimpan informasi identifikasi dasar mata kuliah, memungkinkan pengenalan cepat dalam konteks akademik.
-		      \item Field 'sks' dan 'semester' menyimpan informasi penting tentang bobot akademik dan penempatan mata kuliah dalam kurikulum.
-		      \item Atribut 'jenis\_matkul' menggunakan tipe data enum untuk mengkategorikan mata kuliah sebagai wajib atau pilihan, memfasilitasi manajemen kurikulum yang fleksibel.
+		      \item Tabel ini memanfaatkan \textit{id\_matkul} sebagai kunci utama dengan tipe data tinyint(4) dan fitur \textit{auto increment}, yang menjamin bahwa setiap mata kuliah diberi identifikasi yang unik di dalam sistem.
+		      \item Atribut 'kode\_matkul' dan 'nama\_matkul' berfungsi untuk menyimpan informasi dasar yang membantu dalam mengenali mata kuliah dengan cepat di lingkungan akademik.
+		      \item Field 'sks' dan 'semester' berisi informasi krusial mengenai bobot akademik dan penjadwalan mata kuliah dalam kurikulum, yang penting untuk perencanaan pendidikan.
+		      \item Atribut 'jenis\_matkul' memakai tipe data enum untuk membedakan mata kuliah menjadi kategori wajib atau pilihan, mendukung kelancaran dalam pengelolaan kurikulum.
 	      \end{itemize}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data mata kuliah yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data kurikulum.
@@ -240,11 +250,11 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Tabel Ruangan dirancang untuk menyimpan informasi tentang ruangan-ruangan yang tersedia untuk kegiatan akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data ruangan secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Ruangan:
 
 	      \begin{itemize}
-		      \item Tabel ini menggunakan \textit{id\_ruangan} sebagai \textit{primary key} dengan tipe data tinyint(4) dan fitur \textit{auto increment}, memastikan setiap ruangan memiliki identifikasi unik dalam sistem.
-		      \item Atribut 'id\_gedung' berfungsi sebagai \textit{foreign key}, menghubungkan ruangan dengan gedung tempat ruangan tersebut berada, memfasilitasi manajemen lokasi yang terstruktur.
-		      \item Field 'nama\_ruangan' menyimpan identifikasi ruangan yang mudah dikenali oleh pengguna.
-		      \item Atribut 'deskripsi\_ruangan' memungkinkan penyimpanan informasi tambahan tentang fasilitas atau karakteristik khusus ruangan.
-		      \item Field 'gambar\_ruangan' menyimpan path ke file gambar ruangan, memfasilitasi visualisasi dan identifikasi ruangan yang lebih baik.
+		      \item Tabel ini memanfaatkan \textit{id\_ruangan} sebagai \textit{primary key}. Dengan menggunakan tipe data tinyint(4) dan fitur \textit{auto increment}, tabel ini memastikan bahwa setiap ruangan tercatat dengan identitas uniknya sendiri dalam sistem.
+		      \item Atribut 'id\_gedung' bertindak sebagai \textit{foreign key} yang mengaitkan setiap ruangan dengan gedungnya, membantu dalam mengatur lokasi dengan lebih terstruktur.
+		      \item Field 'nama\_ruangan' berisi nama yang memudahkan pengguna dalam mengenali setiap ruangan.
+		      \item Atribut 'deskripsi\_ruangan' memberikan ruang untuk menambahkan keterangan lebih lanjut mengenai fasilitas atau ciri khas dari ruangan tersebut.
+		      \item Field 'gambar\_ruangan' berisi jalur ke file gambar yang berkaitan dengan ruangan, memudahkan dalam visualisasi dan lebih memahami penampilan ruangan tersebut.
 	      \end{itemize}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data ruangan yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data fasilitas.
@@ -284,11 +294,11 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Tabel Jadwal dirancang untuk menyimpan informasi tentang penjadwalan kegiatan akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data jadwal secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Jadwal:
 
 	      \begin{itemize}
-		      \item Tabel ini menggunakan \textit{id\_jadwal} sebagai \textit{primary key} dengan tipe data tinyint(4) dan fitur \textit{auto increment}, memastikan setiap jadwal memiliki identifikasi unik dalam sistem.
-		      \item Atribut 'id\_ruangan', 'id\_matkul', dan 'id\_dosen' berfungsi sebagai \textit{foreign key}, menghubungkan jadwal dengan informasi ruangan, mata kuliah, dan dosen terkait, memfasilitasi manajemen jadwal yang terintegrasi.
-		      \item Field 'tanggal', 'hari', 'jam\_masuk', dan 'jam\_keluar' menyimpan informasi waktu yang spesifik untuk setiap jadwal.
-		      \item Atribut 'deskripsi' memungkinkan penyimpanan informasi tambahan tentang jadwal atau kegiatan.
-		      \item Field-field seperti 'kode\_matkul', 'nama\_matkul', 'nama\_dosen', dan 'nama\_ruangan' menyimpan informasi yang redundan namun memfasilitasi akses cepat tanpa perlu melakukan join tabel berulang kali.
+		      \item Tabel ini dilengkapi dengan \textit{id\_jadwal} sebagai \textit{primary key}. Dengan tipe data tinyint(4) dan fitur \textit{auto increment}, setiap jadwal dijamin memiliki identifikasi yang unik dalam sistem.
+		      \item Atribut seperti 'id\_ruangan', 'id\_matkul', dan 'id\_dosen' bertindak sebagai \textit{foreign key}, yang mengaitkan jadwal dengan informasi tentang ruangan, mata kuliah, dan dosen yang relevan, sehingga memudahkan pengelolaan jadwal secara terpadu.
+		      \item Field seperti 'tanggal', 'hari', 'jam\_masuk', dan 'jam\_keluar' berperan penting dalam mencatat waktu spesifik untuk setiap kegiatan dalam jadwal.
+		      \item Atribut 'deskripsi' memberikan ruang untuk menambahkan informasi detail tentang kegiatan atau jadwal yang direncanakan.
+		      \item Field-field seperti 'kode\_matkul', 'nama\_matkul', 'nama\_dosen', dan 'nama\_ruangan' walaupun redundan, tetapi sangat membantu dalam mempercepat akses informasi tanpa perlu menggabungkan tabel berulang kali.
 	      \end{itemize}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data jadwal yang komprehensif, efisiensi dalam pengambilan data, dan fleksibilitas dalam pengelolaan jadwal akademik.
@@ -336,11 +346,11 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Tabel \textit{User} dirancang untuk menyimpan informasi pengguna dalam sistem manajemen laboratorium. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengautentikasi pengguna, serta mengelola hak akses mereka. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel \textit{User}:
 
 	      \begin{itemize}
-		      \item Tabel ini menggunakan \textit{id\_user} sebagai \textit{primary key} dengan tipe data smallint(4) dan fitur \textit{auto increment}, memastikan setiap pengguna memiliki identifikasi unik dalam sistem.
-		      \item Atribut 'nama' dan 'no\_identitas' menyimpan informasi identitas dasar pengguna, memungkinkan identifikasi personal dalam konteks organisasi.
-		      \item Field 'foto' menyimpan path ke file gambar profil pengguna, memfasilitasi personalisasi antarmuka pengguna.
-		      \item \textit{Username} dan \textit{password\_hash} berfungsi sebagai kredensial autentikasi, dengan \textit{password} dienkripsi untuk keamanan data.
-		      \item Atribut 'role\_user' menggunakan tipe data enum untuk mendefinisikan peran pengguna, memungkinkan manajemen hak akses yang efisien dalam sistem.
+		      \item Tabel ini memberikan setiap pengguna identifikasi unik melalui \textit{id\_user} yang bertindak sebagai \textit{primary key}. Tipe data yang digunakan adalah smallint(4) dengan fitur \textit{auto increment}.
+		      \item Atribut 'nama' dan 'no\_identitas' berfungsi untuk menyimpan informasi dasar tentang pengguna, sehingga memudahkan pengenalan personal dalam lingkup organisasi.
+		      \item Field 'foto' berisi lokasi penyimpanan file gambar profil pengguna, yang membantu dalam personalisasi tampilan antarmuka pengguna.
+		      \item \textit{Username} dan \textit{password\_hash} digunakan sebagai kredensial untuk masuk ke sistem, dengan \textit{password} yang telah dienkripsi guna menjaga keamanan data.
+		      \item Atribut 'role\_user' dengan tipe data enum digunakan untuk menentukan peran pengguna dalam sistem, yang mendukung pengelolaan hak akses secara efektif.
 	      \end{itemize}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan aspek keamanan, efisiensi penyimpanan data, dan fleksibilitas dalam pengelolaan pengguna sistem.
@@ -349,25 +359,25 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel \textit{\textit{Database}} \textit{User}}
-				      \label{admin}                                                                                                          \\
+				      \label{admin}                                                                                                                 \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}                    \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}                           & \textbf{\textit{Key}} \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel \textit{\textit{Database}} \textit{User}} \space (Tabel lanjutan...)} \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel \textit{\textit{Database}} \textit{User}} \space (Tabel lanjutan...)}        \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}                    \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}                           & \textbf{\textit{Key}} \\
 				      \hline
 				      \endhead
 
-				      id\_\textit{user}       & smallint               & 4                        & Primary key (A\_I)                       \\
-				      nama                    & varchar                & 50                       &                                          \\
-				      foto                    & varchar                & 50                       &                                          \\
-				      no\_identitas           & varchar                & 50                       &                                          \\
-				      \textit{username}       & varchar                & 100                      &                                          \\
-				      \textit{password}\_hash & varchar                & 100                      &                                          \\
-				      role\_\textit{user}     & enum                   &                          &                                          \\
+				      id\_\textit{user}       & smallint               & 4                                                  & Primary key (A\_I)    \\
+				      nama                    & varchar                & 50                                                 &                       \\
+				      foto                    & varchar                & 50                                                 &                       \\
+				      no\_identitas           & varchar                & 50                                                 &                       \\
+				      \textit{username}       & varchar                & 100                                                &                       \\
+				      \textit{password}\_hash & varchar                & 100                                                &                       \\
+				      role\_\textit{user}     & enum                   & ('Admin', 'Kalab', 'Kaprodi', 'Sekprodi', 'Aslab') &                       \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -375,4 +385,25 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 \end{enumerate}
 
 \subsection{Perancangan Struktur Menu}
+Perancangan menu pada sistem informasi manajemen inventaris laboratorium ini dikembangkan dengan membagi hak akses menjadi 5 (lima) tingkatan yang berbeda sesuai dengan kewenangan pengguna. Pembagian menu ini dirancang untuk memastikan setiap pengguna dapat mengakses fitur-fitur yang sesuai dengan peran dan tanggung jawab mereka dalam pengelolaan laboratorium.
+
+Menu Admin sebagai tingkat akses tertinggi memiliki wewenang paling komprehensif dalam sistem. Admin dapat mengakses dan mengelola seluruh fitur yang tersedia, mulai dari pendanaan, manajemen barang, pengaturan posisi barang, penjadwalan, sistem peminjaman, dokumentasi, maintenance, hingga proses pemusnahan barang. Selain itu, Admin juga memiliki akses khusus untuk mengelola data-data institusional seperti fakultas, program studi, gedung, daftar ruangan, data dosen, mata kuliah, serta administrasi pengguna sistem.
+
+Pada tingkat Kepala Laboratorium (Kalab), menu yang tersedia hampir menyerupai menu Admin namun dengan beberapa pembatasan. Kalab dapat mengakses fitur pendanaan, pengelolaan barang, posisi barang, jadwal, peminjaman, dokumentasi, maintenance, dan pemusnahan barang. Kalab juga diberikan akses untuk mengelola data dosen, mata kuliah, dan pengguna yang terkait dengan laboratorium yang menjadi tanggung jawabnya.
+
+Menu untuk Kepala Program Studi (Kaprodi) dirancang dengan fokus pada pengawasan dan monitoring. Kaprodi dapat mengakses fitur pendanaan, manajemen barang, posisi barang, penjadwalan, peminjaman, serta dokumentasi. Struktur menu yang sama juga diberikan kepada Sekretaris Program Studi (Sekprodi), yang memungkinkan mereka untuk membantu Kaprodi dalam monitoring dan pengelolaan inventaris laboratorium di tingkat program studi.
+
+Untuk Asisten Laboratorium (Aslab), menu dirancang dengan mempertimbangkan peran mereka dalam operasional harian laboratorium. Aslab memiliki akses ke fitur pendanaan, pengelolaan barang, posisi barang, penjadwalan, dokumentasi, maintenance, dan pemusnahan barang. Pemberian akses ini memungkinkan Aslab untuk membantu dalam pengelolaan dan pemeliharaan peralatan laboratorium secara efektif.
+
+Struktur menu yang terorganisir ini dirancang untuk memudahkan pengelolaan inventaris laboratorium secara sistematis dan terkontrol. Setiap tingkatan pengguna memiliki batasan akses yang jelas, yang membantu dalam menjaga keamanan dan integritas data sistem. Perancangan menu ini menjadi landasan penting dalam pengembangan antarmuka pengguna dan implementasi berbagai fungsi sistem yang akan dibahas lebih lanjut pada bagian berikutnya. Dengan struktur menu yang terorganisir ini, diharapkan pengelolaan inventaris laboratorium dapat berjalan lebih efisien dan terkoordinasi dengan baik antar berbagai tingkatan pengguna.  Gambar struktur menu ini dapat dilihat pada \pic~\ref{StrukturMenuILMIS}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{konten/gambar/menu.png}
+	\caption{Struktur Menu Sistem Manajemen Laboratorium}
+	\label{StrukturMenuILMIS}
+\end{figure}
+
+Dalam pengembangan sistem kali ini, terdapat beberapa penambahan fitur baru yang ditandai dengan warna hijau pada struktur menu. Penambahan ini meliputi fitur Jadwal pada seluruh level pengguna (Admin, Kalab, Kaprodi, Sekprodi, dan Aslab), serta fitur Dosen dan Mata Kuliah yang ditambahkan pada Menu Kalab. Fitur Dosen dan Mata Kuliah yang sebelumnya hanya dapat diakses oleh Admin, kini juga dapat diakses oleh Kalab untuk memudahkan pengelolaan laboratorium yang berkaitan dengan kegiatan akademik. Pengembangan ini dilakukan untuk mengoptimalkan fungsi sistem dalam mendukung kegiatan pembelajaran dan praktikum di laboratorium, serta meningkatkan efisiensi koordinasi antara pengelola laboratorium dengan staf pengajar.
+
 \subsection{Perancangan Interface}
