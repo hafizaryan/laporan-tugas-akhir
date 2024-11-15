@@ -132,13 +132,96 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	4           & Sekprodi                           & Melihat penjadwalan laboratorium                                           \\
 	5           & Aslab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\ \hline
 \end{longtable}
+
 \subsection{\textit{Activity Diagram}}
+\textit{Activity diagram} adalah salah satu alat dalam \textit{Unified Modeling Language} (UML) yang digunakan untuk memvisualisasikan alur kerja atau aktivitas dalam suatu sistem \cite{linzhang2004generating}. Pada sistem ini, \textit{activity diagram} memberikan gambaran rinci tentang proses yang dilalui oleh berbagai aktor seperti Admin, Kalab, Kaprodi, Sekprodi, Aslab.
+
+\textit{Activity diagram} login memberikan gambaran rinci tentang proses login yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses login, mulai dari input data oleh pengguna, validasi oleh sistem hingga dapat masuk ke dalam sistem menggunakan akun yang sudah ada. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-login}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/login.png}
+	\caption{\textit{Activity Diagram} Login}
+	\label{activity-diagram-login}
+\end{figure}
+
+\textit{Activity diagram} tambah dosen memberikan gambaran rinci tentang proses penambahan dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penambahan dosen, mulai dari input data oleh pengguna, validasi oleh sistem hingga penyimpanan data dosen baru ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-tambah-dosen}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/tambah-dosen.png}
+	\caption{\textit{Activity Diagram} Tambah Dosen}
+	\label{activity-diagram-tambah-dosen}
+\end{figure}
+
+\textit{Activity diagram} edit dosen memberikan gambaran rinci tentang proses pengeditan data dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses pengeditan dosen, mulai dari pemilihan data dosen yang akan diedit, input data baru oleh pengguna, validasi oleh sistem hingga penyimpanan data dosen yang telah diperbarui ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-edit-dosen}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/edit-dosen.png}
+	\caption{\textit{Activity Diagram} Edit Dosen}
+	\label{activity-diagram-edit-dosen}
+\end{figure}
+
+\textit{Activity diagram} hapus dosen memberikan gambaran rinci tentang proses penghapusan dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penghapusan dosen, mulai dari pemilihan data dosen yang akan dihapus, konfirmasi oleh pengguna, hingga penghapusan data dosen dari sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-hapus-dosen}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/hapus-dosen.png}
+	\caption{\textit{Activity Diagram} Hapus Dosen}
+	\label{activity-diagram-hapus-dosen}
+\end{figure}
+
+\textit{Activity diagram} tambah mata kuliah memberikan gambaran rinci tentang proses penambahan mata kuliah yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penambahan mata kuliah, mulai dari input data oleh pengguna, validasi oleh sistem hingga penyimpanan data mata kuliah baru ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-tambah-matkul}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/tambah-matkul.png}
+	\caption{\textit{Activity Diagram} Tambah Mata Kuliah}
+	\label{activity-diagram-tambah-matkul}
+\end{figure}
+
+\textit{Activity diagram} edit mata kuliah memberikan gambaran rinci tentang proses pengeditan data mata kuliah yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses pengeditan mata kuliah, mulai dari pemilihan data mata kuliah yang akan diedit, input data baru oleh pengguna, validasi oleh sistem hingga penyimpanan data mata kuliah yang telah diperbarui ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-edit-matkul}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/edit-matkul.png}
+	\caption{\textit{Activity Diagram} Edit Mata Kuliah}
+	\label{activity-diagram-edit-matkul}
+\end{figure}
+
+\textit{Activity diagram} hapus mata kuliah memberikan gambaran rinci tentang proses penghapusan mata kuliah yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penghapusan mata kuliah, mulai dari pemilihan data mata kuliah yang akan dihapus, konfirmasi oleh pengguna, hingga penghapusan data mata kuliah dari sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-hapus-matkul}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/hapus-matkul.png}
+	\caption{\textit{Activity Diagram} Hapus Mata Kuliah}
+	\label{activity-diagram-hapus-matkul}
+\end{figure}
+
+\textit{Activity diagram} tambah dosen memberikan gambaran rinci tentang proses penambahan dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penambahan dosen, mulai dari input data oleh pengguna, validasi oleh sistem hingga penyimpanan data dosen baru ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-tambah-dosen}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/tambah-jadwal.png}
+	\caption{\textit{Activity Diagram} Tambah Jadwal}
+	\label{activity-diagram-tambah-jadwal}
+\end{figure}
+
+\textit{Activity diagram} edit jadwal memberikan gambaran rinci tentang proses pengeditan jadwal yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses pengeditan jadwal, mulai dari pemilihan data jadwal yang akan diedit, input data baru oleh pengguna, validasi oleh sistem hingga penyimpanan data jadwal yang telah diperbarui ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-edit-jadwal}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/edit-jadwal.png}
+	\caption{\textit{Activity Diagram} Edit Jadwal}
+	\label{activity-diagram-edit-jadwal}
+\end{figure}
+
+\textit{Activity diagram} hapus jadwal memberikan gambaran rinci tentang proses penghapusan jadwal yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penghapusan jadwal, mulai dari pemilihan data jadwal yang akan dihapus, konfirmasi oleh pengguna, hingga penghapusan data jadwal dari sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-hapus-jadwal}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/hapus-jadwal.png}
+	\caption{\textit{Activity Diagram} Hapus Jadwal}
+	\label{activity-diagram-hapus-jadwal}
+\end{figure}
 
 \subsection{\textit{Class Diagram}}
 \textit{Class diagram} adalah representasi visual dari struktur kelas dalam sistem manajemen laboratorium, yang menunjukkan hubungan logis antar kelas. \textit{Class diagram} ini menyediakan deskripsi terperinci dari setiap kelas yang terlibat dalam sistem, termasuk atribut dan operasi yang diperlukan untuk mendukung fungsi manajemen laboratorium secara efektif. \textit{Class diagram} Sistem Informasi Manajemen Laboratorium dapat dilihat pada \pic~\ref{class-diagram}
+
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{konten/gambar/class-diagram.png}
+	\includegraphics[width=0.82\textwidth]{konten/gambar/class-diagram.png}
 	\caption{\textit{Class Diagram} Sistem Manajemen Laboratorium}
 	\label{class-diagram}
 \end{figure}
@@ -272,7 +355,7 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel \textit{\textit{Database}} Ruangan} \space (Tabel lanjutan...)} \\
 				      \hline
 				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}              \\
-				      \hline
+				      \
 				      \endhead
 
 				      id\_ruangan             & tinyint                & 4                        & Primary key (A\_I)                 \\

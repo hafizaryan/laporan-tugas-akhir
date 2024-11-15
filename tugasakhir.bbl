@@ -607,6 +607,36 @@ La~Braca, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Linzhang%
+\ \protect \BOthers {.}}{%
+Linzhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+linzhang2004generating}
+\APACinsertmetastar {%
+linzhang2004generating}%
+\begin{APACrefauthors}%
+Linzhang, W.%
+, Jiesong, Y.%
+, Xiaofeng, Y.%
+, Jun, H.%
+, Xuandong, L.%
+\BCBL {}\ \BBA {} Guoliang, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Generating test cases from UML activity diagram based on
+  gray-box method} {Generating test cases from uml activity diagram based on
+  gray-box method}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {11th Asia-Pacific software engineering conference} {11th
+  asia-pacific software engineering conference}\ (\BPGS\ 284--291).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 MariaDB%
 }{%
 MariaDB%
