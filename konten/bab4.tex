@@ -188,6 +188,74 @@ Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "
 	\label{usecase-diagram-aslab}
 \end{figure}
 
+% Skenario \textit{use case Login} merujuk pada rangkaian langkah-langkah terstruktur yang harus dilakukan oleh pengguna untuk melakukan proses kegiatan dalam suatu sistem. Proses ini dimulai dengan pengguna yang ingin mengakses sistem harus memasukkan informasi identifikasi pribadi, seperti nim, dan kata sandi, guna memverifikasi identitas mereka. Setelah pengisian data, sistem akan melakukan verifikasi dengan data yang tercatat dalam basis data, dan jika sesuai, pengguna akan diberikan izin akses ke fitur atau informasi yang relevan. Skenario \textit{Use Case Login} memegang peran krusial dalam menjaga tingkat keamanan serta privasi sistem, menjamin bahwa hanya pengguna yang diberi akses yang dapat masuk kedalam sistem.
+
+% Pentingnya tahap ini dalam keamanan sistem ditunjukkan dalam Tabel \ref{tab:SkenarioLogin} yang secara rinci menggambarkan langkah-langkah dalam proses otentikasi. Dengan menjamin kelancaran proses ini, sistem dapat melindungi data sensitif dan memastikan bahwa hanya pengguna yang berwenang yang memiliki akses ke informasi yang terdapat dalam sistem.
+
+% 	{
+% 		\fontsize{10}{12}
+% 		\begin{longtable}{@{} p{6cm} p{6cm} @{}}
+% 			\caption{Skenario \textit{Use Case Login}} \label{tab:SkenarioLogin}                                                                                                                                                                                                           \\ \hline
+% 			\textbf{Nama use case}                                                                         & \textit{Login}                                                                                                                                                                \\
+% 			\textbf{Aktor}                                                                                 & Admin, Kalab, Aslab, Pendaftar.                                                                                                                                               \\
+% 			\textbf{Deskripsi}                                                                             & \textit{Use case} ini menggambarkan untuk dapat mengelola sistem, Admin, Kepala Laboratorium, Pendaftar, Asisten Laboratorium harus melakukan \textit{login} terlebih dahulu. \\
+% 			\textbf{Kondisi Awal}                                                                          & Sistem menampilkan form \textit{login}.                                                                                                                                       \\
+% 			\textbf{Kondisi Akhir}                                                                         & Sistem menampilkan menu utama.                                                                                                                                                \\ \hline
+% 			\multicolumn{1}{c}{\textbf{Aktor}}                                                             & \multicolumn{1}{c}{\textbf{Sistem}}                                                                                                                                           \\ \hline
+% 			\multicolumn{2}{c}{\textbf{Skenario normal}}                                                                                                                                                                                                                                   \\ \hline
+% 			1. \textit{Use case} ini dimulai ketika Admin, Kalab, Kaprodi, Sekprodi, Aslab \textit{login}. &                                                                                                                                                                               \\
+% 			                                                                                               & 2. Sistem melakukan verifikasi \textit{login}.                                                                                                                                \\
+% 			                                                                                               & 3. Sistem menampilkan menu utama.                                                                                                                                             \\ \hline
+% 			\multicolumn{2}{c}{\textbf{Skenario gagal}}                                                                                                                                                                                                                                    \\ \hline
+% 			1. \textit{Use case} ini dimulai ketika Admin, Kalab, Kaprodi, Sekprodi, Aslab \textit{login}. &                                                                                                                                                                               \\
+% 			                                                                                               & 2. Sistem melakukan verifikasi \textit{login}.                                                                                                                                \\
+% 			                                                                                               & 3. Sistem menampilkan pesan \textit{login} tidak valid.                                                                                                                       \\ \hline
+% 		\end{longtable}}
+
+% 	{
+% 		\fontsize{10}{12}
+% 		\begin{longtable}{@{} p{6cm} p{6cm} @{}}
+% 			\caption{Skenario \textit{Use Case Kalab}} \label{tab:SkenarioKalab}                                                                                                                                             \\ \hline
+% 			\textbf{Nama use case}                            & \textit{Manajemen Jadwal Laboratorium}                                                                                                                       \\
+% 			\textbf{Aktor}                                    & Kalab, Aslab.                                                                                                                                                \\
+% 			\textbf{Deskripsi}                                & \textit{Use case} ini menggambarkan proses yang dilakukan oleh Kalab untuk mengelola jadwal laboratorium, termasuk menambah, mengedit, dan menghapus jadwal. \\
+% 			\textbf{Kondisi Awal}                             & Sistem menampilkan menu manajemen jadwal.                                                                                                                    \\
+% 			\textbf{Kondisi Akhir}                            & Sistem menampilkan daftar jadwal laboratorium yang telah diperbarui.                                                                                         \\ \hline
+% 			\multicolumn{1}{c}{\textbf{Aktor}}                & \multicolumn{1}{c}{\textbf{Sistem}}                                                                                                                          \\ \hline
+% 			\multicolumn{2}{c}{\textbf{Skenario normal}}                                                                                                                                                                     \\ \hline
+% 			1. Kalab memilih opsi untuk menambah jadwal baru. &                                                                                                                                                              \\
+% 			                                                  & 2. Sistem menampilkan form untuk input jadwal baru.                                                                                                          \\
+% 			                                                  & 3. Kalab mengisi form dan mengirimkan data.                                                                                                                  \\
+% 			                                                  & 4. Sistem menyimpan jadwal baru dan menampilkan konfirmasi.                                                                                                  \\ \hline
+% 			\multicolumn{2}{c}{\textbf{Skenario gagal}}                                                                                                                                                                      \\ \hline
+% 			1. Kalab memilih opsi untuk menambah jadwal baru. &                                                                                                                                                              \\
+% 			                                                  & 2. Sistem menampilkan form untuk input jadwal baru.                                                                                                          \\
+% 			                                                  & 3. Kalab mengisi form dengan data yang tidak valid.                                                                                                          \\
+% 			                                                  & 4. Sistem menampilkan pesan kesalahan dan meminta Kalab untuk memperbaiki data.                                                                              \\ \hline
+% 		\end{longtable}}
+% 	{
+
+% 		\fontsize{10}{12}
+% 		\begin{longtable}{@{} p{6cm} p{6cm} @{}}
+% 			\caption{Skenario \textit{Use Case Kalab}} \label{tab:SkenarioKalab}                                                                                                                                             \\ \hline
+% 			\textbf{Nama use case}                            & \textit{Manajemen Jadwal Laboratorium}                                                                                                                       \\
+% 			\textbf{Aktor}                                    & Kalab, Aslab.                                                                                                                                                \\
+% 			\textbf{Deskripsi}                                & \textit{Use case} ini menggambarkan proses yang dilakukan oleh Kalab untuk mengelola jadwal laboratorium, termasuk menambah, mengedit, dan menghapus jadwal. \\
+% 			\textbf{Kondisi Awal}                             & Sistem menampilkan menu manajemen jadwal.                                                                                                                    \\
+% 			\textbf{Kondisi Akhir}                            & Sistem menampilkan daftar jadwal laboratorium yang telah diperbarui.                                                                                         \\ \hline
+% 			\multicolumn{1}{c}{\textbf{Aktor}}                & \multicolumn{1}{c}{\textbf{Sistem}}                                                                                                                          \\ \hline
+% 			\multicolumn{2}{c}{\textbf{Skenario normal}}                                                                                                                                                                     \\ \hline
+% 			1. Kalab memilih opsi untuk menambah jadwal baru. &                                                                                                                                                              \\
+% 			                                                  & 2. Sistem menampilkan form untuk input jadwal baru.                                                                                                          \\
+% 			                                                  & 3. Kalab mengisi form dan mengirimkan data.                                                                                                                  \\
+% 			                                                  & 4. Sistem menyimpan jadwal baru dan menampilkan konfirmasi.                                                                                                  \\ \hline
+% 			\multicolumn{2}{c}{\textbf{Skenario gagal}}                                                                                                                                                                      \\ \hline
+% 			1. Kalab memilih opsi untuk menambah jadwal baru. &                                                                                                                                                              \\
+% 			                                                  & 2. Sistem menampilkan form untuk input jadwal baru.                                                                                                          \\
+% 			                                                  & 3. Kalab mengisi form dengan data yang tidak valid.                                                                                                          \\
+% 			                                                  & 4. Sistem menampilkan pesan kesalahan dan meminta Kalab untuk memperbaiki data.                                                                              \\ \hline
+% 		\end{longtable}}
+
 % =======================================================================================================================
 \subsection{\textit{Activity Diagram}}
 \textit{Activity diagram} adalah salah satu alat dalam \textit{Unified Modeling Language} (UML) yang digunakan untuk memvisualisasikan alur kerja atau aktivitas dalam suatu sistem \cite{linzhang2004generating}. Pada sistem ini, \textit{activity diagram} memberikan gambaran rinci tentang proses yang dilalui oleh berbagai aktor seperti Admin, Kalab, Kaprodi, Sekprodi, Aslab.
