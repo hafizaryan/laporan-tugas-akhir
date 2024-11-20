@@ -1,6 +1,6 @@
-PWD c:\Users\USER PCP\OneDrive\Dokumen\GitHub\Proposal-LaTex
+PWD c:\Users\USER PCP\OneDrive\Dokumen\GitHub\proposal-latex
 INPUT C:\Users\USER PCP\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\USER PCP\OneDrive\Dokumen\GitHub\Proposal-LaTex\tugasakhir.tex
+INPUT c:\Users\USER PCP\OneDrive\Dokumen\GitHub\proposal-latex\tugasakhir.tex
 OUTPUT tugasakhir.log
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
