@@ -105,6 +105,30 @@ Al-Saqqa, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Balsamiq%
+}{%
+Balsamiq%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+balsamiq}
+\APACinsertmetastar {%
+balsamiq}%
+\begin{APACrefauthors}%
+Balsamiq.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Balsamiq.} {Balsamiq.}
+\newblock
+\begin{APACrefURL} \url{https://balsamiq.com/} \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2024-07-25}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Balza%
 , Cusatis%
 , McDonnell%

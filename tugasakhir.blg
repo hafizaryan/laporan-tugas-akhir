@@ -36,61 +36,63 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: konfigurasi/daftarpustaka.bib
+Warning--entry type for "balsamiq" isn't style-file defined
+--line 41 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "lab-si-website" isn't style-file defined
---line 1449 of file konfigurasi/daftarpustaka.bib
-Warning--entry type for "labsi2023" isn't style-file defined
 --line 1465 of file konfigurasi/daftarpustaka.bib
-Warning--entry type for "web-prodi" isn't style-file defined
+Warning--entry type for "labsi2023" isn't style-file defined
 --line 1481 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "web-prodi" isn't style-file defined
+--line 1497 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "uin-suska-website" isn't style-file defined
---line 1587 of file konfigurasi/daftarpustaka.bib
+--line 1603 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
---line 1629 of file konfigurasi/daftarpustaka.bib
+--line 1645 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in trelles2021agile
-You've used 46 entries,
+You've used 47 entries,
             6951 wiz_defined-function locations,
-            1541 strings with 20463 characters,
-and the built_in function-call counts, 98032 in all, are:
-= -- 12174
-> -- 811
-< -- 5074
-+ -- 5211
-- -- 112
-* -- 6422
-:= -- 18420
-add.period$ -- 186
-call.type$ -- 46
-change.case$ -- 785
+            1545 strings with 20520 characters,
+and the built_in function-call counts, 99418 in all, are:
+= -- 12386
+> -- 821
+< -- 5101
++ -- 5226
+- -- 116
+* -- 6472
+:= -- 18572
+add.period$ -- 190
+call.type$ -- 47
+change.case$ -- 802
 chr.to.int$ -- 0
-cite$ -- 93
-duplicate$ -- 2515
-empty$ -- 3515
-format.name$ -- 1379
-if$ -- 18205
+cite$ -- 95
+duplicate$ -- 2549
+empty$ -- 3585
+format.name$ -- 1393
+if$ -- 18531
 int.to.chr$ -- 0
-int.to.str$ -- 138
+int.to.str$ -- 141
 missing$ -- 0
-newline$ -- 1182
-num.names$ -- 368
-pop$ -- 1377
+newline$ -- 1206
+num.names$ -- 376
+pop$ -- 1397
 preamble$ -- 1
-purify$ -- 184
+purify$ -- 188
 quote$ -- 0
-skip$ -- 6358
+skip$ -- 6527
 stack$ -- 0
-substring$ -- 5597
-swap$ -- 1419
-text.length$ -- 119
+substring$ -- 5616
+swap$ -- 1434
+text.length$ -- 122
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4360
+type$ -- 4512
 warning$ -- 5
-while$ -- 469
+while$ -- 474
 width$ -- 0
-write$ -- 1506
-(There were 10 warnings)
+write$ -- 1532
+(There were 11 warnings)

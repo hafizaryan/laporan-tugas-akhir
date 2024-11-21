@@ -18,32 +18,38 @@
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Logo CodeIgniter}}{23}{figure.caption.24}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Logo Visual Studio Code}}{23}{figure.caption.25}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Logo Astah}}{23}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Logo MariaDB}}{24}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Logo XAMPP}}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Logo Balsamiq}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Logo MariaDB}}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Logo XAMPP}}{25}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodologi Penelitian}}{25}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodologi Penelitian}}{26}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Usecase Diagram} Admin}}{32}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Usecase Diagram} Kalab}}{33}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Usecase Diagram} Kaprodi}}{34}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \textit {Usecase Diagram} Sekprodi}}{35}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \textit {Usecase Diagram} Aslab}}{36}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces \textit {Activity Diagram} Login}}{37}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \textit {Activity Diagram} Tambah Dosen}}{38}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces \textit {Activity Diagram} Edit Dosen}}{39}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces \textit {Activity Diagram} Hapus Dosen}}{40}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces \textit {Activity Diagram} Tambah Mata Kuliah}}{41}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces \textit {Activity Diagram} Edit Mata Kuliah}}{42}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces \textit {Activity Diagram} Hapus Mata Kuliah}}{43}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces \textit {Activity Diagram} Tambah Jadwal}}{44}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces \textit {Activity Diagram} Edit Jadwal}}{45}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces \textit {Activity Diagram} Hapus Jadwal}}{46}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces \textit {Class Diagram} Sistem Manajemen Laboratorium}}{47}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Struktur Menu Sistem Manajemen Laboratorium}}{54}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Tampilan Kelola Jadwal Laboratorium}}{55}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Tampilan Kelola Mata Kuliah Laboratorium}}{56}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Tampilan Kelola Dosen Laboratorium}}{56}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Usecase Diagram} Admin}}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Usecase Diagram} Kalab}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Usecase Diagram} Kaprodi}}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \textit {Usecase Diagram} Sekprodi}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \textit {Usecase Diagram} Aslab}}{37}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \textit {Activity Diagram} Login}}{38}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \textit {Activity Diagram} Tambah Dosen}}{39}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \textit {Activity Diagram} Edit Dosen}}{40}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \textit {Activity Diagram} Hapus Dosen}}{41}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \textit {Activity Diagram} Tambah Mata Kuliah}}{42}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \textit {Activity Diagram} Edit Mata Kuliah}}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \textit {Activity Diagram} Hapus Mata Kuliah}}{44}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces \textit {Activity Diagram} Tambah Jadwal}}{45}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces \textit {Activity Diagram} Edit Jadwal}}{46}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \textit {Activity Diagram} Hapus Jadwal}}{47}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \textit {Class Diagram} Sistem Manajemen Laboratorium}}{48}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Struktur Menu Sistem Manajemen Laboratorium}}{55}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Tampilan Kelola Jadwal Laboratorium}}{56}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Tampilan Kelola Mata Kuliah Laboratorium}}{57}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Tampilan Kelola Dosen Laboratorium}}{57}{figure.caption.50}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Hasil Wawancara}}{A - 2}{figure.caption.52}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Hasil Wawancara}}{A - 3}{figure.caption.53}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Hasil Wawancara}}{A - 4}{figure.caption.54}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Hasil Wawancara}}{A - 5}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Hasil Wawancara}}{A - 6}{figure.caption.56}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
