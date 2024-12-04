@@ -597,37 +597,52 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 
 % =======================================================================================================================
 \subsection{Perancangan Struktur Menu}
-Perancangan menu pada sistem informasi manajemen inventaris laboratorium ini dikembangkan dengan membagi hak akses menjadi 5 (lima) tingkatan yang berbeda sesuai dengan kewenangan pengguna. Pembagian menu ini dirancang untuk memastikan setiap pengguna dapat mengakses fitur-fitur yang sesuai dengan peran dan tanggung jawab mereka dalam pengelolaan laboratorium.
+Perancangan menu sistem informasi manajemen inventaris laboratorium dibagi menjadi 5 tingkatan hak akses sesuai kewenangan pengguna. Setiap pengguna dapat mengakses fitur sesuai peran dan tanggung jawab mereka.
 
-Menu Admin sebagai tingkat akses tertinggi memiliki wewenang paling komprehensif dalam sistem. Admin dapat mengakses dan mengelola seluruh fitur yang tersedia, mulai dari pendanaan, manajemen barang, pengaturan posisi barang, penjadwalan, sistem peminjaman, dokumentasi, maintenance, hingga proses pemusnahan barang. Selain itu, Admin juga memiliki akses khusus untuk mengelola data-data institusional seperti fakultas, program studi, gedung, daftar ruangan, data dosen, mata kuliah, serta administrasi pengguna sistem.
-
-Pada tingkat Kepala Laboratorium (Kalab), menu yang tersedia hampir menyerupai menu Admin namun dengan beberapa pembatasan. Kalab dapat mengakses fitur pendanaan, pengelolaan barang, posisi barang, jadwal, peminjaman, dokumentasi, maintenance, dan pemusnahan barang. Kalab juga diberikan akses untuk mengelola data dosen, mata kuliah, dan pengguna yang terkait dengan laboratorium yang menjadi tanggung jawabnya.
-
-Menu untuk Kepala Program Studi (Kaprodi) dirancang dengan fokus pada pengawasan dan monitoring. Kaprodi dapat mengakses fitur pendanaan, manajemen barang, posisi barang, penjadwalan, peminjaman, serta dokumentasi. Struktur menu yang sama juga diberikan kepada Sekretaris Program Studi (Sekprodi), yang memungkinkan mereka untuk membantu Kaprodi dalam monitoring dan pengelolaan inventaris laboratorium di tingkat program studi.
-
-Untuk Asisten Laboratorium (Aslab), menu dirancang dengan mempertimbangkan peran mereka dalam operasional harian laboratorium. Aslab memiliki akses ke fitur pendanaan, pengelolaan barang, posisi barang, penjadwalan, dokumentasi, maintenance, dan pemusnahan barang. Pemberian akses ini memungkinkan Aslab untuk membantu dalam pengelolaan dan pemeliharaan peralatan laboratorium secara efektif.
+Menu Admin, sebagai tingkat akses tertinggi, memiliki wewenang penuh untuk mengelola semua fitur, termasuk pendanaan, manajemen barang, penjadwalan, dll. Kepala Laboratorium (Kalab) memiliki akses hampir sama dengan Admin, tetapi dengan beberapa pembatasan. Kalab dapat mengelola pendanaan, barang, jadwal, dan data dosen serta mata kuliah. Ketua Program Studi (Kaprodi) dan Sekretaris Program Studi (Sekprodi) fokus pada pengawasan dan monitoring, dengan akses ke fitur pendanaan, manajemen barang, dan dokumentasi. Asisten Laboratorium (Aslab) memiliki akses untuk mendukung operasional harian termasuk pengelolaan barang, dan pemeliharaan peralatan laboratorium.
 
 Struktur menu yang terorganisir ini dirancang untuk memudahkan pengelolaan inventaris laboratorium secara sistematis dan terkontrol. Setiap tingkatan pengguna memiliki batasan akses yang jelas, yang membantu dalam menjaga keamanan dan integritas data sistem. Perancangan menu ini menjadi landasan penting dalam pengembangan antarmuka pengguna dan implementasi berbagai fungsi sistem yang akan dibahas lebih lanjut pada bagian berikutnya. Dengan struktur menu yang terorganisir ini, diharapkan pengelolaan inventaris laboratorium dapat berjalan lebih efisien dan terkoordinasi dengan baik antar berbagai tingkatan pengguna.  Gambar struktur menu ini dapat dilihat pada \pic~\ref{StrukturMenuILMIS}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{konten/gambar/menu.png}
+	\includegraphics[width=0.82\textwidth]{konten/gambar/menu.png}
 	\caption{Struktur Menu Sistem Manajemen Laboratorium}
 	\label{StrukturMenuILMIS}
 \end{figure}
 
-Dalam pengembangan sistem kali ini, terdapat beberapa penambahan fitur baru yang ditandai dengan warna hijau pada struktur menu. Penambahan ini meliputi fitur Jadwal pada seluruh level pengguna (Admin, Kalab, Kaprodi, Sekprodi, dan Aslab), serta fitur Dosen dan Mata Kuliah yang ditambahkan pada Menu Kalab. Fitur Dosen dan Mata Kuliah yang sebelumnya hanya dapat diakses oleh Admin, kini juga dapat diakses oleh Kalab untuk memudahkan pengelolaan laboratorium yang berkaitan dengan kegiatan akademik. Pengembangan ini dilakukan untuk mengoptimalkan fungsi sistem dalam mendukung kegiatan pembelajaran dan praktikum di laboratorium, serta meningkatkan efisiensi koordinasi antara pengelola laboratorium dengan staf pengajar.
+Pengembangan sistem ini menambahkan fitur baru yang ditandai dengan warna hijau pada struktur menu, termasuk fitur Jadwal untuk semua level pengguna (Admin, Kalab, Kaprodi, Sekprodi, dan Aslab) serta fitur Dosen dan Mata Kuliah yang kini dapat diakses oleh Kalab. Penambahan ini bertujuan untuk meningkatkan pengelolaan laboratorium dan efisiensi koordinasi antara pengelola dan dosen.
 
 % =======================================================================================================================
 \subsection{Perancangan \textit{Interface}}
-Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain program sistem informasi tugas akhir yang akan dibangun. Hal ini dilakukan untuk mempermudah pengguna dalam mengetahui proses yang terdapat pada sistem informasi kerja praktek tersebut.
+Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain program sistem informasi manajemen laboratorium yang akan dibangun. Hal ini dilakukan untuk mempermudah pengguna dalam mengetahui proses yang terdapat pada sistem informasi manajemen laboratorium tersebut.
 
 \begin{enumerate}
+	\item Rancangan tampilan \textit{landing page} yang berfungsi sebagai halaman pertama untuk sistem informasi manajemen laboratorium dapat dilihat pada Gambar \pic~\ref{fig:kelola-jadwal-1}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/landing-page.png}
+		      \caption{Tampilan Halaman Utama Sistem Manajemen Laboratorium}
+		      \label{fig:kelola-jadwal-1}
+	      \end{figure}
+	\item Rancangan tampilan pilih aplikasi untuk login dapat dilihat pada Gambar \pic~\ref{fig:kelola-jadwal-2}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/pilih-login.png}
+		      \caption{Tampilan Pilihan Login untuk Sistem Manajemen Laboratorium}
+		      \label{fig:kelola-jadwal-2}
+	      \end{figure}
 	\item Rancangan tampilan kelola jadwal yang berfungsi untuk mengelola jadwal laboratorium dapat dilihat pada Gambar \pic~\ref{fig:jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal.png}
 		      \caption{Tampilan Kelola Jadwal Laboratorium}
+		      \label{fig:jadwal}
+	      \end{figure}
+	\item Rancangan tampilan tambah jadwal yang berfungsi untuk menambah jadwal laboratorium dapat dilihat pada Gambar \pic~\ref{fig:jadwal}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/tambah-jadwal.png}
+		      \caption{Tampilan Tambah Jadwal Laboratorium}
 		      \label{fig:jadwal}
 	      \end{figure}
 	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada Gambar \pic~\ref{fig:matkul}

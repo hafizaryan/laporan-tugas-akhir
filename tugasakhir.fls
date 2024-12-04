@@ -1,6 +1,6 @@
-PWD c:\Users\USER PCP\OneDrive\Dokumen\GitHub\proposal-latex
+PWD c:\Users\USER PCP\OneDrive\Dokumen\GitHub\Proposal-LaTex
 INPUT C:\Users\USER PCP\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\USER PCP\OneDrive\Dokumen\GitHub\proposal-latex\tugasakhir.tex
+INPUT c:\Users\USER PCP\OneDrive\Dokumen\GitHub\Proposal-LaTex\tugasakhir.tex
 OUTPUT tugasakhir.log
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
@@ -842,6 +842,20 @@ INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
 INPUT .\konten\gambar\user interface\ui-jadwal.png
 INPUT .\konten\gambar\user interface\ui-jadwal.png
 INPUT .\konten\gambar\user interface\ui-jadwal.png
@@ -849,6 +863,13 @@ INPUT .\konten\gambar\user interface\ui-jadwal.png
 INPUT .\konten\gambar\user interface\ui-jadwal.png
 INPUT .\konten\gambar\user interface\ui-jadwal.png
 INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
 INPUT .\konten\gambar\user interface\ui-matkul.png
 INPUT .\konten\gambar\user interface\ui-matkul.png
 INPUT .\konten\gambar\user interface\ui-matkul.png

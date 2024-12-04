@@ -67,8 +67,8 @@
 \contentsline {subsection}{\numberline {4.4.3}\textit {Class Diagram}}{47}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{48}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{54}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Perancangan \textit {Interface}}{56}{subsection.4.4.6}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.51}%
+\contentsline {subsection}{\numberline {4.4.6}Perancangan \textit {Interface}}{55}{subsection.4.4.6}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.54}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
 \contentsline {chapter}{LAMPIRAN \numberline {C}LOREM IPSUM}{C - 1}{appendix.1.C}%
