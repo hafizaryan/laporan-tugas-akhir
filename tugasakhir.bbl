@@ -52,31 +52,6 @@ Ahmed, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ahsyar%
-}{%
-Ahsyar%
-}{%
-{\protect \APACyear {2023}}%
-}]{%
-lab-si-website}
-\APACinsertmetastar {%
-lab-si-website}%
-\begin{APACrefauthors}%
-Ahsyar, T\BPBI K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-\APACrefbtitle {Laboratorium Sistem Informasi UIN Suska Riau.} {Laboratorium
-  sistem informasi uin suska riau.}
-\newblock
-\begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
-\newblock
-\APACrefnote{Akses Tanggal: 30 Oktober 2024}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Al-Saqqa%
 , Sawalha%
 \BCBL {}\ \BBA {} AbdelNabi%
@@ -631,6 +606,31 @@ La~Braca, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+lab-si.uin suska.ac.id%
+}{%
+lab-si.uin suska.ac.id%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+lab-si-website}
+\APACinsertmetastar {%
+lab-si-website}%
+\begin{APACrefauthors}%
+lab-si.uin suska.ac.id.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Laboratorium Sistem Informasi UIN Suska Riau.} {Laboratorium
+  sistem informasi uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Linzhang%
 \ \protect \BOthers {.}}{%
 Linzhang%
@@ -789,39 +789,6 @@ Pakpahan, S.%
 \newblock
 \APACjournalVolNumPages{Jurnal Teknik Informatika UNIKA Santo
   Thomas}{}{}{109--117}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Rahy%
-\ \BBA {} Bass%
-}{%
-Rahy%
-\ \BBA {} Bass%
-}{%
-{\protect \APACyear {2020}}%
-}]{%
-rahy2020implementation}
-\APACinsertmetastar {%
-rahy2020implementation}%
-\begin{APACrefauthors}%
-Rahy, S.%
-\BCBT {}\ \BBA {} Bass, J\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2020}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Implementation of agile methodology in developing
-  countries: Case study in lebanon} {Implementation of agile methodology in
-  developing countries: Case study in lebanon}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Information and Communication Technologies for
-  Development: 16th IFIP WG 9.4 International Conference on Social Implications
-  of Computers in Developing Countries, ICT4D 2020, Manchester, UK, June
-  10--11, 2020, Proceedings 16} {Information and communication technologies for
-  development: 16th ifip wg 9.4 international conference on social implications
-  of computers in developing countries, ict4d 2020, manchester, uk, june
-  10--11, 2020, proceedings 16}\ (\BPGS\ 217--228).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1017,6 +984,32 @@ sitaris-lab-si-website}%
   \end{APACrefURL}
 \newblock
 \APACrefnote{Akses Tanggal: 08 Oktober 2023}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{sitaris.lab-si.uin-suska.ac.id}%
+}{%
+{sitaris.lab-si.uin-suska.ac.id}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+sitaris}
+\APACinsertmetastar {%
+sitaris}%
+\begin{APACrefauthors}%
+{sitaris.lab-si.uin-suska.ac.id}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Sistem Informasi Inventaris Prodi Sistem Informasi UIN Suska
+  Riau.} {Sistem informasi inventaris prodi sistem informasi uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://sitaris.lab-si.uin-suska.ac.id}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1239,29 +1232,6 @@ Warren, J\BPBI S.%
 \APACaddressPublisher{}{Springer International Publishing}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-3-319-34199-6_3} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Wild%
-}{%
-Wild%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-wild2017best}
-\APACinsertmetastar {%
-wild2017best}%
-\begin{APACrefauthors}%
-Wild, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2017}.
-\newblock
-\APACrefbtitle {Best practice in inventory management} {Best practice in
-  inventory management}.
-\newblock
-\APACaddressPublisher{}{Routledge}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -27,13 +27,10 @@ Dalam proses tata kelola yang berlangsung di laboratorium Program Studi Sistem I
 	\item Sistem Informasi Inventaris disingkat yang SITARIS adalah sistem informasi inventarisasi yang memfasilitasi pengelolaan dan pemantauan alat serta barang di laboratorium, meningkatkan efisiensi dalam manajemen inventaris.
 \end{enumerate}
 
-Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Namun, beberapa sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi (KaProdi). Hal ini mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan. Penyempurnaan ini bertujuan untuk mencapai tujuan laboratorium dalam menerapkan \textit{Integrated Laboratory Management Information System} (ILMIS), yang akan mengintegrasikan seluruh aspek manajemen laboratorium, termasuk penjadwalan, ke dalam satu sistem yang efisien.
+Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Namun, beberapa sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi. Hal ini mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan. Penyempurnaan ini bertujuan untuk mencapai tujuan laboratorium dalam menerapkan \textit{Integrated Laboratory Management Information System} (ILMIS), yang akan mengintegrasikan seluruh aspek manajemen laboratorium, termasuk penjadwalan, ke dalam satu sistem yang efisien.
 
 \section{Analisis Sistem Usulan}
-\begin{enumerate}
-	\item Analisis Sistem Usulan Penjadwalan Laboratorium
-\end{enumerate}
-Pengembangan sistem ini akan menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Alur Analisis sistem usulan penjadwalan laboratorium dapat dilihat pada Gambar
+Pengembangan sistem ini akan menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Fitur ini dirancang untuk mempermudah pengelolaan jadwal kegiatan di laboratorium, sehingga setiap pengguna dapat dengan mudah mengakses dan mengelola informasi terkait jadwal. Selain itu, sistem ini juga akan mengintegrasikan sistem informasi yang sudah ada seperti Website SI, LABVIS, dan LARIS. Dengan adanya sistem ini, diharapkan akan tercipta efisiensi dalam pengelolaan waktu dan sumber daya di laboratorium, serta mengurangi kemungkinan terjadinya bentrok jadwal antara berbagai kegiatan yang berlangsung dan juga mengintegrasikan sistem yang mulanya berdiri sendiri.
 
 \section{Analisis Kebutuhan Sistem}
 \subsection{Analisis Kebutuhan Fungsional Sistem}
@@ -569,14 +566,14 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 		      {
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
-				      \caption{Tabel \textit{\textit{Database}} \textit{User}}
+				      \caption{Tabel \textit{User}}
 				      \label{admin}                                                                                                                 \\
 				      \hline
 				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}                           & \textbf{\textit{Key}} \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel \textit{\textit{Database}} \textit{User}} \space (Tabel lanjutan...)}        \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel \textit{User}} \space (Tabel lanjutan...)}                                   \\
 				      \hline
 				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}                           & \textbf{\textit{Key}} \\
 				      \hline
@@ -601,7 +598,7 @@ Perancangan menu sistem informasi manajemen inventaris laboratorium dibagi menja
 
 Menu Admin, sebagai tingkat akses tertinggi, memiliki wewenang penuh untuk mengelola semua fitur, termasuk pendanaan, manajemen barang, penjadwalan, dll. Kepala Laboratorium (Kalab) memiliki akses hampir sama dengan Admin, tetapi dengan beberapa pembatasan. Kalab dapat mengelola pendanaan, barang, jadwal, dan data dosen serta mata kuliah. Ketua Program Studi (Kaprodi) dan Sekretaris Program Studi (Sekprodi) fokus pada pengawasan dan monitoring, dengan akses ke fitur pendanaan, manajemen barang, dan dokumentasi. Asisten Laboratorium (Aslab) memiliki akses untuk mendukung operasional harian termasuk pengelolaan barang, dan pemeliharaan peralatan laboratorium.
 
-Struktur menu yang terorganisir ini dirancang untuk memudahkan pengelolaan inventaris laboratorium secara sistematis dan terkontrol. Setiap tingkatan pengguna memiliki batasan akses yang jelas, yang membantu dalam menjaga keamanan dan integritas data sistem. Perancangan menu ini menjadi landasan penting dalam pengembangan antarmuka pengguna dan implementasi berbagai fungsi sistem yang akan dibahas lebih lanjut pada bagian berikutnya. Dengan struktur menu yang terorganisir ini, diharapkan pengelolaan inventaris laboratorium dapat berjalan lebih efisien dan terkoordinasi dengan baik antar berbagai tingkatan pengguna.  Gambar struktur menu ini dapat dilihat pada \pic~\ref{StrukturMenuILMIS}
+Struktur menu yang terorganisir ini dirancang untuk memudahkan pengelolaan inventaris laboratorium secara sistematis dan terkontrol. Setiap tingkatan pengguna memiliki batasan akses yang jelas, yang membantu dalam menjaga keamanan dan integritas data sistem. Perancangan menu ini menjadi landasan penting dalam pengembangan antarmuka pengguna dan implementasi berbagai fungsi sistem yang akan dibahas lebih lanjut pada bagian berikutnya. Dengan struktur menu yang terorganisir ini, diharapkan pengelolaan inventaris laboratorium dapat berjalan lebih efisien dan terkoordinasi dengan baik antar berbagai tingkatan pengguna. Gambar struktur menu ini dapat dilihat pada \pic~\ref{StrukturMenuILMIS}
 
 \begin{figure}
 	\centering
@@ -617,42 +614,42 @@ Pengembangan sistem ini menambahkan fitur baru yang ditandai dengan warna hijau 
 Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain program sistem informasi manajemen laboratorium yang akan dibangun. Hal ini dilakukan untuk mempermudah pengguna dalam mengetahui proses yang terdapat pada sistem informasi manajemen laboratorium tersebut.
 
 \begin{enumerate}
-	\item Rancangan tampilan \textit{landing page} yang berfungsi sebagai halaman pertama untuk sistem informasi manajemen laboratorium dapat dilihat pada Gambar \pic~\ref{fig:kelola-jadwal-1}
+	\item Rancangan tampilan \textit{landing page} yang berfungsi sebagai halaman pertama untuk sistem informasi manajemen laboratorium dapat dilihat pada \pic~\ref{fig:kelola-jadwal-1}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/landing-page.png}
 		      \caption{Tampilan Halaman Utama Sistem Manajemen Laboratorium}
 		      \label{fig:kelola-jadwal-1}
 	      \end{figure}
-	\item Rancangan tampilan pilih aplikasi untuk login dapat dilihat pada Gambar \pic~\ref{fig:kelola-jadwal-2}
+	\item Rancangan tampilan pilih aplikasi untuk login dapat dilihat pada \pic~\ref{fig:kelola-jadwal-2}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/pilih-login.png}
 		      \caption{Tampilan Pilihan Login untuk Sistem Manajemen Laboratorium}
 		      \label{fig:kelola-jadwal-2}
 	      \end{figure}
-	\item Rancangan tampilan kelola jadwal yang berfungsi untuk mengelola jadwal laboratorium dapat dilihat pada Gambar \pic~\ref{fig:jadwal}
+	\item Rancangan tampilan kelola jadwal yang berfungsi untuk mengelola jadwal laboratorium dapat dilihat pada \pic~\ref{fig:jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal.png}
 		      \caption{Tampilan Kelola Jadwal Laboratorium}
 		      \label{fig:jadwal}
 	      \end{figure}
-	\item Rancangan tampilan tambah jadwal yang berfungsi untuk menambah jadwal laboratorium dapat dilihat pada Gambar \pic~\ref{fig:jadwal}
+	\item Rancangan tampilan tambah jadwal yang berfungsi untuk menambah jadwal laboratorium dapat dilihat pada \pic~\ref{fig:jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/tambah-jadwal.png}
 		      \caption{Tampilan Tambah Jadwal Laboratorium}
 		      \label{fig:jadwal}
 	      \end{figure}
-	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada Gambar \pic~\ref{fig:matkul}
+	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-matkul.png}
 		      \caption{Tampilan Kelola Mata Kuliah Laboratorium}
 		      \label{fig:matkul}
 	      \end{figure}
-	\item Rancangan tampilan kelola dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada Gambar \pic~\ref{fig:dosen}
+	\item Rancangan tampilan kelola dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:dosen}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-dosen.png}
