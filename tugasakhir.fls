@@ -355,7 +355,10 @@ INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 OUTPUT tugasakhir.toc
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\tugasakhir.lof
 INPUT .\tugasakhir.lof
 INPUT tugasakhir.lof
@@ -403,7 +406,6 @@ INPUT .\konten\gambar\lab-internet.jpg
 INPUT .\konten\gambar\lab-internet.jpg
 INPUT .\konten\gambar\lab-internet.jpg
 INPUT .\konten\gambar\lab-internet.jpg
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
@@ -411,8 +413,6 @@ INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\konten\\gambar\sitasi.png
 INPUT .\konten\\gambar\sitasi.png
 INPUT .\konten\\gambar\sitasi.png
@@ -455,6 +455,13 @@ INPUT .\konten\\gambar\labvis.png
 INPUT .\konten\\gambar\labvis.png
 INPUT .\konten\\gambar\labvis.png
 INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\Login Page.png
 INPUT .\konten\\gambar\Login Page.png
 INPUT .\konten\\gambar\Login Page.png
@@ -571,45 +578,45 @@ INPUT .\konten\gambar\uc9.jpg
 INPUT .\konten\gambar\uc9.jpg
 INPUT .\konten\gambar\uc9.jpg
 INPUT .\konten\gambar\uc9.jpg
+INPUT .\konten\gambar\ac1.png
+INPUT .\konten\gambar\ac1.png
+INPUT .\konten\gambar\ac1.png
+INPUT .\konten\gambar\ac1.png
+INPUT .\konten\gambar\ac1.png
+INPUT .\konten\gambar\ac1.png
+INPUT .\konten\gambar\ac1.png
+INPUT .\konten\gambar\ac2.png
+INPUT .\konten\gambar\ac2.png
+INPUT .\konten\gambar\ac2.png
+INPUT .\konten\gambar\ac2.png
+INPUT .\konten\gambar\ac2.png
+INPUT .\konten\gambar\ac2.png
+INPUT .\konten\gambar\ac2.png
+INPUT .\konten\gambar\ac3.png
+INPUT .\konten\gambar\ac3.png
+INPUT .\konten\gambar\ac3.png
+INPUT .\konten\gambar\ac3.png
+INPUT .\konten\gambar\ac3.png
+INPUT .\konten\gambar\ac3.png
+INPUT .\konten\gambar\ac3.png
+INPUT .\konten\gambar\ac4.png
+INPUT .\konten\gambar\ac4.png
+INPUT .\konten\gambar\ac4.png
+INPUT .\konten\gambar\ac4.png
+INPUT .\konten\gambar\ac4.png
+INPUT .\konten\gambar\ac4.png
+INPUT .\konten\gambar\ac4.png
+INPUT .\konten\gambar\ac5.png
+INPUT .\konten\gambar\ac5.png
+INPUT .\konten\gambar\ac5.png
+INPUT .\konten\gambar\ac5.png
+INPUT .\konten\gambar\ac5.png
+INPUT .\konten\gambar\ac5.png
+INPUT .\konten\gambar\ac5.png
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT .\konten\gambar\ac1.png
-INPUT .\konten\gambar\ac1.png
-INPUT .\konten\gambar\ac1.png
-INPUT .\konten\gambar\ac1.png
-INPUT .\konten\gambar\ac1.png
-INPUT .\konten\gambar\ac1.png
-INPUT .\konten\gambar\ac1.png
-INPUT .\konten\gambar\ac2.png
-INPUT .\konten\gambar\ac2.png
-INPUT .\konten\gambar\ac2.png
-INPUT .\konten\gambar\ac2.png
-INPUT .\konten\gambar\ac2.png
-INPUT .\konten\gambar\ac2.png
-INPUT .\konten\gambar\ac2.png
-INPUT .\konten\gambar\ac3.png
-INPUT .\konten\gambar\ac3.png
-INPUT .\konten\gambar\ac3.png
-INPUT .\konten\gambar\ac3.png
-INPUT .\konten\gambar\ac3.png
-INPUT .\konten\gambar\ac3.png
-INPUT .\konten\gambar\ac3.png
-INPUT .\konten\gambar\ac4.png
-INPUT .\konten\gambar\ac4.png
-INPUT .\konten\gambar\ac4.png
-INPUT .\konten\gambar\ac4.png
-INPUT .\konten\gambar\ac4.png
-INPUT .\konten\gambar\ac4.png
-INPUT .\konten\gambar\ac4.png
-INPUT .\konten\gambar\ac5.png
-INPUT .\konten\gambar\ac5.png
-INPUT .\konten\gambar\ac5.png
-INPUT .\konten\gambar\ac5.png
-INPUT .\konten\gambar\ac5.png
-INPUT .\konten\gambar\ac5.png
-INPUT .\konten\gambar\ac5.png
 INPUT .\konten\gambar\cd1.png
 INPUT .\konten\gambar\cd1.png
 INPUT .\konten\gambar\cd1.png
@@ -645,8 +652,6 @@ INPUT .\konten\gambar\cd5.png
 INPUT .\konten\gambar\cd5.png
 INPUT .\konten\gambar\cd5.png
 INPUT .\konten\gambar\cd5.png
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\konten\\gambar\logo-php.png
 INPUT .\konten\\gambar\logo-php.png
 INPUT .\konten\\gambar\logo-php.png
@@ -835,6 +840,8 @@ INPUT .\konten\gambar\class-diagram.png
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
@@ -1011,9 +1018,6 @@ INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\observasi-peminjaman-barang.png
 INPUT .\konten\\gambar\observasi-peminjaman-barang.png
 INPUT .\konten\\gambar\observasi-peminjaman-barang.png
@@ -1054,6 +1058,7 @@ OUTPUT halamanbelakang\lampiranD.aux
 INPUT .\halamanbelakang\lampiranD.tex
 INPUT .\halamanbelakang\lampiranD.tex
 INPUT halamanbelakang\lampiranD.tex
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT .\konten\gambar\source-code.png
 INPUT .\konten\gambar\source-code.png
 INPUT .\konten\gambar\source-code.png
@@ -1061,6 +1066,8 @@ INPUT .\konten\gambar\source-code.png
 INPUT .\konten\gambar\source-code.png
 INPUT .\konten\gambar\source-code.png
 INPUT .\konten\gambar\source-code.png
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\halamanbelakang\daftarRiwayatHidup.tex
 INPUT .\halamanbelakang\daftarRiwayatHidup.tex
 OUTPUT halamanbelakang\daftarRiwayatHidup.aux

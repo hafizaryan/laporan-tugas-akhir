@@ -965,7 +965,7 @@ Simanullang, H\BPBI G.%
 }{%
 {SITARIS}%
 }{%
-{\protect \APACyear {2023}}%
+{\protect \APACyear {2024}}%
 }]{%
 sitaris-lab-si-website}
 \APACinsertmetastar {%
@@ -975,7 +975,7 @@ sitaris-lab-si-website}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2023}{}{}.
+\APACrefYearMonthDay{2024}{}{}.
 \newblock
 \APACrefbtitle {SITARIS Laboratorium Sistem Informasi UIN Suska Riau.} {Sitaris
   laboratorium sistem informasi uin suska riau.}
@@ -983,7 +983,7 @@ sitaris-lab-si-website}%
 \begin{APACrefURL} \url{https://sitaris.lab-si.uin-suska.ac.id}
   \end{APACrefURL}
 \newblock
-\APACrefnote{Akses Tanggal: 08 Oktober 2023}
+\APACrefnote{Akses Tanggal: 08 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -991,7 +991,7 @@ sitaris-lab-si-website}%
 }{%
 {sitaris.lab-si.uin-suska.ac.id}%
 }{%
-{\protect \APACyear {2023}}%
+{\protect \APACyear {2024}}%
 }]{%
 sitaris}
 \APACinsertmetastar {%
@@ -1001,7 +1001,7 @@ sitaris}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2023}{}{}.
+\APACrefYearMonthDay{2024}{}{}.
 \newblock
 \APACrefbtitle {Sistem Informasi Inventaris Prodi Sistem Informasi UIN Suska
   Riau.} {Sistem informasi inventaris prodi sistem informasi uin suska riau.}

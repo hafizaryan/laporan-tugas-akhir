@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Batasan Masalah}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Tujuan}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Tujuan}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Manfaat}{5}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Sistematika Penulisan}{5}{section.1.6}%
 \contentsline {chapter}{\numberline {2}\uppercase {Landasan Teori}}{7}{chapter.2}%
@@ -28,20 +28,21 @@
 \contentsline {section}{\numberline {2.9}SIREPO}{15}{section.2.9}%
 \contentsline {section}{\numberline {2.10}Lab SI \textit {Website}}{15}{section.2.10}%
 \contentsline {section}{\numberline {2.11}LABVIS}{16}{section.2.11}%
-\contentsline {section}{\numberline {2.12}SITARIS SI}{17}{section.2.12}%
-\contentsline {section}{\numberline {2.13}Model Pengembangan Sistem}{19}{section.2.13}%
-\contentsline {section}{\numberline {2.14}\textit {Unified Modelling Language} (UML)}{20}{section.2.14}%
-\contentsline {section}{\numberline {2.15}Observasi}{22}{section.2.15}%
-\contentsline {section}{\numberline {2.16}Wawancara}{22}{section.2.16}%
-\contentsline {section}{\numberline {2.17}PHP}{22}{section.2.17}%
-\contentsline {section}{\numberline {2.18}Framework}{23}{section.2.18}%
-\contentsline {section}{\numberline {2.19}CodeIgniter}{23}{section.2.19}%
-\contentsline {section}{\numberline {2.20}Visual Studio Code}{24}{section.2.20}%
-\contentsline {section}{\numberline {2.21}Astah}{24}{section.2.21}%
-\contentsline {section}{\numberline {2.22}Balsamiq}{24}{section.2.22}%
-\contentsline {section}{\numberline {2.23}\textit {Database}}{25}{section.2.23}%
-\contentsline {section}{\numberline {2.24}MariaDB}{25}{section.2.24}%
-\contentsline {section}{\numberline {2.25}XAMPP}{26}{section.2.25}%
+\contentsline {section}{\numberline {2.12}LARIS}{17}{section.2.12}%
+\contentsline {section}{\numberline {2.13}SITARIS SI}{17}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Model Pengembangan Sistem}{19}{section.2.14}%
+\contentsline {section}{\numberline {2.15}\textit {Unified Modelling Language} (UML)}{20}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Observasi}{22}{section.2.16}%
+\contentsline {section}{\numberline {2.17}Wawancara}{23}{section.2.17}%
+\contentsline {section}{\numberline {2.18}PHP}{23}{section.2.18}%
+\contentsline {section}{\numberline {2.19}Framework}{23}{section.2.19}%
+\contentsline {section}{\numberline {2.20}CodeIgniter}{24}{section.2.20}%
+\contentsline {section}{\numberline {2.21}Visual Studio Code}{24}{section.2.21}%
+\contentsline {section}{\numberline {2.22}Astah}{25}{section.2.22}%
+\contentsline {section}{\numberline {2.23}Balsamiq}{25}{section.2.23}%
+\contentsline {section}{\numberline {2.24}\textit {Database}}{25}{section.2.24}%
+\contentsline {section}{\numberline {2.25}MariaDB}{26}{section.2.25}%
+\contentsline {section}{\numberline {2.26}XAMPP}{26}{section.2.26}%
 \contentsline {chapter}{\numberline {3}\uppercase {Metodologi Penelitian}}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Tahap Perencanaan}{27}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Identifikasi Masalah}{27}{subsection.3.1.1}%
@@ -68,8 +69,8 @@
 \contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{49}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{55}{subsection.4.4.5}%
 \contentsline {subsection}{\numberline {4.4.6}Perancangan \textit {Interface}}{56}{subsection.4.4.6}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.54}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.55}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
-\contentsline {chapter}{LAMPIRAN \numberline {C}Dokumentasi Wawancara}{C - 1}{appendix.1.C}%
-\contentsline {chapter}{LAMPIRAN \numberline {D}textit{Source Code}}{D - 1}{appendix.1.D}%
+\contentsline {chapter}{LAMPIRAN \numberline {C}DOKUMENTASI WAWANCARA}{C - 1}{appendix.1.C}%
+\contentsline {chapter}{LAMPIRAN \numberline {D}\textit {SOURCE CODE}}{D - 1}{appendix.1.D}%
