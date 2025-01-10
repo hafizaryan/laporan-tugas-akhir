@@ -1,0 +1,120 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tugasakhir.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: kontrol/cover.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: kontrol/lembarPersetujuan.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: kontrol/lembarPengesahan.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: kontrol/lembarHKI.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: kontrol/lembarPernyataan.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: halamandepan/lembarPersembahan.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: halamandepan/kataPengantar.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: halamandepan/abstrak.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: halamandepan/abstrakInggris.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: halamandepan/daftarSingkatan.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: konten/bab1.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: konten/bab2.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: konten/bab3.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: konten/bab4.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: konten/bab5.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: konten/bab6.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: halamanbelakang/lampiranA.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: halamanbelakang/lampiranB.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: halamanbelakang/lampiranC.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: halamanbelakang/lampiranD.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: halamanbelakang/daftarRiwayatHidup.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: konfigurasi/daftarpustaka.bib
+Warning--entry type for "balsamiq" isn't style-file defined
+--line 41 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "lab-si-website" isn't style-file defined
+--line 1465 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "labsi2023" isn't style-file defined
+--line 1481 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "web-prodi" isn't style-file defined
+--line 1497 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "sitaris" isn't style-file defined
+--line 1513 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "uin-suska-website" isn't style-file defined
+--line 1619 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
+--line 1661 of file konfigurasi/daftarpustaka.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in trelles2021agile
+You've used 46 entries,
+            6951 wiz_defined-function locations,
+            1549 strings with 20443 characters,
+and the built_in function-call counts, 97442 in all, are:
+= -- 12134
+> -- 802
+< -- 5014
++ -- 5128
+- -- 118
+* -- 6356
+:= -- 18230
+add.period$ -- 184
+call.type$ -- 46
+change.case$ -- 784
+chr.to.int$ -- 0
+cite$ -- 93
+duplicate$ -- 2489
+empty$ -- 3505
+format.name$ -- 1369
+if$ -- 18133
+int.to.chr$ -- 0
+int.to.str$ -- 138
+missing$ -- 0
+newline$ -- 1183
+num.names$ -- 368
+pop$ -- 1311
+preamble$ -- 1
+purify$ -- 184
+quote$ -- 0
+skip$ -- 6447
+stack$ -- 0
+substring$ -- 5495
+swap$ -- 1399
+text.length$ -- 116
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 4440
+warning$ -- 5
+while$ -- 466
+width$ -- 0
+write$ -- 1503
+(There were 12 warnings)
