@@ -45,40 +45,70 @@
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Tampilan Halaman Utama Sistem Manajemen Laboratorium}}{57}{figure.caption.65}%
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Tampilan Pilihan Login untuk Sistem Manajemen Laboratorium}}{58}{figure.caption.66}%
 \contentsline {figure}{\numberline {4.20}{\ignorespaces Tampilan Kelola Jadwal Laboratorium}}{58}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Tampilan Tambah Jadwal Laboratorium}}{59}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Tampilan Kelola Mata Kuliah Laboratorium}}{59}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Tampilan Kelola Dosen Laboratorium}}{60}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Tampilan Kelola Jadwal Laboratorium}}{59}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Tampilan Kelola Jadwal Laboratorium}}{59}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Tampilan Kelola Jadwal Laboratorium}}{60}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Tampilan Tambah Jadwal Laboratorium}}{60}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Tampilan Edit Jadwal Laboratorium}}{61}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Tampilan Kelola Mata Kuliah Laboratorium}}{61}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Tampilan Tambah Mata Kuliah Laboratorium}}{62}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Tampilan Edit Mata Kuliah Laboratorium}}{62}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Tampilan Kelola Dosen Laboratorium}}{63}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Tampilan Tambah Dosen Laboratorium}}{63}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Tampilan Edit Dosen Laboratorium}}{64}{figure.caption.78}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \textit {Database}}}{63}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Tampilan \textit {Database} Tabel Dosen}}{64}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Tampilan \textit {Database} Tabel Matkul}}{64}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Tampilan \textit {Database} Tabel Jadwal}}{65}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Tampilan \textit {Database} Tabel Ruangan}}{65}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Tampilan \textit {Database} Tabel \textit {User}}}{66}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \textit {Database}}}{67}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Tampilan \textit {Database} Tabel Dosen}}{68}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Tampilan \textit {Database} Tabel Matkul}}{68}{figure.caption.83}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Tampilan \textit {Database} Tabel Jadwal}}{69}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Tampilan \textit {Database} Tabel Ruangan}}{69}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Tampilan \textit {Database} Tabel \textit {User}}}{70}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Tampilan \textit {Routes} Dosen}}{70}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Tampilan \textit {Routes} Matkul}}{71}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Tampilan \textit {Routes} Jadwal}}{71}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Tampilan \textit {Routes} Ruangan}}{71}{figure.caption.90}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Tampilan \textit {Routes} \textit {User}}}{72}{figure.caption.91}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Implementasi Model}}{73}{figure.caption.92}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Implementasi View}}{74}{figure.caption.93}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Implementasi Controller}}{75}{figure.caption.94}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Tampilan \textit {Landing Page} Sistem Manajemen Laboratorium}}{76}{figure.caption.95}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Tampilan Pilihan Aplikasi untuk Login}}{77}{figure.caption.96}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Tampilan Pengelolaan Jadwal Laboratorium}}{77}{figure.caption.97}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Tampilan Pengelolaan Jadwal Laboratorium RSI}}{78}{figure.caption.98}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Tampilan Pengelolaan Jadwal Laboratorium SE}}{78}{figure.caption.99}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Tampilan Pengelolaan Jadwal Laboratorium INT}}{78}{figure.caption.100}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Tampilan Tambah Jadwal Laboratorium}}{79}{figure.caption.101}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Tampilan Edit Jadwal Laboratorium}}{79}{figure.caption.102}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Tampilan Kelola Mata Kuliah Laboratorium}}{80}{figure.caption.103}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Tampilan Tambah Mata Kuliah Laboratorium}}{80}{figure.caption.104}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Tampilan Edit Mata Kuliah Laboratorium}}{81}{figure.caption.105}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Tampilan Kelola Dosen Laboratorium}}{81}{figure.caption.106}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Tampilan Tambah Dosen Laboratorium}}{82}{figure.caption.107}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Tampilan Edit Dosen Laboratorium}}{82}{figure.caption.108}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Hasil Wawancara}}{A - 2}{figure.caption.80}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Hasil Wawancara}}{A - 3}{figure.caption.81}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Hasil Wawancara}}{A - 4}{figure.caption.82}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Hasil Wawancara}}{A - 5}{figure.caption.83}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Hasil Wawancara}}{A - 6}{figure.caption.84}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Hasil Wawancara}}{A - 7}{figure.caption.85}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Hasil Wawancara}}{A - 8}{figure.caption.86}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Hasil Wawancara}}{A - 9}{figure.caption.87}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Hasil Wawancara}}{A - 10}{figure.caption.88}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Hasil Wawancara}}{A - 11}{figure.caption.89}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Hasil Wawancara}}{A - 2}{figure.caption.110}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Hasil Wawancara}}{A - 3}{figure.caption.111}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Hasil Wawancara}}{A - 4}{figure.caption.112}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Hasil Wawancara}}{A - 5}{figure.caption.113}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Hasil Wawancara}}{A - 6}{figure.caption.114}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Hasil Wawancara}}{A - 7}{figure.caption.115}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Hasil Wawancara}}{A - 8}{figure.caption.116}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Hasil Wawancara}}{A - 9}{figure.caption.117}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Hasil Wawancara}}{A - 10}{figure.caption.118}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Hasil Wawancara}}{A - 11}{figure.caption.119}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Laboratorium Rekayasa Sistem Informasi \cite {labsi2023}}}{B - 1}{figure.caption.90}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Laboratorium Internet \cite {labsi2023}}}{B - 1}{figure.caption.91}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Laboratorium Internet \cite {labsi2023}}}{B - 2}{figure.caption.92}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Kegiatan Laboratorium}}{B - 2}{figure.caption.93}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Website Laboratorium Program Studi Sistem Informasi \cite {web-prodi}}}{B - 3}{figure.caption.94}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces \textit {Laboratory Visitor System (LABVIS)} \cite {web-prodi}}}{B - 3}{figure.caption.95}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces \textit {Laboratory Assistant Registration Information System (LARIS)} \cite {web-prodi}}}{B - 4}{figure.caption.96}%
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Disfungsi Fitur Peminjaman Barang}}{B - 4}{figure.caption.97}%
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Disfungsi Fitur Peminjaman Ruangan}}{B - 5}{figure.caption.98}%
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Disfungsi Pembuatan Kode Barang}}{B - 5}{figure.caption.99}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Laboratorium Rekayasa Sistem Informasi \cite {labsi2023}}}{B - 1}{figure.caption.120}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Laboratorium Internet \cite {labsi2023}}}{B - 1}{figure.caption.121}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Laboratorium Internet \cite {labsi2023}}}{B - 2}{figure.caption.122}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Kegiatan Laboratorium}}{B - 2}{figure.caption.123}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Website Laboratorium Program Studi Sistem Informasi \cite {web-prodi}}}{B - 3}{figure.caption.124}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces \textit {Laboratory Visitor System (LABVIS)} \cite {web-prodi}}}{B - 3}{figure.caption.125}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces \textit {Laboratory Assistant Registration Information System (LARIS)} \cite {web-prodi}}}{B - 4}{figure.caption.126}%
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Disfungsi Fitur Peminjaman Barang}}{B - 4}{figure.caption.127}%
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Disfungsi Fitur Peminjaman Ruangan}}{B - 5}{figure.caption.128}%
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Disfungsi Pembuatan Kode Barang}}{B - 5}{figure.caption.129}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces BUKTI WAWANCARA}}{C - 1}{figure.caption.100}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces BUKTI WAWANCARA}}{C - 1}{figure.caption.130}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces \textit {SOURCE CODE} SITARIS}}{D - 1}{figure.caption.101}%
+\contentsline {figure}{\numberline {D.1}{\ignorespaces \textit {SOURCE CODE} SITARIS}}{D - 1}{figure.caption.131}%

@@ -76,45 +76,45 @@ Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in trelles2021agile
-You've used 46 entries,
+You've used 49 entries,
             6951 wiz_defined-function locations,
-            1549 strings with 20443 characters,
-and the built_in function-call counts, 97442 in all, are:
-= -- 12134
-> -- 802
-< -- 5014
-+ -- 5128
-- -- 118
-* -- 6356
-:= -- 18230
-add.period$ -- 184
-call.type$ -- 46
-change.case$ -- 784
+            1564 strings with 20987 characters,
+and the built_in function-call counts, 103264 in all, are:
+= -- 12842
+> -- 844
+< -- 5324
++ -- 5426
+- -- 124
+* -- 6763
+:= -- 19392
+add.period$ -- 196
+call.type$ -- 49
+change.case$ -- 835
 chr.to.int$ -- 0
-cite$ -- 93
-duplicate$ -- 2489
-empty$ -- 3505
-format.name$ -- 1369
-if$ -- 18133
+cite$ -- 99
+duplicate$ -- 2624
+empty$ -- 3721
+format.name$ -- 1441
+if$ -- 19207
 int.to.chr$ -- 0
-int.to.str$ -- 138
+int.to.str$ -- 147
 missing$ -- 0
-newline$ -- 1183
-num.names$ -- 368
-pop$ -- 1311
+newline$ -- 1258
+num.names$ -- 392
+pop$ -- 1380
 preamble$ -- 1
-purify$ -- 184
+purify$ -- 196
 quote$ -- 0
-skip$ -- 6447
+skip$ -- 6809
 stack$ -- 0
-substring$ -- 5495
-swap$ -- 1399
-text.length$ -- 116
+substring$ -- 5814
+swap$ -- 1489
+text.length$ -- 122
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4440
+type$ -- 4680
 warning$ -- 5
-while$ -- 466
+while$ -- 487
 width$ -- 0
-write$ -- 1503
+write$ -- 1596
 (There were 12 warnings)

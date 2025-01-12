@@ -347,6 +347,34 @@ Feng, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Firdaus%
+\ \BBA {} Irfan%
+}{%
+Firdaus%
+\ \BBA {} Irfan%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+firdaus2020rancang}
+\APACinsertmetastar {%
+firdaus2020rancang}%
+\begin{APACrefauthors}%
+Firdaus, N.%
+\BCBT {}\ \BBA {} Irfan, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Rancang Bangun Sistem Informasi Arsip Berbasis Web
+  Menggunakan Framework Codeigniter} {Rancang bangun sistem informasi arsip
+  berbasis web menggunakan framework codeigniter}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Voteteknika (Vocational Teknik Elektronika Dan
+  Informatika)}{8}{1}{44--52}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Furterer%
 }{%
 Furterer%
@@ -518,6 +546,34 @@ Kawai, H.%
   cutaneous t-cell lymphoma}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Cancer science}{112}{6}{2426--2435}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kelvin%
+\ \BBA {} Amalia%
+}{%
+Kelvin%
+\ \BBA {} Amalia%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+kelvin2022sistem}
+\APACinsertmetastar {%
+kelvin2022sistem}%
+\begin{APACrefauthors}%
+Kelvin, K.%
+\BCBT {}\ \BBA {} Amalia, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sistem Informasi Inventaris Berbasis Qr-Code Dengan
+  Metode Rapid Application Development} {Sistem informasi inventaris berbasis
+  qr-code dengan metode rapid application development}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Information System Research
+  (JOSH)}{4}{1}{111--116}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -789,6 +845,33 @@ Pakpahan, S.%
 \newblock
 \APACjournalVolNumPages{Jurnal Teknik Informatika UNIKA Santo
   Thomas}{}{}{109--117}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rahman%
+\ \BBA {} Ratna%
+}{%
+Rahman%
+\ \BBA {} Ratna%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+rahman2018perancangan}
+\APACinsertmetastar {%
+rahman2018perancangan}%
+\begin{APACrefauthors}%
+Rahman, F.%
+\BCBT {}\ \BBA {} Ratna, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perancangan E-Learning Berbasis Web Menggunakan
+  Framework Codeigniter} {Perancangan e-learning berbasis web menggunakan
+  framework codeigniter}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Technologia: Jurnal Ilmiah}{9}{2}{95--100}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

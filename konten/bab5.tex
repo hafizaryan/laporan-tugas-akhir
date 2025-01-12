@@ -105,7 +105,7 @@ Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal",
 		      \label{tabel-jadwal}
 	      \end{figure}
 
-	\item Tabel Ruangan terdiri dari kolom id\_ruangan yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, id\_gedung menjadi kunci asing dalam tabel ruangan karena nama gedung diperlukan dalam pencatatan data ruangan, nama\_ruangan adalah kolom yang menyimpan nama ruangan yang dicatat, deskripsi\_ruangan menjelaskan detail tentang ruangan yang dicatat, gambar\_ruangan merupakan kolom untuk menyimpan data gambar dari ruangan yang dicatat. Tampilan dapat dilihat pada Gambar \ref{tabel-ruangan}.
+	\item Tabel Ruangan terdiri dari kolom id\_ruangan yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, id\_gedung menjadi kunci asing dalam tabel ruangan karena nama gedung diperlukan dalam pencatatan data ruangan, nama\_ruangan adalah kolom yang menyimpan nama ruangan yang dicatat, deskripsi\_ruangan menjelaskan detail tentang ruangan yang dicatat, gambar\_ruangan merupakan kolom untuk menyimpan data gambar dari ruangan yang dicatat. Tampilan dapat dilihat pada Gambar \ref{fig:tabel-ruangan}.
 
 	      \begin{figure}
 		      \centering
@@ -114,7 +114,7 @@ Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal",
 		      \label{fig:tabel-ruangan}
 	      \end{figure}
 
-	\item Tabel User terdiri dari kolom id\_user yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, nama merupakan kolom yang menyimpan nama pengguna, foto merupakan kolom untuk menyimpan foto profil pengguna, no\_identitas merupakan kolom yang digunakan untuk menyimpan data NIM, NIP, atau NIK dari pengguna, \textit{username} merupakan kolom yang digunakan untuk menyimpan \textit{username} pengguna, password\_hash merupakan kolom yang digunakan untuk menyimpan \textit{password} pengguna, email merupakan kolom yang digunakan untuk menyimpan email pengguna, role\_user merupakan kolom yang digunakan untuk menyimpan level akses pengguna. Tampilan dapat dilihat pada Gambar \ref{tabel-user}.
+	\item Tabel User terdiri dari kolom id\_user yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, nama merupakan kolom yang menyimpan nama pengguna, foto merupakan kolom untuk menyimpan foto profil pengguna, no\_identitas merupakan kolom yang digunakan untuk menyimpan data NIM, NIP, atau NIK dari pengguna, \textit{username} merupakan kolom yang digunakan untuk menyimpan \textit{username} pengguna, password\_hash merupakan kolom yang digunakan untuk menyimpan \textit{password} pengguna, email merupakan kolom yang digunakan untuk menyimpan email pengguna, role\_user merupakan kolom yang digunakan untuk menyimpan level akses pengguna. Tampilan dapat dilihat pada Gambar \ref{fig:tabel-user}.
 
 	      \begin{figure}
 		      \centering
@@ -124,10 +124,212 @@ Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal",
 	      \end{figure}
 \end{enumerate}
 
-
-
 \subsection{Implementasi \textit{Routes}}
+\textit{Routes} dalam konsep MVC (\textit{Model-View-Controller}) adalah mekanisme yang digunakan untuk mengatur bagaimana permintaan \textit{(requests)} dari pengguna atau klien akan ditangani oleh aplikasi web. Routes menentukan hubungan antara URL yang diminta oleh pengguna dengan controller yang akan menangani permintaan tersebut \cite{kelvin2022sistem}. Dalam pengembangan ini ditambahkan beberapa \textit{routes} untuk menangani \textit{requests} pada sistem informasi.
+
+\begin{enumerate}
+	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data dosen dapat dilihat pada Gambar \ref{fig:routes-dosen}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/dosen.png}
+		      \caption{Tampilan \textit{Routes} Dosen}
+		      \label{fig:routes-dosen}
+	      \end{figure}
+	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data matkul dapat dilihat pada Gambar \ref{fig:routes-matkul}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/matkul.png}
+		      \caption{Tampilan \textit{Routes} Matkul}
+		      \label{fig:routes-matkul}
+	      \end{figure}
+	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data jadwal dapat dilihat pada Gambar \ref{fig:routes-jadwal}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/jadwal.png}
+		      \caption{Tampilan \textit{Routes} Jadwal}
+		      \label{fig:routes-jadwal}
+	      \end{figure}
+	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data ruangan dapat dilihat pada Gambar \ref{fig:routes-ruangan}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/ruangan.png}
+		      \caption{Tampilan \textit{Routes} Ruangan}
+		      \label{fig:routes-ruangan}
+	      \end{figure}
+	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data user dapat dilihat pada Gambar \ref{fig:routes-user}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/user.png}
+		      \caption{Tampilan \textit{Routes} \textit{User}}
+		      \label{fig:routes-user}
+	      \end{figure}
+\end{enumerate}
+
 \subsection{Implementasi \textit{Model}}
+Model adalah komponen yang bertanggung jawab untuk mengatur data, aturan bisnis, dan logika aplikasi. Ini merupakan representasi dari data dalam aplikasi. Model mengelola semua operasi data, seperti pengambilan, pembaruan, dan penyimpanan data \cite{firdaus2020rancang}. Model-model ini akan diatur pada folder app/model pada \textit{framework} CodeIgniter dapat dilihat pada gambar \ref{fig:implementasi-model}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\linewidth]{konten//gambar/implementasi-folder/folder-model.png}
+	\caption{Implementasi Model}
+	\label{fig:implementasi-model}
+\end{figure}
+
+% \begin{enumerate}
+% 	\item \textit{Model} dalam implementasi Sistem Manajemen Laboratorium pada data dosen dapat dilihat pada Gambar \ref{fig:model-dosen}
+% 	      \begin{figure}
+% 		      \centering
+% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/dosen.png}
+% 		      \caption{Tampilan Model Dosen}
+% 		      \label{fig:model-dosen}
+% 	      \end{figure}
+% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data matkul dapat dilihat pada Gambar \ref{fig:model-matkul}
+% 	      \begin{figure}
+% 		      \centering
+% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/matkul.png}
+% 		      \caption{Tampilan Model Matkul}
+% 		      \label{fig:model-matkul}
+% 	      \end{figure}
+% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data jadwal dapat dilihat pada Gambar \ref{fig:model-jadwal}
+% 	      \begin{figure}
+% 		      \centering
+% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/jadwal.png}
+% 		      \caption{Tampilan Model Jadwal}
+% 		      \label{fig:model-jadwal}
+% 	      \end{figure}
+% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data ruangan dapat dilihat pada Gambar \ref{fig:model-ruangan}
+% 	      \begin{figure}
+% 		      \centering
+% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/ruangan.png}
+% 		      \caption{Tampilan Model Ruangan}
+% 		      \label{fig:model-ruangan}
+% 	      \end{figure}
+% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data user dapat dilihat pada Gambar \ref{fig:model-user}
+% 	      \begin{figure}
+% 		      \centering
+% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/user.png}
+% 		      \caption{Tampilan Model \textit{User}}
+% 		      \label{fig:model-user}
+% 	      \end{figure}
+% \end{enumerate}
+
 \subsection{Implementasi \textit{View}}
+\textit{View }adalah komponen yang menampilkan antarmuka pengguna dan menampilkan data dari Model. \textit{View} mengamati perubahan pada Model dan \textit{Controller}, dan diperbarui sesuai keadaan terkini. Penggunaan \textit{View} memisahkan tugas penyajian dan manajemen data dalam aplikasi, yang memberikan fleksibilitas dan pemeliharaan yang lebih baik \cite{firdaus2020rancang}. \textit{View} ini akan diatur pada folder app/view pada \textit{framework} CodeIgniter dapat dilihat pada gambar \ref{fig:implementasi-view}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\linewidth]{konten//gambar/implementasi-folder/folder-view.png}
+	\caption{Implementasi View}
+	\label{fig:implementasi-view}
+\end{figure}
+
 \subsection{Implementasi \textit{Controller}}
+\textit{Controller} adalah komponen yang bertanggung jawab untuk mengatur logika pengendalian atau interaksi antara Model (data), \textit{View} (tampilan), dan pengguna \cite{rahman2018perancangan}. \textit{Controller} ini akan diatur pada folder app/controller pada \textit{framework} CodeIgniter dapat dilihat pada gambar \ref{fig:implementasi-controller}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.82\linewidth]{konten//gambar/implementasi-folder/folder-controller.png}
+	\caption{Implementasi Controller}
+	\label{fig:implementasi-controller}
+\end{figure}
+
 \section{Hasil Implementasi}
+Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program sistem informasi manajemen laboratorium yang telah dibangun. Hal ini dilakukan untuk mempermudah pengguna dalam memahami proses yang terdapat pada sistem informasi manajemen laboratorium tersebut.
+
+\begin{enumerate}
+	\item Tampilan \textit{landing page} yang berfungsi sebagai halaman pertama dari sistem informasi manajemen laboratorium. Halaman ini memberikan gambaran umum dan akses awal ke fitur-fitur sistem, serta menyambut pengguna dengan antarmuka yang ramah dan informatif. Dapat dilihat pada Gambar \ref{fig:landing-page}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/landing-page.jpeg}
+		      \caption{Tampilan \textit{Landing Page} Sistem Manajemen Laboratorium}
+		      \label{fig:landing-page}
+	      \end{figure}
+	\item Tampilan pilihan aplikasi untuk login, yang memungkinkan pengguna memilih aplikasi yang ingin diakses. Tampilan ini dirancang untuk memudahkan pengguna dalam menentukan aplikasi mana yang sesuai dengan kebutuhan mereka, dengan menyediakan opsi yang jelas dan terstruktur. Dapat dilihat pada Gambar \ref{fig:pilih-login}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/pilih-aplikasi.jpeg}
+		      \caption{Tampilan Pilihan Aplikasi untuk Login}
+		      \label{fig:pilih-login}
+	      \end{figure}
+	\item Tampilan untuk mengelola jadwal laboratorium, yang memudahkan pengguna dalam mengatur dan melihat jadwal kegiatan laboratorium. Tampilan ini menyediakan fitur untuk menambah, mengedit, dan menghapus jadwal, serta menampilkan jadwal dalam format yang mudah dibaca. Dapat dilihat pada \pic~\ref{fig:jadwal} sampai \pic~\ref{fig:jadwal-int}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/jadwal.jpeg}
+		      \caption{Tampilan Pengelolaan Jadwal Laboratorium}
+		      \label{fig:jadwal}
+	      \end{figure}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/labor-rsi.png}
+		      \caption{Tampilan Pengelolaan Jadwal Laboratorium RSI}
+		      \label{fig:jadwal-rsi}
+	      \end{figure}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/labor-se.png}
+		      \caption{Tampilan Pengelolaan Jadwal Laboratorium SE}
+		      \label{fig:jadwal-se}
+	      \end{figure}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/labor-int.png}
+		      \caption{Tampilan Pengelolaan Jadwal Laboratorium INT}
+		      \label{fig:jadwal-int}
+	      \end{figure}
+	\item Tampilan untuk menambah jadwal laboratorium, yang memungkinkan pengguna menambahkan jadwal baru ke dalam sistem. Tampilan ini dilengkapi dengan form input yang intuitif, sehingga pengguna dapat dengan mudah memasukkan detail jadwal seperti waktu, tanggal, dan deskripsi kegiatan. Dapat dilihat pada Gambar \ref{fig:tambah-jadwal}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/tambah-jadwal.jpeg}
+		      \caption{Tampilan Tambah Jadwal Laboratorium}
+		      \label{fig:tambah-jadwal}
+	      \end{figure}
+	\item Tampilan untuk mengedit jadwal laboratorium, yang memudahkan pengguna dalam melakukan perubahan pada jadwal yang sudah ada. Tampilan ini menyediakan fitur untuk memperbarui informasi jadwal dengan cepat dan efisien, serta memastikan bahwa semua perubahan tersimpan dengan baik. Dapat dilihat pada Gambar \ref{fig:edit-jadwal}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/edit-jadwal.jpeg}
+		      \caption{Tampilan Edit Jadwal Laboratorium}
+		      \label{fig:edit-jadwal}
+	      \end{figure}
+	\item Tampilan untuk mengelola mata kuliah laboratorium, yang memungkinkan pengguna mengatur mata kuliah yang terkait dengan laboratorium. Tampilan ini menampilkan daftar mata kuliah yang dapat diakses dan dikelola, serta menyediakan opsi untuk menambah atau menghapus mata kuliah sesuai kebutuhan. Dapat dilihat pada Gambar \ref{fig:matkul}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/matkul.png}
+		      \caption{Tampilan Kelola Mata Kuliah Laboratorium}
+		      \label{fig:matkul}
+	      \end{figure}
+	\item Tampilan untuk menambah mata kuliah, yang memudahkan pengguna dalam menambahkan mata kuliah baru ke dalam sistem. Tampilan ini menyediakan form input yang lengkap untuk memasukkan informasi mata kuliah seperti nama, kode, dan deskripsi. Dapat dilihat pada Gambar \ref{fig:tambah-matkul}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/tambah-matkul.png}
+		      \caption{Tampilan Tambah Mata Kuliah Laboratorium}
+		      \label{fig:tambah-matkul}
+	      \end{figure}
+	\item Tampilan untuk mengedit mata kuliah laboratorium, yang memungkinkan pengguna melakukan perubahan pada mata kuliah yang sudah ada. Tampilan ini dirancang untuk memudahkan pengguna dalam memperbarui informasi mata kuliah dengan cepat dan akurat. Dapat dilihat pada Gambar \ref{fig:edit-matkul}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/edit-matkul.png}
+		      \caption{Tampilan Edit Mata Kuliah Laboratorium}
+		      \label{fig:edit-matkul}
+	      \end{figure}
+	\item Tampilan untuk mengelola dosen laboratorium, yang memudahkan pengguna dalam mengatur data dosen yang terkait dengan laboratorium. Tampilan ini menampilkan daftar dosen yang terdaftar dan menyediakan fitur untuk menambah, mengedit, atau menghapus data dosen. Dapat dilihat pada Gambar \ref{fig:dosen}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/dosen.png}
+		      \caption{Tampilan Kelola Dosen Laboratorium}
+		      \label{fig:dosen}
+	      \end{figure}
+	\item Tampilan untuk menambah dosen laboratorium, yang memungkinkan pengguna menambahkan data dosen baru ke dalam sistem. Tampilan ini dilengkapi dengan form input yang memudahkan pengguna dalam memasukkan informasi dosen seperti nama, NIDN, dan bidang keahlian. Dapat dilihat pada Gambar \ref{fig:tambah-dosen}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/tambah-dosen.png}
+		      \caption{Tampilan Tambah Dosen Laboratorium}
+		      \label{fig:tambah-dosen}
+	      \end{figure}
+	\item Tampilan untuk mengedit dosen laboratorium, yang memudahkan pengguna dalam melakukan perubahan pada data dosen yang sudah ada. Tampilan ini menyediakan fitur untuk memperbarui informasi dosen dengan mudah dan memastikan bahwa data yang tersimpan selalu akurat dan terkini. Dapat dilihat pada Gambar \ref{fig:edit-dosen}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/edit-dosen.png}
+		      \caption{Tampilan Edit Dosen Laboratorium}
+		      \label{fig:edit-dosen}
+	      \end{figure}
+\end{enumerate}

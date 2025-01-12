@@ -381,25 +381,25 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Dosen}
-				      \label{admin}                                                                                                  \\
+				      \label{admin}                                                                                         \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}}          \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}} \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Dosen} \space (Tabel lanjutan...)} \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Dosen} \space (Tabel lanjutan...)}                   \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}}          \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}} \\
 				      \hline
 				      \endhead
 
-				      id\_dosen               & tinyint                & 4                          & Primary key (A\_I)             \\
-				      nama\_dosen             & varchar                & 100                        &                                \\
-				      nip\_dosen              & varchar                & 50                         &                                \\
-				      jenis\_kelamin          & enum                   & ('Laki-laki', 'Perempuan') &                                \\
-				      email\_dosen            & varchar                & 100                        &                                \\
-				      nidn                    & varchar                & 100                        &                                \\
-				      no\_hp                  & varchar                & 100                        &                                \\
+				      id\_dosen               & tinyint                & 4                          & Primary key (A\_I)    \\
+				      nama\_dosen             & varchar                & 100                        &                       \\
+				      nip\_dosen              & varchar                & 50                         &                       \\
+				      jenis\_kelamin          & enum                   & ('Laki-laki', 'Perempuan') &                       \\
+				      email\_dosen            & varchar                & 100                        &                       \\
+				      nidn                    & varchar                & 100                        &                       \\
+				      no\_hp                  & varchar                & 100                        &                       \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -426,24 +426,24 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Matkul}
-				      \label{admin}                                                                                                   \\
+				      \label{admin}                                                                                       \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}             \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Matkul} \space (Tabel lanjutan...)} \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Matkul} \space (Tabel lanjutan...)}                \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}             \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \hline
 				      \endhead
 
-				      id\_matkul              & tinyint                & 4                        & Primary key (A\_I)                \\
-				      kode\_matkul            & varchar                & 50                       &                                   \\
-				      nama\_matkul            & varchar                & 100                      &                                   \\
-				      sks                     & tinyint                & 4                        &                                   \\
-				      semester                & tinyint                & 4                        &                                   \\
-				      jenis\_matkul           & enum                   & ('Wajib', 'Pilihan')     &                                   \\
+				      id\_matkul              & tinyint                & 4                        & Primary key (A\_I)    \\
+				      kode\_matkul            & varchar                & 50                       &                       \\
+				      nama\_matkul            & varchar                & 100                      &                       \\
+				      sks                     & tinyint                & 4                        &                       \\
+				      semester                & tinyint                & 4                        &                       \\
+				      jenis\_matkul           & enum                   & ('Wajib', 'Pilihan')     &                       \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -471,23 +471,23 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Ruangan}
-				      \label{admin}                                                                                                    \\
+				      \label{admin}                                                                                       \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}              \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Ruangan} \space (Tabel lanjutan...)} \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Ruangan} \space (Tabel lanjutan...)}               \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}              \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \
 				      \endhead
 
-				      id\_ruangan             & tinyint                & 4                        & Primary key (A\_I)                 \\
-				      id\_gedung              & tinyint                & 4                        & Foreign key                        \\
-				      nama\_ruangan           & varchar                & 100                      &                                    \\
-				      deskripsi\_ruangan      & text                   &                          &                                    \\
-				      gambar\_ruangan         & varchar                & 255                      &                                    \\
+				      id\_ruangan             & tinyint                & 4                        & Primary key (A\_I)    \\
+				      id\_gedung              & tinyint                & 4                        & Foreign key           \\
+				      nama\_ruangan           & varchar                & 100                      &                       \\
+				      deskripsi\_ruangan      & text                   &                          &                       \\
+				      gambar\_ruangan         & varchar                & 255                      &                       \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -515,31 +515,31 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Jadwal}
-				      \label{admin}                                                                                                   \\
+				      \label{admin}                                                                                       \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}             \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Jadwal} \space (Tabel lanjutan...)} \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Jadwal} \space (Tabel lanjutan...)}                \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}             \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \hline
 				      \endhead
 
-				      id\_jadwal              & tinyint                & 4                        & Primary key (A\_I)                \\
-				      id\_ruangan             & tinyint                & 4                        & Foreign key                       \\
-				      id\_matkul              & varchar                & 4                        & Foreign key                       \\
-				      id\_dosen               & varchar                & 4                        & Foreign key                       \\
-				      tanggal                 & date                   &                          &                                   \\
-				      hari                    & varchar                & 50                       &                                   \\
-				      jam\_masuk              & time                   &                          &                                   \\
-				      jam\_keluar             & time                   &                          &                                   \\
-				      deskripsi               & text                   &                          &                                   \\
-				      kode\_matkul            & tinyint                & 4                        &                                   \\
-				      nama\_matkul            & varchar                & 100                      &                                   \\
-				      nama\_dosen             & varchar                & 100                      &                                   \\
-				      nama\_ruangan           & varchar                & 100                      &                                   \\
+				      id\_jadwal              & tinyint                & 4                        & Primary key (A\_I)    \\
+				      id\_ruangan             & tinyint                & 4                        & Foreign key           \\
+				      id\_matkul              & varchar                & 4                        & Foreign key           \\
+				      id\_dosen               & varchar                & 4                        & Foreign key           \\
+				      tanggal                 & date                   &                          &                       \\
+				      hari                    & varchar                & 50                       &                       \\
+				      jam\_masuk              & time                   &                          &                       \\
+				      jam\_keluar             & time                   &                          &                       \\
+				      deskripsi               & text                   &                          &                       \\
+				      kode\_matkul            & tinyint                & 4                        &                       \\
+				      nama\_matkul            & varchar                & 100                      &                       \\
+				      nama\_dosen             & varchar                & 100                      &                       \\
+				      nama\_ruangan           & varchar                & 100                      &                       \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -635,12 +635,37 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \caption{Tampilan Kelola Jadwal Laboratorium}
 		      \label{fig:jadwal}
 	      \end{figure}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal-rsi.png}
+		      \caption{Tampilan Kelola Jadwal Laboratorium}
+		      \label{fig:jadwal}
+	      \end{figure}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal-se.png}
+		      \caption{Tampilan Kelola Jadwal Laboratorium}
+		      \label{fig:jadwal}
+	      \end{figure}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal-int.png}
+		      \caption{Tampilan Kelola Jadwal Laboratorium}
+		      \label{fig:jadwal}
+	      \end{figure}
 	\item Rancangan tampilan tambah jadwal yang berfungsi untuk menambah jadwal laboratorium dapat dilihat pada \pic~\ref{fig:jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/tambah-jadwal.png}
 		      \caption{Tampilan Tambah Jadwal Laboratorium}
 		      \label{fig:jadwal}
+	      \end{figure}
+	\item Rancangan tampilan edit jadwal yang berfungsi untuk mengedit jadwal laboratorium dapat dilihat pada \pic~\ref{fig:edit-jadwal}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-jadwal.png}
+		      \caption{Tampilan Edit Jadwal Laboratorium}
+		      \label{fig:edit-jadwal}
 	      \end{figure}
 	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul}
 	      \begin{figure}
@@ -649,11 +674,39 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \caption{Tampilan Kelola Mata Kuliah Laboratorium}
 		      \label{fig:matkul}
 	      \end{figure}
+	\item Rancangan tampilan tambah mata kuliah yang berfungsi untuk menambah mata kuliah dapat dilihat pada \pic~\ref{fig:tambah-matkul}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/tambah-matkul.png}
+		      \caption{Tampilan Tambah Mata Kuliah Laboratorium}
+		      \label{fig:tambah-matkul}
+	      \end{figure}
+	\item Rancangan tampilan edit mata kuliah yang berfungsi untuk mengedit mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:edit-matkul}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-jadwal.png}
+		      \caption{Tampilan Edit Mata Kuliah Laboratorium}
+		      \label{fig:edit-matkul}
+	      \end{figure}
 	\item Rancangan tampilan kelola dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:dosen}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-dosen.png}
 		      \caption{Tampilan Kelola Dosen Laboratorium}
 		      \label{fig:dosen}
+	      \end{figure}
+	\item Rancangan tampilan tambah dosen yang berfungsi untuk menambah dosen laboratorium dapat dilihat pada \pic~\ref{fig:tambah-dosen}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/tambah-dosen.png}
+		      \caption{Tampilan Tambah Dosen Laboratorium}
+		      \label{fig:tambah-dosen}
+	      \end{figure}
+	\item Rancangan tampilan edit dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:edit-dosen}
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-dosen.png}
+		      \caption{Tampilan Edit Dosen Laboratorium}
+		      \label{fig:edit-dosen}
 	      \end{figure}
 \end{enumerate}
