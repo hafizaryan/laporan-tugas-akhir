@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  11 JAN 2025 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  12 JAN 2025 10:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -611,9 +611,6 @@ LaTeX Warning: Label `fig:lab-int' multiply defined.
 
 
 LaTeX Warning: Label `fig:lab-int' multiply defined.
-
-
-LaTeX Warning: Label `fig:lab-se' multiply defined.
 
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
@@ -1992,6 +1989,11 @@ BAB 6.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 15.
 
+
+Underfull \hbox (badness 1286) in paragraph at lines 31--32
+[]\OT1/ptm/m/n/12 Melakukan mon-i-tor-ing dan pemeli-haraan rutin ter-hadap sis-tem un-tuk
+ []
+
 )
 
 [83
@@ -2038,12 +2040,12 @@ l.2 \include{halamanbelakang/lampiranA}
 
  (halamanbelakang/lampiranA.tex
 LAMPIRAN A.
-<konten/gambar/wawancara/1.jpg, id=1995, 2452.16125pt x 3459.92625pt>
+<konten/gambar/wawancara/1.jpg, id=1993, 2452.16125pt x 3459.92625pt>
 File: konten/gambar/wawancara/1.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/1.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/1.jpg  used on input line 20.
 (pdftex.def)             Requested size: 326.64055pt x 460.8402pt.
-<konten/gambar/wawancara/2.jpg, id=1996, 2583.6525pt x 3703.8375pt>
+<konten/gambar/wawancara/2.jpg, id=1994, 2583.6525pt x 3703.8375pt>
 File: konten/gambar/wawancara/2.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/2.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/2.jpg  used on input line 26.
@@ -2051,7 +2053,7 @@ Package pdftex.def Info: konten/gambar/wawancara/2.jpg  used on input line 26.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/3.jpg, id=1997, 2562.57375pt x 3685.77pt>
+<konten/gambar/wawancara/3.jpg, id=1995, 2562.57375pt x 3685.77pt>
 File: konten/gambar/wawancara/3.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/3.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/3.jpg  used on input line 32.
@@ -2059,7 +2061,7 @@ Package pdftex.def Info: konten/gambar/wawancara/3.jpg  used on input line 32.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/4.jpg, id=1998, 2421.045pt x 3543.2375pt>
+<konten/gambar/wawancara/4.jpg, id=1996, 2421.045pt x 3543.2375pt>
 File: konten/gambar/wawancara/4.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/4.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/4.jpg  used on input line 38.
@@ -2067,7 +2069,7 @@ Package pdftex.def Info: konten/gambar/wawancara/4.jpg  used on input line 38.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/5.jpg, id=1999, 2579.6375pt x 3638.59375pt>
+<konten/gambar/wawancara/5.jpg, id=1997, 2579.6375pt x 3638.59375pt>
 File: konten/gambar/wawancara/5.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/5.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/5.jpg  used on input line 44.
@@ -2075,7 +2077,7 @@ Package pdftex.def Info: konten/gambar/wawancara/5.jpg  used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/wawancara_1.jpg, id=2000, 1464.47125pt x 2208.25pt>
+<konten/gambar/wawancara/wawancara_1.jpg, id=1998, 1464.47125pt x 2208.25pt>
 File: konten/gambar/wawancara/wawancara_1.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/wawancara_1.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/wawancara_1.jpg  used on input line 50.
@@ -2083,7 +2085,7 @@ Package pdftex.def Info: konten/gambar/wawancara/wawancara_1.jpg  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/wawancara_2.jpg, id=2001, 1514.65875pt x 2208.25pt>
+<konten/gambar/wawancara/wawancara_2.jpg, id=1999, 1514.65875pt x 2208.25pt>
 File: konten/gambar/wawancara/wawancara_2.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/wawancara_2.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/wawancara_2.jpg  used on input line 56.
@@ -2091,7 +2093,7 @@ Package pdftex.def Info: konten/gambar/wawancara/wawancara_2.jpg  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/wawancara_3.jpg, id=2002, 1483.5425pt x 2208.25pt>
+<konten/gambar/wawancara/wawancara_3.jpg, id=2000, 1483.5425pt x 2208.25pt>
 File: konten/gambar/wawancara/wawancara_3.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/wawancara_3.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/wawancara_3.jpg  used on input line 62.
@@ -2099,7 +2101,7 @@ Package pdftex.def Info: konten/gambar/wawancara/wawancara_3.jpg  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/wawancara_4.jpg, id=2003, 1511.6475pt x 2208.25pt>
+<konten/gambar/wawancara/wawancara_4.jpg, id=2001, 1511.6475pt x 2208.25pt>
 File: konten/gambar/wawancara/wawancara_4.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/wawancara_4.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/wawancara_4.jpg  used on input line 68.
@@ -2107,7 +2109,7 @@ Package pdftex.def Info: konten/gambar/wawancara/wawancara_4.jpg  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<konten/gambar/wawancara/wawancara_5.jpg, id=2004, 1262.7175pt x 2208.25pt>
+<konten/gambar/wawancara/wawancara_5.jpg, id=2002, 1262.7175pt x 2208.25pt>
 File: konten/gambar/wawancara/wawancara_5.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara/wawancara_5.jpg>
 Package pdftex.def Info: konten/gambar/wawancara/wawancara_5.jpg  used on input line 74.
@@ -2163,7 +2165,7 @@ Package pdftex.def Info: konten/gambar/lab-se.jpg  used on input line 35.
 
 
 ]
-<konten/gambar/kegiatan.jpg, id=2063, 1606.0pt x 903.375pt>
+<konten/gambar/kegiatan.jpg, id=2061, 1606.0pt x 903.375pt>
 File: konten/gambar/kegiatan.jpg Graphic file (type jpg)
 <use konten/gambar/kegiatan.jpg>
 Package pdftex.def Info: konten/gambar/kegiatan.jpg  used on input line 42.
@@ -2186,12 +2188,12 @@ Package pdftex.def Info: konten//gambar/laris.png  used on input line 63.
 
 
 [3]
-<konten//gambar/observasi-peminjaman-barang.png, id=2087, 1407.75937pt x 756.57657pt>
+<konten//gambar/observasi-peminjaman-barang.png, id=2085, 1407.75937pt x 756.57657pt>
 File: konten//gambar/observasi-peminjaman-barang.png Graphic file (type png)
 <use konten//gambar/observasi-peminjaman-barang.png>
 Package pdftex.def Info: konten//gambar/observasi-peminjaman-barang.png  used on input line 70.
 (pdftex.def)             Requested size: 326.64055pt x 175.54436pt.
-<konten//gambar/observasi-peminjaman-ruangan.png, id=2090, 1410.0178pt x 748.29562pt>
+<konten//gambar/observasi-peminjaman-ruangan.png, id=2088, 1410.0178pt x 748.29562pt>
 File: konten//gambar/observasi-peminjaman-ruangan.png Graphic file (type png)
 <use konten//gambar/observasi-peminjaman-ruangan.png>
 Package pdftex.def Info: konten//gambar/observasi-peminjaman-ruangan.png  used on input line 77.
@@ -2199,7 +2201,7 @@ Package pdftex.def Info: konten//gambar/observasi-peminjaman-ruangan.png  used o
 
 
 [4 <./konten//gambar/observasi-peminjaman-barang.png>]
-<konten//gambar/kode-barang.png, id=2099, 1428.08531pt x 754.31813pt>
+<konten//gambar/kode-barang.png, id=2097, 1428.08531pt x 754.31813pt>
 File: konten//gambar/kode-barang.png Graphic file (type png)
 <use konten//gambar/kode-barang.png>
 Package pdftex.def Info: konten//gambar/kode-barang.png  used on input line 84.
@@ -2211,7 +2213,7 @@ Package pdftex.def Info: konten//gambar/kode-barang.png  used on input line 84.
 
  (halamanbelakang/lampiranC.tex
 LAMPIRAN C.
-<konten/gambar/wawancara.jpg, id=2108, 4095.3pt x 3071.475pt>
+<konten/gambar/wawancara.jpg, id=2106, 4095.3pt x 3071.475pt>
 File: konten/gambar/wawancara.jpg Graphic file (type jpg)
 <use konten/gambar/wawancara.jpg>
 Package pdftex.def Info: konten/gambar/wawancara.jpg  used on input line 21.
@@ -2228,7 +2230,7 @@ Package pdftex.def Info: konten/gambar/wawancara.jpg  used on input line 21.
 
  (halamanbelakang/lampiranD.tex
 LAMPIRAN D.
-<konten/gambar/source-code.png, id=2113, 1231.60126pt x 840.13875pt>
+<konten/gambar/source-code.png, id=2111, 1231.60126pt x 840.13875pt>
 File: konten/gambar/source-code.png Graphic file (type png)
 <use konten/gambar/source-code.png>
 Package pdftex.def Info: konten/gambar/source-code.png  used on input line 21.
@@ -2244,7 +2246,7 @@ Package pdftex.def Info: konten/gambar/source-code.png  used on input line 21.
 \openout2 = `halamanbelakang/daftarRiwayatHidup.aux'.
 
  (halamanbelakang/daftarRiwayatHidup.tex
-<konten/gambar/fotoprofil.jpg, id=2119, 359.3425pt x 250.9375pt>
+<konten/gambar/fotoprofil.jpg, id=2117, 359.3425pt x 250.9375pt>
 File: konten/gambar/fotoprofil.jpg Graphic file (type jpg)
 <use konten/gambar/fotoprofil.jpg>
 Package pdftex.def Info: konten/gambar/fotoprofil.jpg  used on input line 18.
@@ -2274,17 +2276,17 @@ Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
 (rerunfilecheck)             Checksum: 6A24EF81DF5F06AD070490EFCA7C2434;16342.
  ) 
 Here is how much of TeX's memory you used:
- 18009 strings out of 473899
- 325286 string characters out of 5725047
- 780948 words of memory out of 5000000
- 39880 multiletter control sequences out of 15000+600000
+ 18008 strings out of 473899
+ 325285 string characters out of 5725047
+ 781032 words of memory out of 5000000
+ 39881 multiletter control sequences out of 15000+600000
  617964 words of font info for 159 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
  94i,17n,107p,2457b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugasakhir.pdf (125 pages, 25831876 bytes).
+Output written on tugasakhir.pdf (125 pages, 25832517 bytes).
 PDF statistics:
- 2253 PDF objects out of 2487 (max. 8388607)
- 483 named destinations out of 1000 (max. 500000)
+ 2251 PDF objects out of 2487 (max. 8388607)
+ 481 named destinations out of 1000 (max. 500000)
  1375 words of extra memory for PDF output out of 10000 (max. 10000000)
 
