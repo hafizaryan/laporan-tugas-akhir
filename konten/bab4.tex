@@ -177,9 +177,9 @@ Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terleb
 	\label{usecase-diagram-sekprodi}
 \end{figure}
 
-Dalam sistem ini, Kalab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+Dalam sistem ini, Aslab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
 
-Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Kalab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
+Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Aslab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/aslab.png}
@@ -700,6 +700,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 	      \begin{table}[H]
 		      \centering
 		      \caption{Tabel Keterangan Tampilan Kelola Jadwal}
+		      \label{tab:ui-jadwal}
 		      \begin{tabular}{|c|p{0.55\textwidth}|}
 			      \hline
 			      \textbf{Nomor Callouts} & \textbf{Keterangan}                                             \\
@@ -745,6 +746,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 	      \begin{table}[H]
 		      \centering
 		      \caption{Tabel Keterangan Tampilan Tambah Jadwal}
+		      \label{tab:tambah-jadwal}
 		      \begin{tabular}{|c|p{0.55\textwidth}|}
 			      \hline
 			      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
@@ -771,42 +773,66 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \caption{Tampilan Edit Jadwal Laboratorium}
 		      \label{fig:edit-jadwal}
 	      \end{figure}
-	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul}
+
+	      \begin{table}[H]
+		      \centering
+		      \caption{Tabel Keterangan Tampilan Edit Jadwal}
+		      \label{tab:edit-jadwal}
+		      \begin{tabular}{|c|p{0.55\textwidth}|}
+			      \hline
+			      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
+			      \hline
+			      1                       & Berisi menu navigasi dengan ikon dan teks, menggunakan font-family: Poppins, font-size: 14px. Memiliki warna latar gelap dan ikon menu terorganisir vertikal. \\
+			      2                       & Field input untuk memasukkan tanggal dengan placeholder dd/mm/yyyy. Terdapat ikon kalender di sebelah kanan untuk membantu memilih tanggal.                   \\
+			      3                       & Berisi beberapa form input untuk memasukkan data berikut:                                                                                                     \\
+			                              & - Hari: Input teks untuk memilih atau memasukkan hari.                                                                                                        \\
+			                              & - Jam Masuk dan Jam Keluar: Input waktu dengan ikon jam di sebelah kanan.                                                                                     \\
+			                              & - Nama Ruangan, Nama Mata Kuliah, dan Nama Dosen: Dropdown untuk memilih opsi.                                                                                \\
+			                              & - Deskripsi: Area teks kosong untuk menambahkan keterangan lebih lanjut.                                                                                      \\
+			      4                       & Dua tombol aksi:                                                                                                                                              \\
+			                              & - Tombol Kembali: Berwarna merah (\#FF5A5F) dengan padding: 12px 24px, border-radius: 6px.                                                                    \\
+			                              & - Tombol Simpan: Berwarna biru (\#2563EB) dengan padding: 12px 24px, border-radius: 6px.                                                                      \\
+			      5                       & Teks di bagian bawah layar yang menampilkan informasi seperti hak cipta atau detail versi aplikasi. Font-size kecil dengan warna abu-abu muda.                \\
+			      \hline
+		      \end{tabular}
+	      \end{table}
+
+	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-matkul.png}
 		      \caption{Tampilan Kelola Mata Kuliah Laboratorium}
 		      \label{fig:matkul}
 	      \end{figure}
-	\item Rancangan tampilan tambah mata kuliah yang berfungsi untuk menambah mata kuliah dapat dilihat pada \pic~\ref{fig:tambah-matkul}
+	\item Rancangan tampilan tambah mata kuliah yang berfungsi untuk menambah mata kuliah dapat dilihat pada \pic~\ref{fig:tambah-matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:tambah-jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/tambah-matkul.png}
 		      \caption{Tampilan Tambah Mata Kuliah Laboratorium}
 		      \label{fig:tambah-matkul}
 	      \end{figure}
-	\item Rancangan tampilan edit mata kuliah yang berfungsi untuk mengedit mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:edit-matkul}
+	\item Rancangan tampilan edit mata kuliah yang berfungsi untuk mengedit mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:edit-matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:edit-jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-jadwal.png}
 		      \caption{Tampilan Edit Mata Kuliah Laboratorium}
 		      \label{fig:edit-matkul}
 	      \end{figure}
-	\item Rancangan tampilan kelola dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:dosen}
+	\item Rancangan tampilan kelola dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-dosen.png}
 		      \caption{Tampilan Kelola Dosen Laboratorium}
 		      \label{fig:dosen}
 	      \end{figure}
-	\item Rancangan tampilan tambah dosen yang berfungsi untuk menambah dosen laboratorium dapat dilihat pada \pic~\ref{fig:tambah-dosen}
+	\item Rancangan tampilan tambah dosen yang berfungsi untuk menambah dosen laboratorium dapat dilihat pada \pic~\ref{fig:tambah-dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:tambah-jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/tambah-dosen.png}
 		      \caption{Tampilan Tambah Dosen Laboratorium}
 		      \label{fig:tambah-dosen}
 	      \end{figure}
-	\item Rancangan tampilan edit dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:edit-dosen}
+	\item Rancangan tampilan edit dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:edit-dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:edit-jadwal}
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-dosen.png}

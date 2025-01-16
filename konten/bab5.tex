@@ -234,7 +234,50 @@ Model adalah komponen yang bertanggung jawab untuk mengatur data, aturan bisnis,
 \end{figure}
 
 \section{Hasil Implementasi}
-Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program sistem informasi manajemen laboratorium yang telah dibangun. Hal ini dilakukan untuk mempermudah pengguna dalam memahami proses yang terdapat pada sistem informasi manajemen laboratorium tersebut.
+Beberapa permasalahan yang teridentifikasi meliputi kesalahan dalam pembuatan kode barang (Lampiran B), disfungsi fitur peminjaman barang dan ruangan (Lampiran B), serta ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium (Lampiran B). Kesalahan dalam pembuatan kode barang menyebabkan ketidakakuratan dalam pencatatan dan pelacakan inventaris, yang dapat mengakibatkan kesulitan dalam manajemen barang. Disfungsi fitur peminjaman barang dan ruangan menghambat proses peminjaman yang seharusnya berjalan lancar, sehingga pengguna mengalami kesulitan dalam meminjam barang dan ruangan yang dibutuhkan. Ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium menyebabkan informasi yang disampaikan tidak sesuai dengan yang diharapkan, sehingga memerlukan penyesuaian agar laporan lebih relevan dan mudah dipahami. Saya sudah memperbaiki kesalahan ini dengan melakukan beberapa perubahan dan penyesuaian pada sistem. Hasil dari perbaikan tersebut akan saya tampilkan untuk menunjukkan peningkatan yang telah dicapai.
+
+\begin{enumerate}
+	\item Tampilan kode barang yang berfungsi untuk memberikan informasi mengenai kode barang dalam sistem manajemen laboratorium. Halaman ini memberikan gambaran umum tentang pengelolaan kode barang. Dapat dilihat pada Gambar \ref{fig:kode-barang}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/perbaikan/kode-barang.png}
+		      \caption{Tampilan Kode Barang Sistem Manajemen Laboratorium}
+		      \label{fig:kode-barang}
+	      \end{figure}
+
+	\item Tampilan pilihan peminjaman, yang memungkinkan pengguna memilih jenis peminjaman yang ingin dilakukan. Tampilan ini dirancang untuk memudahkan pengguna dalam menentukan pilihan peminjaman yang sesuai dengan kebutuhan mereka, dengan menyediakan opsi yang jelas dan terstruktur. Dapat dilihat pada Gambar \ref{fig:pilih-peminjaman}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/perbaikan/pilih-peminjaman.jpeg}
+		      \caption{Tampilan Pilihan Peminjaman}
+		      \label{fig:pilih-peminjaman}
+	      \end{figure}
+	\item Tampilan untuk pengelolaan peminjaman barang, yang memudahkan pengguna dalam mengatur dan melihat status peminjaman barang. Tampilan ini menyediakan fitur untuk menambah data peminjaman, serta menampilkan informasi peminjaman dalam format yang mudah dibaca. Dapat dilihat pada Gambar \ref{fig:peminjaman-barang}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/perbaikan/peminjaman-barang.jpeg}
+		      \caption{Tampilan Pengelolaan Peminjaman Barang}
+		      \label{fig:peminjaman-barang}
+	      \end{figure}
+
+	\item Tampilan untuk pengelolaan peminjaman ruangan, yang memungkinkan pengguna menambah data peminjaman ruangan ke dalam sistem. Tampilan ini dilengkapi dengan form input yang intuitif, sehingga pengguna dapat dengan mudah memasukkan detail peminjaman seperti waktu, tanggal, dan deskripsi kegiatan. Dapat dilihat pada Gambar \ref{fig:peminjaman-ruangan}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/perbaikan/peminjaman-ruangan.jpeg}
+		      \caption{Tampilan Pengelolaan Peminjaman Ruangan}
+		      \label{fig:peminjaman-ruangan}
+	      \end{figure}
+
+	\item Tampilan untuk memilih peminjam, yang memungkinkan pengguna menentukan peminjam yang akan melakukan peminjaman. Tampilan ini dilengkapi dengan daftar peminjam antara internal maupun eksternal, sehingga pengguna dapat dengan mudah memilih peminjam yang sesuai. Dapat dilihat pada Gambar \ref{fig:pilih-peminjam}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/perbaikan/pilih-peminjam.png}
+		      \caption{Tampilan Pilih Peminjam}
+		      \label{fig:pilih-peminjam}
+	      \end{figure}
+\end{enumerate}
+
+Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program sistem informasi manajemen laboratorium yang telah dilakukan penambahan. Hal ini dilakukan untuk mempermudah pengguna dalam memahami proses yang terdapat pada sistem informasi manajemen laboratorium tersebut.
 
 \begin{enumerate}
 	\item Tampilan \textit{landing page} yang berfungsi sebagai halaman pertama dari sistem informasi manajemen laboratorium. Halaman ini memberikan gambaran umum dan akses awal ke fitur-fitur sistem, serta menyambut pengguna dengan antarmuka yang ramah dan informatif. Dapat dilihat pada Gambar \ref{fig:landing-page}.
@@ -290,6 +333,13 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 		      \caption{Tampilan Edit Jadwal Laboratorium}
 		      \label{fig:edit-jadwal}
 	      \end{figure}
+	\item Tampilan untuk mencetak jadwal laboratorium dalam format PDF, yang memudahkan pengguna untuk menyimpan dan membagikan jadwal dalam bentuk dokumen digital. Tampilan ini menyediakan fitur untuk mengonversi jadwal yang ada menjadi file PDF dengan cepat dan efisien. Dapat dilihat pada Gambar \ref{fig:cetak-jadwal}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/cetak-jadwal.png}
+		      \caption{Tampilan Cetak Jadwal Laboratorium dalam Format PDF}
+		      \label{fig:cetak-jadwal}
+	      \end{figure}
 	\item Tampilan untuk mengelola mata kuliah laboratorium, yang memungkinkan pengguna mengatur mata kuliah yang terkait dengan laboratorium. Tampilan ini menampilkan daftar mata kuliah yang dapat diakses dan dikelola, serta menyediakan opsi untuk menambah atau menghapus mata kuliah sesuai kebutuhan. Dapat dilihat pada Gambar \ref{fig:matkul}.
 	      \begin{figure}
 		      \centering
@@ -303,6 +353,13 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/tambah-matkul.png}
 		      \caption{Tampilan Tambah Mata Kuliah Laboratorium}
 		      \label{fig:tambah-matkul}
+	      \end{figure}
+	\item Tampilan untuk mengedit mata kuliah laboratorium, yang memungkinkan pengguna melakukan perubahan pada mata kuliah yang sudah ada. Tampilan ini dirancang untuk memudahkan pengguna dalam memperbarui informasi mata kuliah dengan cepat dan akurat. Dapat dilihat pada Gambar \ref{fig:edit-matkul}.
+	      \begin{figure}
+		      \centering
+		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/edit-matkul.png}
+		      \caption{Tampilan Edit Mata Kuliah Laboratorium}
+		      \label{fig:edit-matkul}
 	      \end{figure}
 	\item Tampilan untuk mengedit mata kuliah laboratorium, yang memungkinkan pengguna melakukan perubahan pada mata kuliah yang sudah ada. Tampilan ini dirancang untuk memudahkan pengguna dalam memperbarui informasi mata kuliah dengan cepat dan akurat. Dapat dilihat pada Gambar \ref{fig:edit-matkul}.
 	      \begin{figure}
@@ -333,3 +390,44 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 		      \label{fig:edit-dosen}
 	      \end{figure}
 \end{enumerate}
+
+\section{Pengujian Sistem}
+Metode Blackbox digunakan untuk menguji fitur-fitur yang ada pada sistem. Pengujian ini dilakukan untuk memastikan bahwa setiap fungsi dalam sistem berjalan sesuai dengan spesifikasi yang telah ditentukan. Metode ini hanya berfokus pada pengujian keluaran sistem berdasarkan masukan tertentu, tanpa memperhatikan proses internal atau struktur kode.
+
+Pada pengujian Metode Blackbox, peneliti melakukan pengujian terhadap fitur-fitur yang ada pada sistem. Pengujian ini dilakukan oleh peneliti dan beberapa pengguna seperti Aslab dan Admin untuk memastikan bahwa fitur-fitur yang ada pada sistem berjalan dengan baik. Pengujian ini dapat dilihat pada Tabel~\ref{tab:PengujianBlackBox}
+
+{
+	\fontsize{10}{12}
+	\begin{longtable}{p{0.01\linewidth} p{0.15\linewidth} p{0.3\linewidth} p{0.3\linewidth} p{0.1\linewidth}}
+		\caption{Pengujian \textit{Blackbox}}\label{tab:PengujianBlackBox}                                                                                                                                           \\
+		\hline
+		\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
+		\endfirsthead
+		\caption[]{Pengujian \textit{Blackbox} (lanjutan)}                                                                                                                                                           \\
+		\hline
+		\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
+		\endhead
+		\endfoot
+		\endlastfoot
+		\centering 1  & \textit{Registrasi}    & Berhasil melakukan registrasi akun                              & Admin dapat melakukan registrasi akun untuk Kalab, Kaprodi, Sekprodi, dan Aslab & Berhasil        \\
+		\centering 2  & \textit{Login}         & Berhasil melakukan login dan masuk ke dalam sistem              & Pengguna dapat melakukan \textit{login} ke dalam sistem                         & Berhasil        \\
+		\centering 2  & \textit{Login}         & Berhasil  masuk ke dalam sistem SITARIS                         & Pengguna dapat melakukan \textit{login} ke dalam sistem  SITARIS                & Berhasil        \\
+		\centering 2  & \textit{Login}         & Berhasil  masuk ke dalam sistem LABVIS                          & Pengguna dapat melakukan \textit{login} ke dalam sistem  LABVIS                 & Berhasil        \\
+		\centering 2  & \textit{Login}         & Berhasil  masuk ke dalam sistem LARIS                           & Pengguna dapat melakukan \textit{login} ke dalam sistem  LARIS                  & Berhasil        \\
+		\centering 3  & Profil                 & Berhasil melakukan perubahan informasi pribadi                  & Pengguna dapat melakukan perubahan informasi pribadi                            & Berhasil        \\
+		\centering 7  & Tambah Jadwal          & Berhasil menambah Jadwal                                        & Pengguna berhasil menambah Jadwal                                               & Berhasil        \\
+		\centering 4  & Detail Jadwal          & Berhasil melihat detail informasi jadwal                        & Pengguna dapat melihat seluruh informasi jadwal                                 & Berhasil        \\
+		\centering 5  & Edit Jadwal            & Berhasil melakukan perubahan status seleksi administrasi jadwal & Pengguna dapat melakukan perubahan status seleksi administrasi jadwal           & Berhasil        \\
+		\centering 6  & Hapus Jadwal           & Berhasil menghapus jadwal                                       & Pengguna dapat menghapus jadwal yang sudah terdaftar di sistem                  & Berhasil        \\
+		\centering 7  & Cetak Jadwal           & Berhasil mencetak jadwal dalam bentuk PDF                       & Pengguna berhasil mencetak dan mendownload jadwal dalam bentuk PDF              & Berhasil        \\
+		\centering 7  & Tambah Dosen           & Berhasil menambah Dosen                                         & Pengguna berhasil menambah Dosen                                                & Berhasil        \\
+		\centering 4  & Detail Dosen           & Berhasil melihat detail informasi Dosen                         & Pengguna dapat melihat seluruh informasi Dosen                                  & Berhasil        \\
+		\centering 5  & Edit Dosen             & Berhasil melakukan perubahan status seleksi administrasi Dosen  & Pengguna dapat melakukan perubahan status seleksi administrasi Dosen            & Berhasil        \\
+		\centering 6  & Hapus Dosen            & Berhasil menghapus Dosen                                        & Pengguna dapat menghapus Dosen yang sudah terdaftar di sistem                   & Berhasil        \\
+		\centering 28 & Tambah Mata Kuliah     & Berhasil menambahkan mata kuliah                                & Dapat menambahkan mata kuliah                                                   & Berhasil        \\
+		\centering 29 & Edit Mata Kuliah       & Berhasil melakukan perubahan mata kuliah                        & Dapat melakukan perubahan terhadap mata kuliah                                  & Berhasil        \\
+		\centering 30 & Hapus Mata Kuliah      & Berhasil menghapus mata kuliah                                  & Dapat menghapus mata kuliah                                                     & Berhasil        \\
+		\centering 31 & Ubah \textit{password} & Berhasil melakukan perubahan \textit{password}                  & Pengguna dapat melakukan perubahan \textit{password}                            & Berhasil        \\
+		\centering 35 & \textit{Logout}        & Berhasil melakukan \textit{logout}                              & Pengguna dapat keluar dari sistem                                               & Berhasil        \\ \hline
+	\end{longtable}}
+
