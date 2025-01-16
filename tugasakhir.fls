@@ -429,6 +429,13 @@ OUTPUT halamandepan\lembarPersembahan.aux
 INPUT .\halamandepan\lembarPersembahan.tex
 INPUT .\halamandepan\lembarPersembahan.tex
 INPUT halamandepan\lembarPersembahan.tex
+INPUT .\konten\gambar\bismillah.jpg
+INPUT .\konten\gambar\bismillah.jpg
+INPUT .\konten\gambar\bismillah.jpg
+INPUT .\konten\gambar\bismillah.jpg
+INPUT .\konten\gambar\bismillah.jpg
+INPUT .\konten\gambar\bismillah.jpg
+INPUT .\konten\gambar\bismillah.jpg
 INPUT .\halamandepan\kataPengantar.tex
 INPUT .\halamandepan\kataPengantar.tex
 OUTPUT halamandepan\kataPengantar.aux
@@ -443,13 +450,10 @@ INPUT .\halamandepan\abstrak.tex
 INPUT halamandepan\abstrak.tex
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\halamandepan\abstrakInggris.tex
 INPUT .\halamandepan\abstrakInggris.tex
 OUTPUT halamandepan\abstrakInggris.aux
@@ -458,6 +462,7 @@ INPUT .\halamandepan\abstrakInggris.tex
 INPUT halamandepan\abstrakInggris.tex
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
@@ -467,6 +472,8 @@ INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\tugasakhir.toc

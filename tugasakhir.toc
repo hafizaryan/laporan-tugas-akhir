@@ -3,13 +3,13 @@
 \contentsline {chapter}{LEMBAR HAK ATAS KEKAYAAN INTELEKTUAL}{iv}{section*.5}%
 \contentsline {chapter}{LEMBAR PERNYATAAN}{v}{section*.7}%
 \contentsline {chapter}{LEMBAR PERSEMBAHAN}{vi}{section*.9}%
-\contentsline {chapter}{\uppercase {Kata Pengantar}}{vii}{section*.11}%
-\contentsline {chapter}{ABSTRAK}{viii}{section*.13}%
-\contentsline {chapter}{\emph {ABSTRACT}}{ix}{section*.15}%
-\contentsline {chapter}{DAFTAR ISI}{x}{chapter*.18}%
-\contentsline {chapter}{DAFTAR GAMBAR}{xiv}{chapter*.20}%
-\contentsline {chapter}{DAFTAR TABEL}{xviii}{chapter*.22}%
-\contentsline {chapter}{DAFTAR SINGKATAN}{xix}{section*.23}%
+\contentsline {chapter}{\uppercase {Kata Pengantar}}{vii}{section*.12}%
+\contentsline {chapter}{ABSTRAK}{ix}{section*.14}%
+\contentsline {chapter}{\emph {ABSTRACT}}{x}{section*.16}%
+\contentsline {chapter}{DAFTAR ISI}{xi}{chapter*.19}%
+\contentsline {chapter}{DAFTAR GAMBAR}{xv}{chapter*.21}%
+\contentsline {chapter}{DAFTAR TABEL}{xix}{chapter*.23}%
+\contentsline {chapter}{DAFTAR SINGKATAN}{xx}{section*.24}%
 \contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{4}{section.1.2}%
@@ -92,7 +92,7 @@
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{95}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Kesimpulan}{95}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Saran}{95}{section.6.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.120}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.121}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
 \contentsline {chapter}{LAMPIRAN \numberline {C}DOKUMENTASI WAWANCARA}{C - 1}{appendix.1.C}%
