@@ -52,6 +52,35 @@ Ahmed, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ahsyar%
+, Raharjo%
+\BCBL {}\ \BBA {} Syaifullah%
+}{%
+Ahsyar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+ahsyar2021sistem}
+\APACinsertmetastar {%
+ahsyar2021sistem}%
+\begin{APACrefauthors}%
+Ahsyar, T\BPBI K.%
+, Raharjo, T\BPBI D.%
+\BCBL {}\ \BBA {} Syaifullah, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SISTEM PAKAR DIAGNOSA PENYAKIT PADA AYAM DENGAN METODE
+  CERTAINTY FACTOR BERBASIS ANDROID} {Sistem pakar diagnosa penyakit pada ayam
+  dengan metode certainty factor berbasis android}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Jurnal Ilmiah Rekayasa dan Manajemen Sistem
+  Informasi}{7}{2}{166--172}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Al-Saqqa%
 , Sawalha%
 \BCBL {}\ \BBA {} AbdelNabi%
@@ -604,6 +633,34 @@ Kiplie, F\BPBI H.%
 \newblock
 \APACjournalVolNumPages{International Journal of Academic Research in Business
   and Social Sciences}{8}{9}{748--757}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kusuma%
+\ \BBA {} Ahsyar%
+}{%
+Kusuma%
+\ \BBA {} Ahsyar%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+kusuma2024penerapan}
+\APACinsertmetastar {%
+kusuma2024penerapan}%
+\begin{APACrefauthors}%
+Kusuma, M\BPBI W\BPBI A.%
+\BCBT {}\ \BBA {} Ahsyar, T\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Penerapan Website Laboratorium Sebagai Media Informasi
+  dengan Metode Object Oriented Analysis and Design (OOAD)} {Penerapan website
+  laboratorium sebagai media informasi dengan metode object oriented analysis
+  and design (ooad)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{JoMMiT: Jurnal Multi Media dan IT}{8}{1}{7--15}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

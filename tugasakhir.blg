@@ -67,54 +67,54 @@ Warning--entry type for "web-prodi" isn't style-file defined
 Warning--entry type for "sitaris" isn't style-file defined
 --line 1513 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "uin-suska-website" isn't style-file defined
---line 1619 of file konfigurasi/daftarpustaka.bib
+--line 1715 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
---line 1661 of file konfigurasi/daftarpustaka.bib
+--line 1757 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in trelles2021agile
-You've used 49 entries,
+You've used 51 entries,
             6951 wiz_defined-function locations,
-            1564 strings with 20987 characters,
-and the built_in function-call counts, 103264 in all, are:
-= -- 12842
-> -- 844
-< -- 5324
-+ -- 5426
-- -- 124
-* -- 6763
-:= -- 19392
-add.period$ -- 196
-call.type$ -- 49
-change.case$ -- 835
+            1574 strings with 21443 characters,
+and the built_in function-call counts, 107883 in all, are:
+= -- 13414
+> -- 877
+< -- 5587
++ -- 5711
+- -- 128
+* -- 7085
+:= -- 20321
+add.period$ -- 204
+call.type$ -- 51
+change.case$ -- 869
 chr.to.int$ -- 0
-cite$ -- 99
-duplicate$ -- 2624
-empty$ -- 3721
-format.name$ -- 1441
-if$ -- 19207
+cite$ -- 103
+duplicate$ -- 2738
+empty$ -- 3869
+format.name$ -- 1497
+if$ -- 20034
 int.to.chr$ -- 0
-int.to.str$ -- 147
+int.to.str$ -- 153
 missing$ -- 0
-newline$ -- 1258
-num.names$ -- 392
-pop$ -- 1380
+newline$ -- 1309
+num.names$ -- 408
+pop$ -- 1433
 preamble$ -- 1
-purify$ -- 196
+purify$ -- 204
 quote$ -- 0
-skip$ -- 6809
+skip$ -- 7071
 stack$ -- 0
-substring$ -- 5814
-swap$ -- 1489
-text.length$ -- 122
+substring$ -- 6122
+swap$ -- 1554
+text.length$ -- 126
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4680
+type$ -- 4840
 warning$ -- 5
-while$ -- 487
+while$ -- 506
 width$ -- 0
-write$ -- 1596
+write$ -- 1662
 (There were 12 warnings)
