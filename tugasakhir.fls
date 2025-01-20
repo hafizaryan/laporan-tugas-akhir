@@ -1,6 +1,6 @@
-PWD c:\Users\USER PCP\OneDrive - Microsoft 365\Github Project\proposal-latex
+PWD c:\xampp\htdocs\myProject\proposal-latex
 INPUT C:\Users\USER PCP\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\USER PCP\OneDrive - Microsoft 365\Github Project\proposal-latex\tugasakhir.tex
+INPUT c:\xampp\htdocs\myProject\proposal-latex\tugasakhir.tex
 OUTPUT tugasakhir.log
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls

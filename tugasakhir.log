@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  20 JAN 2025 08:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.22)  20 JAN 2025 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/USER PCP/OneDrive - Microsoft 365/Github Project/proposal-latex/tugasakhir.tex"
-(c:/Users/USER PCP/OneDrive - Microsoft 365/Github Project/proposal-latex/tugasakhir.tex
+**c:/xampp/htdocs/myProject/proposal-latex/tugasakhir.tex
+(c:/xampp/htdocs/myProject/proposal-latex/tugasakhir.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 (C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -2799,12 +2799,12 @@ Package rerunfilecheck Info: File `tugasakhir.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  18067 strings out of 473899
- 326569 string characters out of 5725047
+ 323769 string characters out of 5725047
  787010 words of memory out of 5000000
  39900 multiletter control sequences out of 15000+600000
  617964 words of font info for 159 fonts, out of 8000000 for 9000
  1212 hyphenation exceptions out of 8191
- 94i,17n,107p,2457b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,17n,107p,2423b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on tugasakhir.pdf (137 pages, 27206855 bytes).
 PDF statistics:
