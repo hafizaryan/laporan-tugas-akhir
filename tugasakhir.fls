@@ -1,6 +1,6 @@
-PWD c:\xampp\htdocs\myProject\proposal-latex
+PWD c:\Github Project\proposal-latex
 INPUT C:\Users\USER PCP\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\xampp\htdocs\myProject\proposal-latex\tugasakhir.tex
+INPUT c:\Github Project\proposal-latex\tugasakhir.tex
 OUTPUT tugasakhir.log
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
