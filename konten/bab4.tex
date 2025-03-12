@@ -18,19 +18,17 @@
 Dalam proses tata kelola yang berlangsung di laboratorium Program Studi Sistem Informasi, hingga saat ini laboratorium telah menerapkan beberapa sistem informasi untuk mengelola berbagai aspek operasionalnya. Sistem-sistem tersebut meliputi:
 
 \begin{enumerate}
-	\item LAB SI \textit{Website} adalah sistem informasi yang berfungsi untuk mengelola informasi terkait laboratorium Program Studi Sistem Informasi, mencakup profil, informasi laboratorium, rilis media, pengumuman, dan galeri kegiatan.
+	\item \textit{Laboratory Visitor Information System} yang disingkat LABVIS adalah sistem informasi yang digunakan untuk mengelola data kunjungan masuk dan keluar laboratorium, memungkinkan pemantauan dan pencatatan aktivitas pengunjung secara efisien seperti pada Gambar \ref{fig:labvis}.
 
-	\item \textit{Laboratory Visitor Information System} yang disingkat LABVIS adalah sistem informasi yang digunakan untuk mengelola data kunjungan masuk dan keluar laboratorium, memungkinkan pemantauan dan pencatatan aktivitas pengunjung secara efisien.
+	\item \textit{Laboratory Assistant Registration Information System} yang disingkat LARIS adalah sistem informasi yang digunakan untuk mengelola data pendaftar dan proses rekrutmen asisten laboratorium seperti pada Gambar \ref{fig:laris}.
 
-	\item \textit{Laboratory Assistant Registration Information System} yang disingkat LARIS adalah sistem informasi yang digunakan untuk mengelola data pendaftar dan proses rekrutmen asisten laboratorium.
-
-	\item Sistem Informasi Inventaris disingkat yang SITARIS adalah sistem informasi inventarisasi yang memfasilitasi pengelolaan dan pemantauan alat serta barang di laboratorium, meningkatkan efisiensi dalam manajemen inventaris.
+	\item Sistem Informasi Inventaris disingkat yang SITARIS adalah sistem informasi inventarisasi yang memfasilitasi pengelolaan dan pemantauan alat serta barang di laboratorium, meningkatkan efisiensi dalam manajemen inventaris seperti pada Gambar \ref{fig:sitaris}.
 \end{enumerate}
 
-Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Namun, beberapa sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi. Hal ini mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan. Penyempurnaan ini bertujuan untuk mencapai tujuan laboratorium dalam menerapkan \textit{Integrated Laboratory Management Information System} (ILMIS), yang akan mengintegrasikan seluruh aspek manajemen laboratorium, termasuk penjadwalan, ke dalam satu sistem yang efisien.
+Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Berdasarkan hasil observasi ditemukan beberapa permasalahan yang teridentifikasi meliputi kesalahan dalam pembuatan kode barang (Lampiran B), disfungsi fitur peminjaman barang dan ruangan (Lampiran B), serta ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium (Lampiran B). Sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi. Keterbatasan ini berdampak signifikan pada efektivitas manajemen laboratorium secara keseluruhan dan mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan.
 
 \section{Analisis Sistem Usulan}
-Pengembangan sistem ini akan menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Fitur ini dirancang untuk mempermudah pengelolaan jadwal kegiatan di laboratorium, sehingga setiap pengguna dapat dengan mudah mengakses dan mengelola informasi terkait jadwal. Selain itu, sistem ini juga akan mengintegrasikan sistem informasi yang sudah ada seperti Website SI, LABVIS, dan LARIS. Dengan adanya sistem ini, diharapkan akan tercipta efisiensi dalam pengelolaan waktu dan sumber daya di laboratorium, serta mengurangi kemungkinan terjadinya bentrok jadwal antara berbagai kegiatan yang berlangsung dan juga mengintegrasikan sistem yang mulanya berdiri sendiri.
+Pengembangan sistem ini menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Fitur ini dirancang untuk mempermudah pengelolaan jadwal kegiatan di laboratorium, sehingga setiap pengguna dapat dengan mudah mengakses dan mengelola informasi terkait jadwal. Selain itu, sistem ini juga akan mengintegrasikan sistem informasi yang sudah ada seperti Website SI, LABVIS, dan LARIS. Penyempurnaan ini bertujuan untuk mencapai tujuan laboratorium dalam menerapkan \textit{Integrated Laboratory Management Information System} (ILMIS), yang akan mengintegrasikan seluruh aspek manajemen laboratorium, termasuk penjadwalan, ke dalam satu sistem yang efisien. Dengan adanya sistem ini, diharapkan akan tercipta efisiensi dalam pengelolaan waktu dan sumber daya di laboratorium, serta mengurangi kemungkinan terjadinya bentrok jadwal antara berbagai kegiatan yang berlangsung dan juga mengintegrasikan sistem yang mulanya berdiri sendiri. Hasil akhir dari sistem ini adalah sebuah sistem terintegrasi yang memungkinkan semua pengguna untuk mengelola dan memantau jadwal laboratorium secara \textit{real-time}, meningkatkan koordinasi antar pengguna, dan memastikan bahwa semua kegiatan laboratorium dapat berjalan dengan lancar tanpa adanya konflik jadwal.
 
 \section{Analisis Kebutuhan Sistem}
 \subsection{Analisis Kebutuhan Fungsional Sistem}
@@ -40,17 +38,17 @@ Sistem ini dirancang untuk memenuhi berbagai kebutuhan fungsional yang esensial 
 Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan perangkat lunak dan kebutuhan perangkat keras. Analisis terhadap kebutuhan perangkat keras dilakukan untuk mengoptimalkan dan mempermudah proses perancangan serta implementasi sistem yang akan dibangun.
 % -----------------------------------------------------------------------------%
 \begin{enumerate}
-	\item  Analisis Kebutuhan Perangkat Lunak \\
+	\item Analisis Kebutuhan Perangkat Lunak \\
 	      Pada tahap analisis ini, peneliti mengidentifikasi dan mendefinisikan segala kebutuhan yang harus dipenuhi oleh sistem yang akan dikembangkan. Fokus utama dari analisis ini adalah memahami secara mendalam tujuan dan kebutuhan pengguna akhir, baik itu admin, kalab, kaprodi, sekprodi dan aslab. Analisis kebutuhan perangkat lunak dapat dilihat pada Tabel \ref{tab:AnalisisKebutuhanPerangkatLunak}
 	      \begin{longtable}{clcc}
-		      \caption{Analisis Kebutuhan Perangkat Lunak}
+		      \caption{Analisis Kebutuhan Perangkat Lunak Pengembang}
 		      \label{tab:AnalisisKebutuhanPerangkatLunak}                                                                                                               \\
 		      \hline
 		      \multicolumn{1}{l}{\textbf{No}} & \textbf{Perangkat Lunak}     & \multicolumn{1}{l}{\textbf{Versi Minimal}} & \multicolumn{1}{l}{\textbf{Versi Tersedia}} \\ \hline
 		      \endfirsthead
 		      %
 		      \multicolumn{4}{c}%
-		      {{\bfseries Table \thetable\ continued from previous page}}                                                                                               \\
+		      {{\bfseries Table \thetable\ Lanjutan...}}                                                                                                                \\
 		      \hline
 		      \multicolumn{1}{l}{\textbf{No}} & \textbf{Perangkat Lunak}     & \multicolumn{1}{l}{\textbf{Versi Minimal}} & \multicolumn{1}{l}{\textbf{Versi Tersedia}} \\ \hline
 		      \endhead
@@ -79,7 +77,7 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 		      \endfirsthead
 		      %
 		      \multicolumn{4}{c}%
-		      {{\bfseries Table \thetable\ continued from previous page}}                                                                                                                                                                       \\
+		      {{\bfseries Table \thetable\ Lanjutan...}}                                                                                                                                                                                        \\
 		      \hline
 		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                          & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                              \\ \hline
 		      \endhead
@@ -135,9 +133,9 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 
 Sistem manajemen laboratorium adalah sistem yang terkonsentrasi diurus oleh seseorang dengan peran Admin. Jenis ini digambarkan menggunakan diagram use case yang terlihat pada aktivitas interternal admin sistem dengan komponen yang ada.
 
-Dengan sistem ini terdapat 4 fungsi substansial yang dapat dipergunakan oleh adm selama mengoperasikan peralatan sistem. Fungsi - fungsi tersebut yaitu kompetensi Admin untuk menambah jadwal baru melalui menu "Tambah Jadwal Laboratorium", Edit jadwal yang bersistem dengan "Edit Jadwal Laboratorium", Menghapus schedule yang tidak diinginkan dengan "Hapus Jadwal Laboratorium", dan menampilkan history schedule dengan menjual "Lihat Jadwal Laboratorium"
+Dengan sistem ini terdapat 4 fungsi substansial yang dapat dipergunakan oleh admin selama mengoperasikan peralatan sistem. Fungsi - fungsi tersebut yaitu kompetensi Admin untuk menambah jadwal baru melalui menu "Tambah Jadwal Laboratorium", Edit jadwal yang bersistem dengan "Edit Jadwal Laboratorium", Menghapus schedule yang tidak diinginkan dengan "Hapus Jadwal Laboratorium", dan menampilkan history schedule dengan menjual "Lihat Jadwal Laboratorium"
 
-Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi “include” pada diagram. Tiga fungsi utama yaitu penambahan, pengeditan, dan penghapusan jadwal termasuk kedalam scope otoritas Adm, oleh sebab itu fungsi ini harus log in terlebih dahulu saat meta ternotfied. Sementara itu fungsi melihat jadual bagi pelaksana lab tidak mensyaratkan kuliah dahulu seperti yang ternyata dalam Gambar
+Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi “include” pada diagram. Tiga fungsi utama yaitu penambahan, pengeditan, dan penghapusan jadwal termasuk kedalam scope otoritas Admin, oleh sebab itu fungsi ini harus log in terlebih dahulu saat meta ternotfied. Sementara itu fungsi melihat jadual bagi pelaksana lab tidak mensyaratkan kuliah dahulu seperti yang ternyata dalam Gambar
 
 \ref{usecase-diagram-admin}.
 \begin{figure}
@@ -622,7 +620,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:kelola-jadwal-1}
 	      \end{figure}
 
-	      \begin{longtable}{|c|p{0.55\textwidth}|}
+	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Halaman Utama Sistem Manajemen Laboratorium}                                                                 \\
 		      \hline
 		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                   \\
@@ -635,7 +633,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \hline
 		      \endhead
 
-		      \hline \multicolumn{2}{|r|}{{\textit{Bersambung ke halaman berikutnya...}}}                                                                     \\
+		      \multicolumn{2}{r}{{\textit{Bersambung ke halaman berikutnya...}}}                                                                              \\
 		      \endfoot
 
 		      \hline
@@ -672,22 +670,33 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:kelola-jadwal-2}
 	      \end{figure}
 
-	      \begin{table}[H]
-		      \centering
-		      \caption{Tabel Keterangan Tampilan Halaman Selamat Datang}
-		      \begin{tabular}{|c|p{0.55\textwidth}|}
-			      \hline
-			      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                          \\
-			      \hline
-			      1                       & Text header "Selamat Datang" dengan fonts Poppins, warna font \#73879C                       \\
-			      2                       & Text sub-header "Silahkan pilih aplikasi yang akan anda gunakan" dengan fonts Helvetica Neue \\
-			      3                       & Container card dengan background color \#FFFFFF dan border-radius 8px                        \\
-			      4                       & Link ILMIS dengan icon users dan text "Integrated Laboratory Management Information System"  \\
-			      5                       & Link LABVIS dengan icon users dan text "Laboratory Visitor Information System"               \\
-			      6                       & Link LARIS dengan icon users dan text "Laboratory Assistant Registration Information System" \\
-			      \hline
-		      \end{tabular}
-	      \end{table}
+	      \begin{longtable}{c p{0.55\textwidth}}
+		      \caption{Tabel Keterangan Tampilan Halaman Selamat Datang}                                                             \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                          \\
+		      \hline
+		      \endfirsthead
+
+		      \multicolumn{2}{c}{{\textit{Lanjutan dari halaman sebelumnya...}}}                                                     \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                          \\
+		      \hline
+		      \endhead
+
+		      \multicolumn{2}{r}{{\textit{Bersambung ke halaman berikutnya...}}}                                                     \\
+		      \endfoot
+
+		      \hline
+		      \endlastfoot
+
+		      1                       & Text header "Selamat Datang" dengan fonts Poppins, warna font \#73879C                       \\
+		      2                       & Text sub-header "Silahkan pilih aplikasi yang akan anda gunakan" dengan fonts Helvetica Neue \\
+		      3                       & Container card dengan background color \#FFFFFF dan border-radius 8px                        \\
+		      4                       & Link ILMIS dengan icon users dan text "Integrated Laboratory Management Information System"  \\
+		      5                       & Link LABVIS dengan icon users dan text "Laboratory Visitor Information System"               \\
+		      6                       & Link LARIS dengan icon users dan text "Laboratory Assistant Registration Information System" \\
+		      \hline
+	      \end{longtable}
 
 	\item Rancangan tampilan kelola jadwal yang berfungsi untuk mengelola jadwal laboratorium dapat dilihat pada \pic~\ref{fig:jadwal}
 	      \begin{figure}
@@ -697,26 +706,31 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:jadwal}
 	      \end{figure}
 
-	      \begin{table}[H]
-		      \centering
+	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Kelola Jadwal}
-		      \label{tab:ui-jadwal}
-		      \begin{tabular}{|c|p{0.55\textwidth}|}
-			      \hline
-			      \textbf{Nomor Callouts} & \textbf{Keterangan}                                             \\
-			      \hline
-			      1                       & Button "Admin" dengan icon arrow-right di pojok kanan atas      \\
-			      2                       & Text "Logout Aktif: Beranda / Jadwal" dengan alignment right    \\
-			      3                       & Profile section dengan nama user "NIM: 1234567" dan foto profil \\
-			      4                       & Text header "Jadwal" dengan fonts Helvetica Neue                \\
-			      5                       & Button "Tambah Data" dengan warna primary (\#2563EB)            \\
-			      6                       & Search input field dengan icon search di sebelah kanan          \\
-			      7                       & Action buttons (edit, delete, info) di kolom Aksi               \\
-			      8                       & Data table dengan kolom: No, Hari/Tanggal, Jam, Ruangan, Aksi   \\
-			      9                       & Sidebar menu dengan icons dan text untuk navigasi sistem        \\
-			      \hline
-		      \end{tabular}
-	      \end{table}
+		      \label{tab:ui-jadwal}                                                                                           \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                   \\
+		      \hline
+		      \endfirsthead
+
+		      \multicolumn{2}{c}{\tablename\ \thetable\ {Tabel Keterangan Tampilan Kelola Jadwal} \space (Tabel lanjutan...)} \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                   \\
+		      \hline
+		      \endhead
+
+		      1                       & Button "Admin" dengan icon arrow-right di pojok kanan atas                            \\
+		      2                       & Text "Logout Aktif: Beranda / Jadwal" dengan alignment right                          \\
+		      3                       & Profile section dengan nama user "NIM: 1234567" dan foto profil                       \\
+		      4                       & Text header "Jadwal" dengan fonts Helvetica Neue                                      \\
+		      5                       & Button "Tambah Data" dengan warna primary (\#2563EB)                                  \\
+		      6                       & Search input field dengan icon search di sebelah kanan                                \\
+		      7                       & Action buttons (edit, delete, info) di kolom Aksi                                     \\
+		      8                       & Data table dengan kolom: No, Hari/Tanggal, Jam, Ruangan, Aksi                         \\
+		      9                       & Sidebar menu dengan icons dan text untuk navigasi sistem                              \\
+		      \hline
+	      \end{longtable}
 
 	      \begin{figure}
 		      \centering
@@ -743,28 +757,39 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \caption{Tampilan Tambah Jadwal Laboratorium}
 		      \label{fig:jadwal}
 	      \end{figure}
-	      \begin{table}[H]
-		      \centering
+	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Tambah Jadwal}
-		      \label{tab:tambah-jadwal}
-		      \begin{tabular}{|c|p{0.55\textwidth}|}
-			      \hline
-			      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
-			      \hline
-			      1                       & Berisi menu navigasi dengan ikon dan teks, menggunakan font-family: Poppins, font-size: 14px. Memiliki warna latar gelap dan ikon menu terorganisir vertikal. \\
-			      2                       & Field input untuk memasukkan tanggal dengan placeholder dd/mm/yyyy. Terdapat ikon kalender di sebelah kanan untuk membantu memilih tanggal.                   \\
-			      3                       & Berisi beberapa form input untuk memasukkan data berikut:                                                                                                     \\
-			                              & - Hari: Input teks untuk memilih atau memasukkan hari.                                                                                                        \\
-			                              & - Jam Masuk dan Jam Keluar: Input waktu dengan ikon jam di sebelah kanan.                                                                                     \\
-			                              & - Nama Ruangan, Nama Mata Kuliah, dan Nama Dosen: Dropdown untuk memilih opsi.                                                                                \\
-			                              & - Deskripsi: Area teks kosong untuk menambahkan keterangan lebih lanjut.                                                                                      \\
-			      4                       & Dua tombol aksi:                                                                                                                                              \\
-			                              & - Tombol Kembali: Berwarna merah (\#FF5A5F) dengan padding: 12px 24px, border-radius: 6px.                                                                    \\
-			                              & - Tombol Simpan: Berwarna biru (\#2563EB) dengan padding: 12px 24px, border-radius: 6px.                                                                      \\
-			      5                       & Teks di bagian bawah layar yang menampilkan informasi seperti hak cipta atau detail versi aplikasi. Font-size kecil dengan warna abu-abu muda.                \\
-			      \hline
-		      \end{tabular}
-	      \end{table}
+		      \label{tab:tambah-jadwal}                                                                                                                                                               \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
+		      \hline
+		      \endfirsthead
+
+		      \multicolumn{2}{c}{{\textit{Lanjutan dari halaman sebelumnya...}}}                                                                                                                      \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
+		      \hline
+		      \endhead
+
+					\multicolumn{2}{r}{{\textit{Bersambung ke halaman berikutnya...}}}                                                     \\
+		      \endfoot
+
+		      \hline
+		      \endlastfoot 
+
+		      1                       & Berisi menu navigasi dengan ikon dan teks, menggunakan font-family: Poppins, font-size: 14px. Memiliki warna latar gelap dan ikon menu terorganisir vertikal. \\
+		      2                       & Field input untuk memasukkan tanggal dengan placeholder dd/mm/yyyy. Terdapat ikon kalender di sebelah kanan untuk membantu memilih tanggal.                   \\
+		      3                       & Berisi beberapa form input untuk memasukkan data berikut:                                                                                                     \\
+		                              & - Hari: Input teks untuk memilih atau memasukkan hari.                                                                                                        \\
+		                              & - Jam Masuk dan Jam Keluar: Input waktu dengan ikon jam di sebelah kanan.                                                                                     \\
+		                              & - Nama Ruangan, Nama Mata Kuliah, dan Nama Dosen: Dropdown untuk memilih opsi.                                                                                \\
+		                              & - Deskripsi: Area teks kosong untuk menambahkan keterangan lebih lanjut.                                                                                      \\
+		      4                       & Dua tombol aksi:                                                                                                                                              \\
+		                              & - Tombol Kembali: Berwarna merah (\#FF5A5F) dengan padding: 12px 24px, border-radius: 6px.                                                                    \\
+		                              & - Tombol Simpan: Berwarna biru (\#2563EB) dengan padding: 12px 24px, border-radius: 6px.                                                                      \\
+		      5                       & Teks di bagian bawah layar yang menampilkan informasi seperti hak cipta atau detail versi aplikasi. Font-size kecil dengan warna abu-abu muda.                \\
+		      \hline
+	      \end{longtable}
 
 	\item Rancangan tampilan edit jadwal yang berfungsi untuk mengedit jadwal laboratorium dapat dilihat pada \pic~\ref{fig:edit-jadwal}
 	      \begin{figure}
@@ -774,28 +799,33 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:edit-jadwal}
 	      \end{figure}
 
-	      \begin{table}[H]
-		      \centering
+	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Edit Jadwal}
-		      \label{tab:edit-jadwal}
-		      \begin{tabular}{|c|p{0.55\textwidth}|}
-			      \hline
-			      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
-			      \hline
-			      1                       & Berisi menu navigasi dengan ikon dan teks, menggunakan font-family: Poppins, font-size: 14px. Memiliki warna latar gelap dan ikon menu terorganisir vertikal. \\
-			      2                       & Field input untuk memasukkan tanggal dengan placeholder dd/mm/yyyy. Terdapat ikon kalender di sebelah kanan untuk membantu memilih tanggal.                   \\
-			      3                       & Berisi beberapa form input untuk memasukkan data berikut:                                                                                                     \\
-			                              & - Hari: Input teks untuk memilih atau memasukkan hari.                                                                                                        \\
-			                              & - Jam Masuk dan Jam Keluar: Input waktu dengan ikon jam di sebelah kanan.                                                                                     \\
-			                              & - Nama Ruangan, Nama Mata Kuliah, dan Nama Dosen: Dropdown untuk memilih opsi.                                                                                \\
-			                              & - Deskripsi: Area teks kosong untuk menambahkan keterangan lebih lanjut.                                                                                      \\
-			      4                       & Dua tombol aksi:                                                                                                                                              \\
-			                              & - Tombol Kembali: Berwarna merah (\#FF5A5F) dengan padding: 12px 24px, border-radius: 6px.                                                                    \\
-			                              & - Tombol Simpan: Berwarna biru (\#2563EB) dengan padding: 12px 24px, border-radius: 6px.                                                                      \\
-			      5                       & Teks di bagian bawah layar yang menampilkan informasi seperti hak cipta atau detail versi aplikasi. Font-size kecil dengan warna abu-abu muda.                \\
-			      \hline
-		      \end{tabular}
-	      \end{table}
+		      \label{tab:edit-jadwal}                                                                                                                                                                 \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
+		      \hline
+		      \endfirsthead
+
+		      \multicolumn{2}{c}{\tablename\ \thetable\ {Tabel Keterangan Tampilan Edit Jadwal} \space (Tabel lanjutan...)}                                                                           \\
+		      \hline
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
+		      \hline
+		      \endhead
+
+		      1                       & Berisi menu navigasi dengan ikon dan teks, menggunakan font-family: Poppins, font-size: 14px. Memiliki warna latar gelap dan ikon menu terorganisir vertikal. \\
+		      2                       & Field input untuk memasukkan tanggal dengan placeholder dd/mm/yyyy. Terdapat ikon kalender di sebelah kanan untuk membantu memilih tanggal.                   \\
+		      3                       & Berisi beberapa form input untuk memasukkan data berikut:                                                                                                     \\
+		                              & - Hari: Input teks untuk memilih atau memasukkan hari.                                                                                                        \\
+		                              & - Jam Masuk dan Jam Keluar: Input waktu dengan ikon jam di sebelah kanan.                                                                                     \\
+		                              & - Nama Ruangan, Nama Mata Kuliah, dan Nama Dosen: Dropdown untuk memilih opsi.                                                                                \\
+		                              & - Deskripsi: Area teks kosong untuk menambahkan keterangan lebih lanjut.                                                                                      \\
+		      4                       & Dua tombol aksi:                                                                                                                                              \\
+		                              & - Tombol Kembali: Berwarna merah (\#FF5A5F) dengan padding: 12px 24px, border-radius: 6px.                                                                    \\
+		                              & - Tombol Simpan: Berwarna biru (\#2563EB) dengan padding: 12px 24px, border-radius: 6px.                                                                      \\
+		      5                       & Teks di bagian bawah layar yang menampilkan informasi seperti hak cipta atau detail versi aplikasi. Font-size kecil dengan warna abu-abu muda.                \\
+		      \hline
+	      \end{longtable}
 
 	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}
 	      \begin{figure}
