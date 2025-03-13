@@ -48,7 +48,7 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 		      \endfirsthead
 		      %
 		      \multicolumn{4}{c}%
-		      {{\bfseries Table \thetable\ Lanjutan...}}                                                                                                                \\
+		      {{\bfseries Analisis Kebutuhan Perangkat Lunak Pengembang \thetable\ (Tabel Lanjutan...)}}                                                                \\
 		      \hline
 		      \multicolumn{1}{l}{\textbf{No}} & \textbf{Perangkat Lunak}     & \multicolumn{1}{l}{\textbf{Versi Minimal}} & \multicolumn{1}{l}{\textbf{Versi Tersedia}} \\ \hline
 		      \endhead
@@ -68,7 +68,8 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 	      \end{longtable}
 
 	\item Analisis Kebutuhan Perangkat Keras \\
-	      Pada tahap analisis ini, peneliti melakukan identifikasi dan mendefinisikan segala kebutuhan yang harus dipenuhi oleh sistem yang dikembangkan. Fokus utama dari analisis ini adalah memahami secara mendalam tujuan dan kebutuhan pengguna akhir, baik admin, kalab, kaprodi, sekprodi, dan aslab. Analisis ini menjadi landasan kritis untuk merancang solusi yang tepat dan memastikan bahwa sistem dapat efektif memenuhi tujuan strategis laboratorium dalam mengelola manajemen tata kelola laboratorium. Analisis kebutuhan ini dapat dilihat pada Tabel \ref{tab:PerangkatKerasPengembang}.
+	      Pada tahap analisis ini, peneliti mengidentifikasi dan mendefinisikan kebutuhan perangkat keras yang diperlukan dalam pengembangan sistem. Analisis ini bertujuan untuk memahami kebutuhan pengguna dan merancang solusi yang tepat dalam mengelola tata kelola laboratorium. Rincian analisis kebutuhan dapat dilihat pada Tabel \ref{tab:PerangkatKerasPengembang}.
+
 	      \begin{longtable}{clll}
 		      \caption{Analisis Kebutuhan Perangkat Keras Pengembang}
 		      \label{tab:PerangkatKerasPengembang}                                                                                                                                                                                              \\
@@ -76,8 +77,9 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                          & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                              \\ \hline
 		      \endfirsthead
 		      %
-		      \multicolumn{4}{c}%
-		      {{\bfseries Table \thetable\ Lanjutan...}}                                                                                                                                                                                        \\
+		      % \multicolumn{4}{c}%
+		      \multicolumn{4}{c}{\small\tablename\ \thetable\ {Analisis Kebutuhan Perangkat Keras Pengembang} \space (Tabel lanjutan...)}                                                                                                       \\
+
 		      \hline
 		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                          & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                              \\ \hline
 		      \endhead
@@ -86,6 +88,10 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 		      \endfoot
 		      %
 		      \endlastfoot
+
+
+		      % 				\multicolumn{2}{c}{\small\tablename\ \thetable\ {Lorem Ipsum} \space (Tabel lanjutan...)}                           \\
+		      % \hline
 		      %
 		      1           & Processor                                    & \begin{tabular}[c]{@{}l@{}}Intel Core i3 atau AMD \\ Ryzen 3\end{tabular} & \begin{tabular}[c]{@{}l@{}}AMD Ryzen 5 5600U, 6Cores, \\ 12Threads, 2.3GHz.\end{tabular} \\
 		      2           & Memory                                       & 4 GB DDR4                                                                 & 16 GB DDR4-3200 MHz                                                                      \\
@@ -114,7 +120,7 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	\endfirsthead
 	%
 	\multicolumn{3}{c}%
-	{{\bfseries Tabel \thetable\ lanjutan dari halaman sebelumnya}}                                                               \\
+	{{\bfseries Tabel \thetable\ Deskripsi Aktor (Tabel lanjutan...)}}                                                            \\
 	\hline
 	\textbf{No} & \multicolumn{1}{c}{\textbf{Aktor}} & \multicolumn{1}{c}{\textbf{Deskripsi}}                                     \\ \hline
 	\endhead
@@ -123,7 +129,7 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	\endfoot
 	%
 	\endlastfoot
-	%
+
 	1           & Admin                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\
 	2           & Kalab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\
 	3           & Kaprodi                            & Melihat penjadwalan laboratorium                                           \\
@@ -131,59 +137,23 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 	5           & Aslab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\ \hline
 \end{longtable}
 
-Sistem manajemen laboratorium adalah sistem yang terkonsentrasi diurus oleh seseorang dengan peran Admin. Jenis ini digambarkan menggunakan diagram use case yang terlihat pada aktivitas interternal admin sistem dengan komponen yang ada.
+Sistem manajemen laboratorium adalah sistem yang dikelola secara terpusat oleh seorang Admin. Sistem ini digambarkan menggunakan diagram use case yang menunjukkan interaksi antara admin dengan berbagai komponen sistem. Dalam sistem ini terdapat 4 fungsi utama yang dapat digunakan oleh admin dalam mengelola sistem. Fungsi-fungsi tersebut meliputi kemampuan Admin untuk menambahkan jadwal baru melalui menu "Tambah Jadwal Laboratorium", mengubah jadwal yang ada melalui "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan melalui "Hapus Jadwal Laboratorium", dan melihat daftar jadwal melalui "Lihat Jadwal Laboratorium".
 
-Dengan sistem ini terdapat 4 fungsi substansial yang dapat dipergunakan oleh admin selama mengoperasikan peralatan sistem. Fungsi - fungsi tersebut yaitu kompetensi Admin untuk menambah jadwal baru melalui menu "Tambah Jadwal Laboratorium", Edit jadwal yang bersistem dengan "Edit Jadwal Laboratorium", Menghapus schedule yang tidak diinginkan dengan "Hapus Jadwal Laboratorium", dan menampilkan history schedule dengan menjual "Lihat Jadwal Laboratorium"
-
-Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi “include” pada diagram. Tiga fungsi utama yaitu penambahan, pengeditan, dan penghapusan jadwal termasuk kedalam scope otoritas Admin, oleh sebab itu fungsi ini harus log in terlebih dahulu saat meta ternotfied. Sementara itu fungsi melihat jadual bagi pelaksana lab tidak mensyaratkan kuliah dahulu seperti yang ternyata dalam Gambar
-
-\ref{usecase-diagram-admin}.
+Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama yaitu penambahan, pengeditan, dan penghapusan jadwal termasuk ke dalam lingkup wewenang Admin, oleh karena itu fungsi-fungsi tersebut mengharuskan Admin untuk login terlebih dahulu sebelum dapat mengaksesnya. Sementara itu, fungsi melihat jadwal laboratorium dapat diakses langsung tanpa memerlukan login seperti yang ditunjukkan dalam Gambar \ref{usecase-diagram-admin}.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/admin.png}
+	\includegraphics[width=0.65\textwidth]{konten/gambar/usecase-diagram/admin.png}
 	\caption{\textit{Usecase Diagram} Admin}
 	\label{usecase-diagram-admin}
 \end{figure}
 
-Dalam sistem ini, Kalab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+Dalam sistem ini, Kalab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium". Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Kalab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
 
-Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Kalab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/kalab.png}
-	\caption{\textit{Usecase Diagram} Kalab}
-	\label{usecase-diagram-kalab}
-\end{figure}
+Dalam sistem ini, Kaprodi memiliki satu fungsi utama yang dapat diakses, yaitu melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium". Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, sehingga Kaprodi dapat dengan mudah memantau jadwal laboratorium yang ada. Hal ini ditunjukkan pada Gambar \ref{usecase-diagram-kaprodi}.
 
-Dalam sistem ini, Kaprodi memiliki satu fungsi utama yang dapat diakses, yaitu melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
+Dalam sistem ini, Sekprodi memiliki satu fungsi utama yang dapat diakses, yaitu melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium". Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, sehingga Sekprodi dapat dengan mudah memantau jadwal laboratorium yang ada. Hal ini ditunjukkan pada Gambar \ref{usecase-diagram-sekprodi}.
 
-Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, sehingga Kaprodi dapat dengan mudah memantau jadwal laboratorium yang ada. Hal ini ditunjukkan pada Gambar \ref{usecase-diagram-kaprodi}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/kaprodi.png}
-	\caption{\textit{Usecase Diagram} Kaprodi}
-	\label{usecase-diagram-kaprodi}
-\end{figure}
-
-Dalam sistem ini, Sekprodi memiliki satu fungsi utama yang dapat diakses, yaitu melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
-
-Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, sehingga Sekprodi dapat dengan mudah memantau jadwal laboratorium yang ada. Hal ini ditunjukkan pada Gambar \ref{usecase-diagram-sekprodi}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/sekprodi.png}
-	\caption{\textit{Usecase Diagram} Sekprodi}
-	\label{usecase-diagram-sekprodi}
-\end{figure}
-
-Dalam sistem ini, Aslab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium".
-
-Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Aslab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/aslab.png}
-	\caption{\textit{Usecase Diagram} Aslab}
-	\label{usecase-diagram-aslab}
-\end{figure}
+Dalam sistem ini, Aslab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium". Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Aslab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-aslab}.
 
 % Skenario \textit{use case Login} merujuk pada rangkaian langkah-langkah terstruktur yang harus dilakukan oleh pengguna untuk melakukan proses kegiatan dalam suatu sistem. Proses ini dimulai dengan pengguna yang ingin mengakses sistem harus memasukkan informasi identifikasi pribadi, seperti nim, dan kata sandi, guna memverifikasi identitas mereka. Setelah pengisian data, sistem akan melakukan verifikasi dengan data yang tercatat dalam basis data, dan jika sesuai, pengguna akan diberikan izin akses ke fitur atau informasi yang relevan. Skenario \textit{Use Case Login} memegang peran krusial dalam menjaga tingkat keamanan serta privasi sistem, menjamin bahwa hanya pengguna yang diberi akses yang dapat masuk kedalam sistem.
 
@@ -260,82 +230,39 @@ Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "
 \textit{Activity diagram} login memberikan gambaran rinci tentang proses login yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses login, mulai dari input data oleh pengguna, validasi oleh sistem hingga dapat masuk ke dalam sistem menggunakan akun yang sudah ada. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-login}.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/login.png}
+	\includegraphics[width=0.6\textwidth]{konten/gambar/activity-diagram/login.png}
 	\caption{\textit{Activity Diagram} Login}
 	\label{activity-diagram-login}
 \end{figure}
 
 \textit{Activity diagram} tambah dosen memberikan gambaran rinci tentang proses penambahan dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penambahan dosen, mulai dari input data oleh pengguna, validasi oleh sistem hingga penyimpanan data dosen baru ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-tambah-dosen}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/tambah-dosen.png}
-	\caption{\textit{Activity Diagram} Tambah Dosen}
-	\label{activity-diagram-tambah-dosen}
-\end{figure}
+
+
 
 \textit{Activity diagram} edit dosen memberikan gambaran rinci tentang proses pengeditan data dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses pengeditan dosen, mulai dari pemilihan data dosen yang akan diedit, input data baru oleh pengguna, validasi oleh sistem hingga penyimpanan data dosen yang telah diperbarui ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-edit-dosen}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/edit-dosen.png}
-	\caption{\textit{Activity Diagram} Edit Dosen}
-	\label{activity-diagram-edit-dosen}
-\end{figure}
+
+
 
 \textit{Activity diagram} hapus dosen memberikan gambaran rinci tentang proses penghapusan dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penghapusan dosen, mulai dari pemilihan data dosen yang akan dihapus, konfirmasi oleh pengguna, hingga penghapusan data dosen dari sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-hapus-dosen}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/hapus-dosen.png}
-	\caption{\textit{Activity Diagram} Hapus Dosen}
-	\label{activity-diagram-hapus-dosen}
-\end{figure}
+
 
 \textit{Activity diagram} tambah mata kuliah memberikan gambaran rinci tentang proses penambahan mata kuliah yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penambahan mata kuliah, mulai dari input data oleh pengguna, validasi oleh sistem hingga penyimpanan data mata kuliah baru ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-tambah-matkul}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/tambah-matkul.png}
-	\caption{\textit{Activity Diagram} Tambah Mata Kuliah}
-	\label{activity-diagram-tambah-matkul}
-\end{figure}
+
 
 \textit{Activity diagram} edit mata kuliah memberikan gambaran rinci tentang proses pengeditan data mata kuliah yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses pengeditan mata kuliah, mulai dari pemilihan data mata kuliah yang akan diedit, input data baru oleh pengguna, validasi oleh sistem hingga penyimpanan data mata kuliah yang telah diperbarui ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-edit-matkul}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/edit-matkul.png}
-	\caption{\textit{Activity Diagram} Edit Mata Kuliah}
-	\label{activity-diagram-edit-matkul}
-\end{figure}
+
 
 \textit{Activity diagram} hapus mata kuliah memberikan gambaran rinci tentang proses penghapusan mata kuliah yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penghapusan mata kuliah, mulai dari pemilihan data mata kuliah yang akan dihapus, konfirmasi oleh pengguna, hingga penghapusan data mata kuliah dari sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-hapus-matkul}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/hapus-matkul.png}
-	\caption{\textit{Activity Diagram} Hapus Mata Kuliah}
-	\label{activity-diagram-hapus-matkul}
-\end{figure}
+
 
 \textit{Activity diagram} tambah dosen memberikan gambaran rinci tentang proses penambahan dosen yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penambahan dosen, mulai dari input data oleh pengguna, validasi oleh sistem hingga penyimpanan data dosen baru ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-tambah-dosen}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/tambah-jadwal.png}
-	\caption{\textit{Activity Diagram} Tambah Jadwal}
-	\label{activity-diagram-tambah-jadwal}
-\end{figure}
+
 
 \textit{Activity diagram} edit jadwal memberikan gambaran rinci tentang proses pengeditan jadwal yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses pengeditan jadwal, mulai dari pemilihan data jadwal yang akan diedit, input data baru oleh pengguna, validasi oleh sistem hingga penyimpanan data jadwal yang telah diperbarui ke dalam sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-edit-jadwal}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/edit-jadwal.png}
-	\caption{\textit{Activity Diagram} Edit Jadwal}
-	\label{activity-diagram-edit-jadwal}
-\end{figure}
+
 
 \textit{Activity diagram} hapus jadwal memberikan gambaran rinci tentang proses penghapusan jadwal yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses penghapusan jadwal, mulai dari pemilihan data jadwal yang akan dihapus, konfirmasi oleh pengguna, hingga penghapusan data jadwal dari sistem. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-hapus-jadwal}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/hapus-jadwal.png}
-	\caption{\textit{Activity Diagram} Hapus Jadwal}
-	\label{activity-diagram-hapus-jadwal}
-\end{figure}
+
 
 % =======================================================================================================================
 \subsection{\textit{Class Diagram}}
@@ -343,7 +270,7 @@ Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.82\textwidth]{konten/gambar/class-diagram.png}
+	\includegraphics[width=0.6\textwidth]{konten/gambar/class-diagram.png}
 	\caption{\textit{Class Diagram} Sistem Manajemen Laboratorium}
 	\label{class-diagram}
 \end{figure}
@@ -616,28 +543,22 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/landing-page.png}
-		      \caption{Tampilan Halaman Utama Sistem Manajemen Laboratorium}
+		      \caption{Tampilan Halaman Utama}
 		      \label{fig:kelola-jadwal-1}
 	      \end{figure}
 
 	      \begin{longtable}{c p{0.55\textwidth}}
-		      \caption{Tabel Keterangan Tampilan Halaman Utama Sistem Manajemen Laboratorium}                                                                 \\
+		      \caption{Tabel Keterangan Tampilan Halaman Utama}                                                                                               \\
 		      \hline
 		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                   \\
 		      \hline
 		      \endfirsthead
 
-		      \multicolumn{2}{c}{{\textit{Lanjutan dari halaman sebelumnya...}}}                                                                              \\
+		      \multicolumn{2}{c}{\small\tablename\ \thetable\ {Tabel Keterangan Tampilan Halaman Utama} \space (Tabel lanjutan...)}                           \\
 		      \hline
 		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                   \\
 		      \hline
 		      \endhead
-
-		      \multicolumn{2}{r}{{\textit{Bersambung ke halaman berikutnya...}}}                                                                              \\
-		      \endfoot
-
-		      \hline
-		      \endlastfoot
 
 		      1                       & Browser toolbar dengan width: 100\%, height: 40px, background-color: \#FFFFFF                                         \\
 		      2                       & Logo berukuran width: 40px, height: 40px, dengan margin-left: 24px pada pojok kiri atas                               \\
@@ -671,30 +592,24 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 	      \end{figure}
 
 	      \begin{longtable}{c p{0.55\textwidth}}
-		      \caption{Tabel Keterangan Tampilan Halaman Selamat Datang}                                                             \\
+		      \caption{Tabel Keterangan Tampilan Halaman Selamat Datang}                                                                     \\
 		      \hline
-		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                          \\
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                  \\
 		      \hline
 		      \endfirsthead
 
-		      \multicolumn{2}{c}{{\textit{Lanjutan dari halaman sebelumnya...}}}                                                     \\
+		      \multicolumn{2}{c}{\small\tablename\ \thetable\ {Tabel Keterangan Tampilan Halaman Selamat Datang} \space (Tabel lanjutan...)} \\
 		      \hline
-		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                          \\
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                  \\
 		      \hline
 		      \endhead
 
-		      \multicolumn{2}{r}{{\textit{Bersambung ke halaman berikutnya...}}}                                                     \\
-		      \endfoot
-
-		      \hline
-		      \endlastfoot
-
-		      1                       & Text header "Selamat Datang" dengan fonts Poppins, warna font \#73879C                       \\
-		      2                       & Text sub-header "Silahkan pilih aplikasi yang akan anda gunakan" dengan fonts Helvetica Neue \\
-		      3                       & Container card dengan background color \#FFFFFF dan border-radius 8px                        \\
-		      4                       & Link ILMIS dengan icon users dan text "Integrated Laboratory Management Information System"  \\
-		      5                       & Link LABVIS dengan icon users dan text "Laboratory Visitor Information System"               \\
-		      6                       & Link LARIS dengan icon users dan text "Laboratory Assistant Registration Information System" \\
+		      1                       & Text header "Selamat Datang" dengan fonts Poppins, warna font \#73879C                               \\
+		      2                       & Text sub-header "Silahkan pilih aplikasi yang akan anda gunakan" dengan fonts Helvetica Neue         \\
+		      3                       & Container card dengan background color \#FFFFFF dan border-radius 8px                                \\
+		      4                       & Link ILMIS dengan icon users dan text "Integrated Laboratory Management Information System"          \\
+		      5                       & Link LABVIS dengan icon users dan text "Laboratory Visitor Information System"                       \\
+		      6                       & Link LARIS dengan icon users dan text "Laboratory Assistant Registration Information System"         \\
 		      \hline
 	      \end{longtable}
 
@@ -708,27 +623,27 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 
 	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Kelola Jadwal}
-		      \label{tab:ui-jadwal}                                                                                           \\
+		      \label{tab:ui-jadwal}                                                                                                 \\
 		      \hline
-		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                   \\
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                         \\
 		      \hline
 		      \endfirsthead
 
-		      \multicolumn{2}{c}{\tablename\ \thetable\ {Tabel Keterangan Tampilan Kelola Jadwal} \space (Tabel lanjutan...)} \\
+		      \multicolumn{2}{c}{\small\tablename\ \thetable\ {Tabel Keterangan Tampilan Kelola Jadwal} \space (Tabel lanjutan...)} \\
 		      \hline
-		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                   \\
+		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                         \\
 		      \hline
 		      \endhead
 
-		      1                       & Button "Admin" dengan icon arrow-right di pojok kanan atas                            \\
-		      2                       & Text "Logout Aktif: Beranda / Jadwal" dengan alignment right                          \\
-		      3                       & Profile section dengan nama user "NIM: 1234567" dan foto profil                       \\
-		      4                       & Text header "Jadwal" dengan fonts Helvetica Neue                                      \\
-		      5                       & Button "Tambah Data" dengan warna primary (\#2563EB)                                  \\
-		      6                       & Search input field dengan icon search di sebelah kanan                                \\
-		      7                       & Action buttons (edit, delete, info) di kolom Aksi                                     \\
-		      8                       & Data table dengan kolom: No, Hari/Tanggal, Jam, Ruangan, Aksi                         \\
-		      9                       & Sidebar menu dengan icons dan text untuk navigasi sistem                              \\
+		      1                       & Button "Admin" dengan icon arrow-right di pojok kanan atas                                  \\
+		      2                       & Text "Logout Aktif: Beranda / Jadwal" dengan alignment right                                \\
+		      3                       & Profile section dengan nama user "NIM: 1234567" dan foto profil                             \\
+		      4                       & Text header "Jadwal" dengan fonts Helvetica Neue                                            \\
+		      5                       & Button "Tambah Data" dengan warna primary (\#2563EB)                                        \\
+		      6                       & Search input field dengan icon search di sebelah kanan                                      \\
+		      7                       & Action buttons (edit, delete, info) di kolom Aksi                                           \\
+		      8                       & Data table dengan kolom: No, Hari/Tanggal, Jam, Ruangan, Aksi                               \\
+		      9                       & Sidebar menu dengan icons dan text untuk navigasi sistem                                    \\
 		      \hline
 	      \end{longtable}
 
@@ -765,17 +680,11 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \hline
 		      \endfirsthead
 
-		      \multicolumn{2}{c}{{\textit{Lanjutan dari halaman sebelumnya...}}}                                                                                                                      \\
+		      \multicolumn{2}{c}{\small\tablename\ \thetable\ {Tabel Keterangan Tampilan Tambah Jadwal} \space (Tabel lanjutan...)}                                                                   \\
 		      \hline
 		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
 		      \hline
 		      \endhead
-
-					\multicolumn{2}{r}{{\textit{Bersambung ke halaman berikutnya...}}}                                                     \\
-		      \endfoot
-
-		      \hline
-		      \endlastfoot 
 
 		      1                       & Berisi menu navigasi dengan ikon dan teks, menggunakan font-family: Poppins, font-size: 14px. Memiliki warna latar gelap dan ikon menu terorganisir vertikal. \\
 		      2                       & Field input untuk memasukkan tanggal dengan placeholder dd/mm/yyyy. Terdapat ikon kalender di sebelah kanan untuk membantu memilih tanggal.                   \\
@@ -807,7 +716,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \hline
 		      \endfirsthead
 
-		      \multicolumn{2}{c}{\tablename\ \thetable\ {Tabel Keterangan Tampilan Edit Jadwal} \space (Tabel lanjutan...)}                                                                           \\
+		      \multicolumn{2}{c}{\small\tablename\ \thetable\ {Tabel Keterangan Tampilan Edit Jadwal} \space (Tabel lanjutan...)}                                                                     \\
 		      \hline
 		      \textbf{Nomor Callouts} & \textbf{Keterangan}                                                                                                                                           \\
 		      \hline

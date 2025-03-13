@@ -32,22 +32,22 @@ Implementasi pada lingkungan \textit{hardware} adalah implementasi pada perangka
 Minimum kebutuhan pada implementasi \textit{hardware} untuk menjalankan sistem informasi manajemen laboratorium adalah spesifikasi perangkat keras yang harus terpenuhi agar sistem dapat beroperasi secara optimal. Tabel 5.1. menyajikan daftar rinci dari komponen perangkat keras yang diperlukan dan spesifikasinya, yang mencakup prosesor, RAM, Hardisk, Monitor, dan perangkat masukan yang harus memenuhi standar minimum agar sistem berfungsi dengan baik.
 
 \begin{longtable}{l l}
-	\caption{Spesifikasi Perangkat Keras (\textit{Hardware})} \\
+	\caption{Spesifikasi Perangkat Keras (\textit{Hardware})}                                                               \\
 	\hline
-	\textbf{Komponen \textit{Hardware}} & \textbf{Spesifikasi} \\ 
+	\textbf{Komponen \textit{Hardware}} & \textbf{Spesifikasi}                                                              \\
 	\hline
 	\endfirsthead
-	
+
 	\multicolumn{2}{c}{\tablename\ \thetable\ {Spesifikasi Perangkat Keras (\textit{Hardware})} \space (Tabel lanjutan...)} \\
 	\hline
-	\textbf{Komponen \textit{Hardware}} & \textbf{Spesifikasi} \\ 
+	\textbf{Komponen \textit{Hardware}} & \textbf{Spesifikasi}                                                              \\
 	\hline
 	\endhead
-	
-	Processor                           & Intel \textregistered{} CoreTM i3-4160, 3.60GHz \\
-	Memory (RAM)                        & 2 GB                                            \\
-	Hardisk (HDD)                       & 1 TB                                            \\
-	LCD                                 & Lenovo 17"                                      \\
+
+	Processor                           & Intel \textregistered{} CoreTM i3-4160, 3.60GHz                                   \\
+	Memory (RAM)                        & 2 GB                                                                              \\
+	Hardisk (HDD)                       & 1 TB                                                                              \\
+	LCD                                 & Lenovo 17"                                                                        \\
 	\hline
 \end{longtable}
 
@@ -56,35 +56,30 @@ Minimum kebutuhan pada implementasi \textit{hardware} untuk menjalankan sistem i
 Implementasi pada lingkungan \textit{software} adalah implementasi pada perangkat lunak yang digunakan untuk menjalankan sistem informasi inventaris laboratorium. Implementasi \textit{software} yang digunakan dapat dilihat pada Tabel 5.2.
 
 \begin{longtable}{l l}
-	\caption{Spesifikasi Perangkat Lunak (\textit{Software})} \\
+	\caption{Spesifikasi Perangkat Lunak (\textit{Software})}                                                               \\
 	\hline
-	\textbf{Komponen \textit{Software}} & \textbf{Spesifikasi} \\ 
+	\textbf{Komponen \textit{Software}} & \textbf{Spesifikasi}                                                              \\
 	\hline
 	\endfirsthead
-	
+
 	\multicolumn{2}{c}{\tablename\ \thetable\ {Spesifikasi Perangkat Lunak (\textit{Software})} \space (Tabel lanjutan...)} \\
 	\hline
-	\textbf{Komponen \textit{Software}} & \textbf{Spesifikasi} \\ 
+	\textbf{Komponen \textit{Software}} & \textbf{Spesifikasi}                                                              \\
 	\hline
 	\endhead
-	
-	Sistem Operasi                      & Windows 7, 8, 10, dan 11          \\
-	Browser                             & Google Chrome dan Mozilla Firefox \\
-	Bahasa Pemrograman                  & PHP dan Javascript                \\
-	Web \textit{Database}               & MariaDB                           \\
-	\textit{Framework}                  & CodeIgniter 4                     \\
+
+	Sistem Operasi                      & Windows 7, 8, 10, dan 11                                                          \\
+	Browser                             & Google Chrome dan Mozilla Firefox                                                 \\
+	Bahasa Pemrograman                  & PHP dan Javascript                                                                \\
+	Web \textit{Database}               & MariaDB                                                                           \\
+	\textit{Framework}                  & CodeIgniter 4                                                                     \\
 	\hline
 \end{longtable}
 
 \subsection{Implementasi \textit{Database}}
 Pada implementasi \textit{database} ini nama yang digunakan adalah ”man\_lab”. Implemenasi \textit{database} ini terdapat beberapa tabel yang akan digunakan dalam sistem. Pembuatan \textit{database} dilakukan dengan menggunakan \textit{database} MariaDB. Tabel-tabel ini akan digunakan untuk menyimpan data-data yang diperlukan dalam sistem. Berikut adalah struktur tabel yang telah diintegrasikan dan digunakan dalam sistem ini dapat dilihat pada Gambar \ref{database-manlab}.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\textwidth]{konten/gambar/implementasi/database.png}
-	\caption{\textit{Database}}
-	\label{database-manlab}
-\end{figure}
+
 
 Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal", "dosen", "mata kuliah", dan tabel  "biodatas", "users", "kelola pendaftarans", "kelola ujians", "postingans", "soals", jawabans", dan "wawancaras" sebagai tabel tambahan untuk integrasi sistem.
 
@@ -181,12 +176,7 @@ Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal",
 \subsection{Implementasi \textit{Model}}
 Model adalah komponen yang bertanggung jawab untuk mengatur data, aturan bisnis, dan logika aplikasi. Ini merupakan representasi dari data dalam aplikasi. Model mengelola semua operasi data, seperti pengambilan, pembaruan, dan penyimpanan data \cite{firdaus2020rancang}. Model-model ini akan diatur pada folder app/model pada \textit{framework} CodeIgniter dapat dilihat pada gambar \ref{fig:implementasi-model}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\linewidth]{konten//gambar/implementasi-folder/folder-model.png}
-	\caption{Implementasi Model}
-	\label{fig:implementasi-model}
-\end{figure}
+
 
 % \begin{enumerate}
 % 	\item \textit{Model} dalam implementasi Sistem Manajemen Laboratorium pada data dosen dapat dilihat pada Gambar \ref{fig:model-dosen}
@@ -229,22 +219,12 @@ Model adalah komponen yang bertanggung jawab untuk mengatur data, aturan bisnis,
 \subsection{Implementasi \textit{View}}
 \textit{View }adalah komponen yang menampilkan antarmuka pengguna dan menampilkan data dari Model. \textit{View} mengamati perubahan pada Model dan \textit{Controller}, dan diperbarui sesuai keadaan terkini. Penggunaan \textit{View} memisahkan tugas penyajian dan manajemen data dalam aplikasi, yang memberikan fleksibilitas dan pemeliharaan yang lebih baik \cite{firdaus2020rancang}. \textit{View} ini akan diatur pada folder app/view pada \textit{framework} CodeIgniter dapat dilihat pada gambar \ref{fig:implementasi-view}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\linewidth]{konten//gambar/implementasi-folder/folder-view.png}
-	\caption{Implementasi View}
-	\label{fig:implementasi-view}
-\end{figure}
+
 
 \subsection{Implementasi \textit{Controller}}
 \textit{Controller} adalah komponen yang bertanggung jawab untuk mengatur logika pengendalian atau interaksi antara Model (data), \textit{View} (tampilan), dan pengguna \cite{rahman2018perancangan}. \textit{Controller} ini akan diatur pada folder app/controller pada \textit{framework} CodeIgniter dapat dilihat pada gambar \ref{fig:implementasi-controller}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.82\linewidth]{konten//gambar/implementasi-folder/folder-controller.png}
-	\caption{Implementasi Controller}
-	\label{fig:implementasi-controller}
-\end{figure}
+
 
 \section{Hasil Implementasi}
 Beberapa permasalahan yang teridentifikasi meliputi kesalahan dalam pembuatan kode barang (Lampiran B), disfungsi fitur peminjaman barang dan ruangan (Lampiran B), serta ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium (Lampiran B). Kesalahan dalam pembuatan kode barang menyebabkan ketidakakuratan dalam pencatatan dan pelacakan inventaris, yang dapat mengakibatkan kesulitan dalam manajemen barang. Disfungsi fitur peminjaman barang dan ruangan menghambat proses peminjaman yang seharusnya berjalan lancar, sehingga pengguna mengalami kesulitan dalam meminjam barang dan ruangan yang dibutuhkan. Ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium menyebabkan informasi yang disampaikan tidak sesuai dengan yang diharapkan, sehingga memerlukan penyesuaian agar laporan lebih relevan dan mudah dipahami. Saya sudah memperbaiki kesalahan ini dengan melakukan beberapa perubahan dan penyesuaian pada sistem. Hasil dari perbaikan tersebut akan saya tampilkan untuk menunjukkan peningkatan yang telah dicapai.
@@ -294,12 +274,7 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 
 \begin{enumerate}
 	\item Tampilan \textit{landing page} yang berfungsi sebagai halaman pertama dari sistem informasi manajemen laboratorium. Halaman ini memberikan gambaran umum dan akses awal ke fitur-fitur sistem, serta menyambut pengguna dengan antarmuka yang ramah dan informatif. Dapat dilihat pada Gambar \ref{fig:landing-page}.
-	      \begin{figure}
-		      \centering
-		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/landing-page.jpeg}
-		      \caption{Tampilan \textit{Landing Page} Sistem Manajemen Laboratorium}
-		      \label{fig:landing-page}
-	      \end{figure}
+
 	\item Tampilan pilihan aplikasi untuk login, yang memungkinkan pengguna memilih aplikasi yang ingin diakses. Tampilan ini dirancang untuk memudahkan pengguna dalam menentukan aplikasi mana yang sesuai dengan kebutuhan mereka, dengan menyediakan opsi yang jelas dan terstruktur. Dapat dilihat pada Gambar \ref{fig:pilih-login}.
 	      \begin{figure}
 		      \centering

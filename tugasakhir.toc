@@ -73,28 +73,28 @@
 \contentsline {subsection}{\numberline {4.3.2}Analisis Kebutuhan Non-Fungsional Sistem}{30}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Perancangan}{32}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Use Case Diagram}{32}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}\textit {Activity Diagram}}{37}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}\textit {Class Diagram}}{47}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{48}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{54}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Perancangan \textit {Interface}}{55}{subsection.4.4.6}%
-\contentsline {chapter}{\numberline {5}\uppercase {Implementasi dan Pengujian}}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Implementasi Sistem}{68}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Batasan Implementasi}{68}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Implementasi Perangkat Keras (\textit {Hardware})}{68}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Implementasi Perangkat Lunak (\textit {Software})}{69}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Implementasi \textit {Database}}{69}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Implementasi \textit {Routes}}{73}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Implementasi \textit {Model}}{75}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Implementasi \textit {View}}{76}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Implementasi \textit {Controller}}{77}{subsection.5.4.5}%
-\contentsline {section}{\numberline {5.5}Hasil Implementasi}{78}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Pengujian Sistem}{90}{section.5.6}%
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{93}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Kesimpulan}{93}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Saran}{93}{section.6.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.108}%
+\contentsline {subsection}{\numberline {4.4.2}\textit {Activity Diagram}}{34}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}\textit {Class Diagram}}{36}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{37}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{43}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Perancangan \textit {Interface}}{44}{subsection.4.4.6}%
+\contentsline {chapter}{\numberline {5}\uppercase {Implementasi dan Pengujian}}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implementasi Sistem}{57}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Batasan Implementasi}{57}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Implementasi Perangkat Keras (\textit {Hardware})}{57}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Implementasi Perangkat Lunak (\textit {Software})}{58}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Implementasi \textit {Database}}{58}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Implementasi \textit {Routes}}{61}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Implementasi \textit {Model}}{63}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Implementasi \textit {View}}{63}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Implementasi \textit {Controller}}{63}{subsection.5.4.5}%
+\contentsline {section}{\numberline {5.5}Hasil Implementasi}{63}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Pengujian Sistem}{74}{section.5.6}%
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{77}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Kesimpulan}{77}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Saran}{77}{section.6.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.90}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
 \contentsline {chapter}{LAMPIRAN \numberline {C}DOKUMENTASI WAWANCARA}{C - 1}{appendix.1.C}%
-\contentsline {chapter}{LAMPIRAN \numberline {D}\textit {SOURCE CODE}}{D - 1}{appendix.1.D}%
+\contentsline {chapter}{LAMPIRAN \numberline {D}\textit {SOURCE CODE} / Use Case Diagram / Activity Diagram / Database / Interface}{D - 1}{appendix.1.D}%
