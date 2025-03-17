@@ -39,7 +39,7 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 % -----------------------------------------------------------------------------%
 \begin{enumerate}
 	\item Analisis Kebutuhan Perangkat Lunak \\
-	      Pada tahap analisis ini, peneliti mengidentifikasi dan mendefinisikan segala kebutuhan yang harus dipenuhi oleh sistem yang akan dikembangkan. Fokus utama dari analisis ini adalah memahami secara mendalam tujuan dan kebutuhan pengguna akhir, baik itu admin, kalab, kaprodi, sekprodi dan aslab. Analisis kebutuhan perangkat lunak dapat dilihat pada Tabel \ref{tab:AnalisisKebutuhanPerangkatLunak}
+	      Pada tahap analisis ini, peneliti mengidentifikasi dan mendefinisikan segala kebutuhan yang harus dipenuhi oleh sistem yang akan dikembangkan. Fokus utama dari analisis ini adalah memahami secara mendalam tujuan dan kebutuhan pengguna akhir, baik itu admin, kalab, kaprodi, sekprodi dan aslab. Analisis kebutuhan perangkat lunak dapat dilihat pada Tabel \ref{tab:AnalisisKebutuhanPerangkatLunak}.
 	      \begin{longtable}{clcc}
 		      \caption{Analisis Kebutuhan Perangkat Lunak Pengembang}
 		      \label{tab:AnalisisKebutuhanPerangkatLunak}                                                                                                               \\
@@ -231,7 +231,7 @@ Dalam sistem ini, Aslab memiliki empat fungsi utama yang dapat diakses. Fungsi-f
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{konten/gambar/activity-diagram/login.png}
-	\caption{\textit{Activity Diagram} Login}
+	\caption{\textit{Activity Diagram Login}}
 	\label{activity-diagram-login}
 \end{figure}
 
@@ -306,25 +306,25 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Dosen}
-				      \label{admin}                                                                                         \\
+				      \label{admin}                                                                                               \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}}       \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Dosen} \space (Tabel lanjutan...)}                   \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Dosen} \space (Tabel lanjutan...)}                         \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}   & \textbf{\textit{Key}}       \\
 				      \hline
 				      \endhead
 
-				      id\_dosen               & tinyint                & 4                          & Primary key (A\_I)    \\
-				      nama\_dosen             & varchar                & 100                        &                       \\
-				      nip\_dosen              & varchar                & 50                         &                       \\
-				      jenis\_kelamin          & enum                   & ('Laki-laki', 'Perempuan') &                       \\
-				      email\_dosen            & varchar                & 100                        &                       \\
-				      nidn                    & varchar                & 100                        &                       \\
-				      no\_hp                  & varchar                & 100                        &                       \\
+				      id\_dosen               & tinyint                & 4                          & \textit{Primary key} (A\_I) \\
+				      nama\_dosen             & varchar                & 100                        &                             \\
+				      nip\_dosen              & varchar                & 50                         &                             \\
+				      jenis\_kelamin          & enum                   & ('Laki-laki', 'Perempuan') &                             \\
+				      email\_dosen            & varchar                & 100                        &                             \\
+				      nidn                    & varchar                & 100                        &                             \\
+				      no\_hp                  & varchar                & 100                        &                             \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -351,24 +351,24 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Matkul}
-				      \label{admin}                                                                                       \\
+				      \label{admin}                                                                                             \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}       \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Matkul} \space (Tabel lanjutan...)}                \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Matkul} \space (Tabel lanjutan...)}                      \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}       \\
 				      \hline
 				      \endhead
 
-				      id\_matkul              & tinyint                & 4                        & Primary key (A\_I)    \\
-				      kode\_matkul            & varchar                & 50                       &                       \\
-				      nama\_matkul            & varchar                & 100                      &                       \\
-				      sks                     & tinyint                & 4                        &                       \\
-				      semester                & tinyint                & 4                        &                       \\
-				      jenis\_matkul           & enum                   & ('Wajib', 'Pilihan')     &                       \\
+				      id\_matkul              & tinyint                & 4                        & \textit{Primary key} (A\_I) \\
+				      kode\_matkul            & varchar                & 50                       &                             \\
+				      nama\_matkul            & varchar                & 100                      &                             \\
+				      sks                     & tinyint                & 4                        &                             \\
+				      semester                & tinyint                & 4                        &                             \\
+				      jenis\_matkul           & enum                   & ('Wajib', 'Pilihan')     &                             \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -396,23 +396,23 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \fontsize{10}{12}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Ruangan}
-				      \label{admin}                                                                                       \\
+				      \label{admin}                                                                                             \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}       \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Ruangan} \space (Tabel lanjutan...)}               \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel Ruangan} \space (Tabel lanjutan...)}                     \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}}       \\
 				      \
 				      \endhead
 
-				      id\_ruangan             & tinyint                & 4                        & Primary key (A\_I)    \\
-				      id\_gedung              & tinyint                & 4                        & Foreign key           \\
-				      nama\_ruangan           & varchar                & 100                      &                       \\
-				      deskripsi\_ruangan      & text                   &                          &                       \\
-				      gambar\_ruangan         & varchar                & 255                      &                       \\
+				      id\_ruangan             & tinyint                & 4                        & \textit{Primary key} (A\_I) \\
+				      id\_gedung              & tinyint                & 4                        & \textit{Foreign key}        \\
+				      nama\_ruangan           & varchar                & 100                      &                             \\
+				      deskripsi\_ruangan      & text                   &                          &                             \\
+				      gambar\_ruangan         & varchar                & 255                      &                             \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -453,9 +453,9 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 				      \endhead
 
 				      id\_jadwal              & tinyint                & 4                        & Primary key (A\_I)    \\
-				      id\_ruangan             & tinyint                & 4                        & Foreign key           \\
-				      id\_matkul              & varchar                & 4                        & Foreign key           \\
-				      id\_dosen               & varchar                & 4                        & Foreign key           \\
+				      id\_ruangan             & tinyint                & 4                        & \textit{Foreign key}  \\
+				      id\_matkul              & varchar                & 4                        & \textit{Foreign key}  \\
+				      id\_dosen               & varchar                & 4                        & \textit{Foreign key}  \\
 				      tanggal                 & date                   &                          &                       \\
 				      hari                    & varchar                & 50                       &                       \\
 				      jam\_masuk              & time                   &                          &                       \\
@@ -523,7 +523,7 @@ Perancangan menu sistem informasi manajemen inventaris laboratorium dibagi menja
 
 Menu Admin, sebagai tingkat akses tertinggi, memiliki wewenang penuh untuk mengelola semua fitur, termasuk pendanaan, manajemen barang, penjadwalan, dll. Kepala Laboratorium (Kalab) memiliki akses hampir sama dengan Admin, tetapi dengan beberapa pembatasan. Kalab dapat mengelola pendanaan, barang, jadwal, dan data dosen serta mata kuliah. Ketua Program Studi (Kaprodi) dan Sekretaris Program Studi (Sekprodi) fokus pada pengawasan dan monitoring, dengan akses ke fitur pendanaan, manajemen barang, dan dokumentasi. Asisten Laboratorium (Aslab) memiliki akses untuk mendukung operasional harian termasuk pengelolaan barang, dan pemeliharaan peralatan laboratorium.
 
-Struktur menu yang terorganisir ini dirancang untuk memudahkan pengelolaan inventaris laboratorium secara sistematis dan terkontrol. Setiap tingkatan pengguna memiliki batasan akses yang jelas, yang membantu dalam menjaga keamanan dan integritas data sistem. Perancangan menu ini menjadi landasan penting dalam pengembangan antarmuka pengguna dan implementasi berbagai fungsi sistem yang akan dibahas lebih lanjut pada bagian berikutnya. Dengan struktur menu yang terorganisir ini, diharapkan pengelolaan inventaris laboratorium dapat berjalan lebih efisien dan terkoordinasi dengan baik antar berbagai tingkatan pengguna. Gambar struktur menu ini dapat dilihat pada \pic~\ref{StrukturMenuILMIS}
+Struktur menu yang terorganisir ini dirancang secara cermat untuk memudahkan pengelolaan inventaris laboratorium secara sistematis, terkontrol, dan terintegrasi. Setiap tingkatan pengguna memiliki batasan akses yang jelas dan terdefinisi dengan baik, yang membantu dalam menjaga keamanan dan integritas data sistem secara menyeluruh. Perancangan menu ini menjadi landasan penting dan fundamental dalam pengembangan antarmuka pengguna yang intuitif serta implementasi berbagai fungsi sistem yang akan dibahas lebih lanjut pada bagian berikutnya. Dengan struktur menu yang terorganisir dan hierarkis ini, diharapkan pengelolaan inventaris laboratorium dapat berjalan lebih efisien, terstruktur, dan terkoordinasi dengan baik antar berbagai tingkatan pengguna. Struktur menu yang dirancang juga mempertimbangkan aspek skalabilitas sehingga memungkinkan penambahan fitur baru di masa mendatang tanpa mengganggu fungsionalitas yang sudah ada. Selain itu, pembagian akses yang jelas membantu mencegah konflik wewenang dan memperjelas alur kerja dalam pengelolaan laboratorium. Implementasi struktur menu yang komprehensif ini diharapkan dapat meningkatkan produktivitas dan efektivitas pengelolaan laboratorium secara keseluruhan. Gambar struktur menu ini dapat dilihat pada \pic~\ref{StrukturMenuILMIS}.
 
 \begin{figure}
 	\centering
@@ -539,7 +539,7 @@ Pengembangan sistem ini menambahkan fitur baru yang ditandai dengan warna hijau 
 Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain program sistem informasi manajemen laboratorium yang akan dibangun. Hal ini dilakukan untuk mempermudah pengguna dalam mengetahui proses yang terdapat pada sistem informasi manajemen laboratorium tersebut.
 
 \begin{enumerate}
-	\item Rancangan tampilan \textit{landing page} yang berfungsi sebagai halaman pertama untuk sistem informasi manajemen laboratorium dapat dilihat pada \pic~\ref{fig:kelola-jadwal-1}
+	\item Rancangan tampilan \textit{landing page} yang berfungsi sebagai halaman pertama untuk sistem informasi manajemen laboratorium dapat dilihat pada \pic~\ref{fig:kelola-jadwal-1}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/landing-page.png}
@@ -581,9 +581,10 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      19                      & Footer section dengan background: \#1E293B, padding: 64px 24px                                                        \\
 		      20                      & Copyright text dengan font-size: 14px, color: \#9CA3AF                                                                \\
 		      21                      & Footer links dengan display: flex, gap: 32px, margin-top: 32px                                                        \\
+		      \hline
 	      \end{longtable}
 
-	\item Rancangan tampilan pilih aplikasi untuk login dapat dilihat pada \pic~\ref{fig:kelola-jadwal-2}
+	\item Rancangan tampilan pilih aplikasi untuk login dapat dilihat pada \pic~\ref{fig:kelola-jadwal-2}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/pilih-login.png}
@@ -613,12 +614,12 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \hline
 	      \end{longtable}
 
-	\item Rancangan tampilan kelola jadwal yang berfungsi untuk mengelola jadwal laboratorium dapat dilihat pada \pic~\ref{fig:jadwal}
+	\item Rancangan tampilan kelola jadwal yang berfungsi untuk mengelola jadwal laboratorium dapat dilihat pada \pic~\ref{fig:kelola-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal.png}
 		      \caption{Tampilan Kelola Jadwal Laboratorium}
-		      \label{fig:jadwal}
+		      \label{fig:kelola-jadwal}
 	      \end{figure}
 
 	      \begin{longtable}{c p{0.55\textwidth}}
@@ -651,20 +652,8 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal-rsi.png}
 		      \caption{Tampilan Kelola Jadwal Laboratorium}
-		      \label{fig:jadwal}
-	      \end{figure}
-	      \begin{figure}
-		      \centering
-		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal-se.png}
-		      \caption{Tampilan Kelola Jadwal Laboratorium}
-		      \label{fig:jadwal}
-	      \end{figure}
-	      \begin{figure}
-		      \centering
-		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal-int.png}
-		      \caption{Tampilan Kelola Jadwal Laboratorium}
-		      \label{fig:jadwal}
-	      \end{figure}
+		      \label{fig:jadwal-rsi}
+	      \end{figure}	      
 	\item Rancangan tampilan tambah jadwal yang berfungsi untuk menambah jadwal laboratorium dapat dilihat pada \pic~\ref{fig:jadwal}
 	      \begin{figure}
 		      \centering
@@ -700,7 +689,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \hline
 	      \end{longtable}
 
-	\item Rancangan tampilan edit jadwal yang berfungsi untuk mengedit jadwal laboratorium dapat dilihat pada \pic~\ref{fig:edit-jadwal}
+	\item Rancangan tampilan edit jadwal yang berfungsi untuk mengedit jadwal laboratorium dapat dilihat pada \pic~\ref{fig:edit-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-jadwal.png}
@@ -736,42 +725,42 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \hline
 	      \end{longtable}
 
-	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}
+	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-matkul.png}
 		      \caption{Tampilan Kelola Mata Kuliah Laboratorium}
 		      \label{fig:matkul}
 	      \end{figure}
-	\item Rancangan tampilan tambah mata kuliah yang berfungsi untuk menambah mata kuliah dapat dilihat pada \pic~\ref{fig:tambah-matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:tambah-jadwal}
+	\item Rancangan tampilan tambah mata kuliah yang berfungsi untuk menambah mata kuliah dapat dilihat pada \pic~\ref{fig:tambah-matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:tambah-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/tambah-matkul.png}
 		      \caption{Tampilan Tambah Mata Kuliah Laboratorium}
 		      \label{fig:tambah-matkul}
 	      \end{figure}
-	\item Rancangan tampilan edit mata kuliah yang berfungsi untuk mengedit mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:edit-matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:edit-jadwal}
+	\item Rancangan tampilan edit mata kuliah yang berfungsi untuk mengedit mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:edit-matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:edit-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-jadwal.png}
 		      \caption{Tampilan Edit Mata Kuliah Laboratorium}
 		      \label{fig:edit-matkul}
 	      \end{figure}
-	\item Rancangan tampilan kelola dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}
+	\item Rancangan tampilan kelola dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-dosen.png}
 		      \caption{Tampilan Kelola Dosen Laboratorium}
 		      \label{fig:dosen}
 	      \end{figure}
-	\item Rancangan tampilan tambah dosen yang berfungsi untuk menambah dosen laboratorium dapat dilihat pada \pic~\ref{fig:tambah-dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:tambah-jadwal}
+	\item Rancangan tampilan tambah dosen yang berfungsi untuk menambah dosen laboratorium dapat dilihat pada \pic~\ref{fig:tambah-dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:tambah-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/tambah-dosen.png}
 		      \caption{Tampilan Tambah Dosen Laboratorium}
 		      \label{fig:tambah-dosen}
 	      \end{figure}
-	\item Rancangan tampilan edit dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:edit-dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:edit-jadwal}
+	\item Rancangan tampilan edit dosen yang berfungsi untuk mengelola dosen laboratorium dapat dilihat pada \pic~\ref{fig:edit-dosen} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:edit-jadwal}.
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/edit-dosen.png}

@@ -26,32 +26,6 @@ Abrantes, B\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ahmed%
-, Cox%
-\BCBL {}\ \BBA {} Girvan%
-}{%
-Ahmed%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-ahmed2014developing}
-\APACinsertmetastar {%
-ahmed2014developing}%
-\begin{APACrefauthors}%
-Ahmed, T.%
-, Cox, J.%
-\BCBL {}\ \BBA {} Girvan, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Developing information systems: Practical guidance for
-  IT professionals} {Developing information systems: Practical guidance for it
-  professionals}.{\BBCQ}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ahsyar%
 , Raharjo%
 \BCBL {}\ \BBA {} Syaifullah%
@@ -404,32 +378,6 @@ Firdaus, N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Furterer%
-}{%
-Furterer%
-}{%
-{\protect \APACyear {2018}}%
-}]{%
-furterer2018applying}
-\APACinsertmetastar {%
-furterer2018applying}%
-\begin{APACrefauthors}%
-Furterer, S\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Applying systems engineering tools to teach systems
-  engineering in an engineering management program} {Applying systems
-  engineering tools to teach systems engineering in an engineering management
-  program}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {2018 ASEE Annual Conference \& Exposition.} {2018 asee
-  annual conference \& exposition.}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Hayati%
 , Rahayu%
 \BCBL {}\ \BBA {} Saputra%
@@ -487,33 +435,6 @@ Hussain, N.%
 \newblock
 \APACjournalVolNumPages{Ya{\c{s}}ar {\"U}niversitesi
   E-Dergisi}{14}{}{156--169}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Irawan%
-\ \protect \BOthers {.}}{%
-Irawan%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2017}}%
-}]{%
-irawan2017implementasi}
-\APACinsertmetastar {%
-irawan2017implementasi}%
-\begin{APACrefauthors}%
-Irawan, R.%
-\BCBT {}\ \BOthersPeriod {.}
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Implementasi Framework Codeignter Untuk Pengembangan
-  Website Pada Dinas Perkebunan Provinsi Kalimantan Tengah} {Implementasi
-  framework codeignter untuk pengembangan website pada dinas perkebunan
-  provinsi kalimantan tengah}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Jurnal Saintekom: Sains, Teknologi, Komputer dan
-  Manajemen}{7}{1}{67--80}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -603,36 +524,6 @@ Kelvin, K.%
 \newblock
 \APACjournalVolNumPages{Journal of Information System Research
   (JOSH)}{4}{1}{111--116}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Kiplie%
-, Yatin%
-, Angutim%
-\BCBL {}\ \BBA {} Hamid%
-}{%
-Kiplie%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2018}}%
-}]{%
-kiplie2018system}
-\APACinsertmetastar {%
-kiplie2018system}%
-\begin{APACrefauthors}%
-Kiplie, F\BPBI H.%
-, Yatin, S\BPBI F\BPBI M.%
-, Angutim, M.%
-\BCBL {}\ \BBA {} Hamid, N\BPBI H\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {System development for document management system}
-  {System development for document management system}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Journal of Academic Research in Business
-  and Social Sciences}{8}{9}{748--757}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1344,34 +1235,6 @@ uin-suska-website}%
 \begin{APACrefURL} \url{https://uin-suska.ac.id} \end{APACrefURL}
 \newblock
 \APACrefnote{Akses Tanggal: 30 Oktober 2024}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Warren%
-}{%
-Warren%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-jeffrey_s__warren_2017}
-\APACinsertmetastar {%
-jeffrey_s__warren_2017}%
-\begin{APACrefauthors}%
-Warren, J\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Effective Governance Structure and Management of
-  Utilization Programs} {Effective governance structure and management of
-  utilization programs}.{\BBCQ}
-\newblock
-\BIn{} (\BPG~31-37).
-\newblock
-\APACaddressPublisher{}{Springer International Publishing}.
-\newblock
-\begin{APACrefDOI} \doi{10.1007/978-3-319-34199-6_3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

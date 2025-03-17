@@ -74,47 +74,46 @@ apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
-Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in trelles2021agile
-You've used 51 entries,
+You've used 46 entries,
             6951 wiz_defined-function locations,
-            1574 strings with 21443 characters,
-and the built_in function-call counts, 107883 in all, are:
-= -- 13414
-> -- 877
-< -- 5587
-+ -- 5711
-- -- 128
-* -- 7085
-:= -- 20321
-add.period$ -- 204
-call.type$ -- 51
-change.case$ -- 869
+            1550 strings with 20594 characters,
+and the built_in function-call counts, 96926 in all, are:
+= -- 11971
+> -- 796
+< -- 5046
++ -- 5153
+- -- 116
+* -- 6412
+:= -- 18338
+add.period$ -- 181
+call.type$ -- 46
+change.case$ -- 783
 chr.to.int$ -- 0
-cite$ -- 103
-duplicate$ -- 2738
-empty$ -- 3869
-format.name$ -- 1497
-if$ -- 20034
+cite$ -- 93
+duplicate$ -- 2487
+empty$ -- 3489
+format.name$ -- 1372
+if$ -- 17948
 int.to.chr$ -- 0
-int.to.str$ -- 153
+int.to.str$ -- 138
 missing$ -- 0
-newline$ -- 1309
-num.names$ -- 408
-pop$ -- 1433
+newline$ -- 1186
+num.names$ -- 368
+pop$ -- 1238
 preamble$ -- 1
-purify$ -- 204
+purify$ -- 184
 quote$ -- 0
-skip$ -- 7071
+skip$ -- 6321
 stack$ -- 0
-substring$ -- 6122
-swap$ -- 1554
-text.length$ -- 126
+substring$ -- 5510
+swap$ -- 1414
+text.length$ -- 110
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4840
-warning$ -- 5
-while$ -- 506
+type$ -- 4248
+warning$ -- 4
+while$ -- 462
 width$ -- 0
-write$ -- 1662
-(There were 12 warnings)
+write$ -- 1510
+(There were 11 warnings)

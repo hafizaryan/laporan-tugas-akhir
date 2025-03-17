@@ -31,19 +31,19 @@
 \contentsline {subsection}{\numberline {2.5.2}Laboratorium Internet (INT)}{11}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Laboratorium \textit {Software Engineering} (SE)}{12}{subsection.2.5.3}%
 \contentsline {section}{\numberline {2.6}SITASI}{13}{section.2.6}%
-\contentsline {section}{\numberline {2.7}SmarTA}{13}{section.2.7}%
+\contentsline {section}{\numberline {2.7}SmartTA}{13}{section.2.7}%
 \contentsline {section}{\numberline {2.8}SIKAPE}{14}{section.2.8}%
 \contentsline {section}{\numberline {2.9}SIREPO}{15}{section.2.9}%
 \contentsline {section}{\numberline {2.10}Lab SI \textit {Website}}{15}{section.2.10}%
 \contentsline {section}{\numberline {2.11}LABVIS}{16}{section.2.11}%
 \contentsline {section}{\numberline {2.12}LARIS}{17}{section.2.12}%
 \contentsline {section}{\numberline {2.13}SITARIS SI}{17}{section.2.13}%
-\contentsline {section}{\numberline {2.14}Model Pengembangan Sistem}{19}{section.2.14}%
+\contentsline {section}{\numberline {2.14}Agile Development}{19}{section.2.14}%
 \contentsline {section}{\numberline {2.15}\textit {Unified Modelling Language} (UML)}{20}{section.2.15}%
 \contentsline {section}{\numberline {2.16}Observasi}{22}{section.2.16}%
 \contentsline {section}{\numberline {2.17}Wawancara}{23}{section.2.17}%
 \contentsline {section}{\numberline {2.18}PHP}{23}{section.2.18}%
-\contentsline {section}{\numberline {2.19}Framework}{23}{section.2.19}%
+\contentsline {section}{\numberline {2.19}\textit {Framework}}{23}{section.2.19}%
 \contentsline {section}{\numberline {2.20}CodeIgniter}{24}{section.2.20}%
 \contentsline {section}{\numberline {2.21}\textit {Black Box} Testing}{24}{section.2.21}%
 \contentsline {section}{\numberline {2.22}Visual Studio Code}{24}{section.2.22}%
@@ -78,23 +78,23 @@
 \contentsline {subsection}{\numberline {4.4.4}Perancangan \text {Database}}{37}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}Perancangan Struktur Menu}{43}{subsection.4.4.5}%
 \contentsline {subsection}{\numberline {4.4.6}Perancangan \textit {Interface}}{44}{subsection.4.4.6}%
-\contentsline {chapter}{\numberline {5}\uppercase {Implementasi dan Pengujian}}{57}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Implementasi Sistem}{57}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Batasan Implementasi}{57}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Implementasi Perangkat Keras (\textit {Hardware})}{57}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Implementasi Perangkat Lunak (\textit {Software})}{58}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Implementasi \textit {Database}}{58}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Implementasi \textit {Routes}}{61}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Implementasi \textit {Model}}{63}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Implementasi \textit {View}}{63}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Implementasi \textit {Controller}}{63}{subsection.5.4.5}%
-\contentsline {section}{\numberline {5.5}Hasil Implementasi}{63}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Pengujian Sistem}{74}{section.5.6}%
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{77}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Kesimpulan}{77}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Saran}{77}{section.6.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.90}%
+\contentsline {chapter}{\numberline {5}\uppercase {Implementasi dan Pengujian}}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implementasi Sistem}{56}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Batasan Implementasi}{56}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Implementasi Perangkat Keras (\textit {Hardware})}{56}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Implementasi Perangkat Lunak (\textit {Software})}{57}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Implementasi \textit {Database}}{57}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Implementasi \textit {Routes}}{60}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Implementasi \textit {Model}}{62}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Implementasi \textit {View}}{62}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Implementasi \textit {Controller}}{62}{subsection.5.4.5}%
+\contentsline {section}{\numberline {5.5}Hasil Implementasi}{62}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Pengujian Sistem}{73}{section.5.6}%
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{76}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Kesimpulan}{76}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Saran}{76}{section.6.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{}{chapter*.88}%
 \contentsline {chapter}{LAMPIRAN \numberline {A}HASIL WAWANCARA}{A - 2}{appendix.1.A}%
 \contentsline {chapter}{LAMPIRAN \numberline {B}HASIL OBSERVASI}{B - 1}{appendix.1.B}%
-\contentsline {chapter}{LAMPIRAN \numberline {C}DOKUMENTASI WAWANCARA}{C - 1}{appendix.1.C}%
-\contentsline {chapter}{LAMPIRAN \numberline {D}\textit {SOURCE CODE} / Use Case Diagram / Activity Diagram / Database / Interface}{D - 1}{appendix.1.D}%
+\contentsline {chapter}{LAMPIRAN \numberline {C}Dokumentasi Wawancara}{C - 1}{appendix.1.C}%
+\contentsline {chapter}{LAMPIRAN \numberline {D}\textit {SOURCE CODE / Use Case Diagram / Activity Diagram / Database / Interface}}{D - 1}{appendix.1.D}%

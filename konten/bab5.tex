@@ -77,11 +77,7 @@ Implementasi pada lingkungan \textit{software} adalah implementasi pada perangka
 \end{longtable}
 
 \subsection{Implementasi \textit{Database}}
-Pada implementasi \textit{database} ini nama yang digunakan adalah ”man\_lab”. Implemenasi \textit{database} ini terdapat beberapa tabel yang akan digunakan dalam sistem. Pembuatan \textit{database} dilakukan dengan menggunakan \textit{database} MariaDB. Tabel-tabel ini akan digunakan untuk menyimpan data-data yang diperlukan dalam sistem. Berikut adalah struktur tabel yang telah diintegrasikan dan digunakan dalam sistem ini dapat dilihat pada Gambar \ref{database-manlab}.
-
-
-
-Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal", "dosen", "mata kuliah", dan tabel  "biodatas", "users", "kelola pendaftarans", "kelola ujians", "postingans", "soals", jawabans", dan "wawancaras" sebagai tabel tambahan untuk integrasi sistem.
+Pada implementasi \textit{database} ini nama yang digunakan adalah ”man\_lab”. Implemenasi \textit{database} ini terdapat beberapa tabel yang akan digunakan dalam sistem. Pembuatan \textit{database} dilakukan dengan menggunakan \textit{database} MariaDB. Tabel-tabel ini akan digunakan untuk menyimpan data-data yang diperlukan dalam sistem. Berikut adalah struktur tabel yang telah diintegrasikan dan digunakan dalam sistem ini dapat dilihat pada Gambar \ref{database-manlab}. Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal", "dosen", "mata kuliah", dan tabel  "biodatas", "users", "kelola pendaftarans", "kelola ujians", "postingans", "soals", jawabans", dan "wawancaras" sebagai tabel tambahan untuk integrasi sistem.
 
 \begin{enumerate}
 
@@ -95,7 +91,7 @@ Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal",
 	      \end{figure}
 
 
-	\item Tabel Matkul digunakan untuk menyimpan informasi mengenai mata kuliah dalam sistem informasi akademik. Kolom id\_matkul berfungsi sebagai kunci utama (primary key) untuk mengidentifikasi setiap mata kuliah secara unik dan mencegah terjadinya duplikasi data. Kolom kode\_matkul menyimpan kode unik mata kuliah sebagai referensi singkat. Nama mata kuliah dicatat dalam kolom nama\_matkul untuk memberikan informasi deskriptif terkait mata kuliah tersebut. Kolom sks digunakan untuk mencatat jumlah Sistem Kredit Semester (SKS) dari mata kuliah, sedangkan semester mencatat pada semester berapa mata kuliah tersebut ditawarkan. Selain itu, kolom jenis\_matkul digunakan untuk mengklasifikasikan jenis mata kuliah, misalnya wajib dan pilihan. Struktur tabel ini dirancang untuk memastikan data terkait mata kuliah tersimpan secara terorganisasi dan mudah diakses sesuai kebutuhan. Tampilan dapat dilihat pada Gambar \ref{tabel-Matkul}.
+	\item Tabel Matkul digunakan untuk menyimpan informasi mengenai mata kuliah dalam sistem informasi akademik. Kolom id\_matkul berfungsi sebagai kunci utama \textit{(primary key)} untuk mengidentifikasi setiap mata kuliah secara unik dan mencegah terjadinya duplikasi data. Kolom kode\_matkul menyimpan kode unik mata kuliah sebagai referensi singkat. Nama mata kuliah dicatat dalam kolom nama\_matkul untuk memberikan informasi deskriptif terkait mata kuliah tersebut. Kolom sks digunakan untuk mencatat jumlah Sistem Kredit Semester (SKS) dari mata kuliah, sedangkan semester mencatat pada semester berapa mata kuliah tersebut ditawarkan. Selain itu, kolom jenis\_matkul digunakan untuk mengklasifikasikan jenis mata kuliah, misalnya wajib dan pilihan. Struktur tabel ini dirancang untuk memastikan data terkait mata kuliah tersimpan secara terorganisasi dan mudah diakses sesuai kebutuhan. Tampilan dapat dilihat pada Gambar \ref{tabel-Matkul}.
 
 	      \begin{figure}
 		      \centering
@@ -133,7 +129,7 @@ Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal",
 \end{enumerate}
 
 \subsection{Implementasi \textit{Routes}}
-\textit{Routes} dalam konsep MVC (\textit{Model-View-Controller}) adalah mekanisme yang digunakan untuk mengatur bagaimana permintaan \textit{(requests)} dari pengguna atau klien akan ditangani oleh aplikasi web. Routes menentukan hubungan antara URL yang diminta oleh pengguna dengan controller yang akan menangani permintaan tersebut \cite{kelvin2022sistem}. Dalam pengembangan ini ditambahkan beberapa \textit{routes} untuk menangani \textit{requests} pada sistem informasi.
+\textit{Routes} dalam konsep Model-View-Controller (MVC) adalah mekanisme yang digunakan untuk mengatur bagaimana permintaan \textit{(requests)} dari pengguna atau klien akan ditangani oleh aplikasi web. Routes menentukan hubungan antara URL yang diminta oleh pengguna dengan controller yang akan menangani permintaan tersebut \cite{kelvin2022sistem}. Dalam pengembangan ini ditambahkan beberapa \textit{routes} untuk menangani \textit{requests} pada sistem informasi.
 
 \begin{enumerate}
 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data dosen dapat dilihat pada Gambar \ref{fig:routes-dosen}
@@ -279,7 +275,7 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 	      \begin{figure}
 		      \centering
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/hasil/pilih-aplikasi.jpeg}
-		      \caption{Tampilan Pilihan Aplikasi untuk Login}
+		      \caption{Tampilan Pilihan Aplikasi untuk \textit{Login}}
 		      \label{fig:pilih-login}
 	      \end{figure}
 	\item Tampilan untuk mengelola jadwal laboratorium, yang memudahkan pengguna dalam mengatur dan melihat jadwal kegiatan laboratorium. Tampilan ini menyediakan fitur untuk menambah, mengedit, dan menghapus jadwal, serta menampilkan jadwal dalam format yang mudah dibaca. Dapat dilihat pada \pic~\ref{fig:jadwal} sampai \pic~\ref{fig:jadwal-int}.
@@ -382,40 +378,40 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 \section{Pengujian Sistem}
 Metode Blackbox digunakan untuk menguji fitur-fitur yang ada pada sistem. Pengujian ini dilakukan untuk memastikan bahwa setiap fungsi dalam sistem berjalan sesuai dengan spesifikasi yang telah ditentukan. Metode ini hanya berfokus pada pengujian keluaran sistem berdasarkan masukan tertentu, tanpa memperhatikan proses internal atau struktur kode.
 
-Pada pengujian Metode Blackbox, peneliti melakukan pengujian terhadap fitur-fitur yang ada pada sistem. Pengujian ini dilakukan oleh peneliti dan beberapa pengguna seperti Aslab dan Admin untuk memastikan bahwa fitur-fitur yang ada pada sistem berjalan dengan baik. Pengujian ini dapat dilihat pada Tabel~\ref{tab:PengujianBlackBox}
+Pada pengujian Metode Blackbox, peneliti melakukan pengujian terhadap fitur-fitur yang ada pada sistem. Pengujian ini dilakukan oleh peneliti dan beberapa pengguna seperti Aslab dan Admin untuk memastikan bahwa fitur-fitur yang ada pada sistem berjalan dengan baik. Pengujian ini dapat dilihat pada Tabel~\ref{tab:PengujianBlackBox}.
 
 {
-	\fontsize{10}{10}
-	\begin{longtable}{p{0.01\linewidth} p{0.15\linewidth} p{0.3\linewidth} p{0.3\linewidth} p{0.1\linewidth}}
-		\caption{Pengujian \textit{Blackbox}}\label{tab:PengujianBlackBox}                                                                                                                                           \\
-		\hline
-		\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
-		\endfirsthead
-		\caption[]{Pengujian \textit{Blackbox} (lanjutan)}                                                                                                                                                           \\
-		\hline
-		\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
-		\endhead
-		\endfoot
-		\endlastfoot
-		\centering 1  & \textit{Registrasi}    & Berhasil melakukan registrasi akun                              & Admin dapat melakukan registrasi akun untuk Kalab, Kaprodi, Sekprodi, dan Aslab & Berhasil        \\
-		\centering 2  & \textit{Login}         & Berhasil melakukan login dan masuk ke dalam sistem              & Pengguna dapat melakukan \textit{login} ke dalam sistem                         & Berhasil        \\
-		\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem SITARIS                          & Pengguna dapat melakukan \textit{login} ke dalam sistem  SITARIS                & Berhasil        \\
-		\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem LABVIS                           & Pengguna dapat melakukan \textit{login} ke dalam sistem  LABVIS                 & Berhasil        \\
-		\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem LARIS                            & Pengguna dapat melakukan \textit{login} ke dalam sistem  LARIS                  & Berhasil        \\
-		\centering 3  & Profil                 & Berhasil melakukan perubahan informasi pribadi                  & Pengguna dapat melakukan perubahan informasi pribadi                            & Berhasil        \\
-		\centering 4  & Tambah Jadwal          & Berhasil menambah Jadwal                                        & Pengguna berhasil menambah Jadwal                                               & Berhasil        \\
-		\centering 5  & Detail Jadwal          & Berhasil melihat detail informasi jadwal                        & Pengguna dapat melihat seluruh informasi jadwal                                 & Berhasil        \\
-		\centering 6  & Edit Jadwal            & Berhasil melakukan perubahan status seleksi administrasi jadwal & Pengguna dapat melakukan perubahan status seleksi administrasi jadwal           & Berhasil        \\
-		\centering 7  & Hapus Jadwal           & Berhasil menghapus jadwal                                       & Pengguna dapat menghapus jadwal yang sudah terdaftar di sistem                  & Berhasil        \\
-		\centering 8  & Cetak Jadwal           & Berhasil mencetak jadwal dalam bentuk PDF                       & Pengguna berhasil mencetak dan mendownload jadwal dalam bentuk PDF              & Berhasil        \\
-		\centering 9  & Tambah Dosen           & Berhasil menambah Dosen                                         & Pengguna berhasil menambah Dosen                                                & Berhasil        \\
-		\centering 10 & Detail Dosen           & Berhasil melihat detail informasi Dosen                         & Pengguna dapat melihat seluruh informasi Dosen                                  & Berhasil        \\
-		\centering 11 & Edit Dosen             & Berhasil melakukan perubahan status seleksi administrasi Dosen  & Pengguna dapat melakukan perubahan status seleksi administrasi Dosen            & Berhasil        \\
-		\centering 12 & Hapus Dosen            & Berhasil menghapus Dosen                                        & Pengguna dapat menghapus Dosen yang sudah terdaftar di sistem                   & Berhasil        \\
-		\centering 13 & Tambah Mata Kuliah     & Berhasil menambahkan mata kuliah                                & Dapat menambahkan mata kuliah                                                   & Berhasil        \\
-		\centering 14 & Edit Mata Kuliah       & Berhasil melakukan perubahan mata kuliah                        & Dapat melakukan perubahan terhadap mata kuliah                                  & Berhasil        \\
-		\centering 15 & Hapus Mata Kuliah      & Berhasil menghapus mata kuliah                                  & Dapat menghapus mata kuliah                                                     & Berhasil        \\
-		\centering 16 & Ubah \textit{password} & Berhasil melakukan perubahan \textit{password}                  & Pengguna dapat melakukan perubahan \textit{password}                            & Berhasil        \\
-		\centering 17 & \textit{Logout}        & Berhasil melakukan \textit{logout}                              & Pengguna dapat keluar dari sistem                                               & Berhasil        \\ \hline
-	\end{longtable}}
+\fontsize{10}{10}
+\begin{longtable}{p{0.01\linewidth} p{0.15\linewidth} p{0.3\linewidth} p{0.3\linewidth} p{0.1\linewidth}}
+	\caption{Pengujian \textit{Blackbox}}\label{tab:PengujianBlackBox}                                                                                                                                           \\
+	\hline
+	\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
+	\endfirsthead
+	\caption[]{Pengujian \textit{Blackbox} (lanjutan)}                                                                                                                                                           \\
+	\hline
+	\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
+	\endhead
+	\endfoot
+	\endlastfoot
+	\centering 1  & \textit{Registrasi}    & Berhasil melakukan registrasi akun                              & Admin dapat melakukan registrasi akun untuk Kalab, Kaprodi, Sekprodi, dan Aslab & Berhasil        \\
+	\centering 2  & \textit{Login}         & Berhasil melakukan login dan masuk ke dalam sistem              & Pengguna dapat melakukan \textit{login} ke dalam sistem                         & Berhasil        \\
+	\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem SITARIS                          & Pengguna dapat melakukan \textit{login} ke dalam sistem  SITARIS                & Berhasil        \\
+	\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem LABVIS                           & Pengguna dapat melakukan \textit{login} ke dalam sistem  LABVIS                 & Berhasil        \\
+	\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem LARIS                            & Pengguna dapat melakukan \textit{login} ke dalam sistem  LARIS                  & Berhasil        \\
+	\centering 3  & Profil                 & Berhasil melakukan perubahan informasi pribadi                  & Pengguna dapat melakukan perubahan informasi pribadi                            & Berhasil        \\
+	\centering 4  & Tambah Jadwal          & Berhasil menambah Jadwal                                        & Pengguna berhasil menambah Jadwal                                               & Berhasil        \\
+	\centering 5  & Detail Jadwal          & Berhasil melihat detail informasi jadwal                        & Pengguna dapat melihat seluruh informasi jadwal                                 & Berhasil        \\
+	\centering 6  & Edit Jadwal            & Berhasil melakukan perubahan status seleksi administrasi jadwal & Pengguna dapat melakukan perubahan status seleksi administrasi jadwal           & Berhasil        \\
+	\centering 7  & Hapus Jadwal           & Berhasil menghapus jadwal                                       & Pengguna dapat menghapus jadwal yang sudah terdaftar di sistem                  & Berhasil        \\
+	\centering 8  & Cetak Jadwal           & Berhasil mencetak jadwal dalam bentuk PDF                       & Pengguna berhasil mencetak dan mendownload jadwal dalam bentuk PDF              & Berhasil        \\
+	\centering 9  & Tambah Dosen           & Berhasil menambah Dosen                                         & Pengguna berhasil menambah Dosen                                                & Berhasil        \\
+	\centering 10 & Detail Dosen           & Berhasil melihat detail informasi Dosen                         & Pengguna dapat melihat seluruh informasi Dosen                                  & Berhasil        \\
+	\centering 11 & Edit Dosen             & Berhasil melakukan perubahan status seleksi administrasi Dosen  & Pengguna dapat melakukan perubahan status seleksi administrasi Dosen            & Berhasil        \\
+	\centering 12 & Hapus Dosen            & Berhasil menghapus Dosen                                        & Pengguna dapat menghapus Dosen yang sudah terdaftar di sistem                   & Berhasil        \\
+	\centering 13 & Tambah Mata Kuliah     & Berhasil menambahkan mata kuliah                                & Dapat menambahkan mata kuliah                                                   & Berhasil        \\
+	\centering 14 & Edit Mata Kuliah       & Berhasil melakukan perubahan mata kuliah                        & Dapat melakukan perubahan terhadap mata kuliah                                  & Berhasil        \\
+	\centering 15 & Hapus Mata Kuliah      & Berhasil menghapus mata kuliah                                  & Dapat menghapus mata kuliah                                                     & Berhasil        \\
+	\centering 16 & Ubah \textit{password} & Berhasil melakukan perubahan \textit{password}                  & Pengguna dapat melakukan perubahan \textit{password}                            & Berhasil        \\
+	\centering 17 & \textit{Logout}        & Berhasil melakukan \textit{logout}                              & Pengguna dapat keluar dari sistem                                               & Berhasil        \\ \hline
+\end{longtable}}
 
