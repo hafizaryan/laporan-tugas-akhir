@@ -25,7 +25,7 @@ Dalam proses tata kelola yang berlangsung di laboratorium Program Studi Sistem I
 	\item Sistem Informasi Inventaris disingkat yang SITARIS adalah sistem informasi inventarisasi yang memfasilitasi pengelolaan dan pemantauan alat serta barang di laboratorium, meningkatkan efisiensi dalam manajemen inventaris seperti pada Gambar \ref{fig:sitaris}.
 \end{enumerate}
 
-Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Berdasarkan hasil observasi ditemukan beberapa permasalahan yang teridentifikasi meliputi kesalahan dalam pembuatan kode barang (Lampiran B), disfungsi fitur peminjaman barang dan ruangan (Lampiran B), serta ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium (Lampiran B). Sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi. Keterbatasan ini berdampak signifikan pada efektivitas manajemen laboratorium secara keseluruhan dan mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan.
+Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Berdasarkan hasil observasi, ditemukan sejumlah permasalahan yang cukup krusial dalam sistem, antara lain kesalahan dalam pembuatan kode barang (Lampiran B), serta disfungsi pada fitur peminjaman barang dan ruangan (Lampiran B). Fitur peminjaman tersebut belum berjalan secara optimal dan belum sepenuhnya memenuhi standar operasional prosedur (SOP) yang telah ditetapkan. Beberapa kelemahan yang teridentifikasi meliputi kurangnya akurasi dalam pencatatan data peminjaman, tidak adanya sistem verifikasi yang memadai untuk memastikan status barang atau ruangan yang dipinjam, serta minimnya notifikasi atau pelacakan terhadap barang yang masih berada dalam status dipinjam. Selain itu, sistem juga belum mampu secara otomatis mendeteksi dan memperbarui status barang yang telah dikembalikan, sehingga berpotensi menimbulkan kesalahan dalam inventarisasi. Kekurangan-kekurangan ini tidak hanya menghambat efisiensi operasional, tetapi juga berisiko menimbulkan kehilangan atau ketidaksesuaian data dalam manajemen aset secara keseluruhan, serta ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium (Lampiran B). Sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi. Keterbatasan ini berdampak signifikan pada efektivitas manajemen laboratorium secara keseluruhan dan mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan.
 
 \section{Analisis Sistem Usulan}
 Pengembangan sistem ini menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Fitur ini dirancang untuk mempermudah pengelolaan jadwal kegiatan di laboratorium, sehingga setiap pengguna dapat dengan mudah mengakses dan mengelola informasi terkait jadwal. Selain itu, sistem ini juga akan mengintegrasikan sistem informasi yang sudah ada seperti Website SI, LABVIS, dan LARIS. Penyempurnaan ini bertujuan untuk mencapai tujuan laboratorium dalam menerapkan \textit{Integrated Laboratory Management Information System} (ILMIS), yang akan mengintegrasikan seluruh aspek manajemen laboratorium, termasuk penjadwalan, ke dalam satu sistem yang efisien. Dengan adanya sistem ini, diharapkan akan tercipta efisiensi dalam pengelolaan waktu dan sumber daya di laboratorium, serta mengurangi kemungkinan terjadinya bentrok jadwal antara berbagai kegiatan yang berlangsung dan juga mengintegrasikan sistem yang mulanya berdiri sendiri. Hasil akhir dari sistem ini adalah sebuah sistem terintegrasi yang memungkinkan semua pengguna untuk mengelola dan memantau jadwal laboratorium secara \textit{real-time}, meningkatkan koordinasi antar pengguna, dan memastikan bahwa semua kegiatan laboratorium dapat berjalan dengan lancar tanpa adanya konflik jadwal.
@@ -93,12 +93,12 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 		      % 				\multicolumn{2}{c}{\small\tablename\ \thetable\ {Lorem Ipsum} \space (Tabel lanjutan...)}                           \\
 		      % \hline
 		      %
-		      1           & Processor                                    & \begin{tabular}[c]{@{}l@{}}Intel Core i3 atau AMD \\ Ryzen 3\end{tabular} & \begin{tabular}[c]{@{}l@{}}AMD Ryzen 5 5600U, 6Cores, \\ 12Threads, 2.3GHz.\end{tabular} \\
-		      2           & Memory                                       & 4 GB DDR4                                                                 & 16 GB DDR4-3200 MHz                                                                      \\
-		      3           & Storage                                      & \begin{tabular}[c]{@{}l@{}}256 GB SSD atau \\ 500 GB HDD\end{tabular}     & 512 GB M.2 NVMe                                                                          \\
-		      4           & Keyboard                                     & \begin{tabular}[c]{@{}l@{}}Standard QWERTY \\ keyboard\end{tabular}       & 6-row, multimedia Fn keys                                                                \\
-		      5           & Connection                                   & \begin{tabular}[c]{@{}l@{}}Wi-Fi 802.11n atau \\ Ethernet\end{tabular}    & Wi-Fi® 6                                                                                 \\
-		      6           & Monitor                                      & \begin{tabular}[c]{@{}l@{}}14 inch, resolusi \\ 1366x768\end{tabular}     & 13 inc                                                                                   \\ \hline
+		      1           & \textit{Processor}                                    & \begin{tabular}[c]{@{}l@{}}\textit{Intel Core i3} atau \textit{AMD} \\ \textit{Ryzen} 3\end{tabular} & \begin{tabular}[c]{@{}l@{}}\textit{AMD Ryzen} 5 5600U, 6\textit{Cores}, \\ 12\textit{Threads}, 2.3\textit{GHz}.\end{tabular} \\
+		      2           & \textit{Memory}                                       & 4 \textit{GB DDR4}                                                                 & 16 \textit{GB DDR4}-3200 \textit{MHz}                                                                      \\
+		      3           & \textit{Storage}                                      & \begin{tabular}[c]{@{}l@{}}256 \textit{GB SSD} atau \\ 500 \textit{GB HDD}\end{tabular}     & 512 \textit{GB M.2 NVMe}                                                                          \\
+		      4           & \textit{Keyboard}                                     & \begin{tabular}[c]{@{}l@{}}\textit{Standard QWERTY} \\ \textit{keyboard}\end{tabular}       & 6-\textit{row}, \textit{multimedia Fn keys}                                                                \\
+		      5           & \textit{Connection}                                   & \begin{tabular}[c]{@{}l@{}}\textit{Wi-Fi} 802.11n atau \\ \textit{Ethernet}\end{tabular}    & \textit{Wi-Fi}® 6                                                                                 \\
+		      6           & \textit{Monitor}                                      & \begin{tabular}[c]{@{}l@{}}14 \textit{inch}, resolusi \\ 1366x768\end{tabular}     & 13 \textit{inc}                                                                                   \\ \hline
 	      \end{longtable}
 
 	      Dalam spesifikasi perangkat keras yang disarankan pada Sistem \textit{Integrated Laboratory Management Information System} sesuai yang tertera pada Tabel \ref{tab:PerangkatKerasPengembang} sebaiknya memenuhi syarat spesifikasi minimum agar sistem dapat berjalan dengan sempurna.
@@ -110,8 +110,9 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan dari perancangan sistem adalah untuk menentukan, mengorganisir, dan membentuk komponen dari solusi sistem akhir sehingga memiliki \textit{blueprint} untuk membangun sistem.
 
 % =======================================================================================================================
-\subsection{Use Case Diagram}
-\textit{\textit{Use case} diagram} terdiri dari \textit{actor}, \textit{use case} dan serta hubungannya. \textit{\textit{Use case} diagram} adalah sesuatu yang penting untuk memvisualisasiakan, menspesifikasikan dan mendokumentasikan kebutuhan perilaku sistem. \textit{\textit{Use case} diagram} digunakan untuk menjelaskan kegiatan apa saja yang dapat dilakukan oleh \textit{user} pengguna sistem yang sedang berjalan \cite{Carstoiu1995}.
+\subsection{\textit{Use Case Diagram}}
+\textit{\textit{Use case} diagram} terdiri dari \textit{actor}, \textit{use case} dan serta hubungannya. \textit{\textit{Use case} diagram} adalah sesuatu yang penting untuk memvisualisasiakan, menspesifikasikan dan mendokumentasikan kebutuhan perilaku sistem. \textit{\textit{Use case} diagram} digunakan untuk menjelaskan kegiatan apa saja yang dapat dilakukan oleh \textit{user} pengguna sistem yang sedang berjalan \cite{Carstoiu1995}. Dalam pengembangan sistem manajemen laboratorium ini, \textit{use case diagram} membantu mengidentifikasi interaksi antara pengguna dengan sistem secara jelas. Setiap aktor dalam diagram memiliki peran dan hak akses yang berbeda sesuai dengan kebutuhan fungsional sistem. Dengan adanya \textit{use case diagram}, tim pengembang dapat memahami alur kerja sistem dari perspektif pengguna. Selain itu, diagram ini juga berfungsi sebagai dasar komunikasi antara pengembang dan pemangku kepentingan untuk memastikan bahwa sistem yang dibangun sesuai dengan kebutuhan.
+
 \begin{longtable}{clp{8cm}}
 	\caption{Deskripsi Aktor}
 	\label{tab:DeskripsiAktor}                                                                                                    \\
@@ -139,15 +140,15 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 
 Sistem manajemen laboratorium adalah sistem yang dikelola secara terpusat oleh seorang Admin. Sistem ini digambarkan menggunakan diagram use case yang menunjukkan interaksi antara admin dengan berbagai komponen sistem. Dalam sistem ini terdapat 4 fungsi utama yang dapat digunakan oleh admin dalam mengelola sistem. Fungsi-fungsi tersebut meliputi kemampuan Admin untuk menambahkan jadwal baru melalui menu "Tambah Jadwal Laboratorium", mengubah jadwal yang ada melalui "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan melalui "Hapus Jadwal Laboratorium", dan melihat daftar jadwal melalui "Lihat Jadwal Laboratorium".
 
-Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama yaitu penambahan, pengeditan, dan penghapusan jadwal termasuk ke dalam lingkup wewenang Admin, oleh karena itu fungsi-fungsi tersebut mengharuskan Admin untuk login terlebih dahulu sebelum dapat mengaksesnya. Sementara itu, fungsi melihat jadwal laboratorium dapat diakses langsung tanpa memerlukan login seperti yang ditunjukkan dalam Gambar \ref{usecase-diagram-admin}.
+Keamanan sistem dijamin melalui mekanisme \textit{login} yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama yaitu penambahan, pengeditan, dan penghapusan jadwal termasuk ke dalam lingkup wewenang Admin, oleh karena itu fungsi-fungsi tersebut mengharuskan Admin untuk \textit{login} terlebih dahulu sebelum dapat mengaksesnya. Sementara itu, fungsi melihat jadwal laboratorium dapat diakses langsung tanpa memerlukan \textit{login} seperti yang ditunjukkan dalam Gambar \ref{usecase-diagram-admin}.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.65\textwidth]{konten/gambar/usecase-diagram/admin.png}
+	\includegraphics[width=0.82\textwidth]{konten/gambar/usecase-diagram/admin.png}
 	\caption{\textit{Usecase Diagram} Admin}
 	\label{usecase-diagram-admin}
 \end{figure}
 
-Dalam sistem ini, Kalab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium". Keamanan sistem dijamin melalui mekanisme login yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Kalab untuk melakukan login terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
+Dalam sistem ini, Kalab memiliki empat fungsi utama yang dapat diakses. Fungsi-fungsi tersebut meliputi kemampuan untuk menambahkan jadwal baru melalui fitur "Tambah Jadwal Laboratorium", melakukan perubahan pada jadwal yang sudah ada menggunakan fitur "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan dengan fitur "Hapus Jadwal Laboratorium", dan melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium". Keamanan sistem dijamin melalui mekanisme \textit{login} yang ditunjukkan dengan relasi "include" pada diagram. Tiga fungsi utama, yaitu menambah, mengedit, dan menghapus jadwal, mengharuskan Kalab untuk melakukan \textit{login} terlebih dahulu sebelum dapat mengakses fungsi-fungsi tersebut. Sementara itu, fungsi untuk melihat jadwal laboratorium dapat diakses secara langsung tanpa perlu melalui proses \textit{login} terlebih dahulu, seperti yang ditunjukkan pada Gambar \ref{usecase-diagram-kalab}.
 
 Dalam sistem ini, Kaprodi memiliki satu fungsi utama yang dapat diakses, yaitu melihat seluruh daftar jadwal yang tersedia melalui fitur "Lihat Jadwal Laboratorium". Fungsi ini dapat diakses secara langsung tanpa perlu melalui proses login terlebih dahulu, sehingga Kaprodi dapat dengan mudah memantau jadwal laboratorium yang ada. Hal ini ditunjukkan pada Gambar \ref{usecase-diagram-kaprodi}.
 
@@ -227,10 +228,10 @@ Dalam sistem ini, Aslab memiliki empat fungsi utama yang dapat diakses. Fungsi-f
 \subsection{\textit{Activity Diagram}}
 \textit{Activity diagram} adalah salah satu alat dalam \textit{Unified Modeling Language} (UML) yang digunakan untuk memvisualisasikan alur kerja atau aktivitas dalam suatu sistem \cite{linzhang2004generating}. Pada sistem ini, \textit{activity diagram} memberikan gambaran rinci tentang proses yang dilalui oleh berbagai aktor seperti Admin, Kalab, Kaprodi, Sekprodi, Aslab.
 
-\textit{Activity diagram} login memberikan gambaran rinci tentang proses login yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses login, mulai dari input data oleh pengguna, validasi oleh sistem hingga dapat masuk ke dalam sistem menggunakan akun yang sudah ada. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-login}.
+\textit{Activity diagram} \textit{login} memberikan gambaran rinci tentang proses \textit{login} yang dilalui oleh pengguna. Diagram ini memandu langkah-langkah yang terlibat dalam proses login, mulai dari input data oleh pengguna, validasi oleh sistem hingga dapat masuk ke dalam sistem menggunakan akun yang sudah ada. \textit{Activity diagram} ini dapat dilihat pada Gambar \ref{activity-diagram-login}.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\textwidth]{konten/gambar/activity-diagram/login.png}
+	\includegraphics[width=0.82\textwidth]{konten/gambar/activity-diagram/login.png}
 	\caption{\textit{Activity Diagram Login}}
 	\label{activity-diagram-login}
 \end{figure}
@@ -270,7 +271,7 @@ Dalam sistem ini, Aslab memiliki empat fungsi utama yang dapat diakses. Fungsi-f
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\textwidth]{konten/gambar/class-diagram.png}
+	\includegraphics[width=0.82\textwidth]{konten/gambar/class-diagram.png}
 	\caption{\textit{Class Diagram} Sistem Manajemen Laboratorium}
 	\label{class-diagram}
 \end{figure}
@@ -278,27 +279,27 @@ Dalam sistem ini, Aslab memiliki empat fungsi utama yang dapat diakses. Fungsi-f
 Relasi antara jadwal dengan ruangan, dosen, dan mata kuliah diwakili oleh id\_ruangan, id\_dosen, dan id\_matkul pada jadwal. Id\_ruangan menunjukkan keterkaitan jadwal dengan ruangan tertentu, id\_dosen menunjukkan keterkaitan jadwal dengan dosen tertentu, dan id\_matkul menunjukkan keterkaitan jadwal dengan mata kuliah tertentu. Hubungan ini digambarkan dengan garis yang menghubungkan entitas jadwal ke masing-masing entitas ruangan, dosen, dan mata kuliah dalam diagram.
 
 % =======================================================================================================================
-\subsection{Perancangan \text{Database}}
+\subsection{Perancangan \textit{Database}}
 Perancangan \textit{database} adalah perancangan basis data yang akan digunakan pada sebuah sistem, didasari oleh data perusahaan. Perancangan ini bertujuan agar tiap field data yang memiliki relasi dapat terhubung pada tabel di \textit{database}, sehingga proses pengaksesan data akan dapat telaksana dengan lebih baik. Berikut adalah detail perancangan serta relasi yang ada pada \textit{database} sistem informasi inventaris laboratorium pada Laboratorium Sistem Informasi. Berikut tabel perancangan \textit{database}:
 
 \begin{enumerate}
 
-	\item Perancangan \textit{Database} Tabel Dosen \\
-	      \begin{tabular}{lll}
-		      Nama \textit{Database} & : & man\_lab  \\
-		      Nama Tabel             & : & dosen     \\
-		      Field Kunci            & : & id\_dosen \\
-	      \end{tabular}
+	\item Perancangan \textit{Database} Tabel Dosen
+	      % \begin{tabular}{lll}
+		    %   Nama \textit{Database}: man\_lab  \\
+		    %   Nama Tabel: dosen     \\
+		    %   Field Kunci: id\_dosen \\
+	      % \end{tabular}
 
 	      Tabel Dosen dirancang untuk menyimpan informasi komprehensif tentang staf pengajar. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data dosen secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Dosen:
 
-	      \begin{itemize}
+	      \begin{enumerate}[label=\alph*.]
 		      \item Tabel ini menetapkan \textit{id\_dosen} sebagai kunci utama dengan tipe data tinyint(4) dan fitur \textit{auto increment}, yang memastikan bahwa setiap dosen diberikan identifikasi yang unik dalam sistem.
 		      \item Atribut 'nama\_dosen' dan 'nip\_dosen' berfungsi untuk menyimpan informasi dasar tentang dosen, yang memudahkan pengenalan personal dalam lingkungan akademis.
 		      \item Field 'jenis\_kelamin' memakai tipe data enum untuk menjaga konsistensi data dan membantu dalam analisis demografis.
 		      \item 'email\_dosen' dan 'no\_hp' merupakan saluran komunikasi yang vital, yang memungkinkan komunikasi yang efektif antara dosen dan sistem.
 		      \item Atribut 'nidn' (Nomor Induk Dosen Nasional) mencatat identifikasi nasional yang unik untuk dosen, yang mendukung integrasi dengan sistem pendidikan tinggi yang lebih luas.
-	      \end{itemize}
+	      \end{enumerate}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data dosen yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data.
 
@@ -329,21 +330,21 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel Matkul \\
-	      \begin{tabular}{lll}
-		      Nama \textit{Database} & : & man\_lab   \\
-		      Nama Tabel             & : & matkul     \\
-		      Field Kunci            & : & id\_matkul \\
-	      \end{tabular}
+	\item Perancangan \textit{Database} Tabel Matkul 
+	      % \begin{tabular}{lll}
+		    %   Nama \textit{Database}: man\_lab   \\
+		    %   Nama Tabel: matkul     \\
+		    %   Field Kunci: id\_matkul \\
+	      % \end{tabular}
 
 	      Tabel Matkul dirancang untuk menyimpan informasi tentang mata kuliah yang ditawarkan dalam program akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data mata kuliah secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Matkul:
 
-	      \begin{itemize}
+				\begin{enumerate}[label=\alph*.]
 		      \item Tabel ini memanfaatkan \textit{id\_matkul} sebagai kunci utama dengan tipe data tinyint(4) dan fitur \textit{auto increment}, yang menjamin bahwa setiap mata kuliah diberi identifikasi yang unik di dalam sistem.
 		      \item Atribut 'kode\_matkul' dan 'nama\_matkul' berfungsi untuk menyimpan informasi dasar yang membantu dalam mengenali mata kuliah dengan cepat di lingkungan akademik.
 		      \item Field 'sks' dan 'semester' berisi informasi krusial mengenai bobot akademik dan penjadwalan mata kuliah dalam kurikulum, yang penting untuk perencanaan pendidikan.
 		      \item Atribut 'jenis\_matkul' memakai tipe data enum untuk membedakan mata kuliah menjadi kategori wajib atau pilihan, mendukung kelancaran dalam pengelolaan kurikulum.
-	      \end{itemize}
+	      \end{enumerate}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data mata kuliah yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data kurikulum.
 
@@ -373,22 +374,22 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel Ruangan \\
-	      \begin{tabular}{lll}
-		      Nama \textit{Database} & : & man\_lab    \\
-		      Nama Tabel             & : & ruangan     \\
-		      Field Kunci            & : & id\_ruangan \\
-	      \end{tabular}
+	\item Perancangan \textit{Database} Tabel Ruangan 
+	      % \begin{tabular}{lll}
+		    %   Nama \textit{Database}: man\_lab    \\
+		    %   Nama Tabel: ruangan     \\
+		    %   Field Kunci: id\_ruangan \\
+	      % \end{tabular}
 
 	      Tabel Ruangan dirancang untuk menyimpan informasi tentang ruangan-ruangan yang tersedia untuk kegiatan akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data ruangan secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Ruangan:
 
-	      \begin{itemize}
+				\begin{enumerate}[label=\alph*.]
 		      \item Tabel ini memanfaatkan \textit{id\_ruangan} sebagai \textit{primary key}. Dengan menggunakan tipe data tinyint(4) dan fitur \textit{auto increment}, tabel ini memastikan bahwa setiap ruangan tercatat dengan identitas uniknya sendiri dalam sistem.
 		      \item Atribut 'id\_gedung' bertindak sebagai \textit{foreign key} yang mengaitkan setiap ruangan dengan gedungnya, membantu dalam mengatur lokasi dengan lebih terstruktur.
 		      \item Field 'nama\_ruangan' berisi nama yang memudahkan pengguna dalam mengenali setiap ruangan.
 		      \item Atribut 'deskripsi\_ruangan' memberikan ruang untuk menambahkan keterangan lebih lanjut mengenai fasilitas atau ciri khas dari ruangan tersebut.
 		      \item Field 'gambar\_ruangan' berisi jalur ke file gambar yang berkaitan dengan ruangan, memudahkan dalam visualisasi dan lebih memahami penampilan ruangan tersebut.
-	      \end{itemize}
+	      \end{enumerate}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data ruangan yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data fasilitas.
 
@@ -417,22 +418,22 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel Jadwal \\
-	      \begin{tabular}{lll}
-		      Nama \textit{Database} & : & man\_lab   \\
-		      Nama Tabel             & : & jadwal     \\
-		      Field Kunci            & : & id\_jadwal \\
-	      \end{tabular}
+	\item Perancangan \textit{Database} Tabel Jadwal 
+	      % \begin{tabular}{lll}
+		    %   Nama \textit{Database}: man\_lab   \\
+		    %   Nama Tabel: jadwal     \\
+		    %   Field Kunci: id\_jadwal \\
+	      % \end{tabular}
 
 	      Tabel Jadwal dirancang untuk menyimpan informasi tentang penjadwalan kegiatan akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data jadwal secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Jadwal:
 
-	      \begin{itemize}
+	      \begin{enumerate}[label=\alph*.]
 		      \item Tabel ini dilengkapi dengan \textit{id\_jadwal} sebagai \textit{primary key}. Dengan tipe data tinyint(4) dan fitur \textit{auto increment}, setiap jadwal dijamin memiliki identifikasi yang unik dalam sistem.
 		      \item Atribut seperti 'id\_ruangan', 'id\_matkul', dan 'id\_dosen' bertindak sebagai \textit{foreign key}, yang mengaitkan jadwal dengan informasi tentang ruangan, mata kuliah, dan dosen yang relevan, sehingga memudahkan pengelolaan jadwal secara terpadu.
 		      \item Field seperti 'tanggal', 'hari', 'jam\_masuk', dan 'jam\_keluar' berperan penting dalam mencatat waktu spesifik untuk setiap kegiatan dalam jadwal.
 		      \item Atribut 'deskripsi' memberikan ruang untuk menambahkan informasi detail tentang kegiatan atau jadwal yang direncanakan.
 		      \item Field-field seperti 'kode\_matkul', 'nama\_matkul', 'nama\_dosen', dan 'nama\_ruangan' walaupun redundan, tetapi sangat membantu dalam mempercepat akses informasi tanpa perlu menggabungkan tabel berulang kali.
-	      \end{itemize}
+	      \end{enumerate}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data jadwal yang komprehensif, efisiensi dalam pengambilan data, dan fleksibilitas dalam pengelolaan jadwal akademik.
 
@@ -469,22 +470,22 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel \textit{User} \\
-	      \begin{tabular}{lll}
-		      Nama \textit{Database} & : & man\_lab          \\
-		      Nama Tabel             & : & \textit{user}     \\
-		      Field Kunci            & : & id\_\textit{user} \\
-	      \end{tabular}
+	\item Perancangan \textit{Database} Tabel \textit{User} 
+	      % \begin{tabular}{lll}
+		    %   Nama \textit{Database}: man\_lab          \\
+		    %   Nama Tabel: \textit{user}     \\
+		    %   Field Kunci: id\_\textit{user} \\
+	      % \end{tabular}
 
 	      Tabel \textit{User} dirancang untuk menyimpan informasi pengguna dalam sistem manajemen laboratorium. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengautentikasi pengguna, serta mengelola hak akses mereka. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel \textit{User}:
 
-	      \begin{itemize}
+	      \begin{enumerate}[label=\alph*.]
 		      \item Tabel ini memberikan setiap pengguna identifikasi unik melalui \textit{id\_user} yang bertindak sebagai \textit{primary key}. Tipe data yang digunakan adalah smallint(4) dengan fitur \textit{auto increment}.
 		      \item Atribut 'nama' dan 'no\_identitas' berfungsi untuk menyimpan informasi dasar tentang pengguna, sehingga memudahkan pengenalan personal dalam lingkup organisasi.
 		      \item Field 'foto' berisi lokasi penyimpanan file gambar profil pengguna, yang membantu dalam personalisasi tampilan antarmuka pengguna.
 		      \item \textit{Username} dan \textit{password\_hash} digunakan sebagai kredensial untuk masuk ke sistem, dengan \textit{password} yang telah dienkripsi guna menjaga keamanan data.
 		      \item Atribut 'role\_user' dengan tipe data enum digunakan untuk menentukan peran pengguna dalam sistem, yang mendukung pengelolaan hak akses secara efektif.
-	      \end{itemize}
+	      \end{enumerate}
 
 	      Struktur tabel ini dirancang dengan mempertimbangkan aspek keamanan, efisiensi penyimpanan data, dan fleksibilitas dalam pengelolaan pengguna sistem.
 
@@ -510,7 +511,9 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 				      no\_identitas           & varchar                & 50                                                 &                       \\
 				      \textit{username}       & varchar                & 100                                                &                       \\
 				      \textit{password}\_hash & varchar                & 100                                                &                       \\
-				      role\_\textit{user}     & enum                   & ('Admin', 'Kalab', 'Kaprodi', 'Sekprodi', 'Aslab') &                       \\
+				      role\_\textit{user}     & enum                   & ('Admin', 'Kalab',                                 &                       \\
+				                              &                        & 'Kaprodi', 'Sekprodi',                             &                       \\
+				                              &                        & 'Aslab')                                           &                       \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -653,7 +656,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \includegraphics[width=0.82\textwidth]{konten/gambar/user interface/ui-jadwal-rsi.png}
 		      \caption{Tampilan Kelola Jadwal Laboratorium}
 		      \label{fig:jadwal-rsi}
-	      \end{figure}	      
+	      \end{figure}
 	\item Rancangan tampilan tambah jadwal yang berfungsi untuk menambah jadwal laboratorium dapat dilihat pada \pic~\ref{fig:jadwal}
 	      \begin{figure}
 		      \centering

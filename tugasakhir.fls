@@ -290,6 +290,7 @@ INPUT .\kontrol\cover.tex
 INPUT kontrol\cover.tex
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
@@ -344,6 +345,8 @@ INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
@@ -461,11 +464,8 @@ INPUT .\halamandepan\abstrakInggris.tex
 INPUT .\halamandepan\abstrakInggris.tex
 INPUT halamandepan\abstrakInggris.tex
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcmrm.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
@@ -792,45 +792,45 @@ INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\konten\gambar\usecase-diagram\admin.png
+INPUT .\konten\gambar\usecase-diagram\admin.png
+INPUT .\konten\gambar\usecase-diagram\admin.png
+INPUT .\konten\gambar\usecase-diagram\admin.png
+INPUT .\konten\gambar\usecase-diagram\admin.png
+INPUT .\konten\gambar\usecase-diagram\admin.png
+INPUT .\konten\gambar\usecase-diagram\admin.png
+INPUT .\konten\gambar\activity-diagram\login.png
+INPUT .\konten\gambar\activity-diagram\login.png
+INPUT .\konten\gambar\activity-diagram\login.png
+INPUT .\konten\gambar\activity-diagram\login.png
+INPUT .\konten\gambar\activity-diagram\login.png
+INPUT .\konten\gambar\activity-diagram\login.png
+INPUT .\konten\gambar\activity-diagram\login.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT .\konten\gambar\usecase-diagram\admin.png
-INPUT .\konten\gambar\usecase-diagram\admin.png
-INPUT .\konten\gambar\usecase-diagram\admin.png
-INPUT .\konten\gambar\usecase-diagram\admin.png
-INPUT .\konten\gambar\usecase-diagram\admin.png
-INPUT .\konten\gambar\usecase-diagram\admin.png
-INPUT .\konten\gambar\usecase-diagram\admin.png
-INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
 INPUT .\konten\gambar\pilih-login.png
 INPUT .\konten\gambar\pilih-login.png
 INPUT .\konten\gambar\pilih-login.png

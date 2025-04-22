@@ -1,10 +1,10 @@
 INFO:  latexindent.pl version 3.24.4, 2024-07-18, a script to indent .tex files
        latexindent.pl lives here: C:/Users/USER PCP/AppData/Local/Programs/MiKTeX/scripts/latexindent/
-       Fri Jan 10 15:40:44 2025
-       Filename: c:\Users\USER PCP\OneDrive - Microsoft 365\Github Project\proposal-latex\halamandepan\kataPengantar.tex
+       Tue Apr 22 08:57:55 2025
+       Filename: c:\Github Project\proposal-latex\halamandepan\lembarPersembahan.tex
 INFO:  Processing switches:
 INFO:  Directory for backup files and log file indent.log:
-       c:\Users\USER PCP\OneDrive - Microsoft 365\Github Project\proposal-latex\halamandepan
+       c:\Github Project\proposal-latex\halamandepan
 INFO:  Perl modules are being loaded from the following directories:
        C:/Strawberry/perl/lib/FindBin.pm
        C:/Strawberry/perl/vendor/lib/YAML/Tiny.pm

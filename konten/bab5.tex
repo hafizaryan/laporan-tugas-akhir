@@ -376,42 +376,41 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 \end{enumerate}
 
 \section{Pengujian Sistem}
-Metode Blackbox digunakan untuk menguji fitur-fitur yang ada pada sistem. Pengujian ini dilakukan untuk memastikan bahwa setiap fungsi dalam sistem berjalan sesuai dengan spesifikasi yang telah ditentukan. Metode ini hanya berfokus pada pengujian keluaran sistem berdasarkan masukan tertentu, tanpa memperhatikan proses internal atau struktur kode.
+Metode \textit{Black box} digunakan untuk menguji fitur-fitur yang ada pada sistem. Pengujian ini dilakukan untuk memastikan bahwa setiap fungsi dalam sistem berjalan sesuai dengan spesifikasi yang telah ditentukan. Metode ini hanya berfokus pada pengujian keluaran sistem berdasarkan masukan tertentu, tanpa memperhatikan proses internal atau struktur kode.
 
-Pada pengujian Metode Blackbox, peneliti melakukan pengujian terhadap fitur-fitur yang ada pada sistem. Pengujian ini dilakukan oleh peneliti dan beberapa pengguna seperti Aslab dan Admin untuk memastikan bahwa fitur-fitur yang ada pada sistem berjalan dengan baik. Pengujian ini dapat dilihat pada Tabel~\ref{tab:PengujianBlackBox}.
+Pada pengujian Metode \textit{Black box}, peneliti melakukan pengujian terhadap fitur-fitur yang ada pada sistem. Pengujian ini dilakukan oleh peneliti dan beberapa pengguna seperti Aslab dan Admin untuk memastikan bahwa fitur-fitur yang ada pada sistem berjalan dengan baik. Pengujian ini dapat dilihat pada Tabel~\ref{tab:PengujianBlackBox}.
 
 {
-\fontsize{10}{10}
 \begin{longtable}{p{0.01\linewidth} p{0.15\linewidth} p{0.3\linewidth} p{0.3\linewidth} p{0.1\linewidth}}
-	\caption{Pengujian \textit{Blackbox}}\label{tab:PengujianBlackBox}                                                                                                                                           \\
+	\caption{Pengujian \textit{Black box}}\label{tab:PengujianBlackBox}                                                                                                                                           \\
 	\hline
 	\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
 	\endfirsthead
-	\caption[]{Pengujian \textit{Blackbox} (lanjutan)}                                                                                                                                                           \\
+	\caption[]{Pengujian \textit{Black box} (lanjutan)}                                                                                                                                                           \\
 	\hline
 	\textbf{No}   & \textbf{Fitur}         & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
 	\endhead
 	\endfoot
 	\endlastfoot
-	\centering 1  & \textit{Registrasi}    & Berhasil melakukan registrasi akun                              & Admin dapat melakukan registrasi akun untuk Kalab, Kaprodi, Sekprodi, dan Aslab & Berhasil        \\
-	\centering 2  & \textit{Login}         & Berhasil melakukan login dan masuk ke dalam sistem              & Pengguna dapat melakukan \textit{login} ke dalam sistem                         & Berhasil        \\
-	\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem SITARIS                          & Pengguna dapat melakukan \textit{login} ke dalam sistem  SITARIS                & Berhasil        \\
-	\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem LABVIS                           & Pengguna dapat melakukan \textit{login} ke dalam sistem  LABVIS                 & Berhasil        \\
-	\centering    & \textit{Login}         & Berhasil masuk ke dalam sistem LARIS                            & Pengguna dapat melakukan \textit{login} ke dalam sistem  LARIS                  & Berhasil        \\
+	\centering 1  & Registrasi             & Berhasil melakukan registrasi akun                              & Admin dapat melakukan registrasi akun untuk Kalab, Kaprodi, Sekprodi, dan Aslab & Berhasil        \\
+	\centering 2  & \textit{Login}                  & Berhasil melakukan \textit{login} dan masuk ke dalam sistem              & Pengguna dapat melakukan \textit{login} ke dalam sistem                                  & Berhasil        \\
+	\centering    & \textit{Login}                  & Berhasil masuk ke dalam sistem SITARIS                          & Pengguna dapat melakukan \textit{login} ke dalam sistem SITARIS                          & Berhasil        \\
+	\centering    & \textit{Login}                  & Berhasil masuk ke dalam sistem LABVIS                           & Pengguna dapat melakukan \textit{login} ke dalam sistem LABVIS                           & Berhasil        \\
+	\centering    & \textit{Login}                  & Berhasil masuk ke dalam sistem LARIS                            & Pengguna dapat melakukan \textit{login} ke dalam sistem LARIS                            & Berhasil        \\
 	\centering 3  & Profil                 & Berhasil melakukan perubahan informasi pribadi                  & Pengguna dapat melakukan perubahan informasi pribadi                            & Berhasil        \\
 	\centering 4  & Tambah Jadwal          & Berhasil menambah Jadwal                                        & Pengguna berhasil menambah Jadwal                                               & Berhasil        \\
 	\centering 5  & Detail Jadwal          & Berhasil melihat detail informasi jadwal                        & Pengguna dapat melihat seluruh informasi jadwal                                 & Berhasil        \\
 	\centering 6  & Edit Jadwal            & Berhasil melakukan perubahan status seleksi administrasi jadwal & Pengguna dapat melakukan perubahan status seleksi administrasi jadwal           & Berhasil        \\
 	\centering 7  & Hapus Jadwal           & Berhasil menghapus jadwal                                       & Pengguna dapat menghapus jadwal yang sudah terdaftar di sistem                  & Berhasil        \\
-	\centering 8  & Cetak Jadwal           & Berhasil mencetak jadwal dalam bentuk PDF                       & Pengguna berhasil mencetak dan mendownload jadwal dalam bentuk PDF              & Berhasil        \\
+	\centering 8  & Cetak Jadwal           & Berhasil mencetak jadwal dalam bentuk PDF                       & Pengguna berhasil mencetak dan \textit{mendownload} jadwal dalam bentuk PDF              & Berhasil        \\
 	\centering 9  & Tambah Dosen           & Berhasil menambah Dosen                                         & Pengguna berhasil menambah Dosen                                                & Berhasil        \\
 	\centering 10 & Detail Dosen           & Berhasil melihat detail informasi Dosen                         & Pengguna dapat melihat seluruh informasi Dosen                                  & Berhasil        \\
-	\centering 11 & Edit Dosen             & Berhasil melakukan perubahan status seleksi administrasi Dosen  & Pengguna dapat melakukan perubahan status seleksi administrasi Dosen            & Berhasil        \\
+	\centering 11 & \textit{Edit} Dosen             & Berhasil melakukan perubahan status seleksi administrasi Dosen  & Pengguna dapat melakukan perubahan status seleksi administrasi Dosen            & Berhasil        \\
 	\centering 12 & Hapus Dosen            & Berhasil menghapus Dosen                                        & Pengguna dapat menghapus Dosen yang sudah terdaftar di sistem                   & Berhasil        \\
 	\centering 13 & Tambah Mata Kuliah     & Berhasil menambahkan mata kuliah                                & Dapat menambahkan mata kuliah                                                   & Berhasil        \\
-	\centering 14 & Edit Mata Kuliah       & Berhasil melakukan perubahan mata kuliah                        & Dapat melakukan perubahan terhadap mata kuliah                                  & Berhasil        \\
+	\centering 14 & \textit{Edit} Mata Kuliah       & Berhasil melakukan perubahan mata kuliah                        & Dapat melakukan perubahan terhadap mata kuliah                                  & Berhasil        \\
 	\centering 15 & Hapus Mata Kuliah      & Berhasil menghapus mata kuliah                                  & Dapat menghapus mata kuliah                                                     & Berhasil        \\
-	\centering 16 & Ubah \textit{password} & Berhasil melakukan perubahan \textit{password}                  & Pengguna dapat melakukan perubahan \textit{password}                            & Berhasil        \\
-	\centering 17 & \textit{Logout}        & Berhasil melakukan \textit{logout}                              & Pengguna dapat keluar dari sistem                                               & Berhasil        \\ \hline
+	\centering 16 & Ubah \textit{password}          & Berhasil melakukan perubahan \textit{password}                           & Pengguna dapat melakukan perubahan \textit{password}                                     & Berhasil        \\
+	\centering 17 & \textit{Logout}                 & Berhasil melakukan \textit{logout}                                       & Pengguna dapat keluar dari sistem                                               & Berhasil        \\ \hline
 \end{longtable}}
 
