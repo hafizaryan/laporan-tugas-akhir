@@ -57,7 +57,7 @@ Ahsyar, T\BPBI K.%
 \bibitem [\protect \citeauthoryear {%
 Al-Saqqa%
 , Sawalha%
-\BCBL {}\ \BBA {} AbdelNabi%
+\BCBL {}\ \BBA {} Abdel-Nabi%
 }{%
 Al-Saqqa%
 \ \protect \BOthers {.}}{%
@@ -69,7 +69,7 @@ al2020agile}%
 \begin{APACrefauthors}%
 Al-Saqqa, S.%
 , Sawalha, S.%
-\BCBL {}\ \BBA {} AbdelNabi, H.%
+\BCBL {}\ \BBA {} Abdel-Nabi, H.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -438,6 +438,31 @@ Hussain, N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Informasi%
+}{%
+Informasi%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+lab-si-website}
+\APACinsertmetastar {%
+lab-si-website}%
+\begin{APACrefauthors}%
+Informasi, L\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Laboratorium Sistem Informasi UIN Suska Riau.} {Laboratorium
+  sistem informasi uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kaehler%
 , Grundei%
 , Kaehler%
@@ -555,9 +580,9 @@ Kusuma, M\BPBI W\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{lab-si.uin-suska.ac.id}%
+{Laboratorium Sistem Informasi}%
 }{%
-{lab-si.uin-suska.ac.id}%
+{Laboratorium Sistem Informasi}%
 }{%
 {\protect \APACyear {2023}}%
 }]{%
@@ -565,7 +590,7 @@ labsi2023}
 \APACinsertmetastar {%
 labsi2023}%
 \begin{APACrefauthors}%
-{lab-si.uin-suska.ac.id}.%
+{Laboratorium Sistem Informasi}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -607,31 +632,6 @@ La~Braca, F.%
 \newblock
 \APACjournalVolNumPages{Physical Review Physics Education
   Research}{17}{1}{010131}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-lab-si.uin suska.ac.id%
-}{%
-lab-si.uin suska.ac.id%
-}{%
-{\protect \APACyear {2023}}%
-}]{%
-lab-si-website}
-\APACinsertmetastar {%
-lab-si-website}%
-\begin{APACrefauthors}%
-lab-si.uin suska.ac.id.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-\APACrefbtitle {Laboratorium Sistem Informasi UIN Suska Riau.} {Laboratorium
-  sistem informasi uin suska riau.}
-\newblock
-\begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
-\newblock
-\APACrefnote{Akses Tanggal: 30 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -796,6 +796,31 @@ Pakpahan, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Prodi Sistem Informasi UIN Suska Riau}%
+}{%
+{Prodi Sistem Informasi UIN Suska Riau}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+web-prodi}
+\APACinsertmetastar {%
+web-prodi}%
+\begin{APACrefauthors}%
+{Prodi Sistem Informasi UIN Suska Riau}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Website Prodi Sistem Informasi UIN Suska Riau.} {Website prodi
+  sistem informasi uin suska riau.}
+\newblock
+\begin{APACrefURL} \url{https://sif.uin-suska.ac.id} \end{APACrefURL}
+\newblock
+\APACrefnote{Akses Tanggal: 30 Oktober 2024}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rahman%
 \ \BBA {} Ratna%
 }{%
@@ -937,31 +962,6 @@ Sch{\"u}hly, A\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{sif.uin-suska.ac.id}%
-}{%
-{sif.uin-suska.ac.id}%
-}{%
-{\protect \APACyear {2023}}%
-}]{%
-web-prodi}
-\APACinsertmetastar {%
-web-prodi}%
-\begin{APACrefauthors}%
-{sif.uin-suska.ac.id}.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-\APACrefbtitle {Website Prodi Sistem Informasi UIN Suska Riau.} {Website prodi
-  sistem informasi uin suska riau.}
-\newblock
-\begin{APACrefURL} \url{https://sif.uin-suska.ac.id} \end{APACrefURL}
-\newblock
-\APACrefnote{Akses Tanggal: 30 Oktober 2024}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Simanullang%
 , Silalahi%
 \BCBL {}\ \BBA {} Manalu%
@@ -992,35 +992,9 @@ Simanullang, H\BPBI G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{SITARIS}%
+{SITARIS SI}%
 }{%
-{SITARIS}%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-sitaris-lab-si-website}
-\APACinsertmetastar {%
-sitaris-lab-si-website}%
-\begin{APACrefauthors}%
-{SITARIS}.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APACrefbtitle {SITARIS Laboratorium Sistem Informasi UIN Suska Riau.} {Sitaris
-  laboratorium sistem informasi uin suska riau.}
-\newblock
-\begin{APACrefURL} \url{https://sitaris.lab-si.uin-suska.ac.id}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{Akses Tanggal: 08 Oktober 2024}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-{sitaris.lab-si.uin-suska.ac.id}%
-}{%
-{sitaris.lab-si.uin-suska.ac.id}%
+{SITARIS SI}%
 }{%
 {\protect \APACyear {2024}}%
 }]{%
@@ -1028,7 +1002,7 @@ sitaris}
 \APACinsertmetastar {%
 sitaris}%
 \begin{APACrefauthors}%
-{sitaris.lab-si.uin-suska.ac.id}.%
+{SITARIS SI}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock

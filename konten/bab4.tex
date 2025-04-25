@@ -14,7 +14,21 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babEmpat}
 %-----------------------------------------------------------------------------%
-\section{Analisis Sistem Berjalan}
+\section{Analisis}
+Analisis merupakan tahapan penting dalam pengembangan sistem yang melibatkan proses penguraian suatu pokok permasalahan menjadi bagian-bagian yang lebih kecil untuk dipelajari secara mendalam. Dalam konteks pengembangan sistem informasi, analisis bertujuan untuk memahami kebutuhan pengguna, mengidentifikasi masalah yang ada pada sistem berjalan, serta merumuskan solusi yang tepat untuk mengatasi permasalahan tersebut.
+
+Proses analisis meliputi beberapa kegiatan utama, antara lain:
+\begin{enumerate}
+	\item Pengumpulan data dan informasi melalui observasi, wawancara, dan studi dokumentasi
+	\item Identifikasi masalah pada sistem yang sedang berjalan
+	\item Analisis kebutuhan fungsional dan non-fungsional sistem
+	\item Evaluasi terhadap sistem yang ada untuk menemukan kekurangan dan peluang pengembangan
+	\item Perumusan solusi dan rekomendasi untuk pengembangan sistem baru
+\end{enumerate}
+
+Pada bab ini, analisis dilakukan terhadap sistem yang sedang berjalan di laboratorium Program Studi Sistem Informasi, khususnya SITARIS SI, untuk mengidentifikasi kekurangan dan kebutuhan pengembangan lebih lanjut menjadi sistem manajemen laboratorium yang terintegrasi. Hasil analisis ini akan menjadi dasar dalam perancangan dan pengembangan sistem usulan.
+
+\subsection{Analisis Sistem Berjalan}
 Dalam proses tata kelola yang berlangsung di laboratorium Program Studi Sistem Informasi, hingga saat ini laboratorium telah menerapkan beberapa sistem informasi untuk mengelola berbagai aspek operasionalnya. Sistem-sistem tersebut meliputi:
 
 \begin{enumerate}
@@ -27,10 +41,10 @@ Dalam proses tata kelola yang berlangsung di laboratorium Program Studi Sistem I
 
 Implementasi sistem-sistem ini telah secara signifikan meningkatkan efektivitas dan efisiensi tata kelola laboratorium Program Studi Sistem Informasi, memungkinkan pengelolaan yang lebih terstruktur dan terintegrasi dalam berbagai aspek operasional laboratorium. Berdasarkan hasil observasi, ditemukan sejumlah permasalahan yang cukup krusial dalam sistem, antara lain kesalahan dalam pembuatan kode barang (Lampiran B), serta disfungsi pada fitur peminjaman barang dan ruangan (Lampiran B). Fitur peminjaman tersebut belum berjalan secara optimal dan belum sepenuhnya memenuhi standar operasional prosedur (SOP) yang telah ditetapkan. Beberapa kelemahan yang teridentifikasi meliputi kurangnya akurasi dalam pencatatan data peminjaman, tidak adanya sistem verifikasi yang memadai untuk memastikan status barang atau ruangan yang dipinjam, serta minimnya notifikasi atau pelacakan terhadap barang yang masih berada dalam status dipinjam. Selain itu, sistem juga belum mampu secara otomatis mendeteksi dan memperbarui status barang yang telah dikembalikan, sehingga berpotensi menimbulkan kesalahan dalam inventarisasi. Kekurangan-kekurangan ini tidak hanya menghambat efisiensi operasional, tetapi juga berisiko menimbulkan kehilangan atau ketidaksesuaian data dalam manajemen aset secara keseluruhan, serta ketidaksesuaian format laporan akhir dengan kebutuhan kepala laboratorium (Lampiran B). Sistem tersebut masih memiliki kekurangan dalam menunjang tata kelola laboratorium, terutama dalam hal penjadwalan. Saat ini, tidak ada sistem informasi yang secara khusus mengelola penjadwalan laboratorium Program Studi Sistem Informasi. Pengelolaan penjadwalan masih dilakukan secara manual dengan melakukan validasi dan pengecekan pada jadwal yang diperoleh dari Ketua Program Studi. Keterbatasan ini berdampak signifikan pada efektivitas manajemen laboratorium secara keseluruhan dan mengakibatkan ketidaksesuaian dan kurangnya informasi mengenai jadwal praktikum di laboratorium. Oleh karena itu, perlu dilakukan penyempurnaan pada sistem informasi yang ada, khususnya SITARIS, agar dapat memenuhi kebutuhan tata kelola laboratorium dalam hal penjadwalan ruangan.
 
-\section{Analisis Sistem Usulan}
+\subsection{Analisis Sistem Usulan}
 Pengembangan sistem ini menyajikan fitur penjadwalan laboratorium yang dapat digunakan oleh Admin, Kaprodi, Sekprodi, dan Aslab. Fitur ini dirancang untuk mempermudah pengelolaan jadwal kegiatan di laboratorium, sehingga setiap pengguna dapat dengan mudah mengakses dan mengelola informasi terkait jadwal. Selain itu, sistem ini juga akan mengintegrasikan sistem informasi yang sudah ada seperti Website SI, LABVIS, dan LARIS. Penyempurnaan ini bertujuan untuk mencapai tujuan laboratorium dalam menerapkan \textit{Integrated Laboratory Management Information System} (ILMIS), yang akan mengintegrasikan seluruh aspek manajemen laboratorium, termasuk penjadwalan, ke dalam satu sistem yang efisien. Dengan adanya sistem ini, diharapkan akan tercipta efisiensi dalam pengelolaan waktu dan sumber daya di laboratorium, serta mengurangi kemungkinan terjadinya bentrok jadwal antara berbagai kegiatan yang berlangsung dan juga mengintegrasikan sistem yang mulanya berdiri sendiri. Hasil akhir dari sistem ini adalah sebuah sistem terintegrasi yang memungkinkan semua pengguna untuk mengelola dan memantau jadwal laboratorium secara \textit{real-time}, meningkatkan koordinasi antar pengguna, dan memastikan bahwa semua kegiatan laboratorium dapat berjalan dengan lancar tanpa adanya konflik jadwal.
 
-\section{Analisis Kebutuhan Sistem}
+% \subsection{Analisis Kebutuhan Sistem}
 \subsection{Analisis Kebutuhan Fungsional Sistem}
 Sistem ini dirancang untuk memenuhi berbagai kebutuhan fungsional yang esensial dalam pengelolaan penjadwalan laboratorium. Ini mencakup manajemen jadwal yang fleksibel dan mudah diakses, kemampuan pengelolaan jadwal yang intuitif dengan validasi yang ketat, serta sistem pengelolaan informasi yang memungkinkan pemantauan dan manajemen informasi terkait penggunaan laboratorium. Sistem ini juga mendukung proses validasi yang terstruktur  untuk memantau dan memberitahukan status penggunaan laboratorium kepada pengguna. Pengelolaan akses pengguna yang aman dan integrasi yang lancar dengan sistem internal laboratorium lainnya juga menjadi bagian integral dari fungsi sistem ini, memastikan efisiensi dan transparansi dalam seluruh proses penjadwalan laboratorium.
 
@@ -40,6 +54,7 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 \begin{enumerate}
 	\item Analisis Kebutuhan Perangkat Lunak \\
 	      Pada tahap analisis ini, peneliti mengidentifikasi dan mendefinisikan segala kebutuhan yang harus dipenuhi oleh sistem yang akan dikembangkan. Fokus utama dari analisis ini adalah memahami secara mendalam tujuan dan kebutuhan pengguna akhir, baik itu admin, kalab, kaprodi, sekprodi dan aslab. Analisis kebutuhan perangkat lunak dapat dilihat pada Tabel \ref{tab:AnalisisKebutuhanPerangkatLunak}.
+	      {\fontsize{11}{13}\selectfont
 	      \begin{longtable}{clcc}
 		      \caption{Analisis Kebutuhan Perangkat Lunak Pengembang}
 		      \label{tab:AnalisisKebutuhanPerangkatLunak}                                                                                                               \\
@@ -66,22 +81,23 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 		      6                               & Hypertext Preprocessor (PHP) & 8.0.0                                      & 8.2.16                                      \\
 		      7                               & CodeIgniter                  & 4                                          & 4                                           \\ \hline
 	      \end{longtable}
+	      }
 
 	\item Analisis Kebutuhan Perangkat Keras \\
 	      Pada tahap analisis ini, peneliti mengidentifikasi dan mendefinisikan kebutuhan perangkat keras yang diperlukan dalam pengembangan sistem. Analisis ini bertujuan untuk memahami kebutuhan pengguna dan merancang solusi yang tepat dalam mengelola tata kelola laboratorium. Rincian analisis kebutuhan dapat dilihat pada Tabel \ref{tab:PerangkatKerasPengembang}.
 
+	      {\fontsize{11}{13}\selectfont
 	      \begin{longtable}{clll}
 		      \caption{Analisis Kebutuhan Perangkat Keras Pengembang}
-		      \label{tab:PerangkatKerasPengembang}                                                                                                                                                                                              \\
+		      \label{tab:PerangkatKerasPengembang}                                                                                                                                                                                                                                                            \\
 		      \hline
-		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                          & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                              \\ \hline
+		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                                                     & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                                                                 \\ \hline
 		      \endfirsthead
-		      %
-		      % \multicolumn{4}{c}%
-		      \multicolumn{4}{c}{\small\tablename\ \thetable\ {Analisis Kebutuhan Perangkat Keras Pengembang} \space (Tabel lanjutan...)}                                                                                                       \\
+
+		      \multicolumn{4}{c}{\small\tablename\ \thetable\ {Analisis Kebutuhan Perangkat Keras Pengembang} \space (Tabel lanjutan...)}                                                                                                                                                                     \\
 
 		      \hline
-		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                          & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                              \\ \hline
+		      \textbf{No} & \multicolumn{1}{c}{\textbf{Perangkat Keras}} & \multicolumn{1}{c}{\textbf{Spesifikasi Minimal}}                                                     & \multicolumn{1}{c}{\textbf{Versi Tersedia}}                                                                                 \\ \hline
 		      \endhead
 		      %
 		      \hline
@@ -89,17 +105,14 @@ Kebutuhan non-fungsional sistem terbagi dalam dua kategori utama yaitu kebutuhan
 		      %
 		      \endlastfoot
 
-
-		      % 				\multicolumn{2}{c}{\small\tablename\ \thetable\ {Lorem Ipsum} \space (Tabel lanjutan...)}                           \\
-		      % \hline
-		      %
-		      1           & \textit{Processor}                                    & \begin{tabular}[c]{@{}l@{}}\textit{Intel Core i3} atau \textit{AMD} \\ \textit{Ryzen} 3\end{tabular} & \begin{tabular}[c]{@{}l@{}}\textit{AMD Ryzen} 5 5600U, 6\textit{Cores}, \\ 12\textit{Threads}, 2.3\textit{GHz}.\end{tabular} \\
-		      2           & \textit{Memory}                                       & 4 \textit{GB DDR4}                                                                 & 16 \textit{GB DDR4}-3200 \textit{MHz}                                                                      \\
-		      3           & \textit{Storage}                                      & \begin{tabular}[c]{@{}l@{}}256 \textit{GB SSD} atau \\ 500 \textit{GB HDD}\end{tabular}     & 512 \textit{GB M.2 NVMe}                                                                          \\
-		      4           & \textit{Keyboard}                                     & \begin{tabular}[c]{@{}l@{}}\textit{Standard QWERTY} \\ \textit{keyboard}\end{tabular}       & 6-\textit{row}, \textit{multimedia Fn keys}                                                                \\
-		      5           & \textit{Connection}                                   & \begin{tabular}[c]{@{}l@{}}\textit{Wi-Fi} 802.11n atau \\ \textit{Ethernet}\end{tabular}    & \textit{Wi-Fi}® 6                                                                                 \\
-		      6           & \textit{Monitor}                                      & \begin{tabular}[c]{@{}l@{}}14 \textit{inch}, resolusi \\ 1366x768\end{tabular}     & 13 \textit{inc}                                                                                   \\ \hline
+		      1           & \textit{Processor}                           & \begin{tabular}[c]{@{}l@{}}\textit{Intel Core i3} atau \textit{AMD} \\ \textit{Ryzen} 3\end{tabular} & \begin{tabular}[c]{@{}l@{}}\textit{AMD Ryzen} 5 5600U, 6\textit{Cores}, \\ 12\textit{Threads}, 2.3\textit{GHz}\end{tabular} \\
+		      2           & \textit{Memory}                              & 4 \textit{GB DDR4}                                                                                   & 16 \textit{GB DDR4}-3200 \textit{MHz}                                                                                       \\
+		      3           & \textit{Storage}                             & \begin{tabular}[c]{@{}l@{}}256 \textit{GB SSD} atau \\ 500 \textit{GB HDD}\end{tabular}              & 512 \textit{GB M.2 NVMe}                                                                                                    \\
+		      4           & \textit{Keyboard}                            & \begin{tabular}[c]{@{}l@{}}\textit{Standard QWERTY} \\ \textit{keyboard}\end{tabular}                & 6-\textit{row}, \textit{multimedia Fn keys}                                                                                 \\
+		      5           & \textit{Connection}                          & \begin{tabular}[c]{@{}l@{}}\textit{Wi-Fi} 802.11n atau \\ \textit{Ethernet}\end{tabular}             & \textit{Wi-Fi}® 6                                                                                                           \\
+		      6           & \textit{Monitor}                             & \begin{tabular}[c]{@{}l@{}}14 \textit{inch}, resolusi \\ 1366x768\end{tabular}                       & 13 \textit{inc}                                                                                                             \\ \hline
 	      \end{longtable}
+	      }
 
 	      Dalam spesifikasi perangkat keras yang disarankan pada Sistem \textit{Integrated Laboratory Management Information System} sesuai yang tertera pada Tabel \ref{tab:PerangkatKerasPengembang} sebaiknya memenuhi syarat spesifikasi minimum agar sistem dapat berjalan dengan sempurna.
 
@@ -111,32 +124,34 @@ Perancangan sistem perlu dilakukan sebelum dilakukan pembuatan sistem. tujuan da
 
 % =======================================================================================================================
 \subsection{\textit{Use Case Diagram}}
-\textit{\textit{Use case} diagram} terdiri dari \textit{actor}, \textit{use case} dan serta hubungannya. \textit{\textit{Use case} diagram} adalah sesuatu yang penting untuk memvisualisasiakan, menspesifikasikan dan mendokumentasikan kebutuhan perilaku sistem. \textit{\textit{Use case} diagram} digunakan untuk menjelaskan kegiatan apa saja yang dapat dilakukan oleh \textit{user} pengguna sistem yang sedang berjalan \cite{Carstoiu1995}. Dalam pengembangan sistem manajemen laboratorium ini, \textit{use case diagram} membantu mengidentifikasi interaksi antara pengguna dengan sistem secara jelas. Setiap aktor dalam diagram memiliki peran dan hak akses yang berbeda sesuai dengan kebutuhan fungsional sistem. Dengan adanya \textit{use case diagram}, tim pengembang dapat memahami alur kerja sistem dari perspektif pengguna. Selain itu, diagram ini juga berfungsi sebagai dasar komunikasi antara pengembang dan pemangku kepentingan untuk memastikan bahwa sistem yang dibangun sesuai dengan kebutuhan.
+\textit{\textit{Use Case} Diagram} terdiri dari \textit{actor}, \textit{use case} dan serta hubungannya. \textit{\textit{Use Case Diagram}} adalah sesuatu yang penting untuk memvisualisasiakan, menspesifikasikan dan mendokumentasikan kebutuhan perilaku sistem. \textit{\textit{Use Case Diagram}} digunakan untuk menjelaskan kegiatan apa saja yang dapat dilakukan oleh \textit{user} pengguna sistem yang sedang berjalan \cite{Carstoiu1995}. Dalam pengembangan sistem manajemen laboratorium ini, \textit{Use Case Diagram} membantu mengidentifikasi interaksi antara pengguna dengan sistem secara jelas. Setiap aktor dalam diagram memiliki peran dan hak akses yang berbeda sesuai dengan kebutuhan fungsional sistem. Dengan adanya \textit{Use Case Diagram}, tim pengembang dapat memahami alur kerja sistem dari perspektif pengguna. Selain itu, diagram ini juga berfungsi sebagai dasar komunikasi antara pengembang dan pemangku kepentingan untuk memastikan bahwa sistem yang dibangun sesuai dengan kebutuhan.
 
-\begin{longtable}{clp{8cm}}
-	\caption{Deskripsi Aktor}
-	\label{tab:DeskripsiAktor}                                                                                                    \\
-	\hline
-	\textbf{No} & \multicolumn{1}{c}{\textbf{Aktor}} & \multicolumn{1}{c}{\textbf{Deskripsi}}                                     \\ \hline
-	\endfirsthead
-	%
-	\multicolumn{3}{c}%
-	{{\bfseries Tabel \thetable\ Deskripsi Aktor (Tabel lanjutan...)}}                                                            \\
-	\hline
-	\textbf{No} & \multicolumn{1}{c}{\textbf{Aktor}} & \multicolumn{1}{c}{\textbf{Deskripsi}}                                     \\ \hline
-	\endhead
-	%
-	\hline
-	\endfoot
-	%
-	\endlastfoot
+	{\fontsize{11}{13}\selectfont
+		\begin{longtable}{clp{8cm}}
+			\caption{Deskripsi Aktor}
+			\label{tab:DeskripsiAktor}                                                                                                    \\
+			\hline
+			\textbf{No} & \multicolumn{1}{c}{\textbf{Aktor}} & \multicolumn{1}{c}{\textbf{Deskripsi}}                                     \\ \hline
+			\endfirsthead
+			%
+			\multicolumn{3}{c}%
+			{{\bfseries Tabel \thetable\ Deskripsi Aktor (Tabel lanjutan...)}}                                                            \\
+			\hline
+			\textbf{No} & \multicolumn{1}{c}{\textbf{Aktor}} & \multicolumn{1}{c}{\textbf{Deskripsi}}                                     \\ \hline
+			\endhead
+			%
+			\hline
+			\endfoot
+			%
+			\endlastfoot
 
-	1           & Admin                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\
-	2           & Kalab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\
-	3           & Kaprodi                            & Melihat penjadwalan laboratorium                                           \\
-	4           & Sekprodi                           & Melihat penjadwalan laboratorium                                           \\
-	5           & Aslab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\ \hline
-\end{longtable}
+			1           & Admin                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\
+			2           & Kalab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\
+			3           & Kaprodi                            & Melihat penjadwalan laboratorium                                           \\
+			4           & Sekprodi                           & Melihat penjadwalan laboratorium                                           \\
+			5           & Aslab                              & Mengelola penjadwalan laboratorium termasuk lihat, tambah, edit, dan hapus \\ \hline
+		\end{longtable}
+	}
 
 Sistem manajemen laboratorium adalah sistem yang dikelola secara terpusat oleh seorang Admin. Sistem ini digambarkan menggunakan diagram use case yang menunjukkan interaksi antara admin dengan berbagai komponen sistem. Dalam sistem ini terdapat 4 fungsi utama yang dapat digunakan oleh admin dalam mengelola sistem. Fungsi-fungsi tersebut meliputi kemampuan Admin untuk menambahkan jadwal baru melalui menu "Tambah Jadwal Laboratorium", mengubah jadwal yang ada melalui "Edit Jadwal Laboratorium", menghapus jadwal yang tidak diperlukan melalui "Hapus Jadwal Laboratorium", dan melihat daftar jadwal melalui "Lihat Jadwal Laboratorium".
 
@@ -286,9 +301,9 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 
 	\item Perancangan \textit{Database} Tabel Dosen
 	      % \begin{tabular}{lll}
-		    %   Nama \textit{Database}: man\_lab  \\
-		    %   Nama Tabel: dosen     \\
-		    %   Field Kunci: id\_dosen \\
+	      %   Nama \textit{Database}: man\_lab  \\
+	      %   Nama Tabel: dosen     \\
+	      %   Field Kunci: id\_dosen \\
 	      % \end{tabular}
 
 	      Tabel Dosen dirancang untuk menyimpan informasi komprehensif tentang staf pengajar. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data dosen secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Dosen:
@@ -304,7 +319,7 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data dosen yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data.
 
 		      {
-			      \fontsize{10}{12}\selectfont
+			      \fontsize{11}{13}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Dosen}
 				      \label{admin}                                                                                               \\
@@ -330,16 +345,16 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel Matkul 
+	\item Perancangan \textit{Database} Tabel Matkul
 	      % \begin{tabular}{lll}
-		    %   Nama \textit{Database}: man\_lab   \\
-		    %   Nama Tabel: matkul     \\
-		    %   Field Kunci: id\_matkul \\
+	      %   Nama \textit{Database}: man\_lab   \\
+	      %   Nama Tabel: matkul     \\
+	      %   Field Kunci: id\_matkul \\
 	      % \end{tabular}
 
 	      Tabel Matkul dirancang untuk menyimpan informasi tentang mata kuliah yang ditawarkan dalam program akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data mata kuliah secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Matkul:
 
-				\begin{enumerate}[label=\alph*.]
+	      \begin{enumerate}[label=\alph*.]
 		      \item Tabel ini memanfaatkan \textit{id\_matkul} sebagai kunci utama dengan tipe data tinyint(4) dan fitur \textit{auto increment}, yang menjamin bahwa setiap mata kuliah diberi identifikasi yang unik di dalam sistem.
 		      \item Atribut 'kode\_matkul' dan 'nama\_matkul' berfungsi untuk menyimpan informasi dasar yang membantu dalam mengenali mata kuliah dengan cepat di lingkungan akademik.
 		      \item Field 'sks' dan 'semester' berisi informasi krusial mengenai bobot akademik dan penjadwalan mata kuliah dalam kurikulum, yang penting untuk perencanaan pendidikan.
@@ -349,7 +364,7 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data mata kuliah yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data kurikulum.
 
 		      {
-			      \fontsize{10}{12}\selectfont
+			      \fontsize{11}{13}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Matkul}
 				      \label{admin}                                                                                             \\
@@ -374,16 +389,16 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel Ruangan 
+	\item Perancangan \textit{Database} Tabel Ruangan
 	      % \begin{tabular}{lll}
-		    %   Nama \textit{Database}: man\_lab    \\
-		    %   Nama Tabel: ruangan     \\
-		    %   Field Kunci: id\_ruangan \\
+	      %   Nama \textit{Database}: man\_lab    \\
+	      %   Nama Tabel: ruangan     \\
+	      %   Field Kunci: id\_ruangan \\
 	      % \end{tabular}
 
 	      Tabel Ruangan dirancang untuk menyimpan informasi tentang ruangan-ruangan yang tersedia untuk kegiatan akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data ruangan secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Ruangan:
 
-				\begin{enumerate}[label=\alph*.]
+	      \begin{enumerate}[label=\alph*.]
 		      \item Tabel ini memanfaatkan \textit{id\_ruangan} sebagai \textit{primary key}. Dengan menggunakan tipe data tinyint(4) dan fitur \textit{auto increment}, tabel ini memastikan bahwa setiap ruangan tercatat dengan identitas uniknya sendiri dalam sistem.
 		      \item Atribut 'id\_gedung' bertindak sebagai \textit{foreign key} yang mengaitkan setiap ruangan dengan gedungnya, membantu dalam mengatur lokasi dengan lebih terstruktur.
 		      \item Field 'nama\_ruangan' berisi nama yang memudahkan pengguna dalam mengenali setiap ruangan.
@@ -394,7 +409,7 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data ruangan yang komprehensif, efisiensi penyimpanan, dan kemudahan dalam pemrosesan dan analisis data fasilitas.
 
 		      {
-			      \fontsize{10}{12}\selectfont
+			      \fontsize{11}{13}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Ruangan}
 				      \label{admin}                                                                                             \\
@@ -418,11 +433,11 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel Jadwal 
+	\item Perancangan \textit{Database} Tabel Jadwal
 	      % \begin{tabular}{lll}
-		    %   Nama \textit{Database}: man\_lab   \\
-		    %   Nama Tabel: jadwal     \\
-		    %   Field Kunci: id\_jadwal \\
+	      %   Nama \textit{Database}: man\_lab   \\
+	      %   Nama Tabel: jadwal     \\
+	      %   Field Kunci: id\_jadwal \\
 	      % \end{tabular}
 
 	      Tabel Jadwal dirancang untuk menyimpan informasi tentang penjadwalan kegiatan akademik. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengelola data jadwal secara efisien. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel Jadwal:
@@ -438,7 +453,7 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Struktur tabel ini dirancang dengan mempertimbangkan kebutuhan manajemen data jadwal yang komprehensif, efisiensi dalam pengambilan data, dan fleksibilitas dalam pengelolaan jadwal akademik.
 
 		      {
-			      \fontsize{10}{12}\selectfont
+			      \fontsize{11}{13}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel Jadwal}
 				      \label{admin}                                                                                       \\
@@ -470,11 +485,11 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 			      \end{longtable}
 		      }
 
-	\item Perancangan \textit{Database} Tabel \textit{User} 
+	\item Perancangan \textit{Database} Tabel \textit{User}
 	      % \begin{tabular}{lll}
-		    %   Nama \textit{Database}: man\_lab          \\
-		    %   Nama Tabel: \textit{user}     \\
-		    %   Field Kunci: id\_\textit{user} \\
+	      %   Nama \textit{Database}: man\_lab          \\
+	      %   Nama Tabel: \textit{user}     \\
+	      %   Field Kunci: id\_\textit{user} \\
 	      % \end{tabular}
 
 	      Tabel \textit{User} dirancang untuk menyimpan informasi pengguna dalam sistem manajemen laboratorium. Struktur tabel ini mencakup berbagai atribut yang diperlukan untuk mengidentifikasi dan mengautentikasi pengguna, serta mengelola hak akses mereka. Berikut adalah penjelasan ilmiah mengenai struktur dan fungsi tabel \textit{User}:
@@ -490,30 +505,30 @@ Perancangan \textit{database} adalah perancangan basis data yang akan digunakan 
 	      Struktur tabel ini dirancang dengan mempertimbangkan aspek keamanan, efisiensi penyimpanan data, dan fleksibilitas dalam pengelolaan pengguna sistem.
 
 		      {
-			      \fontsize{10}{12}\selectfont
+			      \fontsize{11}{13}\selectfont
 			      \begin{longtable}{l l l l}
 				      \caption{Tabel \textit{User}}
-				      \label{admin}                                                                                                                 \\
+				      \label{admin}                                                                                       \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}                           & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \hline
 				      \endfirsthead
 
-				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel \textit{User}} \space (Tabel lanjutan...)}                                   \\
+				      \multicolumn{4}{c}{\tablename\ \thetable\ {Tabel \textit{User}} \space (Tabel lanjutan...)}         \\
 				      \hline
-				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}}                           & \textbf{\textit{Key}} \\
+				      \textbf{\textit{Field}} & \textbf{\textit{Type}} & \textbf{\textit{Length}} & \textbf{\textit{Key}} \\
 				      \hline
 				      \endhead
 
-				      id\_\textit{user}       & smallint               & 4                                                  & Primary key (A\_I)    \\
-				      nama                    & varchar                & 50                                                 &                       \\
-				      foto                    & varchar                & 50                                                 &                       \\
-				      no\_identitas           & varchar                & 50                                                 &                       \\
-				      \textit{username}       & varchar                & 100                                                &                       \\
-				      \textit{password}\_hash & varchar                & 100                                                &                       \\
-				      role\_\textit{user}     & enum                   & ('Admin', 'Kalab',                                 &                       \\
-				                              &                        & 'Kaprodi', 'Sekprodi',                             &                       \\
-				                              &                        & 'Aslab')                                           &                       \\
+				      id\_\textit{user}       & smallint               & 4                        & Primary key (A\_I)    \\
+				      nama                    & varchar                & 50                       &                       \\
+				      foto                    & varchar                & 50                       &                       \\
+				      no\_identitas           & varchar                & 50                       &                       \\
+				      \textit{username}       & varchar                & 100                      &                       \\
+				      \textit{password}\_hash & varchar                & 100                      &                       \\
+				      role\_\textit{user}     & enum                   & ('Admin', 'Kalab',       &                       \\
+				                              &                        & 'Kaprodi', 'Sekprodi',   &                       \\
+				                              &                        & 'Aslab')                 &                       \\
 				      \hline
 			      \end{longtable}
 		      }
@@ -550,6 +565,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:kelola-jadwal-1}
 	      \end{figure}
 
+	      \fontsize{11}{13}\selectfont
 	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Halaman Utama}                                                                                               \\
 		      \hline
@@ -582,8 +598,8 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      17                      & Section FAQ dengan max-width: 800px, margin: 64px auto                                                                \\
 		      18                      & Container question dengan padding: 24px, border-bottom: 1px solid \#E5E7EB                                            \\
 		      19                      & Footer section dengan background: \#1E293B, padding: 64px 24px                                                        \\
-		      20                      & Copyright text dengan font-size: 14px, color: \#9CA3AF                                                                \\
-		      21                      & Footer links dengan display: flex, gap: 32px, margin-top: 32px                                                        \\
+		      20                      & Footer links dengan display: flex, gap: 32px, margin-top: 32px                                                        \\
+		      21                      & Copyright text dengan font-size: 14px, color: \#9CA3AF                                                                \\
 		      \hline
 	      \end{longtable}
 
@@ -595,6 +611,8 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:kelola-jadwal-2}
 	      \end{figure}
 
+	      {
+	      \fontsize{11}{13}\selectfont
 	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Halaman Selamat Datang}                                                                     \\
 		      \hline
@@ -616,6 +634,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      6                       & Link LARIS dengan icon users dan text "Laboratory Assistant Registration Information System"         \\
 		      \hline
 	      \end{longtable}
+	      }
 
 	\item Rancangan tampilan kelola jadwal yang berfungsi untuk mengelola jadwal laboratorium dapat dilihat pada \pic~\ref{fig:kelola-jadwal}.
 	      \begin{figure}
@@ -625,6 +644,8 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:kelola-jadwal}
 	      \end{figure}
 
+	      {
+	      \fontsize{11}{13}\selectfont
 	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Kelola Jadwal}
 		      \label{tab:ui-jadwal}                                                                                                 \\
@@ -650,6 +671,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      9                       & Sidebar menu dengan icons dan text untuk navigasi sistem                                    \\
 		      \hline
 	      \end{longtable}
+	      }
 
 	      \begin{figure}
 		      \centering
@@ -664,6 +686,8 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \caption{Tampilan Tambah Jadwal Laboratorium}
 		      \label{fig:jadwal}
 	      \end{figure}
+	      {
+	      \fontsize{11}{13}\selectfont
 	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Tambah Jadwal}
 		      \label{tab:tambah-jadwal}                                                                                                                                                               \\
@@ -691,6 +715,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      5                       & Teks di bagian bawah layar yang menampilkan informasi seperti hak cipta atau detail versi aplikasi. Font-size kecil dengan warna abu-abu muda.                \\
 		      \hline
 	      \end{longtable}
+	      }
 
 	\item Rancangan tampilan edit jadwal yang berfungsi untuk mengedit jadwal laboratorium dapat dilihat pada \pic~\ref{fig:edit-jadwal}.
 	      \begin{figure}
@@ -700,6 +725,8 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      \label{fig:edit-jadwal}
 	      \end{figure}
 
+	      {
+	      \fontsize{11}{13}\selectfont
 	      \begin{longtable}{c p{0.55\textwidth}}
 		      \caption{Tabel Keterangan Tampilan Edit Jadwal}
 		      \label{tab:edit-jadwal}                                                                                                                                                                 \\
@@ -727,6 +754,7 @@ Perancangan \textit{interface} berfungsi untuk menjelaskan tentang desain progra
 		      5                       & Teks di bagian bawah layar yang menampilkan informasi seperti hak cipta atau detail versi aplikasi. Font-size kecil dengan warna abu-abu muda.                \\
 		      \hline
 	      \end{longtable}
+	      }
 
 	\item Rancangan tampilan kelola mata kuliah yang berfungsi untuk mengelola mata kuliah laboratorium dapat dilihat pada \pic~\ref{fig:matkul} dan keterangan \textit{user interface} sama dengan \tab~\ref{tab:ui-jadwal}.
 	      \begin{figure}

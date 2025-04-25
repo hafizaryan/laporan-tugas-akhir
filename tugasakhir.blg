@@ -68,52 +68,51 @@ Warning--entry type for "sitaris" isn't style-file defined
 --line 1513 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "uin-suska-website" isn't style-file defined
 --line 1715 of file konfigurasi/daftarpustaka.bib
-Warning--entry type for "sitaris-lab-si-website" isn't style-file defined
---line 1757 of file konfigurasi/daftarpustaka.bib
+Warning--I didn't find a database entry for "sitaris-lab-si-website"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in trelles2021agile
-You've used 46 entries,
+You've used 45 entries,
             6951 wiz_defined-function locations,
-            1550 strings with 20594 characters,
-and the built_in function-call counts, 96926 in all, are:
-= -- 11971
-> -- 796
-< -- 5046
-+ -- 5153
-- -- 116
-* -- 6412
-:= -- 18338
-add.period$ -- 181
-call.type$ -- 46
-change.case$ -- 783
+            1547 strings with 20516 characters,
+and the built_in function-call counts, 95209 in all, are:
+= -- 11728
+> -- 786
+< -- 4970
++ -- 5107
+- -- 110
+* -- 6329
+:= -- 18070
+add.period$ -- 177
+call.type$ -- 45
+change.case$ -- 766
 chr.to.int$ -- 0
-cite$ -- 93
-duplicate$ -- 2487
-empty$ -- 3489
-format.name$ -- 1372
-if$ -- 17948
+cite$ -- 91
+duplicate$ -- 2458
+empty$ -- 3419
+format.name$ -- 1358
+if$ -- 17583
 int.to.chr$ -- 0
-int.to.str$ -- 138
+int.to.str$ -- 135
 missing$ -- 0
-newline$ -- 1186
-num.names$ -- 368
-pop$ -- 1238
+newline$ -- 1162
+num.names$ -- 360
+pop$ -- 1216
 preamble$ -- 1
-purify$ -- 184
+purify$ -- 180
 quote$ -- 0
-skip$ -- 6321
+skip$ -- 6147
 stack$ -- 0
-substring$ -- 5510
-swap$ -- 1414
-text.length$ -- 110
+substring$ -- 5463
+swap$ -- 1400
+text.length$ -- 106
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4248
+type$ -- 4096
 warning$ -- 4
-while$ -- 462
+while$ -- 457
 width$ -- 0
-write$ -- 1510
+write$ -- 1484
 (There were 11 warnings)
