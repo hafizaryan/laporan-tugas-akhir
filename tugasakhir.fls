@@ -513,48 +513,6 @@ INPUT .\konten\gambar\Struktur Organisasi.png
 INPUT .\konten\gambar\Struktur Organisasi.png
 INPUT .\konten\gambar\Struktur Organisasi.png
 INPUT .\konten\gambar\Struktur Organisasi.png
-INPUT .\konten\gambar\lab-rsi.jpg
-INPUT .\konten\gambar\lab-rsi.jpg
-INPUT .\konten\gambar\lab-rsi.jpg
-INPUT .\konten\gambar\lab-rsi.jpg
-INPUT .\konten\gambar\lab-rsi.jpg
-INPUT .\konten\gambar\lab-rsi.jpg
-INPUT .\konten\gambar\lab-rsi.jpg
-INPUT .\konten\gambar\lab-internet.jpg
-INPUT .\konten\gambar\lab-internet.jpg
-INPUT .\konten\gambar\lab-internet.jpg
-INPUT .\konten\gambar\lab-internet.jpg
-INPUT .\konten\gambar\lab-internet.jpg
-INPUT .\konten\gambar\lab-internet.jpg
-INPUT .\konten\gambar\lab-internet.jpg
-INPUT .\konten\gambar\lab-se.jpg
-INPUT .\konten\gambar\lab-se.jpg
-INPUT .\konten\gambar\lab-se.jpg
-INPUT .\konten\gambar\lab-se.jpg
-INPUT .\konten\gambar\lab-se.jpg
-INPUT .\konten\gambar\lab-se.jpg
-INPUT .\konten\gambar\lab-se.jpg
-INPUT .\konten\\gambar\labsi.png
-INPUT .\konten\\gambar\labsi.png
-INPUT .\konten\\gambar\labsi.png
-INPUT .\konten\\gambar\labsi.png
-INPUT .\konten\\gambar\labsi.png
-INPUT .\konten\\gambar\labsi.png
-INPUT .\konten\\gambar\labsi.png
-INPUT .\konten\\gambar\labvis.png
-INPUT .\konten\\gambar\labvis.png
-INPUT .\konten\\gambar\labvis.png
-INPUT .\konten\\gambar\labvis.png
-INPUT .\konten\\gambar\labvis.png
-INPUT .\konten\\gambar\labvis.png
-INPUT .\konten\\gambar\labvis.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
-INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\Login Page.png
 INPUT .\konten\\gambar\Login Page.png
 INPUT .\konten\\gambar\Login Page.png
@@ -757,40 +715,12 @@ OUTPUT konten\bab4.aux
 INPUT .\konten\bab4.tex
 INPUT .\konten\bab4.tex
 INPUT konten\bab4.tex
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcmr.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcmr.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcmr.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcmrm.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcmrm.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcmrm.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zpzccmry.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zpzccmry.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zpzccmry.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zpsycmrv.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zpsycmrv.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zpsycmrv.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\konten\gambar\usecase-diagram\admin.png
 INPUT .\konten\gambar\usecase-diagram\admin.png
@@ -806,16 +736,6 @@ INPUT .\konten\gambar\activity-diagram\login.png
 INPUT .\konten\gambar\activity-diagram\login.png
 INPUT .\konten\gambar\activity-diagram\login.png
 INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT .\konten\gambar\class-diagram.png
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
@@ -823,91 +743,6 @@ INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\landing-page.png
-INPUT .\konten\gambar\pilih-login.png
-INPUT .\konten\gambar\pilih-login.png
-INPUT .\konten\gambar\pilih-login.png
-INPUT .\konten\gambar\pilih-login.png
-INPUT .\konten\gambar\pilih-login.png
-INPUT .\konten\gambar\pilih-login.png
-INPUT .\konten\gambar\pilih-login.png
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT .\konten\gambar\user interface\ui-jadwal.png
-INPUT .\konten\gambar\user interface\ui-jadwal.png
-INPUT .\konten\gambar\user interface\ui-jadwal.png
-INPUT .\konten\gambar\user interface\ui-jadwal.png
-INPUT .\konten\gambar\user interface\ui-jadwal.png
-INPUT .\konten\gambar\user interface\ui-jadwal.png
-INPUT .\konten\gambar\user interface\ui-jadwal.png
-INPUT .\konten\gambar\user interface\ui-jadwal-rsi.png
-INPUT .\konten\gambar\user interface\ui-jadwal-rsi.png
-INPUT .\konten\gambar\user interface\ui-jadwal-rsi.png
-INPUT .\konten\gambar\user interface\ui-jadwal-rsi.png
-INPUT .\konten\gambar\user interface\ui-jadwal-rsi.png
-INPUT .\konten\gambar\user interface\ui-jadwal-rsi.png
-INPUT .\konten\gambar\user interface\ui-jadwal-rsi.png
-INPUT .\konten\gambar\tambah-jadwal.png
-INPUT .\konten\gambar\tambah-jadwal.png
-INPUT .\konten\gambar\tambah-jadwal.png
-INPUT .\konten\gambar\tambah-jadwal.png
-INPUT .\konten\gambar\tambah-jadwal.png
-INPUT .\konten\gambar\tambah-jadwal.png
-INPUT .\konten\gambar\tambah-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\ui-matkul.png
-INPUT .\konten\gambar\user interface\ui-matkul.png
-INPUT .\konten\gambar\user interface\ui-matkul.png
-INPUT .\konten\gambar\user interface\ui-matkul.png
-INPUT .\konten\gambar\user interface\ui-matkul.png
-INPUT .\konten\gambar\user interface\ui-matkul.png
-INPUT .\konten\gambar\user interface\ui-matkul.png
-INPUT .\konten\gambar\user interface\tambah-matkul.png
-INPUT .\konten\gambar\user interface\tambah-matkul.png
-INPUT .\konten\gambar\user interface\tambah-matkul.png
-INPUT .\konten\gambar\user interface\tambah-matkul.png
-INPUT .\konten\gambar\user interface\tambah-matkul.png
-INPUT .\konten\gambar\user interface\tambah-matkul.png
-INPUT .\konten\gambar\user interface\tambah-matkul.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\edit-jadwal.png
-INPUT .\konten\gambar\user interface\ui-dosen.png
-INPUT .\konten\gambar\user interface\ui-dosen.png
-INPUT .\konten\gambar\user interface\ui-dosen.png
-INPUT .\konten\gambar\user interface\ui-dosen.png
-INPUT .\konten\gambar\user interface\ui-dosen.png
-INPUT .\konten\gambar\user interface\ui-dosen.png
-INPUT .\konten\gambar\user interface\ui-dosen.png
-INPUT .\konten\gambar\user interface\tambah-dosen.png
-INPUT .\konten\gambar\user interface\tambah-dosen.png
-INPUT .\konten\gambar\user interface\tambah-dosen.png
-INPUT .\konten\gambar\user interface\tambah-dosen.png
-INPUT .\konten\gambar\user interface\tambah-dosen.png
-INPUT .\konten\gambar\user interface\tambah-dosen.png
-INPUT .\konten\gambar\user interface\tambah-dosen.png
-INPUT .\konten\gambar\user interface\edit-dosen.png
-INPUT .\konten\gambar\user interface\edit-dosen.png
-INPUT .\konten\gambar\user interface\edit-dosen.png
-INPUT .\konten\gambar\user interface\edit-dosen.png
-INPUT .\konten\gambar\user interface\edit-dosen.png
-INPUT .\konten\gambar\user interface\edit-dosen.png
-INPUT .\konten\gambar\user interface\edit-dosen.png
 INPUT .\konten\bab5.tex
 INPUT .\konten\bab5.tex
 OUTPUT konten\bab5.aux
@@ -991,136 +826,12 @@ INPUT .\konten\gambar\perbaikan\kode-barang.png
 INPUT .\konten\gambar\perbaikan\kode-barang.png
 INPUT .\konten\gambar\perbaikan\kode-barang.png
 INPUT .\konten\gambar\perbaikan\kode-barang.png
-INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
-INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
-INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
-INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
-INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
-INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
-INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
-INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
-INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
-INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
-INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
-INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
-INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
-INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
-INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
-INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
-INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
-INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
-INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
-INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
-INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
-INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
-INPUT .\konten\gambar\hasil\jadwal.jpeg
-INPUT .\konten\gambar\hasil\jadwal.jpeg
-INPUT .\konten\gambar\hasil\jadwal.jpeg
-INPUT .\konten\gambar\hasil\jadwal.jpeg
-INPUT .\konten\gambar\hasil\jadwal.jpeg
-INPUT .\konten\gambar\hasil\jadwal.jpeg
-INPUT .\konten\gambar\hasil\jadwal.jpeg
-INPUT .\konten\gambar\hasil\labor-rsi.png
-INPUT .\konten\gambar\hasil\labor-rsi.png
-INPUT .\konten\gambar\hasil\labor-rsi.png
-INPUT .\konten\gambar\hasil\labor-rsi.png
-INPUT .\konten\gambar\hasil\labor-rsi.png
-INPUT .\konten\gambar\hasil\labor-rsi.png
-INPUT .\konten\gambar\hasil\labor-rsi.png
-INPUT .\konten\gambar\hasil\labor-se.png
-INPUT .\konten\gambar\hasil\labor-se.png
-INPUT .\konten\gambar\hasil\labor-se.png
-INPUT .\konten\gambar\hasil\labor-se.png
-INPUT .\konten\gambar\hasil\labor-se.png
-INPUT .\konten\gambar\hasil\labor-se.png
-INPUT .\konten\gambar\hasil\labor-se.png
-INPUT .\konten\gambar\hasil\labor-int.png
-INPUT .\konten\gambar\hasil\labor-int.png
-INPUT .\konten\gambar\hasil\labor-int.png
-INPUT .\konten\gambar\hasil\labor-int.png
-INPUT .\konten\gambar\hasil\labor-int.png
-INPUT .\konten\gambar\hasil\labor-int.png
-INPUT .\konten\gambar\hasil\labor-int.png
-INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
-INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
-INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
-INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
-INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
-INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
-INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
-INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
-INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
-INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
-INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
-INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
-INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
-INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
-INPUT .\konten\gambar\hasil\cetak-jadwal.png
-INPUT .\konten\gambar\hasil\cetak-jadwal.png
-INPUT .\konten\gambar\hasil\cetak-jadwal.png
-INPUT .\konten\gambar\hasil\cetak-jadwal.png
-INPUT .\konten\gambar\hasil\cetak-jadwal.png
-INPUT .\konten\gambar\hasil\cetak-jadwal.png
-INPUT .\konten\gambar\hasil\cetak-jadwal.png
-INPUT .\konten\gambar\hasil\matkul.png
-INPUT .\konten\gambar\hasil\matkul.png
-INPUT .\konten\gambar\hasil\matkul.png
-INPUT .\konten\gambar\hasil\matkul.png
-INPUT .\konten\gambar\hasil\matkul.png
-INPUT .\konten\gambar\hasil\matkul.png
-INPUT .\konten\gambar\hasil\matkul.png
-INPUT .\konten\gambar\hasil\tambah-matkul.png
-INPUT .\konten\gambar\hasil\tambah-matkul.png
-INPUT .\konten\gambar\hasil\tambah-matkul.png
-INPUT .\konten\gambar\hasil\tambah-matkul.png
-INPUT .\konten\gambar\hasil\tambah-matkul.png
-INPUT .\konten\gambar\hasil\tambah-matkul.png
-INPUT .\konten\gambar\hasil\tambah-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\edit-matkul.png
-INPUT .\konten\gambar\hasil\dosen.png
-INPUT .\konten\gambar\hasil\dosen.png
-INPUT .\konten\gambar\hasil\dosen.png
-INPUT .\konten\gambar\hasil\dosen.png
-INPUT .\konten\gambar\hasil\dosen.png
-INPUT .\konten\gambar\hasil\dosen.png
-INPUT .\konten\gambar\hasil\dosen.png
-INPUT .\konten\gambar\hasil\tambah-dosen.png
-INPUT .\konten\gambar\hasil\tambah-dosen.png
-INPUT .\konten\gambar\hasil\tambah-dosen.png
-INPUT .\konten\gambar\hasil\tambah-dosen.png
-INPUT .\konten\gambar\hasil\tambah-dosen.png
-INPUT .\konten\gambar\hasil\tambah-dosen.png
-INPUT .\konten\gambar\hasil\tambah-dosen.png
-INPUT .\konten\gambar\hasil\edit-dosen.png
-INPUT .\konten\gambar\hasil\edit-dosen.png
-INPUT .\konten\gambar\hasil\edit-dosen.png
-INPUT .\konten\gambar\hasil\edit-dosen.png
-INPUT .\konten\gambar\hasil\edit-dosen.png
-INPUT .\konten\gambar\hasil\edit-dosen.png
-INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\konten\bab6.tex
 INPUT .\konten\bab6.tex
 OUTPUT konten\bab6.aux
@@ -1225,10 +936,19 @@ INPUT .\konten\gambar\lab-rsi.jpg
 INPUT .\konten\gambar\lab-rsi.jpg
 INPUT .\konten\gambar\lab-rsi.jpg
 INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
 INPUT .\konten\gambar\lab-internet.jpg
 INPUT .\konten\gambar\lab-internet.jpg
 INPUT .\konten\gambar\lab-internet.jpg
 INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
 INPUT .\konten\gambar\lab-se.jpg
@@ -1244,10 +964,19 @@ INPUT .\konten\\gambar\labsi.png
 INPUT .\konten\\gambar\labsi.png
 INPUT .\konten\\gambar\labsi.png
 INPUT .\konten\\gambar\labsi.png
+INPUT .\konten\\gambar\labsi.png
+INPUT .\konten\\gambar\labsi.png
+INPUT .\konten\\gambar\labsi.png
 INPUT .\konten\\gambar\labvis.png
 INPUT .\konten\\gambar\labvis.png
 INPUT .\konten\\gambar\labvis.png
 INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\laris.png
 INPUT .\konten\\gambar\laris.png
@@ -1292,13 +1021,30 @@ OUTPUT halamanbelakang\lampiranD.aux
 INPUT .\halamanbelakang\lampiranD.tex
 INPUT .\halamanbelakang\lampiranD.tex
 INPUT halamanbelakang\lampiranD.tex
-INPUT .\konten\gambar\source-code.png
-INPUT .\konten\gambar\source-code.png
-INPUT .\konten\gambar\source-code.png
-INPUT .\konten\gambar\source-code.png
-INPUT .\konten\gambar\source-code.png
-INPUT .\konten\gambar\source-code.png
-INPUT .\konten\gambar\source-code.png
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-rsi.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-internet.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\gambar\lab-se.jpg
+INPUT .\konten\\gambar\labsi.png
+INPUT .\konten\\gambar\labsi.png
+INPUT .\konten\\gambar\labsi.png
+INPUT .\konten\\gambar\labsi.png
+INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\labvis.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
+INPUT .\konten\\gambar\laris.png
 INPUT .\konten\gambar\usecase-diagram\kalab.png
 INPUT .\konten\gambar\usecase-diagram\kalab.png
 INPUT .\konten\gambar\usecase-diagram\kalab.png
@@ -1390,13 +1136,48 @@ INPUT .\konten\gambar\activity-diagram\hapus-jadwal.png
 INPUT .\konten\gambar\activity-diagram\hapus-jadwal.png
 INPUT .\konten\gambar\activity-diagram\hapus-jadwal.png
 INPUT .\konten\gambar\activity-diagram\hapus-jadwal.png
-INPUT .\konten\gambar\hasil\landing-page.jpeg
-INPUT .\konten\gambar\hasil\landing-page.jpeg
-INPUT .\konten\gambar\hasil\landing-page.jpeg
-INPUT .\konten\gambar\hasil\landing-page.jpeg
-INPUT .\konten\gambar\hasil\landing-page.jpeg
-INPUT .\konten\gambar\hasil\landing-page.jpeg
-INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\landing-page.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\pilih-login.png
+INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\user interface\ui-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\tambah-jadwal.png
+INPUT .\konten\gambar\user interface\edit-jadwal.png
+INPUT .\konten\gambar\user interface\edit-jadwal.png
+INPUT .\konten\gambar\user interface\edit-jadwal.png
+INPUT .\konten\gambar\user interface\edit-jadwal.png
+INPUT .\konten\gambar\user interface\edit-jadwal.png
+INPUT .\konten\gambar\user interface\edit-jadwal.png
+INPUT .\konten\gambar\user interface\edit-jadwal.png
 INPUT .\konten\gambar\implementasi\database.png
 INPUT .\konten\gambar\implementasi\database.png
 INPUT .\konten\gambar\implementasi\database.png
@@ -1425,6 +1206,153 @@ INPUT .\konten\\gambar\implementasi-folder\folder-controller.png
 INPUT .\konten\\gambar\implementasi-folder\folder-controller.png
 INPUT .\konten\\gambar\implementasi-folder\folder-controller.png
 INPUT .\konten\\gambar\implementasi-folder\folder-controller.png
+INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
+INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
+INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
+INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
+INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
+INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
+INPUT .\konten\gambar\perbaikan\pilih-peminjaman.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-barang.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
+INPUT .\konten\gambar\perbaikan\peminjaman-ruangan.jpeg
+INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
+INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
+INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
+INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
+INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
+INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
+INPUT .\konten\gambar\perbaikan\pilih-peminjam.png
+INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\hasil\landing-page.jpeg
+INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
+INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
+INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
+INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
+INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
+INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
+INPUT .\konten\gambar\hasil\pilih-aplikasi.jpeg
+INPUT .\konten\gambar\hasil\kalender.png
+INPUT .\konten\gambar\hasil\kalender.png
+INPUT .\konten\gambar\hasil\kalender.png
+INPUT .\konten\gambar\hasil\kalender.png
+INPUT .\konten\gambar\hasil\kalender.png
+INPUT .\konten\gambar\hasil\kalender.png
+INPUT .\konten\gambar\hasil\kalender.png
+INPUT .\konten\gambar\hasil\jadwal.jpeg
+INPUT .\konten\gambar\hasil\jadwal.jpeg
+INPUT .\konten\gambar\hasil\jadwal.jpeg
+INPUT .\konten\gambar\hasil\jadwal.jpeg
+INPUT .\konten\gambar\hasil\jadwal.jpeg
+INPUT .\konten\gambar\hasil\jadwal.jpeg
+INPUT .\konten\gambar\hasil\jadwal.jpeg
+INPUT .\konten\gambar\hasil\labor-rsi.png
+INPUT .\konten\gambar\hasil\labor-rsi.png
+INPUT .\konten\gambar\hasil\labor-rsi.png
+INPUT .\konten\gambar\hasil\labor-rsi.png
+INPUT .\konten\gambar\hasil\labor-rsi.png
+INPUT .\konten\gambar\hasil\labor-rsi.png
+INPUT .\konten\gambar\hasil\labor-rsi.png
+INPUT .\konten\gambar\hasil\labor-se.png
+INPUT .\konten\gambar\hasil\labor-se.png
+INPUT .\konten\gambar\hasil\labor-se.png
+INPUT .\konten\gambar\hasil\labor-se.png
+INPUT .\konten\gambar\hasil\labor-se.png
+INPUT .\konten\gambar\hasil\labor-se.png
+INPUT .\konten\gambar\hasil\labor-se.png
+INPUT .\konten\gambar\hasil\labor-int.png
+INPUT .\konten\gambar\hasil\labor-int.png
+INPUT .\konten\gambar\hasil\labor-int.png
+INPUT .\konten\gambar\hasil\labor-int.png
+INPUT .\konten\gambar\hasil\labor-int.png
+INPUT .\konten\gambar\hasil\labor-int.png
+INPUT .\konten\gambar\hasil\labor-int.png
+INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
+INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
+INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
+INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
+INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
+INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
+INPUT .\konten\gambar\hasil\tambah-jadwal.jpeg
+INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
+INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
+INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
+INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
+INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
+INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
+INPUT .\konten\gambar\hasil\edit-jadwal.jpeg
+INPUT .\konten\gambar\hasil\cetak-jadwal.png
+INPUT .\konten\gambar\hasil\cetak-jadwal.png
+INPUT .\konten\gambar\hasil\cetak-jadwal.png
+INPUT .\konten\gambar\hasil\cetak-jadwal.png
+INPUT .\konten\gambar\hasil\cetak-jadwal.png
+INPUT .\konten\gambar\hasil\cetak-jadwal.png
+INPUT .\konten\gambar\hasil\cetak-jadwal.png
+INPUT .\konten\gambar\hasil\matkul.png
+INPUT .\konten\gambar\hasil\matkul.png
+INPUT .\konten\gambar\hasil\matkul.png
+INPUT .\konten\gambar\hasil\matkul.png
+INPUT .\konten\gambar\hasil\matkul.png
+INPUT .\konten\gambar\hasil\matkul.png
+INPUT .\konten\gambar\hasil\matkul.png
+INPUT .\konten\gambar\hasil\tambah-matkul.png
+INPUT .\konten\gambar\hasil\tambah-matkul.png
+INPUT .\konten\gambar\hasil\tambah-matkul.png
+INPUT .\konten\gambar\hasil\tambah-matkul.png
+INPUT .\konten\gambar\hasil\tambah-matkul.png
+INPUT .\konten\gambar\hasil\tambah-matkul.png
+INPUT .\konten\gambar\hasil\tambah-matkul.png
+INPUT .\konten\gambar\hasil\edit-matkul.png
+INPUT .\konten\gambar\hasil\edit-matkul.png
+INPUT .\konten\gambar\hasil\edit-matkul.png
+INPUT .\konten\gambar\hasil\edit-matkul.png
+INPUT .\konten\gambar\hasil\edit-matkul.png
+INPUT .\konten\gambar\hasil\edit-matkul.png
+INPUT .\konten\gambar\hasil\edit-matkul.png
+INPUT .\konten\gambar\hasil\dosen.png
+INPUT .\konten\gambar\hasil\dosen.png
+INPUT .\konten\gambar\hasil\dosen.png
+INPUT .\konten\gambar\hasil\dosen.png
+INPUT .\konten\gambar\hasil\dosen.png
+INPUT .\konten\gambar\hasil\dosen.png
+INPUT .\konten\gambar\hasil\dosen.png
+INPUT .\konten\gambar\hasil\tambah-dosen.png
+INPUT .\konten\gambar\hasil\tambah-dosen.png
+INPUT .\konten\gambar\hasil\tambah-dosen.png
+INPUT .\konten\gambar\hasil\tambah-dosen.png
+INPUT .\konten\gambar\hasil\tambah-dosen.png
+INPUT .\konten\gambar\hasil\tambah-dosen.png
+INPUT .\konten\gambar\hasil\tambah-dosen.png
+INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT .\konten\gambar\hasil\edit-dosen.png
+INPUT .\konten\gambar\source-code.png
+INPUT .\konten\gambar\source-code.png
+INPUT .\konten\gambar\source-code.png
+INPUT .\konten\gambar\source-code.png
+INPUT .\konten\gambar\source-code.png
+INPUT .\konten\gambar\source-code.png
+INPUT .\konten\gambar\source-code.png
 INPUT .\halamanbelakang\daftarRiwayatHidup.tex
 INPUT .\halamanbelakang\daftarRiwayatHidup.tex
 OUTPUT halamanbelakang\daftarRiwayatHidup.aux

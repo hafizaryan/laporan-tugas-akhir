@@ -103,7 +103,7 @@ Balsamiq.%
 \newblock
 \begin{APACrefURL} \url{https://balsamiq.com/} \end{APACrefURL}
 \newblock
-\APACrefnote{Accessed: 2024-07-25}
+\APACrefnote{Akses Tanggal: 25 Juli 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -435,31 +435,6 @@ Hussain, N.%
 \newblock
 \APACjournalVolNumPages{Ya{\c{s}}ar {\"U}niversitesi
   E-Dergisi}{14}{}{156--169}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Informasi%
-}{%
-Informasi%
-}{%
-{\protect \APACyear {2023}}%
-}]{%
-lab-si-website}
-\APACinsertmetastar {%
-lab-si-website}%
-\begin{APACrefauthors}%
-Informasi, L\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-\APACrefbtitle {Laboratorium Sistem Informasi UIN Suska Riau.} {Laboratorium
-  sistem informasi uin suska riau.}
-\newblock
-\begin{APACrefURL} \url{https://lab-si.uin-suska.ac.id} \end{APACrefURL}
-\newblock
-\APACrefnote{Akses Tanggal: 30 Oktober 2024}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
