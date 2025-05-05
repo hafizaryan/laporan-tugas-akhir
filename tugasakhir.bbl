@@ -26,35 +26,6 @@ Abrantes, B\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ahsyar%
-, Raharjo%
-\BCBL {}\ \BBA {} Syaifullah%
-}{%
-Ahsyar%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2021}}%
-}]{%
-ahsyar2021sistem}
-\APACinsertmetastar {%
-ahsyar2021sistem}%
-\begin{APACrefauthors}%
-Ahsyar, T\BPBI K.%
-, Raharjo, T\BPBI D.%
-\BCBL {}\ \BBA {} Syaifullah, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2021}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {SISTEM PAKAR DIAGNOSA PENYAKIT PADA AYAM DENGAN METODE
-  CERTAINTY FACTOR BERBASIS ANDROID} {Sistem pakar diagnosa penyakit pada ayam
-  dengan metode certainty factor berbasis android}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Jurnal Ilmiah Rekayasa dan Manajemen Sistem
-  Informasi}{7}{2}{166--172}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Al-Saqqa%
 , Sawalha%
 \BCBL {}\ \BBA {} Abdel-Nabi%
@@ -405,6 +376,39 @@ Hayati, N.%
 \newblock
 \APACjournalVolNumPages{STRING (Satuan Tulisan Riset dan Inovasi
   Teknologi)}{6}{1}{1--8}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Henard%
+, Papadakis%
+, Harman%
+, Jia%
+\BCBL {}\ \BBA {} Le~Traon%
+}{%
+Henard%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+henard2016comparing}
+\APACinsertmetastar {%
+henard2016comparing}%
+\begin{APACrefauthors}%
+Henard, C.%
+, Papadakis, M.%
+, Harman, M.%
+, Jia, Y.%
+\BCBL {}\ \BBA {} Le~Traon, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparing white-box and black-box test prioritization}
+  {Comparing white-box and black-box test prioritization}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 38th International conference on
+  software engineering} {Proceedings of the 38th international conference on
+  software engineering}\ (\BPGS\ 523--534).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

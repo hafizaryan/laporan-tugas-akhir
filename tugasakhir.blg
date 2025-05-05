@@ -59,14 +59,13 @@ Database file #1: konfigurasi/daftarpustaka.bib
 Warning--entry type for "balsamiq" isn't style-file defined
 --line 41 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "labsi2023" isn't style-file defined
---line 1465 of file konfigurasi/daftarpustaka.bib
-Warning--entry type for "web-prodi" isn't style-file defined
 --line 1481 of file konfigurasi/daftarpustaka.bib
-Warning--entry type for "sitaris" isn't style-file defined
+Warning--entry type for "web-prodi" isn't style-file defined
 --line 1497 of file konfigurasi/daftarpustaka.bib
+Warning--entry type for "sitaris" isn't style-file defined
+--line 1513 of file konfigurasi/daftarpustaka.bib
 Warning--entry type for "uin-suska-website" isn't style-file defined
---line 1699 of file konfigurasi/daftarpustaka.bib
-Warning--I didn't find a database entry for "lab-si-website"
+--line 1715 of file konfigurasi/daftarpustaka.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--`others' not consistent with 6th ed. of the APA Manual
@@ -74,43 +73,43 @@ Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in trelles2021agile
 You've used 44 entries,
             6951 wiz_defined-function locations,
-            1544 strings with 20428 characters,
-and the built_in function-call counts, 93429 in all, are:
-= -- 11464
-> -- 776
-< -- 4908
-+ -- 5043
+            1543 strings with 20418 characters,
+and the built_in function-call counts, 93622 in all, are:
+= -- 11502
+> -- 789
+< -- 4886
++ -- 5012
 - -- 108
-* -- 6243
-:= -- 17805
-add.period$ -- 173
+* -- 6227
+:= -- 17735
+add.period$ -- 175
 call.type$ -- 44
-change.case$ -- 749
+change.case$ -- 750
 chr.to.int$ -- 0
 cite$ -- 89
-duplicate$ -- 2419
-empty$ -- 3349
-format.name$ -- 1344
-if$ -- 17209
+duplicate$ -- 2435
+empty$ -- 3365
+format.name$ -- 1362
+if$ -- 17292
 int.to.chr$ -- 0
 int.to.str$ -- 132
 missing$ -- 0
-newline$ -- 1138
+newline$ -- 1142
 num.names$ -- 352
-pop$ -- 1196
+pop$ -- 1235
 preamble$ -- 1
 purify$ -- 176
 quote$ -- 0
-skip$ -- 5972
+skip$ -- 6008
 stack$ -- 0
-substring$ -- 5392
-swap$ -- 1384
-text.length$ -- 104
+substring$ -- 5365
+swap$ -- 1394
+text.length$ -- 110
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3944
+type$ -- 4008
 warning$ -- 4
-while$ -- 452
+while$ -- 457
 width$ -- 0
-write$ -- 1458
-(There were 10 warnings)
+write$ -- 1466
+(There were 9 warnings)

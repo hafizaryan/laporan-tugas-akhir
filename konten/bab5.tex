@@ -12,7 +12,7 @@
 
 %-----------------------------------------------------------------------------%
 \chapter{\babLima}
-
+\thispagestyle{fancy} % Menambahkan nomor halaman di ujung kanan
 \section{Implementasi Sistem}
 Implementasi sistem merupakan tahap dimana sistem yang telah dirancang akan dijalankan. Implementasi sistem ini meliputi implementasi \textit{database}, implementasi \textit{routes}, implementasi \textit{model}, implementasi \textit{view}, dan implementasi \textit{controller}. Implementasi sistem ini dilakukan dengan menggabungkan 2 \textit{framework} yaitu Laravel dan Codeigniter.
 
@@ -31,98 +31,114 @@ Implementasi pada lingkungan \textit{hardware} adalah implementasi pada perangka
 
 Minimum kebutuhan pada implementasi \textit{hardware} untuk menjalankan sistem informasi manajemen laboratorium adalah spesifikasi perangkat keras yang harus terpenuhi agar sistem dapat beroperasi secara optimal. Tabel 5.1. menyajikan daftar rinci dari komponen perangkat keras yang diperlukan dan spesifikasinya yang mencakup prosesor, RAM, Hardisk, Monitor, dan perangkat masukan yang harus memenuhi standar minimum agar sistem berfungsi dengan baik.
 
-\begin{longtable}{l l}
-	\caption{Spesifikasi Perangkat Keras (\textit{Hardware})}                                                               \\
-	\hline
-	\textbf{ Komponen \textit{Hardware}} & \textbf{ Spesifikasi}                                                            \\
-	\hline
-	\endfirsthead
+Pemilihan spesifikasi hardware yang tepat sangat penting untuk memastikan performa sistem yang optimal. Prosesor dengan kecepatan yang memadai diperlukan untuk menangani beban komputasi sistem. Kapasitas RAM yang cukup akan mempengaruhi kecepatan akses data dan kelancaran operasi sistem.
 
-	\multicolumn{2}{c}{\tablename\ \thetable\ {Spesifikasi Perangkat Keras (\textit{Hardware})} \space (Tabel lanjutan...)} \\
-	\hline
-	\textbf{ Komponen \textit{Hardware}} & \textbf{ Spesifikasi}                                                            \\
-	\hline
-	\endhead
+Penyimpanan hardisk yang memadai diperlukan untuk menyimpan semua data dan aplikasi sistem. Monitor dengan resolusi yang baik akan meningkatkan pengalaman pengguna dalam berinteraksi dengan antarmuka sistem. Perangkat masukan seperti keyboard dan mouse yang ergonomis akan mendukung efisiensi kerja pengguna.
 
-	Processor                            & Intel \textregistered{} CoreTM i3-4160, 3.60GHz                                  \\
-	Memory (RAM)                         & 2 GB                                                                             \\
-	Hardisk (HDD)                        & 1 TB                                                                             \\
-	LCD                                  & Lenovo 17"                                                                       \\
-	\hline
-\end{longtable}
+	{
+		\fontsize{10}{13}\selectfont
+		\begin{longtable}{p{0.5cm} p{4.9cm} p{7.4cm}}
+			\caption{Spesifikasi Perangkat Keras (\textit{Hardware})}                                                                                     \\
+			\hline
+			\textbf{No} & \textbf{Komponen \textit{Hardware}} & \textbf{Spesifikasi}                                                                      \\
+			\hline
+			\endfirsthead
+
+			\multicolumn{3}{c}{\normalsize\tablename\ \textbf{\thetable}\ {{Spesifikasi Perangkat Keras (\textit{Hardware}) \space (Tabel lanjutan...)}}} \\
+			\hline
+			\textbf{No} & \textbf{Komponen \textit{Hardware}} & \textbf{Spesifikasi}                                                                      \\
+			\hline
+			\endhead
+
+			\hline
+			\endfoot
+
+			1           & Processor                           & Intel \textregistered{} CoreTM i3-4160, 3.60GHz                                           \\
+			2           & Memory (RAM)                        & 2 GB                                                                                      \\
+			3           & Hardisk (HDD)                       & 1 TB                                                                                      \\
+			4           & LCD                                 & Lenovo 17"                                                                                \\
+			\hline
+		\end{longtable}
+	}
 
 \subsection{Implementasi Perangkat Lunak (\textit{Software})}
 % -----------------------------------------------------------------------------%
 Implementasi pada lingkungan \textit{software} adalah implementasi pada perangkat lunak yang digunakan untuk menjalankan sistem informasi inventaris laboratorium. Implementasi \textit{software} yang digunakan dapat dilihat pada Tabel 5.2.
 
-\begin{longtable}{l l}
-	\caption{Spesifikasi Perangkat Lunak (\textit{Software})}                                                               \\
-	\hline
-	\textbf{ Komponen \textit{Software}} & \textbf{ Spesifikasi}                                                            \\
-	\hline
-	\endfirsthead
+	{
+		\fontsize{10}{13}\selectfont
+		\begin{longtable}{p{0.5cm} p{4.9cm} p{7.4cm}}
+			\caption{Spesifikasi Perangkat Lunak (\textit{Software})}                                                                                     \\
+			\hline
+			\textbf{No} & \textbf{Komponen \textit{Software}} & \textbf{Spesifikasi}                                                                      \\
+			\hline
+			\endfirsthead
 
-	\multicolumn{2}{c}{\tablename\ \thetable\ {Spesifikasi Perangkat Lunak (\textit{Software})} \space (Tabel lanjutan...)} \\
-	\hline
-	\textbf{ Komponen \textit{Software}} & \textbf{ Spesifikasi}                                                            \\
-	\hline
-	\endhead
+			\multicolumn{3}{c}{\normalsize\tablename\ \textbf{\thetable}\ {{Spesifikasi Perangkat Lunak (\textit{Software}) \space (Tabel lanjutan...)}}} \\
+			\hline
+			\textbf{No} & \textbf{Komponen \textit{Software}} & \textbf{Spesifikasi}                                                                      \\
+			\hline
+			\endhead
 
-	Sistem Operasi                       & Windows 7, 8, 10, dan 11                                                         \\
-	Browser                              & Google Chrome dan Mozilla Firefox                                                \\
-	Bahasa Pemrograman                   & PHP dan Javascript                                                               \\
-	Web \textit{Database}                & MariaDB                                                                          \\
-	\textit{Framework}                   & CodeIgniter 4                                                                    \\
-	\hline
-\end{longtable}
+			\hline
+			\endfoot
+
+			1           & Sistem Operasi                      & Windows 7, 8, 10, dan 11                                                                  \\
+			2           & Browser                             & Google Chrome dan Mozilla Firefox                                                         \\
+			3           & Bahasa Pemrograman                  & PHP dan Javascript                                                                        \\
+			4           & Web \textit{Database}               & MariaDB                                                                                   \\
+			5           & \textit{Framework}                  & CodeIgniter 4                                                                             \\
+			\hline
+		\end{longtable}
+	}
 
 \subsection{Implementasi \textit{Database}}
-Pada implementasi \textit{database} ini nama yang digunakan adalah ”man\_lab”. Implemenasi \textit{database} ini terdapat beberapa tabel yang akan digunakan dalam sistem. Pembuatan \textit{database} dilakukan dengan menggunakan \textit{database} MariaDB. Tabel-tabel ini akan digunakan untuk menyimpan data-data yang diperlukan dalam sistem. Berikut adalah struktur tabel yang telah diintegrasikan dan digunakan dalam sistem ini dapat dilihat pada Lampiran \ref{database-manlab}. Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "jadwal", "dosen", "mata kuliah", dan tabel  "biodatas", "users", "kelola pendaftarans", "kelola ujians", "postingans", "soals", jawabans", dan "wawancaras" sebagai tabel tambahan untuk integrasi sistem.
+Pada implementasi \textit{database} ini nama yang digunakan adalah "\texttt{man\_lab}". Implemenasi \textit{database} ini terdapat beberapa tabel yang akan digunakan dalam sistem. Pembuatan \textit{database} dilakukan dengan menggunakan \textit{database} \texttt{MariaDB}. Tabel-tabel ini akan digunakan untuk menyimpan data-data yang diperlukan dalam sistem. Berikut adalah struktur tabel yang telah diintegrasikan dan digunakan dalam sistem ini dapat dilihat pada Lampiran \ref{database-manlab}. Pada pengembangan kali ini dilakukan penambahan tabel baru yaitu tabel "\texttt{jadwal}", "\texttt{dosen}", "\texttt{mata kuliah}", dan tabel  "\texttt{biodatas}", "\texttt{users}", "\texttt{kelola pendaftarans}", "\texttt{kelola ujians}", "\texttt{postingans}", "\texttt{soals}", \texttt{jawabans}", dan "\texttt{wawancaras}" sebagai tabel tambahan untuk integrasi sistem.
 
 \begin{enumerate}
 
-	\item Tabel Dosen dirancang untuk menyimpan informasi penting terkait dosen dalam sebuah sistem informasi. Kolom id\_dosen berfungsi sebagai kunci utama (primary key) yang memastikan setiap data dosen bersifat unik dan tidak terjadi duplikasi. Kolom nama\_dosen digunakan untuk mencatat nama lengkap dosen, sedangkan nip\_dosen menyimpan Nomor Induk Pegawai (NIP) sebagai identitas resmi dosen, jika tersedia. Untuk mencatat jenis kelamin, digunakan kolom jenis\_kelamin dengan opsi seperti "Laki-laki" atau "Perempuan". Informasi kontak dosen dicatat melalui kolom email\_dosen dan no\_hp yang masing-masing menyimpan alamat email serta nomor handphone. Selain itu, kolom nidn digunakan untuk menyimpan Nomor Induk Dosen Nasional (NIDN) sebagai identitas unik dosen di tingkat nasional. Semua kolom ini dirancang untuk memastikan data dosen tersimpan secara lengkap, terstruktur, dan mudah diakses. Tampilan dapat dilihat pada Gambar \ref{tabel-Dosen}.
+	\item Tabel Dosen dirancang untuk menyimpan informasi penting terkait dosen dalam sebuah sistem informasi. Kolom \texttt{id\_dosen} berfungsi sebagai kunci utama (primary key) yang memastikan setiap data dosen bersifat unik dan tidak terjadi duplikasi. Kolom \texttt{nama\_dosen} digunakan untuk mencatat nama lengkap dosen, sedangkan \texttt{nip\_dosen} menyimpan Nomor Induk Pegawai (NIP) sebagai identitas resmi dosen, jika tersedia. Untuk mencatat jenis kelamin, digunakan kolom \texttt{jenis\_kelamin} dengan opsi seperti "Laki-laki" atau "Perempuan". Informasi kontak dosen dicatat melalui kolom \texttt{email\_dosen} dan \texttt{no\_hp} yang masing-masing menyimpan alamat email serta nomor handphone. Selain itu, kolom \texttt{nidn} digunakan untuk menyimpan Nomor Induk Dosen Nasional (NIDN) sebagai identitas unik dosen di tingkat nasional. Semua kolom ini dirancang untuk memastikan data dosen tersimpan secara lengkap, terstruktur, dan mudah diakses. Tampilan dapat dilihat pada Gambar \ref{tabel-Dosen}.
 
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\textwidth]{konten/gambar/implementasi/tabel-dosen.png}
+		      \includegraphics[width=1\textwidth]{konten/gambar/implementasi/tabel-dosen.png}
 		      \caption{Tampilan \textit{Database} Tabel Dosen}
 		      \label{tabel-Dosen}
 	      \end{figure}
 
 
-	\item Tabel Matkul digunakan untuk menyimpan informasi mengenai mata kuliah dalam sistem informasi akademik. Kolom id\_matkul berfungsi sebagai kunci utama \textit{(primary key)} untuk mengidentifikasi setiap mata kuliah secara unik dan mencegah terjadinya duplikasi data. Kolom kode\_matkul menyimpan kode unik mata kuliah sebagai referensi singkat. Nama mata kuliah dicatat dalam kolom nama\_matkul untuk memberikan informasi deskriptif terkait mata kuliah tersebut. Kolom sks digunakan untuk mencatat jumlah Sistem Kredit Semester (SKS) dari mata kuliah, sedangkan semester mencatat pada semester berapa mata kuliah tersebut ditawarkan. Selain itu, kolom jenis\_matkul digunakan untuk mengklasifikasikan jenis mata kuliah, misalnya wajib dan pilihan. Struktur tabel ini dirancang untuk memastikan data terkait mata kuliah tersimpan secara terorganisasi dan mudah diakses sesuai kebutuhan. Tampilan dapat dilihat pada Gambar \ref{tabel-Matkul}.
+	\item Tabel Matkul digunakan untuk menyimpan informasi mengenai mata kuliah dalam sistem informasi akademik. Kolom \texttt{id\_matkul} berfungsi sebagai kunci utama \textit{(primary key)} untuk mengidentifikasi setiap mata kuliah secara unik dan mencegah terjadinya duplikasi data. Kolom \texttt{kode\_matkul} menyimpan kode unik mata kuliah sebagai referensi singkat. Nama mata kuliah dicatat dalam kolom \texttt{nama\_matkul} untuk memberikan informasi deskriptif terkait mata kuliah tersebut. Kolom \texttt{sks} digunakan untuk mencatat jumlah Sistem Kredit Semester (SKS) dari mata kuliah, sedangkan \texttt{semester} mencatat pada semester berapa mata kuliah tersebut ditawarkan. Selain itu, kolom \texttt{jenis\_matkul} digunakan untuk mengklasifikasikan jenis mata kuliah, misalnya wajib dan pilihan. Struktur tabel ini dirancang untuk memastikan data terkait mata kuliah tersimpan secara terorganisasi dan mudah diakses sesuai kebutuhan. Tampilan dapat dilihat pada Gambar \ref{tabel-Matkul}.
 
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\textwidth]{konten/gambar/implementasi/tabel-matkul.png}
+		      \includegraphics[width=1\textwidth]{konten/gambar/implementasi/tabel-matkul.png}
 		      \caption{Tampilan \textit{Database} Tabel Matkul}
 		      \label{tabel-Matkul}
 	      \end{figure}
 
-	\item Tabel Jadwal  terdiri dari kolom id\_jadwal yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, id\_ruangan digunakan untuk menunjukkan ruangan yang digunakan, id\_matkul digunakan untuk menunjukkan mata kuliah yang digunakan, id\_dosen digunakan untuk menunjukkan dosen yang mengajar, tanggal digunakan untuk menunjukkan tanggal pelaksanaan, hari digunakan untuk menunjukkan hari laboratorium digunakan, jam\_masuk dan jam\_keluar digunakan untuk menunjukkan jam digunakannya laboratorium, dan deskripsi digunakan untuk menunjukkan deskripsi dari jadwal tersebut. Tampilan dapat dilihat pada Gambar \ref{tabel-jadwal}.
+	\item Tabel Jadwal terdiri dari kolom \texttt{id\_jadwal} yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, \texttt{id\_ruangan} digunakan untuk menunjukkan ruangan yang digunakan, \texttt{id\_matkul} digunakan untuk menunjukkan mata kuliah yang digunakan, \texttt{id\_dosen} digunakan untuk menunjukkan dosen yang mengajar, \texttt{tanggal} digunakan untuk menunjukkan tanggal pelaksanaan, \texttt{hari} digunakan untuk menunjukkan hari laboratorium digunakan, \texttt{jam\_masuk} dan \texttt{jam\_keluar} digunakan untuk menunjukkan jam digunakannya laboratorium, dan \texttt{deskripsi} digunakan untuk menunjukkan deskripsi dari jadwal tersebut. Tampilan dapat dilihat pada Gambar \ref{tabel-jadwal}.
 
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\textwidth]{konten/gambar/implementasi/tabel-jadwal.png}
+		      \includegraphics[width=1\textwidth]{konten/gambar/implementasi/tabel-jadwal.png}
 		      \caption{Tampilan \textit{Database} Tabel Jadwal}
 		      \label{tabel-jadwal}
 	      \end{figure}
 
-	\item Tabel Ruangan terdiri dari kolom id\_ruangan yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, id\_gedung menjadi kunci asing dalam tabel ruangan karena nama gedung diperlukan dalam pencatatan data ruangan, nama\_ruangan adalah kolom yang menyimpan nama ruangan yang dicatat, deskripsi\_ruangan menjelaskan detail tentang ruangan yang dicatat, gambar\_ruangan merupakan kolom untuk menyimpan data gambar dari ruangan yang dicatat. Tampilan dapat dilihat pada Gambar \ref{fig:tabel-ruangan}.
+	\item Tabel Ruangan terdiri dari kolom \texttt{id\_ruangan} yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, \texttt{id\_gedung} menjadi kunci asing dalam tabel ruangan karena nama gedung diperlukan dalam pencatatan data ruangan, \texttt{nama\_ruangan} adalah kolom yang menyimpan nama ruangan yang dicatat, \texttt{deskripsi\_ruangan} menjelaskan detail tentang ruangan yang dicatat, \texttt{gambar\_ruangan} merupakan kolom untuk menyimpan data gambar dari ruangan yang dicatat. Tampilan dapat dilihat pada Gambar \ref{fig:tabel-ruangan}.
 
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\linewidth]{konten//gambar/Tampilan database tabel ruangan.png}
+		      \includegraphics[width=1\linewidth]{konten//gambar/Tampilan database tabel ruangan.png}
 		      \caption{Tampilan \textit{Database} Tabel Ruangan}
 		      \label{fig:tabel-ruangan}
 	      \end{figure}
 
-	\item Tabel User terdiri dari kolom id\_user yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, nama merupakan kolom yang menyimpan nama pengguna, foto merupakan kolom untuk menyimpan foto profil pengguna, no\_identitas merupakan kolom yang digunakan untuk menyimpan data NIM, NIP, atau NIK dari pengguna, \textit{username} merupakan kolom yang digunakan untuk menyimpan \textit{username} pengguna, password\_hash merupakan kolom yang digunakan untuk menyimpan \textit{password} pengguna, email merupakan kolom yang digunakan untuk menyimpan email pengguna, role\_user merupakan kolom yang digunakan untuk menyimpan level akses pengguna. Tampilan dapat dilihat pada Gambar \ref{fig:tabel-user}.
+	\item Tabel User terdiri dari kolom \texttt{id\_user} yang menjadi kunci utama dari tabel tersebut yang digunakan sebagai penanda agar tidak terjadi duplikasi data, \texttt{nama} merupakan kolom yang menyimpan nama pengguna, \texttt{foto} merupakan kolom untuk menyimpan foto profil pengguna, \texttt{no\_identitas} merupakan kolom yang digunakan untuk menyimpan data NIM, NIP, atau NIK dari pengguna, \texttt{username} merupakan kolom yang digunakan untuk menyimpan \texttt{username} pengguna, \texttt{password} merupakan kolom yang digunakan untuk menyimpan \texttt{password} pengguna, \texttt{email} merupakan kolom yang digunakan untuk menyimpan email pengguna, \texttt{role\_user} merupakan kolom yang digunakan untuk menyimpan level akses pengguna. Tampilan dapat dilihat pada Gambar \ref{fig:tabel-user}.
 
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\linewidth]{konten//gambar/Tampilan database tabel user.png}
+		      \includegraphics[width=1\linewidth]{konten//gambar/Tampilan database tabel user.png}
 		      \caption{Tampilan \textit{Database} Tabel \textit{User}}
 		      \label{fig:tabel-user}
 	      \end{figure}
@@ -132,38 +148,38 @@ Pada implementasi \textit{database} ini nama yang digunakan adalah ”man\_lab�
 \textit{Routes} dalam konsep \textit{Model View Controller} (MVC) adalah mekanisme yang digunakan untuk mengatur bagaimana permintaan \textit{(requests)} dari pengguna atau \textit{client} akan ditangani oleh aplikasi web. \textit{Routes} menentukan hubungan antara URL yang diminta oleh pengguna dengan controller yang akan menangani permintaan tersebut \cite{kelvin2022sistem}. Dalam pengembangan ini ditambahkan beberapa \textit{routes} untuk menangani \textit{requests} pada sistem informasi.
 
 \begin{enumerate}
-	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data dosen dapat dilihat pada Gambar \ref{fig:routes-dosen}
+	\item \textit{Routes} dalam implementasi ILMIS pada data dosen dapat dilihat pada Gambar \ref{fig:routes-dosen}.
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/dosen.png}
+		      \includegraphics[width=1\linewidth]{konten//gambar/routes/dosen.png}
 		      \caption{Tampilan \textit{Routes} Dosen}
 		      \label{fig:routes-dosen}
 	      \end{figure}
-	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data matkul dapat dilihat pada Gambar \ref{fig:routes-matkul}
+	\item \textit{Routes} dalam implementasi ILMIS pada data matkul dapat dilihat pada Gambar \ref{fig:routes-matkul}.
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/matkul.png}
+		      \includegraphics[width=1\linewidth]{konten//gambar/routes/matkul.png}
 		      \caption{Tampilan \textit{Routes} Matkul}
 		      \label{fig:routes-matkul}
 	      \end{figure}
-	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data jadwal dapat dilihat pada Gambar \ref{fig:routes-jadwal}
+	\item \textit{Routes} dalam implementasi ILMIS pada data jadwal dapat dilihat pada Gambar \ref{fig:routes-jadwal}.
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/jadwal.png}
+		      \includegraphics[width=1\linewidth]{konten//gambar/routes/jadwal.png}
 		      \caption{Tampilan \textit{Routes} Jadwal}
 		      \label{fig:routes-jadwal}
 	      \end{figure}
-	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data ruangan dapat dilihat pada Gambar \ref{fig:routes-ruangan}
+	\item \textit{Routes} dalam implementasi ILMIS pada data ruangan dapat dilihat pada Gambar \ref{fig:routes-ruangan}.
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/ruangan.png}
+		      \includegraphics[width=1\linewidth]{konten//gambar/routes/ruangan.png}
 		      \caption{Tampilan \textit{Routes} Ruangan}
 		      \label{fig:routes-ruangan}
 	      \end{figure}
-	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data user dapat dilihat pada Gambar \ref{fig:routes-user}
+	\item \textit{Routes} dalam implementasi ILMIS pada data user dapat dilihat pada Gambar \ref{fig:routes-user}.
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\linewidth]{konten//gambar/routes/user.png}
+		      \includegraphics[width=1\linewidth]{konten//gambar/routes/user.png}
 		      \caption{Tampilan \textit{Routes} \textit{User}}
 		      \label{fig:routes-user}
 	      \end{figure}
@@ -171,46 +187,6 @@ Pada implementasi \textit{database} ini nama yang digunakan adalah ”man\_lab�
 
 \subsection{Implementasi \textit{Model}}
 Model adalah komponen yang bertanggung jawab untuk mengatur data, aturan bisnis, dan logika aplikasi. Ini merupakan representasi dari data dalam aplikasi. Model mengelola semua operasi data, seperti pengambilan, pembaruan, dan penyimpanan data \cite{firdaus2020rancang}. Model-model ini akan diatur pada folder app/model pada \textit{Framework} CodeIgniter dapat dilihat pada Lampiran \ref{fig:implementasi-model}.
-
-
-
-% \begin{enumerate}
-% 	\item \textit{Model} dalam implementasi Sistem Manajemen Laboratorium pada data dosen dapat dilihat pada Gambar \ref{fig:model-dosen}
-% 	      \begin{figure}
-% 		      \centering
-% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/dosen.png}
-% 		      \caption{Tampilan Model Dosen}
-% 		      \label{fig:model-dosen}
-% 	      \end{figure}
-% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data matkul dapat dilihat pada Gambar \ref{fig:model-matkul}
-% 	      \begin{figure}
-% 		      \centering
-% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/matkul.png}
-% 		      \caption{Tampilan Model Matkul}
-% 		      \label{fig:model-matkul}
-% 	      \end{figure}
-% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data jadwal dapat dilihat pada Gambar \ref{fig:model-jadwal}
-% 	      \begin{figure}
-% 		      \centering
-% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/jadwal.png}
-% 		      \caption{Tampilan Model Jadwal}
-% 		      \label{fig:model-jadwal}
-% 	      \end{figure}
-% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data ruangan dapat dilihat pada Gambar \ref{fig:model-ruangan}
-% 	      \begin{figure}
-% 		      \centering
-% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/ruangan.png}
-% 		      \caption{Tampilan Model Ruangan}
-% 		      \label{fig:model-ruangan}
-% 	      \end{figure}
-% 	\item \textit{Routes} dalam implementasi Sistem Manajemen Laboratorium pada data user dapat dilihat pada Gambar \ref{fig:model-user}
-% 	      \begin{figure}
-% 		      \centering
-% 		      \includegraphics[width=0.82\linewidth]{konten//gambar/model/user.png}
-% 		      \caption{Tampilan Model \textit{User}}
-% 		      \label{fig:model-user}
-% 	      \end{figure}
-% \end{enumerate}
 
 \subsection{Implementasi \textit{View}}
 \textit{View }adalah komponen yang menampilkan antarmuka pengguna dan menampilkan data dari Model. \textit{View} mengamati perubahan pada Model dan \textit{Controller}, dan diperbarui sesuai keadaan terkini. Penggunaan \textit{View} memisahkan tugas penyajian dan manajemen data dalam aplikasi yang memberikan fleksibilitas dan pemeliharaan yang lebih baik \cite{firdaus2020rancang}. \textit{View} ini akan diatur pada folder app/view pada \textit{framework} CodeIgniter dapat dilihat pada Lampiran \ref{fig:implementasi-view}.
@@ -225,8 +201,8 @@ Beberapa permasalahan yang teridentifikasi meliputi kesalahan dalam pembuatan ko
 	\item Tampilan kode barang yang berfungsi untuk memberikan informasi mengenai kode barang dalam sistem manajemen laboratorium. Halaman ini memberikan gambaran umum tentang pengelolaan kode barang. Dapat dilihat pada Gambar \ref{fig:kode-barang}.
 	      \begin{figure}
 		      \centering
-		      \includegraphics[width=0.82\textwidth]{konten/gambar/perbaikan/kode-barang.png}
-		      \caption{Tampilan Kode Barang Sistem Manajemen Laboratorium}
+		      \includegraphics[width=1\textwidth]{konten/gambar/perbaikan/kode-barang.png}
+		      \caption{Tampilan Kode Barang ILMIS}
 		      \label{fig:kode-barang}
 	      \end{figure}
 
@@ -273,42 +249,52 @@ Hasil implementasi \textit{interface} berfungsi untuk menunjukkan desain program
 \end{enumerate}
 
 \section{Pengujian Sistem}
-Metode \textit{Black box} digunakan untuk menguji fitur-fitur yang ada pada sistem. Pengujian ini dilakukan untuk memastikan bahwa setiap fungsi dalam sistem berjalan sesuai dengan spesifikasi yang telah ditentukan. Metode ini hanya berfokus pada pengujian keluaran sistem berdasarkan masukan tertentu, tanpa memperhatikan proses internal atau struktur kode.
+Metode \textit{Black Box} digunakan untuk menguji fitur-fitur yang ada pada sistem. Pengujian ini dilakukan untuk memastikan bahwa setiap fungsi dalam sistem berjalan sesuai dengan spesifikasi yang telah ditentukan. Metode ini hanya berfokus pada pengujian keluaran sistem berdasarkan masukan tertentu, tanpa memperhatikan proses internal atau struktur kode.
 
-Pada pengujian Metode \textit{Black box}, peneliti melakukan pengujian terhadap fitur-fitur yang ada pada sistem. Pengujian ini dilakukan oleh peneliti dan beberapa pengguna seperti Aslab dan Admin untuk memastikan bahwa fitur-fitur yang ada pada sistem berjalan dengan baik. Pengujian ini dapat dilihat pada Tabel~\ref{tab:PengujianBlackBox}.
+Pengujian \textit{Black Box} sangat penting untuk memverifikasi fungsionalitas sistem dari perspektif pengguna akhir. Metode ini menguji apakah sistem dapat menghasilkan \text{output} yang benar ketika diberikan input tertentu. Pengujian ini juga membantu mengidentifikasi kesalahan atau bug yang mungkin terjadi pada antarmuka pengguna. Selain itu, pengujian ini memastikan bahwa sistem dapat menangani berbagai jenis input dengan benar dan memberikan respon yang sesuai.
 
-{\fontsize{11pt}{13pt}\selectfont
-\begin{longtable}{p{0.01\linewidth} p{0.15\linewidth} p{0.3\linewidth} p{0.3\linewidth} p{0.1\linewidth}}
-	\caption{Pengujian \textit{Black box}}\label{tab:PengujianBlackBox}                                                                                                                                              \\
-	\hline
-	\textbf{No}    & \textbf{Fitur}            & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
-	\endfirsthead
-	\caption[]{Pengujian \textit{Black box} (Tabel lanjutan...)}                                                                                                                                                     \\
-	\hline
-	\textbf{No}    & \textbf{Fitur}            & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
-	\endhead
-	\endfoot
-	\endlastfoot
-	\centering 1   & Registrasi                & Berhasil melakukan registrasi akun                              & Admin dapat melakukan registrasi akun untuk Kalab, Kaprodi, Sekprodi, dan Aslab & Berhasil        \\
-	\centering 2   & \textit{Login} Umum       & Berhasil melakukan \textit{login} dan masuk ke dalam sistem     & Pengguna dapat melakukan \textit{login} ke dalam sistem                         & Berhasil        \\
-	\centering 3   & \textit{Login} ke SITARIS & Berhasil masuk ke dalam sistem SITARIS                          & Pengguna dapat melakukan \textit{login} ke dalam sistem SITARIS                 & Berhasil        \\
-	\centering  4  & \textit{Login} ke LABVIS  & Berhasil masuk ke dalam sistem LABVIS                           & Pengguna dapat melakukan \textit{login} ke dalam sistem LABVIS                  & Berhasil        \\
-	\centering   5 & \textit{Login} ke LARIS   & Berhasil masuk ke dalam sistem LARIS                            & Pengguna dapat melakukan \textit{login} ke dalam sistem LARIS                   & Berhasil        \\
-	\centering 6   & Profil                    & Berhasil melakukan perubahan informasi pribadi                  & Pengguna dapat melakukan perubahan informasi pribadi                            & Berhasil        \\
-	\centering 7   & Tambah Jadwal             & Berhasil menambah Jadwal                                        & Pengguna berhasil menambah Jadwal                                               & Berhasil        \\
-	\centering 8   & Detail Jadwal             & Berhasil melihat detail informasi jadwal                        & Pengguna dapat melihat seluruh informasi jadwal                                 & Berhasil        \\
-	\centering 9   & Edit Jadwal               & Berhasil melakukan perubahan status seleksi administrasi jadwal & Pengguna dapat melakukan perubahan status seleksi administrasi jadwal           & Berhasil        \\
-	\centering 10  & Hapus Jadwal              & Berhasil menghapus jadwal                                       & Pengguna dapat menghapus jadwal yang sudah terdaftar di sistem                  & Berhasil        \\
-	\centering 11  & Cetak Jadwal              & Berhasil mencetak jadwal dalam bentuk PDF                       & Pengguna berhasil mencetak dan \textit{mendownload} jadwal dalam bentuk PDF     & Berhasil        \\
-	\centering 12  & Tambah Dosen              & Berhasil menambah Dosen                                         & Pengguna berhasil menambah Dosen                                                & Berhasil        \\
-	\centering 13  & Detail Dosen              & Berhasil melihat detail informasi Dosen                         & Pengguna dapat melihat seluruh informasi Dosen                                  & Berhasil        \\
-	\centering 14  & \textit{Edit} Dosen       & Berhasil melakukan perubahan status seleksi administrasi Dosen  & Pengguna dapat melakukan perubahan status seleksi administrasi Dosen            & Berhasil        \\
-	\centering 15  & Hapus Dosen               & Berhasil menghapus Dosen                                        & Pengguna dapat menghapus Dosen yang sudah terdaftar di sistem                   & Berhasil        \\
-	\centering 16  & Tambah Mata Kuliah        & Berhasil menambahkan mata kuliah                                & Dapat menambahkan mata kuliah                                                   & Berhasil        \\
-	\centering 17  & \textit{Edit} Mata Kuliah & Berhasil melakukan perubahan mata kuliah                        & Dapat melakukan perubahan terhadap mata kuliah                                  & Berhasil        \\
-	\centering 18  & Hapus Mata Kuliah         & Berhasil menghapus mata kuliah                                  & Dapat menghapus mata kuliah                                                     & Berhasil        \\
-	\centering 19  & Ubah \textit{password}    & Berhasil melakukan perubahan \textit{password}                  & Pengguna dapat melakukan perubahan \textit{password}                            & Berhasil        \\
-	\centering 20  & \textit{Logout}           & Berhasil melakukan \textit{logout}                              & Pengguna dapat keluar dari sistem                                               & Berhasil        \\ \hline
-\end{longtable}
-}
+Pada pengujian Metode \textit{Black Box}, peneliti melakukan pengujian terhadap fitur-fitur yang ada pada sistem. Pengujian ini dilakukan oleh peneliti dan beberapa pengguna seperti Aslab dan Admin untuk memastikan bahwa fitur-fitur yang ada pada sistem berjalan dengan baik. Setiap skenario pengujian dirancang untuk mencakup berbagai kasus penggunaan yang mungkin terjadi dalam sistem. Pengujian ini juga mencakup kasus-kasus batas untuk memastikan sistem dapat menangani input yang tidak biasa atau ekstrim.
+
+Hasil pengujian kemudian dianalisis untuk menentukan apakah sistem memenuhi persyaratan fungsional yang telah ditetapkan. Jika ditemukan ketidaksesuaian, tim pengembang akan melakukan perbaikan sebelum sistem diluncurkan. Proses perbaikan ini dilakukan secara iteratif hingga semua masalah teratasi dan sistem memenuhi kriteria yang ditetapkan. Pengujian ini dapat dilihat pada Tabel~\ref{tab:PengujianBlackBox} yang merangkum semua skenario pengujian yang telah dilakukan beserta hasilnya.
+
+Keuntungan utama dari metode \textit{Black Box} adalah kemampuannya untuk menguji sistem dari sudut pandang pengguna tanpa perlu pengetahuan teknis yang mendalam tentang implementasi sistem. Hal ini memungkinkan pengujian yang lebih objektif dan fokus pada pengalaman pengguna. Selain itu, metode ini juga efektif untuk menguji integrasi antar komponen sistem dan memastikan alur kerja yang lancar.
+
+	{
+		\fontsize{10}{13}\selectfont
+		\begin{longtable}{p{0.01\linewidth} p{0.15\linewidth} p{0.3\linewidth} p{0.3\linewidth} p{0.1\linewidth}}
+			\caption{Pengujian \textit{Black Box}}\label{tab:PengujianBlackBox}                                                                                                                                              \\
+			\hline
+			\textbf{No}    & \textbf{Fitur}            & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
+			\hline
+			\endfirsthead
+			\caption[]{Pengujian \textit{Black Box} (Tabel lanjutan...)}                                                                                                                                                     \\
+			\hline
+			\textbf{No}    & \textbf{Fitur}            & \textbf{Hasil yang diharapkan}                                  & \textbf{Hasil Pengujian}                                                        & \textbf{Status} \\ \hline
+			\hline
+			\endhead
+			\hline
+			\endfoot
+			\endlastfoot
+			\centering 1   & Registrasi                & Berhasil melakukan registrasi akun                              & Admin dapat melakukan registrasi akun untuk Kalab, Kaprodi, Sekprodi, dan Aslab & Berhasil        \\
+			\centering 2   & \textit{Login} Umum       & Berhasil melakukan \textit{login} dan masuk ke dalam sistem     & Pengguna dapat melakukan \textit{login} ke dalam sistem                         & Berhasil        \\
+			\centering 3   & \textit{Login} ke SITARIS & Berhasil masuk ke dalam sistem SITARIS                          & Pengguna dapat melakukan \textit{login} ke dalam sistem SITARIS                 & Berhasil        \\
+			\centering  4  & \textit{Login} ke LABVIS  & Berhasil masuk ke dalam sistem LABVIS                           & Pengguna dapat melakukan \textit{login} ke dalam sistem LABVIS                  & Berhasil        \\
+			\centering   5 & \textit{Login} ke LARIS   & Berhasil masuk ke dalam sistem LARIS                            & Pengguna dapat melakukan \textit{login} ke dalam sistem LARIS                   & Berhasil        \\
+			\centering 6   & Profil                    & Berhasil melakukan perubahan informasi pribadi                  & Pengguna dapat melakukan perubahan informasi pribadi                            & Berhasil        \\
+			\centering 7   & Tambah Jadwal             & Berhasil menambah Jadwal                                        & Pengguna berhasil menambah Jadwal                                               & Berhasil        \\
+			\centering 8   & Detail Jadwal             & Berhasil melihat detail informasi jadwal                        & Pengguna dapat melihat seluruh informasi jadwal                                 & Berhasil        \\
+			\centering 9   & Edit Jadwal               & Berhasil melakukan perubahan status seleksi administrasi jadwal & Pengguna dapat melakukan perubahan status seleksi administrasi jadwal           & Berhasil        \\
+			\centering 10  & Hapus Jadwal              & Berhasil menghapus jadwal                                       & Pengguna dapat menghapus jadwal yang sudah terdaftar di sistem                  & Berhasil        \\
+			\centering 11  & Cetak Jadwal              & Berhasil mencetak jadwal dalam bentuk PDF                       & Pengguna berhasil mencetak dan \textit{mendownload} jadwal dalam bentuk PDF     & Berhasil        \\
+			\centering 12  & Tambah Dosen              & Berhasil menambah Dosen                                         & Pengguna berhasil menambah Dosen                                                & Berhasil        \\
+			\centering 13  & Detail Dosen              & Berhasil melihat detail informasi Dosen                         & Pengguna dapat melihat seluruh informasi Dosen                                  & Berhasil        \\
+			\centering 14  & \textit{Edit} Dosen       & Berhasil melakukan perubahan status seleksi administrasi Dosen  & Pengguna dapat melakukan perubahan status seleksi administrasi Dosen            & Berhasil        \\
+			\centering 15  & Hapus Dosen               & Berhasil menghapus Dosen                                        & Pengguna dapat menghapus Dosen yang sudah terdaftar di sistem                   & Berhasil        \\
+			\centering 16  & Tambah Mata Kuliah        & Berhasil menambahkan mata kuliah                                & Dapat menambahkan mata kuliah                                                   & Berhasil        \\
+			\centering 17  & \textit{Edit} Mata Kuliah & Berhasil melakukan perubahan mata kuliah                        & Dapat melakukan perubahan terhadap mata kuliah                                  & Berhasil        \\
+			\centering 18  & Hapus Mata Kuliah         & Berhasil menghapus mata kuliah                                  & Dapat menghapus mata kuliah                                                     & Berhasil        \\
+			\centering 19  & Ubah \textit{password}    & Berhasil melakukan perubahan \textit{password}                  & Pengguna dapat melakukan perubahan \textit{password}                            & Berhasil        \\
+			\centering 20  & \textit{Logout}           & Berhasil melakukan \textit{logout}                              & Pengguna dapat keluar dari sistem                                               & Berhasil        \\ \hline
+		\end{longtable}
+	}
 

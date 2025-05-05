@@ -513,6 +513,20 @@ INPUT .\konten\gambar\Struktur Organisasi.png
 INPUT .\konten\gambar\Struktur Organisasi.png
 INPUT .\konten\gambar\Struktur Organisasi.png
 INPUT .\konten\gambar\Struktur Organisasi.png
+INPUT .\konten\gambar\labvis.png
+INPUT .\konten\gambar\labvis.png
+INPUT .\konten\gambar\labvis.png
+INPUT .\konten\gambar\labvis.png
+INPUT .\konten\gambar\labvis.png
+INPUT .\konten\gambar\labvis.png
+INPUT .\konten\gambar\labvis.png
+INPUT .\konten\gambar\laris.png
+INPUT .\konten\gambar\laris.png
+INPUT .\konten\gambar\laris.png
+INPUT .\konten\gambar\laris.png
+INPUT .\konten\gambar\laris.png
+INPUT .\konten\gambar\laris.png
+INPUT .\konten\gambar\laris.png
 INPUT .\konten\\gambar\Login Page.png
 INPUT .\konten\\gambar\Login Page.png
 INPUT .\konten\\gambar\Login Page.png
@@ -715,8 +729,6 @@ OUTPUT konten\bab4.aux
 INPUT .\konten\bab4.tex
 INPUT .\konten\bab4.tex
 INPUT konten\bab4.tex
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
@@ -736,13 +748,17 @@ INPUT .\konten\gambar\activity-diagram\login.png
 INPUT .\konten\gambar\activity-diagram\login.png
 INPUT .\konten\gambar\activity-diagram\login.png
 INPUT .\konten\gambar\activity-diagram\login.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
-INPUT .\konten\gambar\menu.png
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrro7t.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrro7t.vf
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrro8r.tfm
 INPUT .\konten\bab5.tex
 INPUT .\konten\bab5.tex
 OUTPUT konten\bab5.aux
@@ -826,12 +842,6 @@ INPUT .\konten\gambar\perbaikan\kode-barang.png
 INPUT .\konten\gambar\perbaikan\kode-barang.png
 INPUT .\konten\gambar\perbaikan\kode-barang.png
 INPUT .\konten\gambar\perbaikan\kode-barang.png
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\konten\bab6.tex
 INPUT .\konten\bab6.tex
 OUTPUT konten\bab6.aux
@@ -841,10 +851,6 @@ INPUT konten\bab6.tex
 INPUT .\tugasakhir.bbl
 INPUT .\tugasakhir.bbl
 INPUT tugasakhir.bbl
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranSemua.tex
 INPUT .\halamanbelakang\lampiranSemua.tex
@@ -1143,6 +1149,13 @@ INPUT .\konten\gambar\class-diagram.png
 INPUT .\konten\gambar\class-diagram.png
 INPUT .\konten\gambar\class-diagram.png
 INPUT .\konten\gambar\class-diagram.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
+INPUT .\konten\gambar\menu.png
 INPUT .\konten\gambar\landing-page.png
 INPUT .\konten\gambar\landing-page.png
 INPUT .\konten\gambar\landing-page.png
@@ -1434,6 +1447,8 @@ INPUT .\tugasakhir.out
 INPUT .\tugasakhir.out
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrro8a.pfb
+INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrro8a.pfb
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\USER PCP\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
