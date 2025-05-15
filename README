@@ -1,38 +1,89 @@
-# Laporan Tugas Akhir - Pengembangan Sistem Informasi Manajemen Laboratorium
+📄 Laporan Tugas Akhir: Pengembangan Sistem Informasi Manajemen Laboratorium
+Repository ini berisi dokumen LaTeX untuk laporan tugas akhir (skripsi) dengan judul "Pengembangan Sistem Informasi Manajemen Laboratorium Menggunakan Metode Agile Development".
 
-Repository ini berisi dokumen LaTeX untuk laporan tugas akhir (skripsi) dengan judul **"Pengembangan Sistem Informasi Manajemen Laboratorium Menggunakan Metode Agile Development"**.
+📝 Deskripsi
+Proyek ini bertujuan untuk mengembangkan sistem informasi manajemen laboratorium menggunakan pendekatan Agile Development. Laporan ini disusun menggunakan LaTeX untuk menghasilkan dokumen yang terstruktur dan profesional.
 
-## 📝 Deskripsi
+📂 Struktur Direktori
+Berikut adalah struktur utama dari repository ini:
 
-Proyek ini adalah laporan tugas akhir yang membahas pengembangan sistem informasi manajemen laboratorium dengan mengimplementasikan metode Agile Development. Laporan disusun menggunakan LaTeX untuk memastikan format dokumen yang konsisten dan profesional.
+halamandepan/
+Berisi file LaTeX untuk halaman-halaman awal seperti halaman judul, lembar pengesahan, abstrak, dan lainnya.
 
-## 📂 Struktur Repository
+halamanbelakang/
+Berisi file LaTeX untuk daftar pustaka, lampiran, dan elemen laporan lainnya.
 
-Repository ini terdiri dari beberapa direktori utama:
+konfigurasi/
+Berisi pengaturan dan konfigurasi global untuk dokumen LaTeX.
 
-- `halamandepan/`: Berisi file-file LaTeX untuk halaman judul, lembar pengesahan, abstrak, dll.
-- `halamanbelakang/`: Berisi file-file LaTeX untuk daftar pustaka, lampiran, dll.
-- `konfigurasi/`: Berisi pengaturan dan konfigurasi LaTeX global.
-- `konten/`: Berisi isi utama laporan yang dibagi menjadi beberapa bab.
-- `kontrol/`: Berisi file-file kontrol untuk kompilasi dokumen.
+konten/
+Berisi isi utama laporan, yang dibagi menjadi beberapa bab.
 
-### File Utama
+kontrol/
+Berisi file kontrol untuk mengelola proses kompilasi dokumen.
 
-- `tugasakhir.tex`: File utama yang menggabungkan semua komponen laporan.
-- `tugasakhir.pdf`: File output hasil kompilasi (tidak disertakan dalam repository).
-- `tugasakhir.aux`, `tugasakhir.bbl`, `tugasakhir.blg`: File-file pendukung yang dihasilkan selama proses kompilasi.
+📑 File Utama
+tugasakhir.tex
+File utama yang menggabungkan seluruh komponen laporan.
 
-## 🚀 Cara Menggunakan
+tugasakhir.pdf
+File hasil kompilasi dokumen akhir (tidak disertakan dalam repository).
 
-### Prasyarat
+File Pendukung:
 
-Untuk mengompilasi dokumen ini, Anda memerlukan:
+tugasakhir.aux
+tugasakhir.bbl
+tugasakhir.blg
+File-file ini dihasilkan selama proses kompilasi.
+🚀 Cara Menggunakan
+Prasyarat
+Pastikan Anda telah menginstal perangkat berikut untuk mengompilasi dokumen ini:
 
-- Distribusi LaTeX (TeXLive, MikTeX, atau MacTeX)
-- Editor LaTeX (Texmaker, TeXstudio, Overleaf, dll.)
+Distribusi LaTeX:
 
-### Kompilasi Dokumen
+TeXLive
+MikTeX
+MacTeX
+Editor LaTeX:
 
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/hafizaryan/laporan-tugas-akhir.git
+Texmaker
+TeXstudio
+Overleaf (opsional untuk kompilasi berbasis cloud)
+Langkah-Langkah Kompilasi
+Clone repository ini ke komputer Anda:
+
+bash
+git clone https://github.com/hafizaryan/laporan-tugas-akhir.git
+cd laporan-tugas-akhir
+Buka file tugasakhir.tex menggunakan editor LaTeX pilihan Anda.
+
+Kompilasi dokumen menggunakan perintah berikut (jika menggunakan terminal):
+
+bash
+pdflatex tugasakhir.tex
+bibtex tugasakhir
+pdflatex tugasakhir.tex
+pdflatex tugasakhir.tex
+File PDF hasil kompilasi akan tersedia dengan nama tugasakhir.pdf.
+
+🛠️ Kontribusi
+Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah berikut:
+
+Fork repository ini.
+Buat branch fitur baru:
+bash
+git checkout -b fitur-baru
+Lakukan perubahan dan commit:
+bash
+git commit -m "Menambahkan fitur baru"
+Push ke branch Anda:
+bash
+git push origin fitur-baru
+Ajukan Pull Request melalui GitHub.
+🔗 Referensi dan Dokumentasi
+Panduan LaTeX Resmi
+Agile Development
+📧 Kontak
+Jika ada pertanyaan atau saran, silakan hubungi saya melalui email:
+your-email@example.com
+
